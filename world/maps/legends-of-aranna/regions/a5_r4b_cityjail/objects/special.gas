@@ -183,6 +183,14 @@
 	  p position = 0.0179557,-1.5,-0.979719,0xeac03133;
 	}
 }
+[t:use_point,n:0x45a002a7]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.42482,-1.5,1.84216,0xeac03133;
+	}
+}
 [t:trigger_generic,n:0x45a000d8]
 {
 	[common]
@@ -800,13 +808,5 @@
 	[placement]
 	{
 	  p position = 3.94387,0,0.18854,0xdf2e2d4c;
-	}
-}
-[t:use_point,n:0x45a002a7]
-{
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -1.42482,-1.5,1.84216,0xeac03133;
 	}
 }

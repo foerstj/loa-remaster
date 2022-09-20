@@ -20,9 +20,9 @@
 		{
 			[*]
 			{
-				action* = send_world_message("we_req_activate",0x0430060B,0f,"default","every",0), doc("PARTY WRANGLER");
-				action* = send_world_message("we_req_activate",0x043005F9,0f,"default","every",0), delay(0.3), doc("START NIS");
-				action* = send_world_message("we_req_talk_begin",0x0430069D,0f,"0x4009","party_member_within_sphere",0), delay(10), doc("SJ VO");
+				action* = send_world_message("we_req_activate",0x0430060B,0f,"default","every",0), doc("party wrangler");
+				action* = send_world_message("we_req_activate",0x043005F9,0f,"default","every",0), delay(0.3), doc("start nis");
+				action* = send_world_message("we_req_talk_begin",0x0430069D,0f,"0x4009","party_member_within_sphere",0), delay(10), doc("sj vo");
 				action* = send_world_message("we_req_activate",0x04300640,0f,"default","every",0), doc("fade out1");
 				action* = send_world_message("we_req_activate",0x04300653,0f,"default","every",0), delay(1), doc("fade in1");
 				action* = send_world_message("we_req_activate",0x04300654,0f,"default","every",0), delay(33.5), doc("fade out2");
