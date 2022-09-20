@@ -681,6 +681,18 @@
 	  p position = 0.373772,2.2715,1.58646,0x1d9fff01;
 	}
 }
+[t:use_point,n:0x06200725]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.97816;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.839857,0,0.542808;
+	  p position = -0.228526,2.26783,1.54614,0x1d9fff01;
+	}
+}
 [t:update_map_marker,n:0x062002fb]
 {
 	[common]
@@ -1099,17 +1111,5 @@
 	{
 	  q orientation = 0,2.44141e-007,0,1;
 	  p position = -14.3415,-4.95,-1.93107,0xd2ce0e01;
-	}
-}
-[t:use_point,n:0x06200725]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 0.97816;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.839857,0,0.542808;
-	  p position = -0.228526,2.26783,1.54614,0x1d9fff01;
 	}
 }

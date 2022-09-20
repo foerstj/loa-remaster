@@ -384,6 +384,64 @@
 		marker_name = "pass";
 	}
 }
+[t:trigger_change_mood_box,n:0x06100140]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("map_expansion_a7_r1_xotpass4");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.100000,2.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707106,0,0.707107;
+	  p position = -0.0370026,-0.196641,0.281525,0x10290fa6;
+	}
+}
+[t:trigger_change_mood_box,n:0x061002ea]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("map_expansion_a7_r1_xotpass2");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(0.500000,2.400000,3.500000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.177139,-0.842088,-0.932171,0x10290fa6;
+	}
+}
 [t:trigger_change_mood_box,n:0x06100244]
 {
 	[common]
@@ -527,63 +585,5 @@
 	{
 	  q orientation = 0,0.707107,0,0.707106;
 	  p position = -0.351464,0.164523,0.957642,0xb7de884f;
-	}
-}
-[t:trigger_change_mood_box,n:0x06100140]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("map_expansion_a7_r1_xotpass4");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(0.500000,2.100000,2.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707106,0,0.707107;
-	  p position = -0.0370026,-0.196641,0.281525,0x10290fa6;
-	}
-}
-[t:trigger_change_mood_box,n:0x061002ea]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("map_expansion_a7_r1_xotpass2");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(0.500000,2.400000,3.500000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.177139,-0.842088,-0.932171,0x10290fa6;
 	}
 }

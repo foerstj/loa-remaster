@@ -1,15 +1,14 @@
-[t:dev_path_point,n:0x71b0000a]
+[t:dev_path_point,n:0x71b0002b]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x71B00020;
+	  x next_scid = 0x71B00190;
 		path_name = "a7_r1b_cave1";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.86282,0,1.50026,0x4035439c;
+	  p position = 1.67035,0,3.25297,0xc04afada;
 	}
 }
 [t:dev_path_point,n:0x71b00020]
@@ -25,17 +24,60 @@
 	  p position = 3.10467,0,0.15353,0x153f6e21;
 	}
 }
-[t:dev_path_point,n:0x71b0002b]
+[t:dev_path_point,n:0x71b0000a]
 {
 	[dev_path_point]
 	{
-	  x next_scid = 0x71B00190;
+	  x next_scid = 0x71B00020;
 		path_name = "a7_r1b_cave1";
 	  f radius = 15;
 	}
 	[placement]
 	{
-	  p position = 1.67035,0,3.25297,0xc04afada;
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.86282,0,1.50026,0x4035439c;
+	}
+}
+[t:dev_path_point,n:0x71b00193]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x71B0000A;
+		path_name = "a7_r1b_cave1";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.30591,0,-0.377449,0xee7c4fad;
+	}
+}
+[t:dev_path_point,n:0x71b00192]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x71B00193;
+		path_name = "a7_r1b_cave1";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.49237,0,1.20377,0xc24bb1fc;
+	}
+}
+[t:dev_path_point,n:0x71b00191]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x71B0018F;
+		path_name = "a7_r1b_cave1";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.46846,0,0.605989,0x06381e6d;
 	}
 }
 [t:dev_path_point,n:0x71b0018f]
@@ -62,47 +104,5 @@
 	[placement]
 	{
 	  p position = 0.174812,0,-1.47415,0x8cc6516d;
-	}
-}
-[t:dev_path_point,n:0x71b00191]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x71B0018F;
-		path_name = "a7_r1b_cave1";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 1.46846,0,0.605989,0x06381e6d;
-	}
-}
-[t:dev_path_point,n:0x71b00192]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x71B00193;
-		path_name = "a7_r1b_cave1";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -1.49237,0,1.20377,0xc24bb1fc;
-	}
-}
-[t:dev_path_point,n:0x71b00193]
-{
-	[dev_path_point]
-	{
-	  x next_scid = 0x71B0000A;
-		path_name = "a7_r1b_cave1";
-	  f radius = 15;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 1.30591,0,-0.377449,0xee7c4fad;
 	}
 }

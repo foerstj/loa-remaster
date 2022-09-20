@@ -749,6 +749,18 @@
 	  p position = -6.68069,1.85,-3.31641,0x5be34f08;
 	}
 }
+[t:use_point,n:0x71a0071f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.01662;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.152124,0,0.988361;
+	  p position = -3.66542,0,-3.60591,0xa4f4d0ab;
+	}
+}
 [t:use_point,n:0x71a003c4]
 {
 	[placement]
@@ -1048,17 +1060,5 @@
 	[placement]
 	{
 	  p position = -2.33981,0,1.78946,0x79d49aea;
-	}
-}
-[t:use_point,n:0x71a0071f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 1.01662;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.152124,0,0.988361;
-	  p position = -3.66542,0,-3.60591,0xa4f4d0ab;
 	}
 }
