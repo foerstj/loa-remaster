@@ -3868,7 +3868,7 @@
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = -3.027679,0.000000,0.851901,0xD178BD57;
+				position = 2.378956,-2.000000,-2.298925,0x4A096AE0;
 			}
 		}
 		[start_position]
@@ -3880,7 +3880,7 @@
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = -0.591534,0.000002,0.700923,0xD178BD57;
+				position = -0.484772,0.000000,0.092607,0xA7846740;
 			}
 		}
 		[start_position]
@@ -3892,7 +3892,7 @@
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 1.252670,0.000000,0.748307,0xD178BD57;
+				position = 0.380598,0.000000,-0.258862,0xC6F50E13;
 			}
 		}
 		[start_position]
@@ -3904,7 +3904,7 @@
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 3.399996,0.000000,0.829715,0xD178BD57;
+				position = 1.973602,-2.000000,-2.198879,0xA8E6AA83;
 			}
 		}
 		[start_position]
@@ -3916,7 +3916,7 @@
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = -2.433718,0.000000,0.843194,0x89D059CB;
+				position = -0.112412,0.000000,-0.063555,0x0D487583;
 			}
 		}
 		[start_position]
@@ -3928,7 +3928,7 @@
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = -0.812050,0.000000,1.074407,0x89D059CB;
+				position = -0.103094,0.000000,-0.109746,0x7A0A35DD;
 			}
 		}
 		[start_position]
@@ -3940,7 +3940,7 @@
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 0.755224,0.000002,1.335370,0x89D059CB;
+				position = 1.960413,-2.000000,-2.221731,0x287DEB88;
 			}
 		}
 		[start_position]
@@ -3952,7 +3952,7 @@
 			  f azimuth = 0.500000;
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
-				position = 2.423472,0.000002,1.330269,0x89D059CB;
+				position = 0.067142,0.000000,-0.258097,0x27170278;
 			}
 		}
 		[world_levels]
@@ -4066,15 +4066,15 @@
 		{
 			[elite]
 			{
-			  required_level = 83;
+			  i required_level = 83;
 			}
 			[regular]
 			{
-			  required_level = 0;
+			  i required_level = 0;
 			}
 			[veteran]
 			{
-			  required_level = 54;
+			  i required_level = 54;
 			}
 		}
 	}
@@ -4185,15 +4185,15 @@
 		{
 			[elite]
 			{
-			  required_level = 99;
+			  i required_level = 99;
 			}
 			[regular]
 			{
-			  required_level = 24;
+			  i required_level = 24;
 			}
 			[veteran]
 			{
-			  required_level = 70;
+			  i required_level = 70;
 			}
 		}
 	}
@@ -4304,15 +4304,15 @@
 		{
 			[elite]
 			{
-			  required_level = 95;
+			  i required_level = 95;
 			}
 			[regular]
 			{
-			  required_level = 18;
+			  i required_level = 18;
 			}
 			[veteran]
 			{
-			  required_level = 66;
+			  i required_level = 66;
 			}
 		}
 	}
@@ -4423,15 +4423,15 @@
 		{
 			[elite]
 			{
-			  required_level = 90;
+			  i required_level = 90;
 			}
 			[regular]
 			{
-			  required_level = 11;
+			  i required_level = 11;
 			}
 			[veteran]
 			{
-			  required_level = 62;
+			  i required_level = 62;
 			}
 		}
 	}
@@ -4542,15 +4542,15 @@
 		{
 			[elite]
 			{
-			  required_level = 88;
+			  i required_level = 88;
 			}
 			[regular]
 			{
-			  required_level = 8;
+			  i required_level = 8;
 			}
 			[veteran]
 			{
-			  required_level = 59;
+			  i required_level = 59;
 			}
 		}
 	}
