@@ -102,6 +102,18 @@
 	  p position = -0.0259336,0,3.53085,0xaba3502f;
 	}
 }
+[t:emt_generic,n:0x08200352]
+{
+	[generic_emitter]
+	{
+		other_effect = "effect_discoball";
+	  x target = 0x08200348;
+	}
+	[placement]
+	{
+	  p position = 0.594586,0,-0.860089,0xaba3502f;
+	}
+}
 [t:emt_glow_act,n:0x08200356]
 {
 	[placement]
@@ -142,18 +154,6 @@
 	[placement]
 	{
 	  p position = 2.80337,0,-3.16722,0xaba3502f;
-	}
-}
-[t:emt_generic,n:0x08200352]
-{
-	[generic_emitter]
-	{
-		other_effect = "effect_discoball";
-	  x target = 0x08200348;
-	}
-	[placement]
-	{
-	  p position = 0.594586,0,-0.860089,0xaba3502f;
 	}
 }
 [t:emt_generic,n:0x0820035d]
