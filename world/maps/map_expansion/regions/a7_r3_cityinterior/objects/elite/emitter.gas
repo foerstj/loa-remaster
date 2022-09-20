@@ -1,0 +1,98 @@
+[t:emt_generic,n:0x06300208]
+{
+	[generic_emitter]
+	{
+	  b geyser_white = true;
+	  f rep_freq_max = 30;
+	  f rep_freq_min = 5;
+	}
+	[placement]
+	{
+	  p position = -0.324142,1.90735e-006,0.073967,0x425a4801;
+	}
+}
+[t:emt_generic,n:0x0630020a]
+{
+	[generic_emitter]
+	{
+	  b geyser_white = true;
+	  f rep_freq_max = 30;
+	  f rep_freq_min = 5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.138542,9.53674e-006,0.0837059,0xcc2d3e08;
+	}
+}
+[t:emt_sound,n:0x0630000c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23593;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.017452,0,0.999848;
+	  p position = -0.131485,5.04296,-2.81012,0xb665b08c;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_waterfall";
+	}
+}
+[t:emt_sound,n:0x06300400]
+{
+	[placement]
+	{
+	  p position = -1.62971,0.134432,0.363031,0x372d084f;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_healing_well";
+	  b repeat = false;
+	}
+}
+[t:emt_generic_act,n:0x0630040e]
+{
+	[generic_emitter_act]
+	{
+		other_effect = "healing_well_tainted";
+	  b start_on_creation = true;
+	}
+	[placement]
+	{
+	  p position = -1.68131,0,0.555489,0x372d084f;
+	}
+}
+[t:emt_generic_act,n:0x06300411]
+{
+	[generic_emitter_act]
+	{
+		other_effect = "healing_well_cleansed";
+	}
+	[placement]
+	{
+	  q orientation = 0,4.17233e-007,0,1;
+	  p position = -1.68131,0,0.555489,0x372d084f;
+	}
+}
+[t:emt_sound,n:0x0630003e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.23593;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.017452,0,0.999848;
+	  p position = -0.143243,5.85962,-2.28924,0x134d3dad;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_waterfall";
+	}
+}

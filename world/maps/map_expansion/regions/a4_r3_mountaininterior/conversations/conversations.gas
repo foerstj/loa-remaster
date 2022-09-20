@@ -1,0 +1,166 @@
+[konus_hello]
+{
+	[text*]
+	{
+		choice = more;
+	  	i order = 0;
+		sample = s_v_a4_konus_01;
+		screen_text = "Quiet, fool! Do you want the whole Mount of the Dead down on our heads!? Who be you then? Ah, an adventurer is it? Then we are of one mind. I am Konus, warrior mage and sworn enemy to any thing that creeps or crawls from its hallowed resting place. It is my sole task to rid the world of these unholy abominations.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a4_scourge,0;
+		choice = potential_member;
+	  	i order = 1;
+		sample = s_v_a4_konus_02;
+		screen_text = "I have journeyed here from Aranna seeking to kill the Lord of the Dead, so that the world will be cleansed of its presence. If you are of the same mind, why not join forces? I would not mind having a few strong fellows to aid me. Join with me, and I will aid you in your task. A mutual bond, eh?";
+	  	f scroll_rate = 20.000000;
+	}
+}
+
+[konus_hello_cicatrix_dead]
+{
+	[text*]
+	{
+		choice = more;
+	  	i order = 0;
+		sample = s_v_a4_konus_01;
+		screen_text = "Quiet, fool! Do you want the whole Mount of the Dead down on our heads!? Who be you then? Ah, an adventurer is it? Then we are of one mind. I am Konus, warrior mage and sworn enemy to any thing that creeps or crawls from its hallowed resting place. It is my sole task to rid the world of these unholy abominations.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = potential_member;
+	  	i order = 1;
+		sample = s_v_a4_konus_02;
+		screen_text = "I have journeyed here from Aranna seeking to kill the Lord of the Dead, so that the world will be cleansed of its presence. If you are of the same mind, why not join forces? I would not mind having a few strong fellows to aid me. Join with me, and I will aid you in your task. A mutual bond, eh?";
+	  	f scroll_rate = 20.000000;
+	}
+}
+
+[konus_mp]
+{
+	[text*]
+	{
+		choice = more;
+		i order = 0;
+		sample = s_v_a4_konus_01;
+		screen_text = "Quiet, fool! Do you want the whole Mount of the Dead down on our heads! Who be you then? Ah, an adventurer is it? Then we are of one mind. I am Konus, warrior mage and sworn enemy to any thing that creeps or crawls from its hallowed resting place. It is my sole task to rid the world of these unholy abominations.";
+		f scroll_rate = 20.0;
+	}
+	[text*]
+	{
+		i order = 1;
+		activate_quest* = a4_scourge,0;
+		sample = s_v_a4_konus_02_a;
+		screen_text = "I have journeyed here from Aranna seeking to kill the Lord of the Dead, so that the world will be cleansed of its presence.";
+		b quest_dialog = true;
+		f scroll_rate = 20.000000;
+	}
+}
+[konus_mp_b]
+{
+	[text*]
+	{
+		sample = s_v_a4_konus_02_a;
+		screen_text = "I have journeyed here from Aranna seeking to kill the Lord of the Dead, so that the world will be cleansed of its presence.";
+		f scroll_rate = 20;
+	}
+}
+
+[konus_accept]
+{
+	[text*]
+	{
+		sample = s_v_a4_konus_03;
+		screen_text = "A finer choice you could not have made. Let us to it!";
+	 	f scroll_rate = 20.000000;
+	}
+}
+[konus_reject]
+{
+	[text*]
+	{
+		sample = s_v_a4_konus_04;
+		screen_text = "Fine.  I'll just stay here and and wait for you to come crawling back.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[konus_disband]
+{
+	[text*]
+	{
+		sample = s_v_a4_konus_05;
+		screen_text = "You will not win without my aid, though I cannot stop you from trying. Fly, fools. Fly to your doom.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[konus_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a4_konus_09;
+		screen_text = "So you could use my help after all!";
+		f scroll_rate = 20.0;
+	}	
+}
+
+[konus_during_a4_scourge_hello]
+{
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a4_konus_06;
+		screen_text = "So, you found the Lord of the Dead more than a match for you, eh? Then I will gladly join you in an effort to slay the creature!";
+	  f scroll_rate = 20.000000;
+	}
+}
+
+[konus_during_a4_scourge_accept]
+{
+	[text*]
+	{
+		sample = s_v_a4_konus_07;
+		screen_text = "You are smarter than you look. Soon the undead fiend will lie lifeless at our feet! Victory will be ours!";
+	  f scroll_rate = 20.000000;
+	}
+}
+
+[konus_after_a4_scourge_hello_mp]
+{
+	[text*]
+	{
+		choice = more;
+		i order = 0;
+		sample = s_v_a4_konus_01;
+		screen_text = "Quiet, fool! Do you want the whole Mount of the Dead down on our heads! Who be you then? Ah, an adventurer is it? Then we are of one mind. I am Konus, warrior mage and sworn enemy to any thing that creeps or crawls from its hallowed resting place. It is my sole task to rid the world of these unholy abominations.";
+		f scroll_rate = 20.0;
+	}
+	[text*]
+	{
+		i order = 1;
+		sample = s_v_a4_konus_02_a;
+		screen_text = "I have journeyed here from Aranna seeking to kill the Lord of the Dead, so that the world will be cleansed of its presence.";
+		f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		sample = s_v_a4_konus_08;
+		screen_text = "You have slain my mortal enemy.  What shall I do now?";
+	  	f scroll_rate = 20.000000;
+	}
+}
+
+
+[konus_after_a4_scourge_hello_sp]
+{
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a4_konus_08;
+		screen_text = "You have slain my mortal enemy.  What shall I do now?";
+	  	f scroll_rate = 20.000000;
+	}
+}

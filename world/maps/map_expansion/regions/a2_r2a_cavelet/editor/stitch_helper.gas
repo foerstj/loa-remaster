@@ -1,0 +1,21 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000099A;
+	source_region_name = a2_r2a_cavelet;
+	[t:stitch_editor,n:a2_r2_seacave]
+	{
+		dest_region = a2_r2_seacave;
+		[node_ids]
+		{
+			0x10600001 = 0xC59D1D8A,10;
+		}
+	}
+	[t:stitch_editor,n:a2_r3_bluffs]
+	{
+		dest_region = a2_r3_bluffs;
+		[node_ids]
+		{
+			0x222a0301 = 0x2AFD85BF,10;
+		}
+	}
+}

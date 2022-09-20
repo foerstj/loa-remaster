@@ -1,0 +1,376 @@
+[overheadmap]
+{
+	[backgrounds]
+	{
+		[mainland]
+		{
+			texture = b_gui_ig_mnu_wmap_bkg;
+		}
+	}
+	[pieces]
+	{
+		[arhok]
+		{
+			//a1_r1 and a1_r1a
+			background = mainland;
+			texture = b_gui_ig_mnu_arhok;
+			x = 687;
+			y = 474;
+		}
+		[lake]	
+		{
+			//a1_r2
+			background = mainland;
+			texture = b_gui_ig_mnu_canyon; //yes, canyon, really
+			x = 595;
+			y = 472;
+		}
+		[canyon]
+		{
+			//a1_r3
+			background = mainland;
+			texture = b_gui_ig_mnu_lake; //yes, lake, really
+			x = 687;
+			y = 474;
+		}
+		[giantcave]
+		{
+			//a1_r4
+			background = mainland;
+			texture = b_gui_ig_mnu_queen; //yes, queen, really
+			x = 687;
+			y = 313;
+		}
+		[queen]
+		{
+			//a1_r5 and r6a
+			background = mainland;
+			texture = b_gui_ig_mnu_giantcave; //yes, giantcave, really
+			x = 595;
+			y = 472;
+		}
+		[beach]
+		{
+			//a2_r0-a2_r2a
+			background = mainland;
+			texture = b_gui_ig_mnu_beach;
+			x = 131;
+			y = 491;
+		}
+		[bluffs]
+		{
+			//a2_r3-a2_r5
+			background = mainland;
+			texture = b_gui_ig_mnu_bluffs;
+			x = 279;
+			y = 495;
+		}
+		[illicor]
+		{
+			//a2_r6
+			background = mainland;
+			texture = b_gui_ig_mnu_illicor;
+			x = 265;
+			y = 400;
+		}
+		[jungle]
+		{
+			//a3_r1, beginning of a3_r2
+			background = mainland;
+			texture = b_gui_ig_mnu_jungle;
+			x = 86;
+			y = 393;
+		}
+		[digsite]
+		{
+			//end of a3_r2
+			background = mainland;
+			texture = b_gui_ig_mnu_digsite;
+			x = 86;
+			y = 393;
+		}
+		[undergroundcity]
+		{
+			//a3_r3 and a3_r3a
+			background = mainland;
+			texture = b_gui_ig_mnu_undergroundcity;
+			x = 108;
+			y = 235;
+		}
+		[fen]
+		{
+			//a4_r1
+			background = mainland;
+			texture = b_gui_ig_mnu_fen;
+			x = 108;
+			y = 235;
+		}
+		[deathmountain]
+		{
+			//a4_r2-a5_r1
+			background = mainland;
+			texture = b_gui_ig_mnu_deathmountain;
+			x = 89;
+			y = 66;
+		}
+		[ziggurats]
+		{
+			//a5_r2
+			background = mainland;
+			texture = b_gui_ig_mnu_ziggurats;
+			x = 227;
+			y = 49;
+		}
+		[maze]
+		{
+			//a5_r3-a5_r4a
+			background = mainland;
+			texture = b_gui_ig_mnu_maze;
+			x = 227;
+			y = 49;
+		}
+		[cut]
+		{
+			//a6_r1
+			background = mainland;
+			texture = b_gui_ig_mnu_cut;
+			x = 443;
+			y = 47;
+		}
+		[ravine]
+		{
+			//a6_r2
+			background = mainland;
+			texture = b_gui_ig_mnu_ravine;
+			x = 443;
+			y = 47;
+		}
+		[tower]
+		{
+			//a6_r3-a6_r6
+			background = mainland;
+			texture = b_gui_ig_mnu_tower;
+			x = 443;
+			y = 47;
+		}
+		[pass]
+		{
+			//a7_r1
+			background = mainland;
+			texture = b_gui_ig_mnu_pass;
+			x = 498;
+			y = 232;
+		}
+		[cliff]
+		{
+			//a7_r1a,b,c,d
+			background = mainland;
+			texture = b_gui_ig_mnu_cliff;
+			x = 437;
+			y = 273;
+		}
+		[interior]
+		{
+			//a7_r2, a7_r3
+			background = mainland;
+			texture = b_gui_ig_mnu_interior;
+			x = 338;
+			y = 183;
+		}
+		[ramparts]
+		{
+			//a8_r1, a8_r1b
+			background = mainland;
+			texture = b_gui_ig_mnu_ramparts;
+			x = 329;
+			y = 292;
+		}
+		[stronghold]
+		{
+			//a8_r2-a8_r3
+			background = mainland;
+			texture = b_gui_ig_mnu_stronghold;
+			x = 338;
+			y = 183;
+		}
+		[clock]
+		{
+			//a9_r1-a9_r3
+			background = mainland;
+			texture = b_gui_ig_mnu_clock;
+			x = 228;
+			y = 154;
+		}
+	}
+	[markers]
+	{
+		[arhok]
+		{
+			background = mainland;
+			screen_name = "Arhok";
+			x = 821;
+			y = 556;
+		}
+		[lake]
+		{
+			background = mainland;
+			screen_name = "Frozen Lake";
+			x = 762;
+			y = 608;
+		}
+		[canyon]
+		{
+			background = mainland;
+			screen_name = "Canyon";
+			x = 881;
+			y = 524;
+		}
+		[giantcave]
+		{
+			background = mainland;
+			screen_name = "Storage Cave";
+			x = 851;
+			y = 450;
+		}
+		[queen]
+		{
+			background = mainland;
+			screen_name = "Halls of the Lost";
+			x = 688;
+			y = 688;
+		}
+		[beach]
+		{
+			background = mainland;
+			screen_name = "Beach";
+			x = 233;
+			y = 589;
+		}
+		[bluffs]
+		{
+			background = mainland;
+			screen_name = "Bluffs";
+			x = 367;
+			y = 632;
+		}
+		[illicor]
+		{
+			background = mainland;
+			screen_name = "Illicor";
+			x = 337;
+			y = 512;
+		}
+		[jungle]
+		{
+			background = mainland;
+			screen_name = "Dark Jungle";
+			x = 251;
+			y = 495;
+		}
+		[digsite]
+		{
+			background = mainland;
+			screen_name = "Dig Site";
+			x = 155;
+			y = 464;
+		}
+		[undergroundcity]
+		{
+			background = mainland;
+			screen_name = "Underground City";
+			x = 154;
+			y = 395;
+		}
+		[fen]
+		{
+			background = mainland;
+			screen_name = "Fen of the Frozen";
+			x = 223;
+			y = 332;
+		}
+		[deathmountain]
+		{
+			background = mainland;
+			screen_name = "Mountain of the Dead";
+			x = 214;
+			y = 191;
+		}
+		[ziggurats]
+		{
+			background = mainland;
+			screen_name = "Ruined Ziggurats";
+			x = 364;
+			y = 149;
+		}
+		[maze]
+		{
+			background = mainland;
+			screen_name = "Ruined City";
+			x = 315;
+			y = 92;
+		}
+		[cut]
+		{
+			background = mainland;
+			screen_name = "Demlock's Cut";
+			x = 471;
+			y = 110;
+		}
+		[ravine]
+		{
+			background = mainland;
+			screen_name = "Demlock's Ravine";
+			x = 536;
+			y = 171;
+		}
+		[tower]
+		{
+			background = mainland;
+			screen_name = "Kmethket Tower";
+			x = 598;
+			y = 200;
+		}
+		[pass]
+		{
+			background = mainland;
+			screen_name = "Xot's Pass";
+			x = 643;
+			y = 333;
+		}
+		[cliff]
+		{
+			background = mainland;
+			screen_name = "Xot's Badlands";
+			x = 566;
+			y = 369;
+		}
+		[interior]
+		{
+			background = mainland;
+			screen_name = "Cliff City";
+			x = 434;
+			y = 301;
+		}
+		[ramparts]
+		{
+			background = mainland;
+			screen_name = "Ramparts";
+			x = 441;
+			y = 385;
+		}
+		[stronghold]
+		{
+			background = mainland;
+			screen_name = "Stronghold";
+			x = 364;
+			y = 340;
+		}
+		[clock]
+		{
+			background = mainland;
+			screen_name = "Great Clock";
+			x = 343;
+			y = 265;
+		}
+	}
+}

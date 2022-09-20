@@ -1,0 +1,25 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000063;
+	source_region_name = a7_r3_cityinterior;
+	[t:stitch_editor,n:a7_r2_cliffcity]
+	{
+		dest_region = a7_r2_cliffcity;
+		[node_ids]
+		{
+			0x77020301 = 0x6D38A94D,3;
+			0x77020302 = 0xEC83A71B,10;
+			0x77020303 = 0xD56B0071,2;
+		}
+	}
+	[t:stitch_editor,n:a8_r1_ramparts]
+	{
+		dest_region = a8_r1_ramparts;
+		[node_ids]
+		{
+			0x78030101 = 0x021CCBBC,4;
+			0x78030102 = 0x9902377D,7;
+			0x78030103 = 0xFDC62174,6;
+		}
+	}
+}

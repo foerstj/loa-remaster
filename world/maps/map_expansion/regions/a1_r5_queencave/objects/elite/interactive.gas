@@ -1,0 +1,43 @@
+[t:lever_glb_07,n:0x005000af]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x00500006;
+	  x on_scid = 0x00500006;
+	  f reset_time = 5.5;
+	  f reset_time_2 = 5.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707101,0,0.707112;
+	  p position = -0.0127487,0,1.72765,0x0ae49939;
+		use_point_scids = 0x005000b8,0x005000c6;
+	}
+}
+[t:lever_glb_07,n:0x00500005]
+{
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+	  x off_scid = 0x00500006;
+	  x on_scid = 0x00500006;
+	  f reset_time = 5.5;
+	  f reset_time_2 = 5.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,-7.7486e-006,0,1;
+	  p position = 3.34851,0,1.96336,0x86e5bce9;
+		use_point_scids = 0x0050000b,0x005000c6;
+	}
+}
+[t:respawn_statue,n:0x00500333]
+{
+	[placement]
+	{
+	  q orientation = 0,0.793354,0,0.608761;
+	  p position = -2.48486,-9.53674e-007,0.168167,0xadd50de3;
+		use_point_scids = 0x00500334;
+	}
+}

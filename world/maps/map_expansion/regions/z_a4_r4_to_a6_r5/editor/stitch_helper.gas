@@ -1,0 +1,21 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000099C;
+	source_region_name = z_a4_r4_to_a6_r5;
+	[t:stitch_editor,n:a4_r4_lair]
+	{
+		dest_region = a4_r4_lair;
+		[node_ids]
+		{
+			0x099c0001 = 0x0BD7FA13,6;
+		}
+	}
+	[t:stitch_editor,n:a6_r5_towercaves]
+	{
+		dest_region = a6_r5_towercaves;
+		[node_ids]
+		{
+			0x099c0002 = 0x4872F1AA,3;
+		}
+	}
+}

@@ -1,0 +1,105 @@
+[t:3W_crate_dsx_a9_r3-spec_clockroom,n:0x08300261]
+{
+	[placement]
+	{
+		drop_point_scids = 0x0830026f;
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -16.8576,4.51492,24.1636,0x9fe2e888;
+	}
+}
+[t:3W_crate_dsx_a9_r3-spec_clockroom,n:0x08300262]
+{
+	[placement]
+	{
+		drop_point_scids = 0x0830026d;
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -23.8143,4.51492,16.963,0x9fe2e888;
+	}
+}
+[t:3W_crate_dsx_a9_r3-spec_clockroom,n:0x08300267]
+{
+	[placement]
+	{
+		drop_point_scids = 0x08300273;
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = 24.7119,4.51491,16.4276,0xf081318d;
+	}
+}
+[t:3W_crate_dsx_a9_r3-spec_clockroom,n:0x08300268]
+{
+	[placement]
+	{
+		drop_point_scids = 0x08300270;
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = 16.7043,4.51491,24.4925,0xf081318d;
+	}
+}
+[t:3W_crate_dsx_a9_r3-spec_earth,n:0x08300210]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = -0.305715,0,-0.394089,0x56a30318;
+		use_point_scids = 0x08300236;
+	}
+}
+[t:3W_crate_dsx_a9_r3-spec_water,n:0x083001fc]
+{
+	[placement]
+	{
+	  p position = 0.0465698,0,-0.252434,0x3a92008a;
+		use_point_scids = 0x08300235;
+	}
+}
+[t:3W_crate_dsx_a9_r3-spec_clockroom,n:0x08300265]
+{
+	[placement]
+	{
+		drop_point_scids = 0x0830026a;
+	  q orientation = 0,-0.923879,0,-0.382684;
+	  p position = -18.3409,4.51492,22.9962,0x00e4c470;
+	}
+}
+[t:3W_crate_dsx_a9_r3-spec_clockroom,n:0x08300266]
+{
+	[placement]
+	{
+		drop_point_scids = 0x08300269;
+	  q orientation = 0,-0.923879,0,-0.382684;
+	  p position = -24.2341,4.51492,16.7879,0x00e4c470;
+	}
+}
+[t:3W_crate_dsx_a9_r3-spec_clockroom,n:0x08300263]
+{
+	[placement]
+	{
+		drop_point_scids = 0x0830026c;
+	  q orientation = 0,-0.923879,0,-0.382684;
+	  p position = -18.1935,4.51492,22.8539,0x2e8f489d;
+	}
+}
+[t:3W_crate_dsx_a9_r3-spec_clockroom,n:0x08300264]
+{
+	[placement]
+	{
+		drop_point_scids = 0x0830026b;
+	  q orientation = 0,-0.923879,0,-0.382684;
+	  p position = -24.6142,4.51492,16.8017,0x2e8f489d;
+	}
+}
+[t:3W_crate_dsx_a9_r3-spec_fire,n:0x083001fb]
+{
+	[placement]
+	{
+	  p position = -0.0202866,0,-0.0198135,0x9cd541b7;
+		use_point_scids = 0x08300234;
+	}
+}
+[t:3W_crate_dsx_a9_r3-spec_air,n:0x08300222]
+{
+	[placement]
+	{
+	  p position = -0.0493011,0,0.172028,0x3c96c057;
+		use_point_scids = 0x08300233;
+	}
+}

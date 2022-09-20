@@ -1,0 +1,14 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000001A;
+	source_region_name = a1_r1a_basement;
+	[t:stitch_editor,n:a1_r1_town]
+	{
+		dest_region = a1_r1_town;
+		[node_ids]
+		{
+			0x11011a01 = 0x7283C9B2,3;
+			0x11011a02 = 0x0C79A4D5,2;
+		}
+	}
+}

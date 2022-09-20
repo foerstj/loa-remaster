@@ -1,0 +1,15 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000016;
+	source_region_name = a2_r0_storage;
+	[t:stitch_editor,n:a2_r0a_beach]
+	{
+		dest_region = a2_r0a_beach;
+		[node_ids]
+		{
+			0x16170001 = 0xE5DAC62F,2;
+			0x16170002 = 0x3ED2F6ED,2;
+			0x16170003 = 0x54F234F3,3;
+		}
+	}
+}

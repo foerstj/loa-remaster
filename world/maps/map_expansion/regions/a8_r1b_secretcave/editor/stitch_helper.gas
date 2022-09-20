@@ -1,0 +1,36 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000072A;
+	source_region_name = a8_r1b_secretcave;
+	[t:stitch_editor,n:a8_r1_ramparts]
+	{
+		dest_region = a8_r1_ramparts;
+		[node_ids]
+		{
+			0x88012a01 = 0x1D22BACB,3;
+			0x88012a02 = 0x26933CA9,7;
+			0x88012a03 = 0x33B7A4AF,2;
+		}
+	}
+	[t:stitch_editor,n:a8_r2_fortress]
+	{
+		dest_region = a8_r2_fortress;
+		[node_ids]
+		{
+			0x882a0201 = 0x9C472189,3;
+			0x882a0202 = 0x9C472189,4;
+			0x882a0203 = 0x0C10C49A,2;
+			0x882a0204 = 0x68E1348B,1;
+			0x882a0205 = 0x29765125,1;
+			0x882a0206 = 0x29765125,2;
+		}
+	}
+	[t:stitch_editor,n:z_a8_r1b_to_a9_r2a]
+	{
+		dest_region = z_a8_r1b_to_a9_r2a;
+		[node_ids]
+		{
+			0x099d0001 = 0xF9437252,6;
+		}
+	}
+}

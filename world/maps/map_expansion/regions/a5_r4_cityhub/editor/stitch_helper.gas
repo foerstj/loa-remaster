@@ -1,0 +1,30 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000045;
+	source_region_name = a5_r4_cityhub;
+	[t:stitch_editor,n:a5_r3_maze]
+	{
+		dest_region = a5_r3_maze;
+		[node_ids]
+		{
+			0x55030401 = 0xFF68FFD8,6;
+			0x55030402 = 0xFF68FFD8,5;
+			0x55030403 = 0xFF68FFD8,4;
+		}
+	}
+	[t:stitch_editor,n:a5_r4b_cityjail]
+	{
+		dest_region = a5_r4b_cityjail;
+		[node_ids]
+		{
+			0x55044a01 = 0xD163D7EB,1;
+			0x55044a02 = 0xD163D7EB,2;
+			0x55044a03 = 0x1A3E09DF,1;
+			0x55044a04 = 0x1A3E09DF,2;
+			0x55044a05 = 0x16F206FB,1;
+			0x55044a06 = 0x16F206FB,2;
+			0x55044a07 = 0x32C8D651,1;
+			0x55044a08 = 0x32C8D651,2;
+		}
+	}
+}

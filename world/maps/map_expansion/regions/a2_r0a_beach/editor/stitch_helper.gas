@@ -1,0 +1,26 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000017;
+	source_region_name = a2_r0a_beach;
+	[t:stitch_editor,n:a2_r0_storage]
+	{
+		dest_region = a2_r0_storage;
+		[node_ids]
+		{
+			0x16170001 = 0x3E90EB41,6;
+			0x16170002 = 0x3E90EB41,7;
+			0x16170003 = 0x3E90EB41,8;
+		}
+	}
+	[t:stitch_editor,n:a2_r1_jungle]
+	{
+		dest_region = a2_r1_jungle;
+		[node_ids]
+		{
+			0x12170001 = 0x330D8E4C,3;
+			0x12170002 = 0x5224573F,2;
+			0x12170003 = 0xBB558349,3;
+			0x12170004 = 0xD68ED7B6,4;
+		}
+	}
+}

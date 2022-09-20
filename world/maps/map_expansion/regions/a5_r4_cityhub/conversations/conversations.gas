@@ -1,0 +1,10 @@
+[conversation_vendingmachine]
+{
+	[text*]
+	{
+		choice = shop;
+		sample = s_e_vending_machine;
+		screen_text = "Welcome to the Central Transportation Center's Magical Automated Store (MAS).  The MAS does away with long lines and the inconvenience and indignity of having to speak with a vendor from a lesser species.  Forgot your spellbook at home?  No problem!  Broke your sword defending the Empire?  Don't worry!  Just make your selection from our fine wares and the gold (including price, taxes, travel tariff, and MAS gratuity) will be automatically transferred from your purse.  Have a nice day!\n\nPlease refer any problems with gold transfer amounts to Mr. Daland in the complaints department.";
+	  f scroll_rate = 20.0;
+	}
+}

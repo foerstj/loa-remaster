@@ -1,0 +1,90 @@
+[a2_shadowjumper_nis]
+{
+	[text*]
+	{
+		sample = s_v_a2_nossirom_shadow;
+		screen_text = "King of the Zaurask!  Behold!  I have in my possession the instrument of the Utraeans' destruction - the Staff of Stars! I shall make my way to the Great Clock and put into motion the plan I have laid out. Destroy the Utraeans and then gather your troops at the Stronghold. I shall meet you there.\n\nIt shall be done.";
+	  f scroll_rate = 2.750000;
+	}
+}
+[ilorn_after_a2_amulet]
+{
+	[text*]
+	{
+		activate_quest* = a2_amulet,2;
+		choice = shop;
+		complete_quest* = a2_amulet;
+	  i order = 0;
+	  b quest_dialog = true;
+		sample = s_v_a2_ilorn_03;
+		screen_text = "Azunai praise you outlander! This is indeed my amulet! I am grateful for your aid, and as promised will now open my wares for you to buy from... interested in a new sword or perhaps a spell? Look no further for I have them all!";
+	  f scroll_rate = 20.0;
+	}
+	[text*]
+	{
+		choice = shop;
+		sample = s_v_a2_ilorn_05;
+		screen_text = "Welcome back, outlander! Care to do some more trading?";
+	  f scroll_rate = 20.0;
+	}
+}
+[ilorn_before_a2_amulet]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		sample = s_v_a2_ilorn_01_a;
+		screen_text = "Hail! Oh... strangers! From Ehb, no? Azunai be praised! The strength and honor from your people has been missing too long from our land. I am Ilorn, a tradesman, and I am Utraean. I hate to ask this, as we have just become acquainted, but I am in need of aid. I would perform this task myself, but my tragg is lame, as you can see... Tragg? Why they are pack animals, much like the hardy mules you are used to. Beautiful creatures are they not?";
+	  f scroll_rate = 20.0;
+	}
+	[text*]
+	{
+		activate_quest* = a2_amulet,0;
+	  i order = 1;
+	  b quest_dialog = true;
+		sample = s_v_a2_ilorn_01_b;
+		screen_text = "As I was saying, my tragg is lame and I must stay by her side. I lost a necklace very near and dear to me, an amulet given to me by my late wife. I was traveling to Illicor, our great city, to trade my goods there, when I was ambushed by several jungle slingers. I fled here to escape, but must have dropped the amulet. Retrieve this item for me and I will gladly trade my goods with you, outlander!";
+	  f scroll_rate = 20.0;
+	}
+}
+[ilorn_during_a2_amulet]
+{
+	[text*]
+	{
+		sample = s_v_a2_ilorn_02;
+		screen_text = "Were you able to locate my amulet? Please, try to find it.";
+	  f scroll_rate = 20.0;
+	}
+}
+[ilorn_no_quest_player_has_amulet]
+{
+	[text*]
+	{
+		choice = shop;
+		sample = s_v_a2_ilorn_01_c;
+		screen_text = "Azunai praise you, outlander! This is indeed my amulet; an amulet given to me by my late wife. I was traveling to Illicor, our great city, to trade my goods there, when I was ambushed by several jungle slingers. I fled here to escape, but must have dropped the amulet. I am grateful for your aid.  I am Ilorn, a tradesman, and I am Utraean. Interested in a new sword, or perhaps a spell? Look no further, for I have them all!";
+	  	f scroll_rate = 20.0000;
+	}
+}
+
+[ilorn_storekeep]
+{
+	[text*]
+	{
+		choice = shop;
+		sample = s_v_a2_ilorn_05;
+		screen_text = "Welcome back, outlander! Care to do some more trading?";
+	  	f scroll_rate = 20.0;
+	}
+}
+
+[placeholder]
+{
+	[text*]
+	{
+		sample = ;
+		screen_text = "A";
+	  f scroll_rate = 20.0000;
+	}
+}

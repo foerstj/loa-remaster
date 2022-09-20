@@ -1,0 +1,33 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000002;
+	source_region_name = a1_r2_frozenlake;
+	[t:stitch_editor,n:a1_r1_town]
+	{
+		dest_region = a1_r1_town;
+		[node_ids]
+		{
+			0x11011b01 = 0x71EDEADF,6;
+			0x11011b02 = 0x71EDEADF,1;
+			0x11011b03 = 0xF76E1F3E,4;
+			0x11011b04 = 0xF76E1F3E,5;
+			0x11011b05 = 0x6E30E573,2;
+			0x11011b06 = 0x5C409288,3;
+			0x11011b07 = 0x5C409288,4;
+			0x11011b08 = 0x6E6C4ABC,4;
+			0x11011b09 = 0xF3997098,1;
+			0x11011b10 = 0xF3997098,2;
+			0x11011b11 = 0xDC8D94B9,2;
+		}
+	}
+	[t:stitch_editor,n:a1_r5_queencave]
+	{
+		dest_region = a1_r5_queencave;
+		[node_ids]
+		{
+			0x11010301 = 0xE2C4F4AF,4;
+			0x11010302 = 0x1FD9B0C1,10;
+			0x11010303 = 0x26F12EB7,7;
+		}
+	}
+}

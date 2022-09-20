@@ -1,0 +1,18 @@
+[a9_shadowclock]
+{
+	[text*]
+	{
+		sample = s_v_a9_shadow_clock;
+		screen_text = "Behold... The Great Clock... the instrument of the Utraeans' destruction!";
+	  f scroll_rate = 7.000000;
+	}
+}
+[a9_shadowjumper]
+{
+	[text*]
+	{
+		sample = s_v_a9_shadow_01;
+		screen_text = "Prepare to meet your Doom, mortal  I am the Shadowjumper and I have seen this world's moment of birth and I will be the author of its destruction! When this Clock is destroyed, then so is this world... your journey, your adventure has been for naught!";
+	  f scroll_rate = 3.000000;
+	}
+}

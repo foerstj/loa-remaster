@@ -1,0 +1,25 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000005;
+	source_region_name = a1_r5_queencave;
+	[t:stitch_editor,n:a1_r2_frozenlake]
+	{
+		dest_region = a1_r2_frozenlake;
+		[node_ids]
+		{
+			0x11010301 = 0xAA4BB3EC,3;
+			0x11010302 = 0x3EC96A9D,8;
+			0x11010303 = 0xEC2A5094,2;
+		}
+	}
+	[t:stitch_editor,n:a1_r6a_lostqueen]
+	{
+		dest_region = a1_r6a_lostqueen;
+		[node_ids]
+		{
+			0x11030401 = 0x837F3A73,1;
+			0x11030402 = 0x837F3A73,2;
+			0x11030403 = 0x837F3A73,3;
+		}
+	}
+}

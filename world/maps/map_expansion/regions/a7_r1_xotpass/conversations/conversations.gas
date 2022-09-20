@@ -1,0 +1,38 @@
+//Uelda'S CONVERSATIONS
+[uelda_before_a7_umberteen]
+{
+	[text*]
+	{
+		choice = more;
+		i order = 0;
+		sample = s_v_a7_Uelda_01;
+		screen_text = "Please, you must help!  My husband Umberteen and I left our fellow pilgrims in a place called Xulphae's Cove to find help.  My husband's brother Ghage didn't want us to go... we left under cover of night.  We had just passed the beach ahead when the vile Droc attacked us. Without our fellow Utraean pilgrims to help, we were quickly overcome.";
+		f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a7_umberteen,0;
+		b quest_dialog = true;
+		sample = s_v_a7_Uelda_02;
+		screen_text = "Though I slew many of the fiends and escaped with the children, my husband Umberteen was captured.  The children are hiding a short distance from here - I cannot leave them.   You must rescue my beloved!  Then he and I might find help for our friends in Xulphae's Cove and complete our pilgrimage.  I think the Droc are holding him in a cave somewhere to the East.  Find Umberteen and free him!";
+		f scroll_rate = 20.000000;
+	}
+}
+[uelda_during_a7_umberteen]
+{
+	[text*]
+	{
+		sample = s_v_a7_Uelda_03;
+		screen_text = "Stranger, I hate to appear ungrateful, but the safety of my friends and the salvation of this land depends on us bringing help to our fellow pilgrims.  You must free Umberteen from the Droc so we may get some help.  Please, do not delay!";
+		f scroll_rate = 20.000000;
+	}
+}
+[uelda_after_a7_umberteen]
+{
+	[text*]
+	{
+		sample = s_v_a7_Uelda_04;
+		screen_text = "Blessings to you, friend.  As soon as he arrives, Umberteen and I will go and get help for our fellow pilgrims, that we may complete our journey to the Healing Well and make restitution for the acts of our people.  Your presence is proof that it is meant to be!";
+	 	f scroll_rate = 20.000000;
+	}
+}

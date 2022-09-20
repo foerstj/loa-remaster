@@ -1,0 +1,26 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000044;
+	source_region_name = a5_r3_maze;
+	[t:stitch_editor,n:a5_r2_ziggurats]
+	{
+		dest_region = a5_r2_ziggurats;
+		[node_ids]
+		{
+			0x55020301 = 0x5F4E9267,6;
+			0x55020302 = 0x5BCC00BC,6;
+			0x55020303 = 0xC841DAB5,6;
+			0x55020304 = 0xD6527517,3;
+		}
+	}
+	[t:stitch_editor,n:a5_r4_cityhub]
+	{
+		dest_region = a5_r4_cityhub;
+		[node_ids]
+		{
+			0x55030401 = 0x3D370AA7,6;
+			0x55030402 = 0x3D370AA7,7;
+			0x55030403 = 0x3D370AA7,8;
+		}
+	}
+}

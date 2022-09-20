@@ -1,0 +1,63 @@
+[decals]
+{
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.726428,1.972888,0.706736,0x4AADE52C;
+	  f far_plane = 6.000000;
+	  x guid = 0xDB8F2792;
+	  f horizontal_meters = 7.454546;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_scorch.%img%;
+	  f vertical_meters = 7.454546;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 0.206247,1.972892,0.244650,0xD67EBC46;
+	  f far_plane = 6.000000;
+	  x guid = 0x857C5FCB;
+	  f horizontal_meters = 7.454546;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_scorch.%img%;
+	  f vertical_meters = 7.454546;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 2.830625,1.972888,-0.435673,0x03E6F5E4;
+	  f far_plane = 6.000000;
+	  x guid = 0x9E4C6EB1;
+	  f horizontal_meters = 7.454546;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_scorch.%img%;
+	  f vertical_meters = 7.454546;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 2.411100,1.972888,-2.870781,0xBDB318A4;
+	  f far_plane = 6.000000;
+	  x guid = 0x8236A5A9;
+	  f horizontal_meters = 7.454546;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_scorch.%img%;
+	  f vertical_meters = 7.454546;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 1.000000,0.000000,0.000000,0.000000,0.000000,-1.000000,0.000000,1.000000,0.000000;
+		decal_origin = -0.742134,1.972889,-1.862347,0x3D6316AC;
+	  f far_plane = 6.000000;
+	  x guid = 0xFF1CDA2C;
+	  f horizontal_meters = 7.454546;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_scorch.%img%;
+	  f vertical_meters = 7.454546;
+	}
+}

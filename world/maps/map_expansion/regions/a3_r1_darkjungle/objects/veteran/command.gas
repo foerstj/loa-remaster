@@ -1,0 +1,458 @@
+[t:cmd_auto_save,n:0x02100409]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -3.11824,0,0.0709355,0xb5a6de67;
+	}
+}
+[t:cmd_region_message,n:0x02100ed6]
+{
+	[placement]
+	{
+	  p position = -1.64666,1.6856,1.0127,0x7509c707;
+	}
+	[screen_report]
+	{
+		description = "'Your kind are not welcome here!'";
+	  b prepend_name = false;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100a6a]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100A6B;
+	}
+	[placement]
+	{
+	  p position = -0.152145,0,0.17038,0x1ed3a22e;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100a6b]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100A6A;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.950348,0,-0.659439,0xbab0aeda;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100abd]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100ABF;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.71934,0,0.694659;
+	  p position = 0.388443,0,2.57051,0x4e658b88;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100abf]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100ABE;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.754709,0,-0.656059;
+	  p position = 3.34442,0,1.87543,0x98381e18;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100b01]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100AFE;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -2.22927,0,1.9066,0x4f889c19;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100afe]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100B01;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.826481,0,0.304916,0xae83068e;
+	}
+}
+[t:cmd_alignment_changer,n:0x02100a79]
+{
+	[cmd_dumb_guy]
+	{
+		alignment_activated = aa_good;
+		alignment_spawn = aa_good;
+	  b change_collide = true;
+	  b change_invincibility = true;
+	  b change_may_attack = true;
+	  b change_may_attacked = true;
+	  b change_selection = false;
+	  b invincible_spawn = true;
+		life_state_spawn = ls_alive_conscious;
+	  b may_attack_spawn = true;
+	  b may_attacked_spawn = true;
+	  i start_state = 1;
+	  x target_actor = 0x02100A74;
+	}
+	[common]
+	{
+		dev_instance_text = "KRAAL SP CHANGER";
+	  b is_multi_player = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.190809,0,0.981627;
+	  p position = 0.741806,0,1.93411,0x064cb52c;
+	}
+}
+[t:cmd_alignment_changer,n:0x02100a7b]
+{
+	[cmd_dumb_guy]
+	{
+		alignment_activated = aa_good;
+		alignment_spawn = aa_good;
+	  b change_collide = true;
+	  b change_invincibility = true;
+	  b change_may_attack = true;
+	  b change_may_attacked = true;
+	  b invincible_spawn = true;
+		life_state_spawn = ls_alive_conscious;
+	  b may_attack_spawn = true;
+	  b may_attacked_spawn = true;
+	  i start_state = 1;
+	  x target_actor = 0x02100A78;
+	}
+	[common]
+	{
+		dev_instance_text = "KRAAL MP CHANGER";
+	  b is_single_player = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.981627,0,0.190809;
+	  p position = -3.20358,0,1.87349,0x6a70d5df;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100acc]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100ACA;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.906308,0,0.422618;
+	  p position = -0.18338,0,0.402878,0xf7dba7ea;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100aca]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100ACC;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.95882,0,0.284015;
+	  p position = 1.06052,0,0.270611,0x7b3ecac4;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100ac8]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100AC9;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.25038,0,0.968148;
+	  p position = 2.97208,0,2.16416,0x9e444b29;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100b0d]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100B0C;
+	}
+	[placement]
+	{
+	  p position = -0.663147,1.90735e-006,-0.300522,0x2fe609af;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100b0c]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100B0D;
+	}
+	[placement]
+	{
+	  p position = -3.55185,0,0.176453,0xc9e4422c;
+	}
+}
+[t:cmd_region_message,n:0x02100eda]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.48746,0,-1.22394,0xc9e4422c;
+	}
+	[screen_report]
+	{
+		description = "'The Hassat shall wear your skins on our backs, as you have done for centuries...  Your teeth shall decorate my wares!  Your bones will snap, and we will dine on your flesh.'";
+	  b prepend_name = false;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100590]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x0210058F;
+	}
+	[placement]
+	{
+	  p position = -1.92609,0,-0.347809,0x0d067ec6;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x0210058f]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100590;
+	}
+	[placement]
+	{
+	  p position = 0.375198,0,1.99168,0x2d15a453;
+	}
+}
+[t:cmd_region_message,n:0x02100f05]
+{
+	[common]
+	{
+		screen_name = "TROLL #2";
+	}
+	[placement]
+	{
+	  p position = -1.05605,0.921035,-1.46962,0xfc140cc1;
+	}
+	[screen_report]
+	{
+		description = "Make you look small!";
+	  b prepend_name = false;
+	}
+}
+[t:cmd_region_message,n:0x02100f06]
+{
+	[common]
+	{
+		screen_name = "TROLL #1";
+	}
+	[placement]
+	{
+	  p position = -0.688858,0.660671,0.294891,0xfc140cc1;
+	}
+	[screen_report]
+	{
+		description = "Make you look big!";
+	  b prepend_name = false;
+	}
+}
+[t:cmd_region_message,n:0x02100efc]
+{
+	[common]
+	{
+		screen_name = "TROLL #1";
+	}
+	[placement]
+	{
+	  p position = 7.94513,4,0.770981,0x943fb55c;
+	}
+	[screen_report]
+	{
+		description = "What is it?";
+	  b prepend_name = false;
+	}
+}
+[t:cmd_region_message,n:0x02100f01]
+{
+	[common]
+	{
+		screen_name = "TROLL #2";
+	}
+	[placement]
+	{
+	  p position = 7.55507,4,3.00746,0x943fb55c;
+	}
+	[screen_report]
+	{
+		description = "Look inside...";
+	  b prepend_name = false;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100b55]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100B54;
+	}
+	[placement]
+	{
+	  p position = 0.856374,1.90735e-006,1.2088,0x6ace68c9;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100b54]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100B55;
+	}
+	[placement]
+	{
+	  p position = 0.904817,0,0.0965033,0xca0cb43b;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100aa1]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100AA5;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.481506,0,-0.674789,0x5c44aa41;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100ac9]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100AC6;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.996917,0,-0.0784592;
+	  p position = -1.80952,0,0.49794,0x5c44aa41;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100aa5]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100AA1;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.110718,0,-0.868774,0xbdad714e;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100ac6]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100AC7;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.782608,0,0.622515;
+	  p position = -1.22583,0,0.117043,0xc97ab7b2;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100ac7]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100AC8;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.760406,0,0.649448;
+	  p position = 0.303406,0,0.0368805,0x4fd42725;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100abe]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100ABD;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.803857,0,-0.594823;
+	  p position = 1.59195,0,0.32135,0xf684d3d2;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100afc]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100AFD;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.97834,0,-0.202507,0x3563ce5b;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100afd]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100AFC;
+	}
+	[placement]
+	{
+	  p position = 1.33595,0,-0.0871964,0x1b5dac94;
+	}
+}
+[t:cmd_region_message,n:0x02100ed4]
+{
+	[placement]
+	{
+	  p position = -1.57435,0,1.72578,0x53a23cd2;
+	}
+	[screen_report]
+	{
+		description = "Your kind are not welcome here!";
+	  b prepend_name = false;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100aba]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100AB9;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.422619,0,0.906308;
+	  p position = 2.88739,0,0.0427053,0xdd2ebf62;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x02100ab9]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x02100ABA;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.878817,0,0.477159;
+	  p position = 2.09194,0,0.0406623,0xc1ed4ec4;
+	}
+}

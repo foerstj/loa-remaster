@@ -1,0 +1,31 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000082;
+	source_region_name = a9_r2_cave;
+	[t:stitch_editor,n:a9_r1_mesa]
+	{
+		dest_region = a9_r1_mesa;
+		[node_ids]
+		{
+			0x99010201 = 0x020B0401,4;
+			0x99010202 = 0xAED0489B,10;
+			0x99010203 = 0x648163F8,2;
+		}
+	}
+	[t:stitch_editor,n:a9_r2a_clockdungeon]
+	{
+		dest_region = a9_r2a_clockdungeon;
+		[node_ids]
+		{
+			0x99022a01 = 0xF02AF09E,4;
+			0x99022a02 = 0xE4C7118C,3;
+			0x99022a03 = 0x8B62730F,6;
+			0x99022a04 = 0x8B62730F,7;
+			0x99022a05 = 0x8B62730F,8;
+			0x99022a06 = 0x8B62730F,9;
+			0x99022a07 = 0x8B62730F,10;
+			0x99022a08 = 0xA3DCB7D6,3;
+			0x99022a09 = 0x40FCC57F,2;
+		}
+	}
+}

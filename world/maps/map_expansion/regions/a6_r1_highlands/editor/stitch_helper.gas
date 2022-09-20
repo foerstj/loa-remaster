@@ -1,0 +1,21 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000051;
+	source_region_name = a6_r1_highlands;
+	[t:stitch_editor,n:a6_r2_ravine]
+	{
+		dest_region = a6_r2_ravine;
+		[node_ids]
+		{
+			0x66010201 = 0x310B1317,2;
+			0x66010202 = 0x055BC5B6,6;
+			0x66010203 = 0x055BC5B6,1;
+			0x66010204 = 0x055BC5B6,2;
+			0x66010205 = 0xCEFE5A7E,1;
+			0x66010206 = 0xCEFE5A7E,2;
+			0x66010207 = 0x81502583,1;
+			0x66010208 = 0x81502583,2;
+			0x66010209 = 0xF22530BE,1;
+		}
+	}
+}

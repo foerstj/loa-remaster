@@ -1,0 +1,194 @@
+[a7_ghage_nis]
+{
+	[text*]
+	{
+		sample = s_v_ghage_nis_01;
+		screen_text = "No one will be safe until Nosirrom is dead.  I fear there is no negotiating with such madness. ";
+	  f scroll_rate = 3.000000;
+	}
+}
+[eradi_after_a7_city]
+{
+	[text*]
+	{
+		sample = s_v_a7_eradi_04;
+		screen_text = "I could feel the moment of your success... Do you feel it in the sun?  Smell it in the air?  The ritual is performed, the land is healing!  And we are one step closer to redemption.  But our path continues on.  This is just the beginning...";
+	  f scroll_rate = 20.000000;
+	}
+}
+[eradi_before_a7_city]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		sample = s_v_a7_eradi_01;
+		screen_text = "Hold, traveler.  I am reluctant to interrupt your path, but I believe you have been led here to help us.  Here in Xulphae's Cove you will find all that is left of our pilgrimage.  We had hoped to perform a sacred ritual, atone for our past misdeeds, and redeem ourselves and this land. We lost many, so many... only to find our path blocked.  We cannot continue on.  But the ritual MUST be performed.  It is the reason we have come all this way.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a7_city,0;
+	  b quest_dialog = true;
+		sample = s_v_a7_eradi_02;
+		screen_text = "It is clear to me that our paths cross for a reason.  YOU must complete the ritual. The Zaurask have taken over the sacred well and are polluting it with their presence. To purify the well, you must remove them... by force if necessary. I beg this of you...we have given so much to get this far. Do not let all our sacrifice and suffering be in vain. Liberate the well and complete the ritual!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[eradi_during_a7_city]
+{
+	[text*]
+	{
+		sample = s_v_a7_eradi_03;
+		screen_text = "You must drive the Zaurask from the sacred well, or all our paths meet a pointless end here.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[ghage_after_a7_umberteen_has_a7_zking]
+{
+	[text*]
+	{
+		activate_quest* = a7_vfind,1;
+		complete_quest* = a7_vfind;
+		sample = s_v_a7_Ghage_05;
+		screen_text = "Umberteen sent you?  What?  Is this true?  You have his book-it MUST be so... Such a brave and selfless path he took.  With your help, my friend, my path may once again cross with Umberteen, Uelda, and the rest of my kin.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[ghage_after_a7_zking]
+{
+	[text*]
+	{
+		sample = s_v_a7_Ghage_07;
+		screen_text = "I am relieved to hear Nosirrom has fallen. Without his leadership, the rest of the Zaurask can be easily defeated.";
+		f scroll_rate = 20.000000;
+	}
+}
+[ghage_after_a7_king_before_vfind_complete]
+{
+	[text*]
+	{
+		activate_quest* = a7_vfind,1;
+		complete_quest* = a7_vfind;
+		sample = s_v_a7_Ghage_05;
+		screen_text = "Umberteen sent you?  What?  Is this true?  You have his book-it MUST be so... Such a brave and selfless path he took.  With your help, my friend, my path may once again cross with Umberteen, Uelda, and the rest of my kin.";
+	  	f scroll_rate = 20.000000;
+	}	
+}
+[ghage_before_a7_zking]
+{
+	[text*]
+	{
+		activate_quest* = a7_vfind,1;
+		choice = more;
+		complete_quest* = a7_vfind;
+	  i order = 0;
+		sample = s_v_a7_Ghage_01;
+		screen_text = "Umberteen sent you? What? Is this true? You have his book-it MUST be so... Such a brave and selfless path he took. I must request your assistance, traveler. I have discovered where the Droc come from, and the Howlers and many of the other beasts that have plagued our pilgrimage...";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a7_zking,0;
+		give_reward* = book_glb_lore_ghage;
+	  i order = 1;
+	  b quest_dialog = true;
+		sample = s_v_a7_Ghage_02;
+		screen_text = "Nosirrom! The Zaurask King is more dangerous than any of us imagined. I fear he has acquired the same Utraean technology that led to his own creation...and is now using it himself. He must be stopped. We are far too weak to undo him, but you... yours is the path of righteous strength. Take a copy of my notes. Study them. Perhaps you will find a weakness. Defeat Nosirrom. It is our only hope.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[ghage_before_a7_zking_no_umb]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		sample = s_v_a7_Ghage_03;
+		screen_text = "I must request your assistance, traveler. I have discovered where the Droc come from, and the Howlers and many of the other beasts that have plagued our pilgrimage...";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a7_zking,0;
+		give_reward* = book_glb_lore_ghage;
+	  i order = 1;
+	  b quest_dialog = true;
+		sample = s_v_a7_Ghage_02;
+		screen_text = "Nosirrom! The Zaurask King is more dangerous than any of us imagined. I fear he has acquired the same Utraean technology that led to his own creation...and is now using it himself. He must be stopped. We are far too weak to undo him, but you... yours is the path of righteous strength. Take a copy of my notes. Study them. Perhaps you will find a weakness. Defeat Nosirrom. It is our only hope.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[ghage_during_a7_zking]
+{
+	[text*]
+	{
+		sample = s_v_a7_Ghage_06;
+		screen_text = "No one will be safe until Nosirrom is dead. I fear there is no negotiating with such madness. You must kill him before he corrupts any more living creatures with our accursed technology.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[ghage_hello_a7_king_dead]
+{
+	[text*]
+	{
+	  i order = 0;
+		sample = s_v_a7_Ghage_01;
+		screen_text = "I must request your assistance, traveler. I have discovered where the Droc come from, and the Howlers and many of the other beasts that have plagued our pilgrimage...";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		sample = s_v_a7_Ghage_07;
+		screen_text = "I am relieved to hear Nosirrom has fallen. Without his leadership, the rest of the Zaurask can be easily defeated.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[ohna_after_a5_letter]
+{
+	[text*]
+	{
+		choice = shop;
+		sample = s_v_a7_ohna_05;
+		screen_text = "Although my heart is glad that Jaff yet lives, I weep for the slain.  Purchase whatever you need to best prepare for your battles.  We need your steel, hero.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[ohna_during_a5_letter]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		sample = s_v_a7_ohna_02;
+		screen_text = "You have a difficult path in front of you, traveler.  Even as we Utraeans seek to atone for our sins, their consequences fester. Nosirrom grows more powerful each day, and I fear he is taking full advantage of our new peaceful ways: just days ago a delegation of pilgrims led by Jaff left to negotiate with the beast.  I warned them that Nosirrom might not share our newfound enlightenment, but they held fast to the path of peace...";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a5_letter,1;
+		choice = shop;
+	  i order = 1;
+	  b quest_dialog = true;
+		sample = s_v_a7_ohna_03;
+		screen_text = "Now there is no word from Jaff and his delegation; they were last seen heading towards Nosirrom's castle.  I fear their innocence has betrayed them.  Please find Jaff and any of our people who may still be alive.  And, if you can, I beg of you to strike down the beast that we set loose upon the lands of Aranna.  I have come to realize that sometimes the path of peace is not as straight as we'd wish...";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		sample = s_v_a7_ohna_04;
+		choice = shop;
+		screen_text = "Please find Jaff and any of our people who may still be alive.  Before you set out on your path, you might wish to stock up on some supplies, yes?";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[ohna_shop]
+{
+	[text*]
+	{
+		choice = shop;
+		sample = s_v_a7_ohna_01;
+		screen_text = "Hello, traveler. Before you set out on your path, you might wish to stock up on some supplies, yes?  Despite our difficult journey, I still have a few items you might find useful.";
+	  f scroll_rate = 20.000000;
+	}
+}

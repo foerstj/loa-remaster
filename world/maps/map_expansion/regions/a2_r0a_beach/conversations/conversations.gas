@@ -1,0 +1,158 @@
+[najj_accept]
+{
+	[text*]
+	{
+		activate_quest* = a2_najj,0;
+		sample = s_v_a2_najj_02;
+		screen_text = "Most excellent news. Soon I will be among my people. Let us be on our way!";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[najj_after_a2_najj_accept]
+{
+	[text*]
+	{
+		sample = s_v_a2_najj_09;
+		screen_text = "Then I grant it! Let us journey together.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[najj_after_a2_najj_hello]
+{
+	[text*]
+	{
+		sample = s_v_a2_najj_07;
+		choice = potential_member;
+		screen_text = "You journey far to tell me where my fellows can be found, little one. I thank you, though had you let me travel with you, I would even now be with them. Do you still require my aid?";
+	  f scroll_rate = 20.000000;
+	}
+}
+[najj_after_a2_najj_reject]
+{
+	[text*]
+	{
+		sample = s_v_a2_najj_08;
+		screen_text = "Very well. I thank you for what... little... you have done.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[najj_after_a2_trip_accept]
+{
+	[text*]
+	{
+		sample = s_v_a2_najj_14;
+		screen_text = "I am glad to think you have returned to help me seek out my own people. Let us journey together.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[najj_after_a2_trip_hello]
+{
+	[text*]
+	{
+		sample = s_v_a2_najj_13;
+		choice = potential_member;
+		screen_text = "I am glad to hear that you have found the city of the Utraeans. Did you also find the answers you seek, or do you need Najj's help?";
+	  f scroll_rate = 20.000000;
+	}
+}
+[najj_disband]
+{
+	[text*]
+	{
+		sample = s_v_a2_najj_03;
+		screen_text = "As you will. I had hoped we would travel together a while longer.  You are a worthy and honest companion.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[najj_hello]
+{
+	[text*]
+	{
+		activate_quest* = a1_staff,4;
+		choice = more;
+	  	i order = 0;
+		sample = s_v_a2_najj_01_a;
+		screen_text = "Greetings, small one. You're not from the island, are you?  My name is Najj and I am of the Arammar–The Children of the Mountain. My people came to this island long ago. You seek a dark, skeletal creature? Indeed, such a creature passed by here not more than a few hours ago. If you would take me along, I could show you to Illicor, the City of Wizards. The Utraeans may know more of this creature...";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		i order = 1;
+		choice = potential_member;
+	  	b quest_dialog = true;
+		sample = s_v_a2_najj_01_b;
+		screen_text = "And then perhaps you will aid me with a task as well... I have traveled much, and had decided to return to my people with the bounty of my adventures.  Last night, my ship was overtaken by an unseasonably violent storm and was wrecked.  Now I am lost, as is all my gold. In your search for this dark creature, could you help me find my way to my people? I would be most grateful.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		sample = s_v_a2_najj_05;
+		choice = potential_member;
+		screen_text = "So, you need Najj's help after all, eh? Is the jungle of this land too wild for you then? As we both require the aid of the other, I will join you.  But know that my trust of you is thin. You will have to work to strengthen it, little one.";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[najj_mp]
+{
+	[text*]
+	{
+	  i order = 0;
+		choice = more;
+		sample = s_v_a2_najj_mp;
+		screen_text = "My name is Najj and I am of the Arammar - The Children of the Mountain. Where are you, exactly? On an island, populated with miraculous and malicious beasts, warring tribes and mad wizards. What is your purpose here?";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a1_staff,4;
+		choice = more;
+	  i order = 1;
+	  b quest_dialog = true;
+		sample = s_v_a2_najj_17;
+		screen_text = "You seek a thief, yes?  A dark, skeletal creature? Indeed, such a creature passed by here not more than a few hours ago. You should find your way to Illicor, the City of Wizards. There you will find the Utraeans. Perhaps they will know more of this creature.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		sample = s_v_a2_najj_18;
+		screen_text = "Good luck to you!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[najj_rehire]
+{
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a2_najj_05;
+		screen_text = "So, you need Najj's help after all, eh? Is the jungle of this land to wild for you then? As we both require the aid of the other, I will join you.  But know that my trust of you is thin. You will have to work to strengthen it, little one.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[najj_reject]
+{
+	[text*]
+	{
+		sample = s_v_a2_najj_04;
+		screen_text = "Very well. I shall in the future remember to not be so quick to speak of friendship with your kind. Go your way, little one, and leave Najj to his thoughts.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[najj_after_a2_trip_reject]
+{
+	[text*]
+	{
+		sample = s_v_a2_najj_15;
+		screen_text = "So you return to taunt me with your success while denying me aid? How very...  small-minded of you.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[journal_a2_trip]
+{
+	[text*]
+	{
+	  b quest_dialog = true;
+		screen_text = "Greetings, small one. You're not from the island, are you?  My name is Najj and I am of the Arammar - The Children of the Mountain -- my people came to this island long ago. You seek a dark, skeletal creature? Indeed, such a creature passed by here not more than a few hours ago. If you would take me along, I could show you to Illicor, the City of Wizards. The Utraeans may know what this creature is...";
+	  f scroll_rate = 20.000000;
+	}
+}

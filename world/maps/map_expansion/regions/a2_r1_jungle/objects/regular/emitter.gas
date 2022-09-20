@@ -1,0 +1,236 @@
+[t:emt_sound_act,n:0x01200258]
+{
+	[placement]
+	{
+	  p position = -3.63515,0,0.987389,0xe1b3f9e9;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "s_e_env_monkey_call";
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound,n:0x0120025b]
+{
+	[placement]
+	{
+	  p position = 0.318733,0.893023,2.60853,0xa2d8ad66;
+	}
+	[sound_emitter]
+	{
+		event_sound = "s_e_env_bird_chatting";
+	  f max_repeat_rate = 45;
+	  f repeat_rate = 5;
+	}
+}
+[t:emt_sound,n:0x0120025f]
+{
+	[placement]
+	{
+	  p position = 2.05449,0,0.0986481,0xacef5f38;
+	}
+	[sound_emitter]
+	{
+		event_sound = "s_e_env_bird_chatting";
+	  f max_repeat_rate = 20;
+	  f repeat_rate = 5;
+	}
+}
+[t:emt_sound_act,n:0x01200068]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.00196075,-0.75,-0.125229,0xa8885cd9;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "env_shrine_mana";
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound_act,n:0x01200252]
+{
+	[placement]
+	{
+	  p position = -1.63514,3.8147e-006,0.987389,0x066337fb;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "s_e_env_bird_chatting";
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound,n:0x0120025c]
+{
+	[placement]
+	{
+	  p position = -3.99838,1,3.90459,0xa06ffdc7;
+	}
+	[sound_emitter]
+	{
+		event_sound = "s_e_env_bird_chatting";
+	  f max_repeat_rate = 20;
+	  f repeat_rate = 5;
+	}
+}
+[t:emt_sound_act,n:0x01200254]
+{
+	[placement]
+	{
+	  p position = 0.635155,4,0.0126302,0x823b698d;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "s_e_env_bird_chatting";
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound,n:0x01200257]
+{
+	[placement]
+	{
+	  p position = 9.54072,1.20802,5.96863,0xa44e4b34;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "amb_wind_01b";
+	}
+}
+[t:emt_sound,n:0x0120022c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2.32924;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382684;
+	  p position = -6.98322,-3.73157,5.64183,0x89acdd4b;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_seagulls";
+	  f max_repeat_rate = 40;
+	  f repeat_rate = 10;
+	}
+}
+[t:emt_sound,n:0x01200048]
+{
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382684;
+	  p position = -2.20857,-3.72159,-3.7587,0x08f7efbe;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_ocean";
+	}
+}
+[t:emt_sound,n:0x0120022d]
+{
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382684;
+	  p position = -9.39131,12.1484,-6.03881,0xa1b60bf9;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_ocean";
+	}
+}
+[t:emt_sound,n:0x01200230]
+{
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382684;
+	  p position = -7.26312,7.94841,2.45305,0x9836e38f;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_ocean";
+	}
+}
+[t:emt_sound,n:0x0120022f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382684;
+	  p position = -2.37244,8.19842,-0.89955,0x192f7bcc;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_ocean";
+	}
+}
+[t:emt_sound,n:0x0120025a]
+{
+	[placement]
+	{
+	  p position = 0.848985,0,-0.926561,0xe7670d85;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_seagulls";
+	}
+}
+[t:emt_sound,n:0x0120022e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382684;
+	  p position = 10.6746,8.20844,-0.0716452,0xa1ec351c;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_ocean";
+	}
+}
+[t:emt_sound,n:0x01200255]
+{
+	[placement]
+	{
+	  p position = 0.00991821,1.23602,-3.46771,0x28991906;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "amb_wind_01b";
+	}
+}
+[t:emt_sound,n:0x01200260]
+{
+	[placement]
+	{
+	  p position = 1.68692,0,1.19157,0x3b8fd0c8;
+	}
+	[sound_emitter]
+	{
+		event_sound = "s_e_env_bird_chatting";
+	  f max_repeat_rate = 20;
+	  f repeat_rate = 5;
+	}
+}
+[t:emt_sound_act,n:0x012003cb]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.848048,0,0.529919;
+	  p position = -3.43877,0,1.70461,0x52714a55;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "env_shrine_mana";
+	  b start_on_creation = false;
+	}
+}

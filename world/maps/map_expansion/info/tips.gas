@@ -1,0 +1,159 @@
+[world_tips]
+{
+	[t:tip,n:dsx_tip_1]
+	{
+		order = 1;
+		style = bullets_4;
+
+		[text_1]
+		{
+			screen_name = "Treasure Sets are special groups of equipment that are imbued with magical properties. Each item you equip enhances the attributes of other equipped items from the same set.";
+			texture = b_gui_ig_mnu_tip_pointer_norm;
+		}
+		[text_2]
+		{
+			screen_name = "Treasure Sets are composed of 3 to 5 pieces of weapons, armor, or other equipment, and set parts appear in your inventory with an <c:0xff00e8e8>aqua</c> background.";
+			texture = b_gui_ig_mnu_tip_pointer_norm;
+		}
+		[text_3]
+		{
+			screen_name = "If you explore carefully, you will discover pieces of some or all of these rare and wondrous Item Sets.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+		[text_4]
+		{
+			screen_name = "Also keep an eye out for Imbued Items! Imbued weapons and armor benefit party members with a buff spell. Imbued Items appear in your inventory with a <c:0xffC080FF>purple</c> background.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+	}
+	
+	[t:tip,n:dsx_tip_2]
+	{
+		order = 2;
+		style = bullets_3;
+		
+		[text_1]
+		{
+			screen_name = "The Sell All button is useful when visiting a vendor or store.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+		[text_2]
+		{
+			screen_name = "This feature allows you to sell all items in your inventory with a single mouse click. Only equipped items will not be sold automatically.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+		[text_3]
+		{
+			screen_name = "If you wish, you can sell all your items except ones of a particular type. There is a variety of sell all options, including 'Sell All but Potions' and 'Sell All but Unique Spells'.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+	}
+		
+	[t:tip,n:dsx_tip_3]
+	{
+		order = 3;
+		style = bullets_3;
+
+		[text_1]
+		{
+			screen_name = "Pressing the World Map icon in the bottom right of the screen will open the World Map. This map displays the entire world and your location in it.";
+			texture = b_gui_ig_mnu_icon_world_map_up;
+		}
+		[text_2]
+		{
+			screen_name = "As you travel through the world, more of this map will be revealed to you. The names of new locations will appear on the map.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+		[text_3]
+		{
+			screen_name = "The World Map is a useful tool for keeping track of where you have been and for charting your progress throughout your adventure.  You can also press <c:0xff00ff00>Shift</c> + <c:0xff00ff00>Tab</c> to open the World Map.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+		//[actions]
+		//{
+		//	[flash*]
+		//	{
+		//		window = window_worldmap_indicator;
+		//		num_loops = -1; // -1 for infinite
+		//		duration = 0.3;  // seconds
+		//	}
+		//}
+	}
+	
+	[t:tip,n:dsx_tip_4]
+	{
+		order = 4;
+		style = bullets_4;
+
+		[text_1]
+		{
+			screen_name = "The Redistribute Potion button is an icon at the bottom left of the screen; it looks like a pair of potions with a double-headed arrow.";
+			texture = b_gui_ig_mnu_icon_redistribute_up;
+		}
+		[text_2]
+		{
+			screen_name = "Pressing this button, or using the hotkey <c:0xff00ff00>(R)</c>, will redistribute your party's potions equally among all members based on the focus of each character.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+		[text_3]
+		{
+			screen_name = "Mage characters will receive a surplus of mana potions, while melee characters will receive most of the health potions.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+		[text_4]
+		{
+			screen_name = "By using this option, you can ensure that each of your party members has the right potion at the right time.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+		[actions]
+		{
+			[flash*]
+			// This needs to be changed to the Redistribute potions button
+			{
+				window = button_redistribute_potions;
+				num_loops = -1; // -1 for infinite
+				duration = 0.3;  // seconds				
+			}
+		}
+	}
+	
+	[t:tip,n:dsx_tip_5]
+	{
+		order = 5;
+		style = bullets_3;
+
+		[text_1]
+		{
+			screen_name = "Another new feature is the ability to assign spells to control groups. This increases the effectiveness of your mages and makes it easier and more fun to use a wider variety of spells.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+		[text_2]
+		{
+			screen_name = "To store your party's current skill configuration, press the <c:0xff00ff00>Ctrl</c> key and a number key. The configuration will be stored in the number's shortcut slot.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+		[text_3]
+		{
+			screen_name = "Pressing the same number key later on will return your party members to the stored configuration of skills and spells. You can store up to 10 configurations in this way.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+	}
+	[t:tip,n:dsx_tip_6]
+	{
+		order = 6;
+		style = bullets_2;
+
+		[text_1]
+		{
+			screen_name = "If your party members become separated during a battle, you can check their portraits to see if they are under attack.";
+			texture = b_gui_ig_mnu_tip_default;
+		}
+		[text_2]
+		{
+			screen_name = "If a party member's portrait is flashing orange, then you know that they are in danger and are under attack. Send them aid immediately!";
+			texture = b_gui_ig_mnu_tutorial_tip_portrait;
+		}
+	}
+}
+
+	

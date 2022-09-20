@@ -1,0 +1,26 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000062;
+	source_region_name = a7_r2_cliffcity;
+	[t:stitch_editor,n:a7_r1a_badlands]
+	{
+		dest_region = a7_r1a_badlands;
+		[node_ids]
+		{
+			0x771a0201 = 0xDC28B931,3;
+			0x771a0202 = 0xE397CE9C,2;
+			0x771a0203 = 0xE770D76A,3;
+			0x771a0204 = 0xBC256610,6;
+		}
+	}
+	[t:stitch_editor,n:a7_r3_cityinterior]
+	{
+		dest_region = a7_r3_cityinterior;
+		[node_ids]
+		{
+			0x77020301 = 0x52AB9746,2;
+			0x77020302 = 0xEC7D24E0,10;
+			0x77020303 = 0x588E1CC5,3;
+		}
+	}
+}

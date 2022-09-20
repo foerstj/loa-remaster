@@ -1,0 +1,63 @@
+[decals]
+{
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 1.982540,2.000000,1.375562,0x47EE2744;
+	  f far_plane = 1.100000;
+	  x guid = 0x8F5F707D;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = -0.436274,-0.886247,-0.155663,0.000000,0.172995,-0.984923,0.899814,-0.429696,-0.075473;
+		decal_origin = -5.248338,-2.945545,-3.346160,0x862F7BC2;
+	  f far_plane = 1.100000;
+	  x guid = 0xC57E3C66;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = -0.436273,0.886247,0.155663,0.000000,0.172995,-0.984923,-0.899814,-0.429696,-0.075473;
+		decal_origin = -1.606106,-4.988077,-3.143393,0x59EC4734;
+	  f far_plane = 1.100000;
+	  x guid = 0x902C385E;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 1.790950,0.000000,-2.053839,0x646DF42B;
+	  f far_plane = 1.100000;
+	  x guid = 0x19F3F028;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = -1.294766,1.000000,0.383739,0xEC681AF6;
+	  f far_plane = 1.100000;
+	  x guid = 0x0F52C002;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
+	  f vertical_meters = 4.000000;
+	}
+}

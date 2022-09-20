@@ -1,0 +1,1323 @@
+[t:dev_path_point,n:0x00500307]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500308;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.64865,0,0.463658,0xee4c100f;
+	}
+}
+[t:dev_path_point,n:0x00500306]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500307;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.127533,-12.1533,-3.10646,0x3ec96a9d;
+	}
+}
+[t:dev_path_point,n:0x0050030b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050030C;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.627718,0,-1.6358,0xf41a5e6a;
+	}
+}
+[t:dev_path_point,n:0x0050030c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050030D;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.12576,0,-0.510534,0xcfa7b372;
+	}
+}
+[t:dev_path_point,n:0x0050030d]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050030E;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.97502,0,-0.30946,0x5fcbfc4c;
+	}
+}
+[t:dev_path_point,n:0x0050031c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050031D;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.26465,-0.299999,1.54763,0xa0b1448b;
+	}
+}
+[t:dev_path_point,n:0x00500319]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050031A;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -3.11812,0,-2.84373,0xd86ed417;
+	}
+}
+[t:dev_path_point,n:0x0050031a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050031C;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.7132,3.8147e-006,-2.23482,0xd86ed417;
+	}
+}
+[t:dev_path_point,n:0x00500323]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050032B;
+		path_name = "a1_r5_queencave_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 2.81789,0,-1.82174,0xd86ed417;
+	}
+}
+[t:dev_path_point,n:0x0050031d]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050031E;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.133466,0,0.118317,0xee63b1dd;
+	}
+}
+[t:dev_path_point,n:0x00500322]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500323;
+		path_name = "a1_r5_queencave_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 0.615654,0,0.574646,0xee63b1dd;
+	}
+}
+[t:dev_path_point,n:0x0050031e]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050031F;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.49857,0,1.29955,0x75ccfdfa;
+	}
+}
+[t:dev_path_point,n:0x0050031f]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500320;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.76002,0,-0.913805,0x6d362b45;
+	}
+}
+[t:dev_path_point,n:0x00500321]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500322;
+		path_name = "a1_r5_queencave_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 1.71152,0,-0.16838,0x6d362b45;
+	}
+}
+[t:dev_path_point,n:0x00500320]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500321;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.636318,-3.8147e-006,-1.40486,0xa77da4f4;
+	}
+}
+[t:dev_path_point,n:0x00500318]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500319;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.09764,3.8147e-006,3.6995,0xd0717384;
+	}
+}
+[t:dev_path_point,n:0x0050032b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050032C;
+		path_name = "a1_r5_queencave_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 2.24276,0,3.19797,0xd0717384;
+	}
+}
+[t:dev_path_point,n:0x0050032c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050032F;
+		path_name = "a1_r5_queencave_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -1.20234,0,1.93849,0x2a4a66aa;
+	}
+}
+[t:dev_path_point,n:0x00500316]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500317;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.65097,0,-3.87753,0x5b846540;
+	}
+}
+[t:dev_path_point,n:0x00500317]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500318;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.24493,-3.8147e-006,0.625873,0x5b846540;
+	}
+}
+[t:dev_path_point,n:0x00500311]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500312;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.0875864,1.4467,2.86229,0xb3e3255d;
+	}
+}
+[t:dev_path_point,n:0x00500312]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500313;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.0096,0,0.0984912,0x600dba7f;
+	}
+}
+[t:dev_path_point,n:0x00500335]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500357;
+		path_name = "a1_r5_queencave_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -1.14008,0,-0.606256,0x600dba7f;
+	}
+}
+[t:dev_path_point,n:0x00500313]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500314;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.30532,0,-1.26559,0xfadc55f4;
+	}
+}
+[t:dev_path_point,n:0x00500314]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500315;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.132285,-3.8147e-006,-0.438586,0xcd33d461;
+	}
+}
+[t:dev_path_point,n:0x0050032f]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500335;
+		path_name = "a1_r5_queencave_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 0.351984,0,-0.226535,0xcd33d461;
+	}
+}
+[t:dev_path_point,n:0x0050044d]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500450;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -3.82568,-1.90735e-006,1.08238,0x35c183f7;
+	}
+}
+[t:dev_path_point,n:0x00500450]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050047D;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.52428,0,-0.907526,0x35c183f7;
+	}
+}
+[t:dev_path_point,n:0x0050047d]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500488;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.275407,-1.90735e-006,-0.288982,0x866bcccc;
+	}
+}
+[t:dev_path_point,n:0x00500488]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500489;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.721306,0,1.20058,0x7e8c470c;
+	}
+}
+[t:dev_path_point,n:0x00500489]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050048A;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.905521,0,0.575622,0x6f00220a;
+	}
+}
+[t:dev_path_point,n:0x0050048c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050048D;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -3.8828,0,-0.492583,0x33754621;
+	}
+}
+[t:dev_path_point,n:0x0050048d]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050048E;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.728067,0,1.18997,0x14f1de2b;
+	}
+}
+[t:dev_path_point,n:0x0050048e]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050048F;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.527641,0,1.43177,0x881951a4;
+	}
+}
+[t:dev_path_point,n:0x0050048f]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500490;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.69455,-1.90735e-006,1.10026,0x0b2cd85a;
+	}
+}
+[t:dev_path_point,n:0x00500490]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500491;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 2.01734,-1.90735e-006,1.17822,0xa86e078f;
+	}
+}
+[t:dev_path_point,n:0x005004b1]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004B2;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.886319,-0.443161,0.740936,0xc25796aa;
+	}
+}
+[t:dev_path_point,n:0x005004b2]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004B3;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = -3.98637,-0.555527,-1.11105,0x88936328;
+	}
+}
+[t:dev_path_point,n:0x005004b3]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004B4;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.87848,0,-1.2508,0xa5967aba;
+	}
+}
+[t:dev_path_point,n:0x005004b4]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004B5;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.3704,0,-0.781693,0x982f8d51;
+	}
+}
+[t:dev_path_point,n:0x00500499]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050049A;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.313299,0,0.574481,0xa4503a04;
+	}
+}
+[t:dev_path_point,n:0x0050049a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050049B;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.49828,0,-1.79634,0x00b2cd33;
+	}
+}
+[t:dev_path_point,n:0x005004a3]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004A4;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.81137,0,-1.31814,0x65b6dc30;
+	}
+}
+[t:dev_path_point,n:0x005004a4]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004A5;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.852842,-1.90735e-006,0.660577,0xc74554a7;
+	}
+}
+[t:dev_path_point,n:0x005004a6]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004A7;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.6914,-1.90735e-006,0.0766475,0x96bd9c59;
+	}
+}
+[t:dev_path_point,n:0x005004a5]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004A6;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.33254,0,0.283313,0x7cfca4f3;
+	}
+}
+[t:dev_path_point,n:0x005004a7]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004A8;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.41314,0,-0.236798,0x0c4ab707;
+	}
+}
+[t:dev_path_point,n:0x005004a8]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004A9;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 2.3645,0,-0.991738,0xe98f2075;
+	}
+}
+[t:dev_path_point,n:0x005004a9]
+{
+	[dev_path_point]
+	{
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.195405,15.85,1.84561,0xcc8e99f5;
+	}
+}
+[t:dev_path_point,n:0x005004aa]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004AB;
+		path_name = "a1_r5_queencave_path";
+		point_name = "elev";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,0,1;
+	}
+	[placement]
+	{
+	  p position = -0.96145,0,1.913,0x5c3e0c82;
+	}
+}
+[t:dev_path_point,n:0x005004ab]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004AC;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.853514,0,0.174735,0x53b42eaf;
+	}
+}
+[t:dev_path_point,n:0x005004b0]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004B1;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.99248,0,3.89425,0x3a2e5476;
+	}
+}
+[t:dev_path_point,n:0x005004af]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004B0;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.762321,0,-0.64366,0x296fb0ca;
+	}
+}
+[t:dev_path_point,n:0x005004ae]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004AF;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.8376,0,3.75497,0x1963e5e8;
+	}
+}
+[t:dev_path_point,n:0x005004ad]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004AE;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.115824,0,3.21127,0x2a1ddf0d;
+	}
+}
+[t:dev_path_point,n:0x005004ac]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004AD;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.16097,0,-3.01862,0xaaccfb26;
+	}
+}
+[t:dev_path_point,n:0x0050049c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050049D;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.468417,-1.90735e-006,-1.09235,0x48c83d51;
+	}
+}
+[t:dev_path_point,n:0x0050049d]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050049E;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.891787,0,-1.47925,0x904173c4;
+	}
+}
+[t:dev_path_point,n:0x0050049e]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050049F;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.752569,0,0.309875,0xbf515b92;
+	}
+}
+[t:dev_path_point,n:0x0050049f]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004A0;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.37762,0,-1.39332,0x94928632;
+	}
+}
+[t:dev_path_point,n:0x005004a0]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004A1;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.739978,0,-1.27448,0x3998bb2b;
+	}
+}
+[t:dev_path_point,n:0x005004a1]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004A2;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -3.84951,1.90735e-006,0.235027,0x987d9c40;
+	}
+}
+[t:dev_path_point,n:0x005004a2]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004A3;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.53688,0,1.1946,0x058146f8;
+	}
+}
+[t:dev_path_point,n:0x0050049b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050049C;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.53886,0,1.76078,0xae03ecaf;
+	}
+}
+[t:dev_path_point,n:0x00500496]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500497;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.72448,-1.90735e-006,-0.287048,0x0cc1760a;
+	}
+}
+[t:dev_path_point,n:0x00500495]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500496;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.408743,0,-1.68791,0x1dbd274f;
+	}
+}
+[t:dev_path_point,n:0x00500494]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500495;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.173247,11.8477,0.760323,0xee06a593;
+	}
+}
+[t:dev_path_point,n:0x00500493]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500494;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.252912,3.40748,-3.29069,0xd099a6bf;
+	}
+}
+[t:dev_path_point,n:0x005004b9]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004BA;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.64,0,-0.519013,0x975329b9;
+	}
+}
+[t:dev_path_point,n:0x005004c0]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004C1;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.23066,-0.0149384,-3.36216,0xb672bd21;
+	}
+}
+[t:dev_path_point,n:0x005004c1]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004C2;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.309495,-2.10334,0.957161,0xfb30b8c3;
+	}
+}
+[t:dev_path_point,n:0x005004bf]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004C0;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.85987,0,-3.63246,0x828d5d5b;
+	}
+}
+[t:dev_path_point,n:0x005004ba]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004BB;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.0958262,0,1.21521,0x6009e37b;
+	}
+}
+[t:dev_path_point,n:0x005004bb]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004BC;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.81642,0,0.0373824,0xc9f0d9cf;
+	}
+}
+[t:dev_path_point,n:0x005004bc]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004BD;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.5086,0,1.08906,0xc817f5c5;
+	}
+}
+[t:dev_path_point,n:0x005004bd]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004BE;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.50106,-7.62939e-006,-3.2233,0xc817f5c5;
+	}
+}
+[t:dev_path_point,n:0x005004be]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004BF;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.569353,0,-3.16136,0x20834920;
+	}
+}
+[t:dev_path_point,n:0x0050048b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050048C;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.226945,-3.8147e-006,-1.54439,0x199a57ed;
+	}
+}
+[t:dev_path_point,n:0x0050044c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050044D;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.39053,0,0.490707,0x83abbfba;
+	}
+}
+[t:dev_path_point,n:0x0050030f]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500310;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.49113,0,-0.654344,0xdc62361a;
+	}
+}
+[t:dev_path_point,n:0x00500357]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050044C;
+		path_name = "a1_r5_queencave_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 1.84582,0,-3.42033,0xdc62361a;
+	}
+}
+[t:dev_path_point,n:0x00500310]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500311;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.76934,-3.8147e-006,-0.333798,0x840e6031;
+	}
+}
+[t:dev_path_point,n:0x0050030e]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050030F;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.07037,0,-1.58389,0xc1e1a225;
+	}
+}
+[t:dev_path_point,n:0x0050048a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050048B;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -3.81187,0,0.566717,0x1ebba6f5;
+	}
+}
+[t:dev_path_point,n:0x00500491]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500492;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.088317,2.23112,-7.40724,0x0038ef01;
+	}
+}
+[t:dev_path_point,n:0x005004b7]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004B8;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.73656,0,-0.463624,0x0269cc34;
+	}
+}
+[t:dev_path_point,n:0x005004b6]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004B7;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -2.08846,0,0.788895,0xed6651b8;
+	}
+}
+[t:dev_path_point,n:0x005004b5]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004B6;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.652598,0,-2.53901,0xb158e15c;
+	}
+}
+[t:dev_path_point,n:0x005004b8]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004B9;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.24357,0,3.15243,0xaf07d9da;
+	}
+}
+[t:dev_path_point,n:0x00500492]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500493;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.67198,2.36232,-3.4826,0xdd0bf6ea;
+	}
+}
+[t:dev_path_point,n:0x005004c2]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x005004C3;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 4.1716,-3.4,2.4567,0xbf323d4a;
+	}
+}
+[t:dev_path_point,n:0x005004c3]
+{
+	[dev_path_point]
+	{
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.0616901,-3.5,-5.48524,0x837f3a73;
+	}
+}
+[t:dev_path_point,n:0x00500497]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500498;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.15561,0,1.99232,0x8abf96f5;
+	}
+}
+[t:dev_path_point,n:0x00500498]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500499;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.852253,0,-1.21333,0x845e97b9;
+	}
+}
+[t:dev_path_point,n:0x00500315]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500316;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.70994,0,-0.618904,0x7566bdb1;
+	}
+}
+[t:dev_path_point,n:0x00500309]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050030A;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.5644,1.36661,2.28442,0x9f15e990;
+	}
+}
+[t:dev_path_point,n:0x00500308]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x00500309;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.40529,0,1.69679,0xa527a238;
+	}
+}
+[t:dev_path_point,n:0x0050030a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0050030B;
+		path_name = "a1_r5_queencave_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.527557,0,0.570503,0x06ea7423;
+	}
+}

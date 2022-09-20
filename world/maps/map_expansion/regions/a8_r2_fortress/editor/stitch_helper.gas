@@ -1,0 +1,48 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000072;
+	source_region_name = a8_r2_fortress;
+	[t:stitch_editor,n:a8_r1_ramparts]
+	{
+		dest_region = a8_r1_ramparts;
+		[node_ids]
+		{
+			0x88010201 = 0x03C65EAC,23;
+			0x88010202 = 0x03C65EAC,22;
+			0x88010203 = 0x03C65EAC,21;
+			0x88010204 = 0x03C65EAC,20;
+			0x88010205 = 0x03C65EAC,19;
+			0x88010206 = 0x03C65EAC,18;
+			0x88010207 = 0x03C65EAC,17;
+			0x88010208 = 0x03C65EAC,16;
+			0x88010209 = 0x03C65EAC,15;
+			0x88010210 = 0x03C65EAC,14;
+			0x88010211 = 0x03C65EAC,13;
+			0x88010212 = 0x03C65EAC,12;
+			0x88010213 = 0x03C65EAC,11;
+		}
+	}
+	[t:stitch_editor,n:a8_r1b_secretcave]
+	{
+		dest_region = a8_r1b_secretcave;
+		[node_ids]
+		{
+			0x882a0201 = 0x622FC4CB,2;
+			0x882a0202 = 0x93CE5445,3;
+			0x882a0203 = 0x93CE5445,2;
+			0x882a0204 = 0x93CE5445,1;
+			0x882a0205 = 0x93CE5445,8;
+			0x882a0206 = 0x2DA9AEC6,3;
+		}
+	}
+	[t:stitch_editor,n:a8_r2b_fortress]
+	{
+		dest_region = a8_r2b_fortress;
+		[node_ids]
+		{
+			0x72720001 = 0xF4C25B2D,4;
+			0x72720002 = 0x2C936620,4;
+			0x72720003 = 0xEBFFC6BE,2;
+		}
+	}
+}

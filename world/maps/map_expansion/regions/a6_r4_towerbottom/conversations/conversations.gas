@@ -1,0 +1,78 @@
+[librarian_01]
+{
+	[text*]
+	{
+		sample = s_v_a6_book06_01;
+		screen_text = "Often times, there is an - - - I have put these records in the protection of this sunken temple, and the evils that now lie within. If ye are pure of heart, do all, so that good shall triumph.";
+		  f scroll_rate = 20.000000;
+	  	choice = more;
+	  	i order = 0;
+	}
+	[text*]
+	{
+		sample = s_v_a6_book06_02;
+		screen_text = "There was an invasion by a small, vile folk. They had begun to bastardize the Great Clock for their own, dark purposes.  I believe they are trying to pervert its true purpose and to unlock the secrets of our magics. If they succeed it will result in our ruin, the Clock's destruction and the complete isolation of the island from the mainland... and if they succeed in unlocking the Clock's secrets to the mastery of the weather, then great storms and destruction will cover the land, and destroy us.";
+		f scroll_rate = 20.000000;
+	}
+}
+[librarian_03]
+{
+	[text*]
+	{
+		sample = s_v_a6_book02_01;
+		screen_text = "The Clock is our crowning achievement. It tracks and records the patterns of the elements and the weather of this world. When we have gathered enough data, the Clock will be our way of manipulating the subtle changes in the seasons. In this way we can control the length of the agricultural cycles, extend rainstorms to ensure an endless supply of fresh water and to-";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[librarian_02]
+{
+	[text*]
+	{
+		sample = s_v_a6_book01_01;
+		screen_text = "At the peak of the Utraeans' war against the Zaurask, the saurians formed a plan to take Demlock by surprise. Far-reaching catacombs were excavated underneath the Temple of Kmethekt, and in the still and dark of night, the Zaurask broke through the temple's sub-floor and began to stream upwards through the temple, slaughtering the Utraean wizards.  In desperation, Demlock used all of his power and magic to summon massive thunderclouds, bringing with them a downpour the likes of which the world had never seen. Accompanied by bone-rattling thunder, lightning strikes shattered the landscape, and formed the ravine now known as 'Demlock's Cut.'";
+	  f scroll_rate = 20.000000;
+	  choice = more;
+	  i order = 0;
+	}
+	[text*]
+	{
+		sample = s_v_a6_book01_02;
+		screen_text = "As the rain poured down from the heavens, it was channeled into the Cut, and rushed through the subterranean chambers that the Zaurask had hewn, drowning and trapping thousands of the saurians. At this very moment of seeming victory, a lone Zaurask archer's arrow found its way home, square in Demlock's back. Reeling in pain, Demlock toppled from the uppermost spire of the temple. The rain did not stop with Demlock's demise, however.  The downpour assaulted the soil, and many of the Zaurask catacombs collapsed. Soon the ground under and around the Temple grew saturated, and the shrine began to sink steadily into the earth, leaving only the upper spire above ground. To this day, the rain continues to fall around the Temple of Kmethekt...";
+	  f scroll_rate = 20.000000;
+	}
+}
+[librarian_04]
+{
+	[text*]
+	{
+		sample = s_v_a6_book04_01;
+		screen_text = "The Orbs of Demlock are the subject of today's lesson. These magnificent extensions of magical energy derive their name from the sorcerer who discovered them and their purpose. Formed from the very fabric of the energy matrix that surrounds us all, the Orbs can be made to reflect any form of energy that we are currently aware of: lightning, acid, fire, etcetera...";
+	  f scroll_rate = 20.000000;
+	  choice = more;
+	  	 i order = 0;
+	}
+	[text*]
+	{
+		sample = s_v_a6_book04_02;
+		screen_text = "...and so we see that the Orbs are not only used for defensive purposes, but also, by concentrating one's thoughts, one can order the Orbs to attack.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[librarian_05]
+{
+	[text*]
+	{
+		sample = s_v_a6_book03_01;
+		screen_text = "The sword, or blade, is one of the finest examples of modern weaponry. Its simple design is at once beautiful and dangerous. Now, there are many schools that teach different styles-or 'Ways'-of the sword. Chief among these is the Stevaughn School, whose main tenet is that the length of the blade is the focus of the weapon, and who teaches the finer points of using the weapon in this fashion. The other 35 schools are as follows: the Augustine-";
+	  f scroll_rate = 10.000000;
+	}
+}
+[librarian_06]
+{
+	[text*]
+	{
+		sample = s_v_a6_book05_01;
+		screen_text = "...this is then the lesson, that all life can be changed, not just by learning and studies, for though this is a sure way to effect change in intelligence, it is one that is too slow for our purpose. This then is our only solution, to take the next, brave step and effect these changes on a more rapid scale. To force the changes according to our schedules and whims and not that of the natural order. Only in this way can we ensure that the creatures we are cultivating will reap the benefit of our gifts...";
+	  f scroll_rate = 10.000000;
+	}
+}

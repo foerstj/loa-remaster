@@ -1,0 +1,19 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000071B;
+	source_region_name = a7_r1b_cave1;
+	[t:stitch_editor,n:a7_r1a_badlands]
+	{
+		dest_region = a7_r1a_badlands;
+		[node_ids]
+		{
+			0x771a1b01 = 0x351D423C,2;
+			0x771a1b02 = 0xE73562BA,7;
+			0x771a1b03 = 0x4213B946,6;
+			0x771a1b04 = 0x4213B946,5;
+			0x771a1b05 = 0xC6B99412,4;
+			0x771a1b06 = 0x9F692982,7;
+			0x771a1b07 = 0x4E490B35,4;
+		}
+	}
+}

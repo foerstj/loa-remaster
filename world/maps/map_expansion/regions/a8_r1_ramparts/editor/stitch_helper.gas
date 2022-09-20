@@ -1,0 +1,45 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000071;
+	source_region_name = a8_r1_ramparts;
+	[t:stitch_editor,n:a7_r3_cityinterior]
+	{
+		dest_region = a7_r3_cityinterior;
+		[node_ids]
+		{
+			0x78030101 = 0x9E7A1112,3;
+			0x78030102 = 0xBD7F66F6,7;
+			0x78030103 = 0x8164ABB0,3;
+		}
+	}
+	[t:stitch_editor,n:a8_r1b_secretcave]
+	{
+		dest_region = a8_r1b_secretcave;
+		[node_ids]
+		{
+			0x88012a01 = 0x34AFA7AF,2;
+			0x88012a02 = 0xAAFD4DB6,7;
+			0x88012a03 = 0x55C2538F,4;
+		}
+	}
+	[t:stitch_editor,n:a8_r2_fortress]
+	{
+		dest_region = a8_r2_fortress;
+		[node_ids]
+		{
+			0x88010201 = 0x700A47A0,2;
+			0x88010202 = 0x8CB8390B,5;
+			0x88010203 = 0x654F00E0,5;
+			0x88010204 = 0x654F00E0,4;
+			0x88010205 = 0xCEB94BA3,2;
+			0x88010206 = 0xCEB94BA3,1;
+			0x88010207 = 0x79862ABD,5;
+			0x88010208 = 0x79862ABD,4;
+			0x88010209 = 0x61DCFDDB,2;
+			0x88010210 = 0x61DCFDDB,1;
+			0x88010211 = 0x061DBDAE,4;
+			0x88010212 = 0x0B1DFE2B,1;
+			0x88010213 = 0x82323CF0,4;
+		}
+	}
+}

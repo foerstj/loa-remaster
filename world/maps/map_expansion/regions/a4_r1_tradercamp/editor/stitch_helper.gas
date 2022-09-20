@@ -1,0 +1,31 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000031;
+	source_region_name = a4_r1_tradercamp;
+	[t:stitch_editor,n:a3_r3a_aglet]
+	{
+		dest_region = a3_r3a_aglet;
+		[node_ids]
+		{
+			0x34030101 = 0x0B28DBC3,6;
+			0x34030102 = 0x0B28DBC3,7;
+			0x34030103 = 0x0B28DBC3,8;
+		}
+	}
+	[t:stitch_editor,n:a4_r2_deathmountain]
+	{
+		dest_region = a4_r2_deathmountain;
+		[node_ids]
+		{
+			0x44010201 = 0x5F748933,4;
+			0x44010202 = 0x7FCC1EC7,1;
+			0x44010203 = 0x7FCC1EC7,2;
+			0x44010204 = 0x66D9E6AB,2;
+			0x44010205 = 0x5C677D73,4;
+			0x44010206 = 0x5C677D73,5;
+			0x44010207 = 0x31AB66B4,1;
+			0x44010208 = 0x31AB66B4,2;
+			0x44010209 = 0x3ED3437F,1;
+		}
+	}
+}

@@ -1,0 +1,1143 @@
+[t:dev_path_point,n:0x03500175]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500176;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.594836,0.249996,1.24909,0xd8be4390;
+	}
+}
+[t:dev_path_point,n:0x03500174]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500175;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.88453,-2,2.51234,0xc5857c39;
+	}
+}
+[t:dev_path_point,n:0x0350019a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350019B;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.46288,-1.75,-1.80446,0x64ce1225;
+	}
+}
+[t:dev_path_point,n:0x03500172]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500173;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 2.04651,0,0.407564,0xe484be49;
+	}
+}
+[t:dev_path_point,n:0x03500173]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500174;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.61056,0,0.76554,0xe484be49;
+	}
+}
+[t:dev_path_point,n:0x03500170]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500172;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.75171,0,0.645008,0xf7ca088e;
+	}
+}
+[t:dev_path_point,n:0x0350016c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500170;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.81346,0,-0.797096,0xa3fa89a2;
+	}
+}
+[t:dev_path_point,n:0x03500162]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350016C;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.505437,-1.5,-1.97401,0x6532fe2d;
+	}
+}
+[t:dev_path_point,n:0x03500152]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500107;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.31317,0,0.226107,0x1cd4de1c;
+	}
+}
+[t:dev_path_point,n:0x03500156]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500157;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -2.25632,0,-0.443423,0x1cd4de1c;
+	}
+}
+[t:dev_path_point,n:0x0350015d]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500162;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -1.61551,0,-0.13737,0x1cd4de1c;
+	}
+}
+[t:dev_path_point,n:0x03500131]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500132;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.42981,0,0.143105,0xffde8bce;
+	}
+}
+[t:dev_path_point,n:0x03500151]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500152;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -0.29069,0,0.197484,0xffde8bce;
+	}
+}
+[t:dev_path_point,n:0x03500107]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500156;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.0114268,-1.5,1.51566,0x4d63f97d;
+	}
+}
+[t:dev_path_point,n:0x0350012b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350012C;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.195284,0,-0.187583,0x2ca58cda;
+	}
+}
+[t:dev_path_point,n:0x0350012d]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500131;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 0.468886,0,0.191437,0x2ca58cda;
+	}
+}
+[t:dev_path_point,n:0x03500132]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500133;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.469375,3.8147e-006,0.477692,0xb54ae785;
+	}
+}
+[t:dev_path_point,n:0x03500134]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500149;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -0.0301974,0,-0.349796,0xb54ae785;
+	}
+}
+[t:dev_path_point,n:0x03500150]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500151;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -0.966821,0,-0.544529,0xb54ae785;
+	}
+}
+[t:dev_path_point,n:0x03500149]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350014A;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 2.02971,0,0.817523,0xe69cc74f;
+	}
+}
+[t:dev_path_point,n:0x0350014f]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500150;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 2.81902,0,0.707905,0xe69cc74f;
+	}
+}
+[t:dev_path_point,n:0x03500133]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500134;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.324364,-1.5,1.59876,0x8e050a46;
+	}
+}
+[t:dev_path_point,n:0x0350014a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350014F;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.493409,-1.5,1.56282,0x46a9e02d;
+	}
+}
+[t:dev_path_point,n:0x03500122]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500124;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.368274,-1.5,-0.766164,0x85abfbf5;
+	}
+}
+[t:dev_path_point,n:0x03500121]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500122;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.0673679,0,-0.558808,0xc1f7d1ba;
+	}
+}
+[t:dev_path_point,n:0x03500120]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500121;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.181449,0,-1.32861,0xd8402a44;
+	}
+}
+[t:dev_path_point,n:0x0350011f]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500120;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.556337,-1.5,0.178923,0xd7d2c517;
+	}
+}
+[t:dev_path_point,n:0x0350011a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350011B;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 2.08169,3.8147e-006,-0.648461,0x75957433;
+	}
+}
+[t:dev_path_point,n:0x0350011b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350011C;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.02768,0,0.232963,0xd0181d8e;
+	}
+}
+[t:dev_path_point,n:0x03500119]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350011A;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 2.48029,-2,-1.39413,0x791cf5e0;
+	}
+}
+[t:dev_path_point,n:0x03500116]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500117;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.00735116,0,1.37053,0x0e15fed4;
+	}
+}
+[t:dev_path_point,n:0x03500117]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500119;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 2.13563,0,-1.58094,0x10b909bd;
+	}
+}
+[t:dev_path_point,n:0x03500109]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350010A;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.89914,0,-1.30109,0x1ba0a12b;
+	}
+}
+[t:dev_path_point,n:0x03500115]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500116;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -3.27508,0,-0.643819,0x1ba0a12b;
+	}
+}
+[t:dev_path_point,n:0x03500108]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500109;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.25033,0,-0.295583,0x8dfcea4f;
+	}
+}
+[t:dev_path_point,n:0x03500104]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500108;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.299042,-1.5,1.86255,0xf01a577f;
+	}
+}
+[t:dev_path_point,n:0x0350010a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350010B;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.80122,0,-0.0674967,0x41f367a7;
+	}
+}
+[t:dev_path_point,n:0x03500114]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500115;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 3.15148,0,0.345724,0x41f367a7;
+	}
+}
+[t:dev_path_point,n:0x0350010b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500110;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.69485,0,0.709641,0x6566a52e;
+	}
+}
+[t:dev_path_point,n:0x03500113]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500114;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 2.07252,0,0.830229,0x6566a52e;
+	}
+}
+[t:dev_path_point,n:0x03500110]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500113;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.880923,-3.8147e-006,0.563841,0xe3aaddf7;
+	}
+}
+[t:dev_path_point,n:0x0350011c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350011D;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.38455,0,0.31695,0xe85144e8;
+	}
+}
+[t:dev_path_point,n:0x0350011d]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350011F;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.82259,0,1.86942,0xceda9027;
+	}
+}
+[t:dev_path_point,n:0x03500124]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500125;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.12518,1.90735e-006,-0.343252,0x48133615;
+	}
+}
+[t:dev_path_point,n:0x03500126]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350012A;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.826569,-1.5,1.56859,0x765ca9b3;
+	}
+}
+[t:dev_path_point,n:0x03500125]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500126;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.34374,0,-0.900465,0xd4a1bfa0;
+	}
+}
+[t:dev_path_point,n:0x0350012a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350012B;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 0.518948,0,-1.0446,0xd4a1bfa0;
+	}
+}
+[t:dev_path_point,n:0x0350012c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350012D;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.622663,-1.5,1.61871,0x6e7955b3;
+	}
+}
+[t:dev_path_point,n:0x03500157]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350015B;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.887637,-2,2.63123,0xdd54f60f;
+	}
+}
+[t:dev_path_point,n:0x0350015c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350015D;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 1.13666,-2,3.61712,0xdd54f60f;
+	}
+}
+[t:dev_path_point,n:0x0350015b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350015C;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.190647,0,1.74449,0x7b55461d;
+	}
+}
+[t:dev_path_point,n:0x03500197]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500198;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.1948,0,0.992374,0xf7696c24;
+	}
+}
+[t:dev_path_point,n:0x0350019c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x035001C2;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -2.53746,3.8147e-006,1.49412,0xf7696c24;
+	}
+}
+[t:dev_path_point,n:0x03500198]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350019A;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.0758839,-1.75,-3.72922,0x0e36e742;
+	}
+}
+[t:dev_path_point,n:0x0350019b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350019C;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -0.942304,-1.75,-4.20886,0x0e36e742;
+	}
+}
+[t:dev_path_point,n:0x03500187]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500196;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.74055,0,0.00870746,0x58261025;
+	}
+}
+[t:dev_path_point,n:0x0350017b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500182;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -3.24391,-0.749996,1.27366,0xca6d6bc5;
+	}
+}
+[t:dev_path_point,n:0x03500182]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500184;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 2.34852,0,1.37139,0x1815ec5a;
+	}
+}
+[t:dev_path_point,n:0x0350017a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350017B;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.37439,0,0.583475,0x8b6fa62a;
+	}
+}
+[t:dev_path_point,n:0x03500176]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350017A;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 5.98555,-2,1.14071,0x8bef4b7e;
+	}
+}
+[t:dev_path_point,n:0x03500184]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500187;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.525112,3.8147e-006,-0.390732,0x824de983;
+	}
+}
+[t:dev_path_point,n:0x03500196]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500197;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 0.136063,0,-1.05038,0x824de983;
+	}
+}
+[t:dev_path_point,n:0x035001c2]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x035001C3;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 1.17356,0,-1.46873,0x824de983;
+	}
+}
+[t:dev_path_point,n:0x035001c3]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x035001C4;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.96248,3.8147e-006,1.10054,0x8565bc77;
+	}
+}
+[t:dev_path_point,n:0x035001c4]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x035001FE;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.42858,0,0.125105,0x92981186;
+	}
+}
+[t:dev_path_point,n:0x035001fe]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500201;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.125545,0,0.0663013,0x1abbe5a7;
+	}
+}
+[t:dev_path_point,n:0x03500201]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500202;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.00119305,0,1.47228,0x4de45d4c;
+	}
+}
+[t:dev_path_point,n:0x03500205]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500206;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.235935,3.8147e-006,0.21083,0xbacbb7af;
+	}
+}
+[t:dev_path_point,n:0x03500209]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350020A;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -13.3473,-4.6,-3.62708,0x58f95735;
+	}
+}
+[t:dev_path_point,n:0x03500208]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500209;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 2.50734,0,-0.944208,0xe3bf0fa5;
+	}
+}
+[t:dev_path_point,n:0x0350020a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350020B;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 3.08214,0,0.776472,0xe3bf0fa5;
+	}
+}
+[t:dev_path_point,n:0x0350020d]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350020E;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.52806,0,-0.0419463,0x70f8b20f;
+	}
+}
+[t:dev_path_point,n:0x0350020e]
+{
+	[dev_path_point]
+	{
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -3.56111,0,-1.83955,0x450fee36;
+	}
+}
+[t:dev_path_point,n:0x0350020c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350020D;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.62723,0,1.39194,0xb7de352f;
+	}
+}
+[t:dev_path_point,n:0x03500203]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500204;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -0.969315,3.8147e-006,0.648961,0xa00d6737;
+	}
+}
+[t:dev_path_point,n:0x03500207]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500208;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -0.111384,0,0.866004,0xa00d6737;
+	}
+}
+[t:dev_path_point,n:0x0350020b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0350020C;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 0.557645,0,1.53401,0xa00d6737;
+	}
+}
+[t:dev_path_point,n:0x03500204]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500205;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.00487268,0,0.177785,0xb4c31d0a;
+	}
+}
+[t:dev_path_point,n:0x03500206]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500207;
+		path_name = "a4_r3a_dungeon_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = -0.328269,0,1.08918,0xb4c31d0a;
+	}
+}
+[t:dev_path_point,n:0x03500202]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x03500203;
+		path_name = "a4_r3a_dungeon_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -1.45578,0.179634,-0.731182,0xca1eb315;
+	}
+}

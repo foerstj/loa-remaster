@@ -1,0 +1,47 @@
+[t:dsx_utraean_obj_01,n:0x05200300]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.5;
+	}
+	[common]
+	{
+		screen_name = "'Tower of Kmethekt'";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.374606,0,-0.927184;
+	  p position = -3.65536,0,-1.28824,0x743a6505;
+	}
+}
+[t:lever_glb_06_message,n:0x052002c2]
+{
+	[common]
+	{
+		screen_name = "Displacer Transport Switch";
+	}
+	[on_off_lever]
+	{
+		off_message = we_req_activate;
+		off_message_2 = we_req_activate;
+	  x off_scid = 0x052002C8;
+	  x on_scid = 0x052002C8;
+	  f reset_time = 30;
+	  f reset_time_2 = 30;
+	}
+	[placement]
+	{
+	  q orientation = -0.270617,0.653273,0.653273,0.270617;
+	  p position = 0.00972565,6.43187,-0.162393,0xd63b7e5a;
+		use_point_scids = 0x052002c6,0x052002c3;
+	}
+}
+[t:respawn_statue,n:0x052002e9]
+{
+	[placement]
+	{
+	  q orientation = 0,0.866026,0,0.5;
+	  p position = -0.709446,-1.90735e-006,-1.435,0x072b33ee;
+		use_point_scids = 0x052002f0;
+	}
+}

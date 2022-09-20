@@ -1,0 +1,571 @@
+[t:narrator,n:0x00100257]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = a1_opening_nis;
+		}
+	}
+	[placement]
+	{
+	  p position = -2.28695,0,-0.906462,0x5c8d1417;
+	}
+}
+[t:mp_townfolk_m_06,n:0x00100466]
+{
+	[common]
+	{
+		dev_instance_text = "PHELAN, HUB DESCRIBER NPC";
+		screen_name = "Phelan the Historian";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = phelan_after_giant;
+			* = phelan_during_giant;
+			* = phelan_hello;
+			* = phelan_revisit_1;
+			* = phelan_revisit_2;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_ro_m_d_c_041;
+			es_feet = bo_bo_le_light;
+			es_forearms = gl_gl_le_f_g_c_avg;
+			es_head = he_ca_ro_green;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_phelan.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.0348997,0,-0.999391;
+	  p position = 2.36133,0,0.582732,0xdb6f460b;
+	}
+}
+[t:mp_townfolk_m_06,n:0x0010038e]
+{
+	[common]
+	{
+		dev_instance_text = "Moht NPC";
+	  b is_multi_player = false;
+		screen_name = "Moht";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = moht_after_a1_monsters;
+			* = moht_during_a1_monsters;
+			* = moht_hello;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_ra_ro_m_g_c_001;
+			es_feet = bo_bo_le_light;
+			es_forearms = gl_gl_le_f_g_c_avg;
+			es_head = he_ca_ro_felt_04;
+		}
+	}
+	[mind]
+	{
+	  x initial_command = 0x00100390;
+		jat_talk = world\ai\jobs\actors\good\job_talk_akmot.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.939693,0,-0.34202;
+	  p position = 2.81948,0,0.331169,0xcaded79d;
+	}
+}
+[t:2W_dsx_paco,n:0x0010053e]
+{
+	[mind]
+	{
+	  x initial_command = 0x0010054B;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 3.55799,0,0.532143,0xa75b383a;
+	}
+}
+[t:2W_dsx_guard_dunlop,n:0x0010023f]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = guard_2_after_a1_monsters;
+			* = guard_2_before_a1_monsters;
+			* = guard_2_during_a1_monsters;
+			* = guard_2_game_complete;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_guard_dunlop.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.95694,0,0.290285;
+	  p position = -2.18796,-6,-3.09585,0xf8413a58;
+	}
+}
+[t:mp_townfolk_female_05,n:0x00100417]
+{
+	[common]
+	{
+		screen_name = "Alysha";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = alysha_after_giant;
+			* = alysha_hello;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_alysha.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.83147,0,0.55557;
+	  p position = 0.232674,-3.5,-0.686958,0xea1ec098;
+	}
+}
+[t:2W_dsx_blacksmith_lharnob,n:0x001000ff]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = lharnob_after_a1_monsters;
+			* = lharnob_after_a1_monsters_2;
+			* = lharnob_before_a1_monsters;
+			* = lharnob_during_a1_monsters;
+			* = lharnob_game_complete;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_lharnob.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.452045,0,0.891995;
+	  p position = 0.7052,-5.15,-4.15497,0x735c6378;
+	}
+}
+[t:mp_townfolk_male_05,n:0x001000e1]
+{
+	[common]
+	{
+		dev_instance_text = "RAAB THE NON-SELLING STABLE GUY";
+		screen_name = "Raab";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = raab_after_a1_monsters;
+			* = raab_after_a1_monsters_2;
+			* = raab_before_a1_monsters;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_ra_ro_m_d_c_003;
+			es_feet = bo_bo_le_light;
+			es_head = he_ca_ro_turban_02;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_raab.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.608762,0,0.793354;
+	  p position = 4.00737,-1.25,-0.633415,0xb8301906;
+	}
+}
+[t:mule,n:0x0010046d]
+{
+	[aspect]
+	{
+	  i gold_value = 5;
+	}
+	[common]
+	{
+		screen_name = "Nordy";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.333807,0,0.942641;
+	  p position = -1.02449,-1.25,2.71201,0xb8301906;
+	}
+}
+[t:2W_dsx_kiira,n:0x00100418]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = kiira_after_a1_monsters;
+			* = kiira_after_a1_monsters_2;
+			* = kiira_after_game_complete;
+			* = kiira_before_a1_monsters;
+			* = kiira_during_a1_monsters;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_kiira.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-9.68575e-008;
+	  p position = 0.255508,-1.5,0.512619,0xa45a856a;
+	}
+}
+[t:2W_dsx_guard_corthell,n:0x0010023e]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = guard_1_after_a1_monsters;
+			* = guard_1_before_a1_monsters;
+			* = guard_1_during_a1_monsters;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.195091,0,-0.980785;
+	  p position = -3.48669,-5.99438,3.96767,0x8874c03e;
+	}
+}
+[t:merchant_barkeep,n:0x001003dd]
+{
+	[common]
+	{
+		screen_name = "Bheele";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = bheele_after_giant;
+			* = bheele_game_complete;
+			* = bheele_hello;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_bheele.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.999598,0,-0.0283571;
+	  p position = -6.36251,-2.38419e-007,6.4992,0x87b550dc;
+	}
+}
+[t:mp_townfolk_male_03,n:0x001003ed]
+{
+	[common]
+	{
+		screen_name = "Philo";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = philo;
+		}
+	}
+	[mind]
+	{
+	  x initial_command = 0x001000D5;
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-6.37051e-008;
+	  p position = 6.26266,1.19209e-006,0.0689869,0x87b550dc;
+	}
+}
+[t:mp_townfolk_female_04,n:0x001003ee]
+{
+	[common]
+	{
+		screen_name = "Francesca";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = francesca_after_giant;
+			* = francesca_game_complete;
+			* = francesca_hello;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_francesca.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.290285,0,0.95694;
+	  p position = 6.68749,0,-1.87165,0x87b550dc;
+	}
+}
+[t:mp_townfolk_female_06,n:0x00100152]
+{
+	[common]
+	{
+		screen_name = "Raschel";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = raschel_after_giant;
+			* = raschel_game_complete;
+			* = raschel_hello;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_raschel.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.79069,0,0.612217;
+	  p position = 6.53413,-1.4,6.11128,0x40e42c86;
+		use_point_scids = 0x00100166;
+	}
+}
+[t:mp_townfolk_male_01,n:0x0010024d]
+{
+	[common]
+	{
+		screen_name = "Syrd";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = syrd_after_a1_monsters;
+			* = syrd_before_a1_monsters;
+			* = syrd_between_quests;
+			* = syrd_during_a1_monsters;
+			* = syrd_during_a1_staff;
+			* = syrd_game_complete;
+		}
+	}
+	[mind]
+	{
+	  x initial_command = 0x0010024E;
+		jat_talk = world\ai\jobs\actors\good\job_talk_syrd.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.788011,0,0.615661;
+	  p position = -10.299,-1.4,-1.70317,0x40e42c86;
+	}
+}
+[t:2W_dsx_grub,n:0x001000df]
+{
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = -5.92066,-3.82213,-4.42973,0x8a9083c4;
+	}
+}
+[t:2W_dsx_grub,n:0x001000d3]
+{
+	[placement]
+	{
+	  q orientation = 0,0.700909,0,0.71325;
+	  p position = -3.24011,0,-1.80161,0x5776e30f;
+	}
+}
+[t:2W_dsx_grub,n:0x001000d7]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.9725,0,1.44471,0xf1fcf1a7;
+	}
+}
+[t:2W_dsx_grub,n:0x0010026a]
+{
+	[placement]
+	{
+	  p position = 2.64276,0,3.50937,0x069c355d;
+	}
+}
+[t:2W_dsx_grub,n:0x0010026b]
+{
+	[placement]
+	{
+	  p position = -1.66115,0,3.27282,0x069c355d;
+	}
+}
+[t:mp_townfolk_male_03,n:0x00100268]
+{
+	[common]
+	{
+		dev_instance_text = "SP reynard";
+	  b is_multi_player = false;
+		screen_name = "Reynard";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = reynard_after_a1_staff;
+			* = reynard_before_a1_monsters;
+			* = reynard_before_a1_sister;
+			* = reynard_during_a1_sister;
+			* = reynard_during_a1_staff;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_reynard.skrit;
+	}
+	[placement]
+	{
+	  q orientation = -1.49006e-008,0.700909,1.30038e-010,-0.713251;
+	  p position = 1.29605,12,-0.0889206,0x17e566e2;
+	}
+}
+[t:mp_townfolk_male_03,n:0x00100272]
+{
+	[common]
+	{
+		dev_instance_text = "MP reynard";
+	  b is_single_player = false;
+		screen_name = "Reynard";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = reynard_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = -1.49006e-008,0.700909,1.30038e-010,-0.713251;
+	  p position = 1.72533,12,-0.0707474,0x17e566e2;
+	}
+}
+[t:mp_townfolk_male_05,n:0x00100416]
+{
+	[common]
+	{
+		screen_name = "Kron";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = kron_after_a1_bear_a;
+			* = kron_after_a1_bear_b;
+			* = kron_after_a1_bear_noquest;
+			* = kron_before_a1_bear;
+			* = kron_during_a1_bear;
+			* = kron_game_complete;
+		}
+	}
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[mind]
+	{
+	  x initial_command = 0x0010007A;
+		jat_talk = world\ai\jobs\actors\good\job_talk_kron.skrit;
+	}
+	[placement]
+	{
+		drop_point_scids = 0x0010054a;
+	  q orientation = 0,0.77301,0,0.634393;
+	  p position = -0.884827,-2.95,3.05952,0x47763925;
+		use_point_scids = 0x0010054a;
+	}
+}
+[t:mp_townfolk_m_03,n:0x0010046a]
+{
+	[common]
+	{
+		screen_name = "Mayor Hardison Dhon";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = hardison_after_a1_staff;
+			* = hardison_dhon_after_a1_monsters;
+			* = hardison_dhon_after_queen;
+			* = hardison_dhon_before_a1_monsters;
+			* = hardison_dhon_between_quests;
+			* = hardison_dhon_during_a1_monsters;
+			* = hardison_during_a1_staff;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_ra_ro_m_d_c_003;
+			es_feet = bo_bo_le_light;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_hardison.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.344069,0,0.938944;
+	  p position = 2.08067,0,-1.5528,0x0f61005e;
+	}
+}
+[t:2W_dsx_moth,n:0x0010026c]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.114456,-0.35,-3.72755,0x9fd61d03;
+	}
+}
+[t:2W_dsx_grub,n:0x001000e2]
+{
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,-0.92388;
+	  p position = 0.582092,-0.25,1.23322,0x6579bed2;
+	}
+}

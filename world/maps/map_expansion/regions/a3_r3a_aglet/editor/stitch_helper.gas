@@ -1,0 +1,24 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000024A;
+	source_region_name = a3_r3a_aglet;
+	[t:stitch_editor,n:a3_r3_tunnels]
+	{
+		dest_region = a3_r3_tunnels;
+		[node_ids]
+		{
+			0x33033a01 = 0x31E85FF8,1;
+			0x33033a02 = 0x31E85FF8,2;
+		}
+	}
+	[t:stitch_editor,n:a4_r1_tradercamp]
+	{
+		dest_region = a4_r1_tradercamp;
+		[node_ids]
+		{
+			0x34030101 = 0xAC555E06,3;
+			0x34030102 = 0x2BE90A49,3;
+			0x34030103 = 0xB4E8BB9B,4;
+		}
+	}
+}

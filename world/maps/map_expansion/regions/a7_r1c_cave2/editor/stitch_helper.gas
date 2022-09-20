@@ -1,0 +1,21 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000071C;
+	source_region_name = a7_r1c_cave2;
+	[t:stitch_editor,n:a7_r1a_badlands]
+	{
+		dest_region = a7_r1a_badlands;
+		[node_ids]
+		{
+			0x771a1c01 = 0x8BFD7E65,2;
+			0x771a1c02 = 0xCEC356C9,7;
+			0x771a1c03 = 0xF535147B,6;
+			0x771a1c04 = 0x1B7984A3,2;
+			0x771a1c05 = 0xDB178C91,7;
+			0x771a1c06 = 0x46327653,5;
+			0x771a1c07 = 0x4BDF3A6A,5;
+			0x771a1c08 = 0x2A6270A3,7;
+			0x771a1c09 = 0x85827AAB,4;
+		}
+	}
+}

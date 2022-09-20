@@ -1,0 +1,31 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000052;
+	source_region_name = a6_r2_ravine;
+	[t:stitch_editor,n:a6_r1_highlands]
+	{
+		dest_region = a6_r1_highlands;
+		[node_ids]
+		{
+			0x66010201 = 0x04044402,7;
+			0x66010202 = 0xF00942A1,6;
+			0x66010203 = 0x276AE50F,5;
+			0x66010204 = 0x276AE50F,4;
+			0x66010205 = 0x21EA553F,2;
+			0x66010206 = 0x21EA553F,1;
+			0x66010207 = 0x814D2A7D,1;
+			0x66010208 = 0xD3BEFF08,1;
+			0x66010209 = 0x119FFF43,4;
+		}
+	}
+	[t:stitch_editor,n:a6_r3_towertop]
+	{
+		dest_region = a6_r3_towertop;
+		[node_ids]
+		{
+			0x66020301 = 0x64167B8E,8;
+			0x66020302 = 0x64167B8E,7;
+			0x66020303 = 0x64167B8E,6;
+		}
+	}
+}

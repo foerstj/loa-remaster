@@ -1,0 +1,25 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000042;
+	source_region_name = a5_r1_entrance;
+	[t:stitch_editor,n:a4_r2_deathmountain]
+	{
+		dest_region = a4_r2_deathmountain;
+		[node_ids]
+		{
+			0x45020101 = 0xEC3267A1,2;
+			0x45020102 = 0x1689E9A2,6;
+			0x45020103 = 0xE02C2236,3;
+		}
+	}
+	[t:stitch_editor,n:a5_r2_ziggurats]
+	{
+		dest_region = a5_r2_ziggurats;
+		[node_ids]
+		{
+			0x55010201 = 0x36AC0CF9,2;
+			0x55010202 = 0xE71D4DE7,6;
+			0x55010203 = 0x3F92E1DE,3;
+		}
+	}
+}

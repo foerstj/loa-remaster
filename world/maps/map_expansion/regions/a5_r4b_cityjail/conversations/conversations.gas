@@ -1,0 +1,24 @@
+[a5_r4b_saveme]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		sample = s_v_a5_dead_guy_01;
+		screen_text = "Strange... to have died, and yet live again... I fought against the Zaurask when they entered the city. There were too many of them; their hordes tore through our warriors as if they were paper. We had to keep them from the Central displacer, prevent them from using it to send their forces to the other locations on the island.  We failed...";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		i order = 1;
+		sample = s_v_a5_dead_guy_02;
+		screen_text = "I was the last; they dragged me down to the place where we had kept them caged, threw me in here, and tormented me. For days it went on, and they had no questions, nothing to gain from me; they just tortured me 'til finally my body gave out. I thank you for my life again, stranger... and only hope that you can do what we could not. Avenge my fallen brethren!";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		sample = s_v_a5_dead_guy_03;
+		screen_text = "I thank you for my life again, stranger... and only hope that you can do what we could not. Avenge my fallen brethren!";
+	  f scroll_rate = 20.000000;
+	}
+}

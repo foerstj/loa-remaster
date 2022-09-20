@@ -1,0 +1,192 @@
+[lights]
+{
+	[t:point,n:light_0x201b2c6f]
+	{
+	  b active = true;
+	  b affects_actors = false;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFB0721C;
+	  b draw_shadow = false;
+	  f inner_radius = 0.000000;
+	  f intensity = 2.000000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 6.000000;
+		[position]
+		{
+		  x node = 0xC24BB1FC;
+		  f x = -1.798050;
+		  f y = 1.929424;
+		  f z = 1.708061;
+		}
+	}
+	[t:point,n:light_0x20f0f1b8]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFFF9115;
+	  b draw_shadow = true;
+	  f inner_radius = 2.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = true;
+	  b on_timer = false;
+	  f outer_radius = 10.000000;
+		[position]
+		{
+		  x node = 0xEE7C4FAD;
+		  f x = -3.330458;
+		  f y = 1.728551;
+		  f z = -0.320052;
+		}
+	}
+	[t:point,n:light_0x32785aa9]
+	{
+	  b active = true;
+	  b affects_actors = false;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFAF8B1D;
+	  b draw_shadow = false;
+	  f inner_radius = 0.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 12.000000;
+		[position]
+		{
+		  x node = 0x94CC6826;
+		  f x = 0.818799;
+		  f y = 4.100492;
+		  f z = -3.042055;
+		}
+	}
+	[t:point,n:light_0x4b5c270e]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFDE8103;
+	  b draw_shadow = true;
+	  f inner_radius = 5.000000;
+	  f intensity = 0.700000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 12.000000;
+		[position]
+		{
+		  x node = 0xEE7C4FAD;
+		  f x = -3.099831;
+		  f y = 1.728551;
+		  f z = -0.116898;
+		}
+	}
+	[t:point,n:light_0x55b672c5]
+	{
+	  b active = true;
+	  b affects_actors = false;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFB0721C;
+	  b draw_shadow = false;
+	  f inner_radius = 0.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 12.000000;
+		[position]
+		{
+		  x node = 0x044968CB;
+		  f x = 0.852143;
+		  f y = 4.100475;
+		  f z = 0.116651;
+		}
+	}
+	[t:point,n:light_0x9af678c3]
+	{
+	  b active = true;
+	  b affects_actors = false;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFB0721C;
+	  b draw_shadow = false;
+	  f inner_radius = 0.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 12.000000;
+		[position]
+		{
+		  x node = 0x4035439C;
+		  f x = 0.764799;
+		  f y = 4.100460;
+		  f z = 1.312928;
+		}
+	}
+	[t:point,n:light_0xd4ee13a0]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFAB4E21;
+	  b draw_shadow = false;
+	  f inner_radius = 0.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = false;
+	  b on_timer = false;
+	  f outer_radius = 12.000000;
+		[position]
+		{
+		  x node = 0xA7DC5445;
+		  f x = -1.251486;
+		  f y = 4.100466;
+		  f z = 0.246739;
+		}
+	}
+	[t:point,n:light_0xe466b061]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFFC9912;
+	  b draw_shadow = true;
+	  f inner_radius = 2.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = true;
+	  b on_timer = false;
+	  f outer_radius = 10.000000;
+		[position]
+		{
+		  x node = 0x0F4F8696;
+		  f x = 1.207962;
+		  f y = 1.728548;
+		  f z = 2.543784;
+		}
+	}
+	[t:point,n:light_0xe6053839]
+	{
+	  b active = true;
+	  b affects_actors = true;
+	  b affects_items = true;
+	  b affects_terrain = true;
+	  x color = 0xFFFC9810;
+	  b draw_shadow = true;
+	  f inner_radius = 2.000000;
+	  f intensity = 1.000000;
+	  b occlude_geometry = true;
+	  b on_timer = false;
+	  f outer_radius = 10.000000;
+		[position]
+		{
+		  x node = 0x153F6E21;
+		  f x = -2.498103;
+		  f y = 1.728547;
+		  f z = 0.673878;
+		}
+	}
+}

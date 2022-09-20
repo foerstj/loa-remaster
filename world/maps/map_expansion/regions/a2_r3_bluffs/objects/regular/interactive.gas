@@ -1,0 +1,60 @@
+[t:barrier_breakable_01,n:0x014002a6]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 3.94514,0,3.14745,0x5cfe54cd;
+	}
+}
+[t:barrier_breakable_01,n:0x014002a5]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  p position = -3.37682,1,3.18187,0xa1172f5a;
+	}
+}
+[t:barrier_breakable_01,n:0x014002a0]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,-0.92388;
+	  p position = -1.08487,0.530312,3.65653,0x8338c7ec;
+	}
+}
+[t:respawn_statue,n:0x014002c5]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.866025,0,0.5;
+	  p position = 3.91268,1.90735e-006,1.58485,0x9e38af68;
+		use_point_scids = 0x014002c6;
+	}
+}
+[t:barrier_breakable_01,n:0x014002a7]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -1.35136,0,1.70438,0x5002767a;
+	}
+}

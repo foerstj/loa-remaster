@@ -1,0 +1,224 @@
+[guard1_hello]
+{
+	[text*]
+	{
+		screen_text = "Ware you, little one. The swamp is filled with all manner of frightful beasts... most of them dead and rotting.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[guard2_hello]
+{
+	[text*]
+	{
+		screen_text = "I do not envy you, if you plan on making your way through the Fen. If the undead hosts of Lord Cicatrix do not kill you, then mayhap the very swamp itself will. Watch your step and be wary of the lightning pools and sinking sands.";
+	  f scroll_rate = 20.000000;
+	}
+}
+
+[kirr_before_a4_death]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		sample = s_v_a4_kirr_01;
+		screen_text = "Greetings, stranger, and well met! The likes of your kind have not been seen in ages... many years ago, two adventurers from Arhok greatly helped the people of this land-perhaps they were relations of yours? You have their look about you. Nonetheless-we are traders, far from our home on Aranna, and though we are large, we are few. I must warn you, the swamp ahead is the realm of Cicatrix, Lord of the Undead, and is infested with all manner of foul revenants and wraiths who gibber and dance to his beck and call.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a4_death,0;
+	  i order = 1;
+	  b quest_dialog = true;
+		sample = s_v_a4_kirr_02;
+		screen_text = "Near the end of the swamp a great mountain lies, a Mountain of the Dead, which rises not so high as it spirals down. It is from there that Lord Cicatrix rules his legions of the Dead. We are plagued day and night by his Dark Acolytes. We would be most grateful if you would stem the tide of these evil creatures who prevent us from trading with our friends the Utraeans.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[kirr_during_a4_death]
+{
+	[text*]
+	{
+		sample = s_v_a4_kirr_03;
+		screen_text = "Back so soon? We eagerly await your triumph over the Dark Acolytes..";
+	  f scroll_rate = 20.000000;
+	}
+}
+[kirr_after_a4_death]
+{
+	[text*]
+	{
+		sample = s_v_a4_kirr_04;
+		screen_text = "We are truly grateful for your aid in ridding us of the Dark Acolytes. May the light of Azunai shine upon you!";
+	  f scroll_rate = 20.000000;
+	}
+}
+
+[acha_hello]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hail! If you need arms or repairs, then look no further than Acha's forge! Here I can mend any blade or helm, reshape any armor and imbue them all with the most powerful of magics! Step up, step up my little friend . . . see what I have to trade!";
+	  f scroll_rate = 20.000000;
+	}
+}
+
+[tass_najj]
+{
+	[text*]
+	{
+		choice = shop;
+	  i order = 0;
+		screen_text = "The fates are kind! I see Najj among you, do I not? Fortune is indeed with us on this happy day. I am Tass, medicine-man for my people. If you are hurt or are in need of healing, I have many salves and healing aids to offer. Spells too, truth be told. Anything for the ones who reunited us with our lost Najj!";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hello, friends!  How may I help you?  Anything for the ones who reunited us with our lost Najj!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[tass_no_najj]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Ah, you seek out Tass because you are in need of the healing arts, yes? Good, good. Step this way and I will show you my wares, healing draughts, spells, and charms, to be sure. Step up, don't be shy...";
+	  f scroll_rate = 20.000000;
+	}
+}
+[wym_hello]
+{
+	[text*]
+	{
+		choice = buy_packmule;
+		screen_text = "I see you have acquired much in your travels, many items of wealth and magic, yes? Are you perhaps in need of a pack animal, a creature to help share your burden? Then look here at my Traggs! Fabulous beasts, are they not? True they do smell a bit, but that only helps to keep the biting flies and stinging insects at bay . . . Hah! Take your pick, I'm sure you will find my prices reasonable...";
+	  f scroll_rate = 20.000000;
+	}
+}
+[wym_mp]
+{
+	[text*]
+	{
+	  i order = 0;
+		screen_text = "Look here at my Traggs! Fabulous beasts, are they not? True they do smell a bit, but that only helps to keep the biting flies and stinging insects at bay...Hah! I would love to sell you one, but I have promised both of these to a friend who is coming to collect them in a few days.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		screen_text = "I'm sorry but I still have no Traggs I can sell.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[wym_none_left]
+{
+	[text*]
+	{
+		screen_text = "I have no more Traggs to sell.  I hope you're taking good care of them.  Fine beasts, if a bit pungent...";
+	  f scroll_rate = 20.000000;
+	}
+}
+[wym_one_left]
+{
+	[text*]
+	{
+		choice = buy_packmule;
+		screen_text = "Well, now... I have one Tragg left.  Yours, for the right price.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[wym_two_left]
+{
+	[text*]
+	{
+		choice = buy_packmule;
+		screen_text = "Ah, need a pack animal to help share your burden? I could stand to part with one of these beasts  You'll find my prices reasonable.";
+	  f scroll_rate = 20.000000;
+	}
+}
+
+
+[mheagan_hello]
+{
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a4_mheagan_01;
+		screen_text = "Well, what have we here? An adventurer... It's about time something interesting happened around here. While my sister Jaelyan is quite content with a trader's life - I am not!  My arm is strong, my mind clear.  Listen - I'm bored to tears living here. Take me along, will you? I'm handy with a bow, the best you've seen.  Maybe we'll even make it back to the mainland!";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[mheagan_mp]
+{
+	[text*]
+	{
+	  i order = 0;
+		sample = s_v_a4_mheagan_mp_01;
+		screen_text = "Well, what have we here? Adventurers, eh? It's about time someone stepped forward to take on Cicatrix, Lord of the Undead.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		sample = s_v_a4_mheagan_mp_02;
+		screen_text = "Good luck in your adventures!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[mheagan_accept]
+{
+	[text*]
+	{
+		sample = s_v_a4_mheagan_02;
+		screen_text = "Excellent choice, friend! To arms!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[mheagan_disband]
+{
+	[text*]
+	{
+		sample = s_v_a4_mheagan_05;
+		screen_text = "Good luck to you, adventurer.  I guess I'll find my own way from here.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[mheagan_rehire]
+{
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a4_mheagan_04;
+		screen_text = "So, changed your mind, eh? Alright, then! Let's go!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[mheagan_reject]
+{
+	[text*]
+	{
+		sample = s_v_a4_mheagan_03;
+		screen_text = "Fine, go on your way then.  It's your loss.";
+	  f scroll_rate = 20.000000;
+	}
+}
+
+[jaelyan_hello]
+{
+	[text*]
+	{
+		sample = s_v_a4_jaelyan_01;
+		screen_text = "My sister Mheagan and I are all that's left of a failed merchant expedition. Our entire caravan  - including our dear parents - were killed during an ambush when we were very young. We were rescued by the Half-Giants and raised as their children.  My sister has an adverturer's heart; I, however, do not, and will stay here with the tall folk.  Good luck to you.";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[jaelyan_mp]
+{
+	[text*]
+	{
+		sample = s_v_a4_jaelyan_mp;
+	 	screen_text = "Greetings, strangers. My sister Mheagan and I are all that's left of a failed merchant expedition. Our entire caravan  - including our dear parents - were killed during an ambush when we were very young. We were rescued by the Half-Giants and raised as their children. We have made this place our home, and these people are our family. Good luck to you.";
+	  	f scroll_rate = 20.000000;
+	}
+}

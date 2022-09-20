@@ -1,0 +1,31 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000018;
+	source_region_name = a2_r5_hills;
+	[t:stitch_editor,n:a2_r4_cave]
+	{
+		dest_region = a2_r4_cave;
+		[node_ids]
+		{
+			0x15180001 = 0x67F70CFA,10;
+		}
+	}
+	[t:stitch_editor,n:a2_r6_wizardcity]
+	{
+		dest_region = a2_r6_wizardcity;
+		[node_ids]
+		{
+			0x22050601 = 0x4E1B0C6D,5;
+			0x22050602 = 0x4E1B0C6D,4;
+			0x22050603 = 0xFBA31158,3;
+			0x22050604 = 0xFBA31158,2;
+			0x22050605 = 0xD836A1EE,4;
+			0x22050606 = 0x3334CD70,1;
+			0x22050607 = 0x2496E4CA,3;
+			0x22050608 = 0xE2B08869,2;
+			0x22050609 = 0xE2B08869,1;
+			0x22050610 = 0x1C9939F4,6;
+			0x22050611 = 0x1C9939F4,5;
+		}
+	}
+}

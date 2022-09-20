@@ -1,0 +1,456 @@
+[t:emt_particle_act,n:0x052002c9]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 0.9;
+	  i count = 30;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f fade = 0.5;
+	  f green = 0.9;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f xacc = 90;
+	  f yacc = 0;
+	  f zacc = 0;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.999962,0,0.00872676;
+	  p position = 2.50589,2.6876,2.29766,0x743a6505;
+	}
+}
+[t:emt_glow_act,n:0x052002cf]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 0.9;
+	  f green = 0.9;
+	  f red = 0.5;
+	  f scale = 1.1;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.39875,2.92572,-2.36019,0x743a6505;
+	}
+}
+[t:emt_glow_act,n:0x052002d0]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 0.9;
+	  f green = 0.9;
+	  f red = 0.5;
+	  f scale = 1.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.2874,2.87224,2.33997,0x743a6505;
+	}
+}
+[t:emt_glow_act,n:0x052002d4]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 0.9;
+	  f green = 0.9;
+	  f red = 0.5;
+	  f scale = 1.1;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,-0.92388;
+	  p position = -2.31364,2.88702,-2.37841,0x743a6505;
+	}
+}
+[t:emt_glow_act,n:0x052002d5]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 0.9;
+	  f green = 0.9;
+	  f red = 0.5;
+	  f scale = 1.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 2.44382,2.89297,2.36928,0x743a6505;
+	}
+}
+[t:emt_particle_act,n:0x052002de]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 0.9;
+	  i count = 15;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f fade = 0.5;
+	  f green = 0.9;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f yacc = 0;
+	  f zacc = 90;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,-0.707107;
+	  p position = -2.44004,2.71047,2.49944,0x743a6505;
+	}
+}
+[t:emt_particle_act,n:0x052002df]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 0.9;
+	  i count = 15;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f fade = 0.5;
+	  f green = 0.9;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f yacc = 0;
+	  f zacc = 90;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.00872681,0,0.999962;
+	  p position = -2.39126,2.82689,-2.51874,0x743a6505;
+	}
+}
+[t:emt_particle_act,n:0x052002e2]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 0.9;
+	  i count = 15;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f green = 0.9;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f yacc = 0;
+	  f zacc = 90;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707106,0,0.707107;
+	  p position = 2.52295,2.79408,-2.52833,0x743a6505;
+	}
+}
+[t:emt_generic,n:0x0520002a]
+{
+	[generic_emitter]
+	{
+	  b geyser_white = true;
+	  f rep_freq_max = 30;
+	  f rep_freq_min = 10;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.150589,0.755155,0.0323334,0x288d5ca5;
+	}
+}
+[t:emt_sound,n:0x052005af]
+{
+	[placement]
+	{
+	  p position = -1.68033,0,-2.36589,0xa3698643;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_secret_found2";
+	  f max_repeat_rate = 10;
+	  f repeat_rate = 6;
+	}
+}
+[t:emt_sound,n:0x052005b2]
+{
+	[placement]
+	{
+	  p position = -1.98495,0,1.24455,0x9a68c6b2;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_fury_shriek";
+	  f max_repeat_rate = 15;
+	  f repeat_rate = 10;
+	}
+}
+[t:emt_lightning,n:0x05200709]
+{
+	[lightning_emitter]
+	{
+	  f fixeddelay = 63;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.93811,0,3.07738,0xfb6b7dbe;
+	}
+}
+[t:emt_generic,n:0x0520025c]
+{
+	[generic_emitter]
+	{
+	  b swamp_gas_puff = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.901649,-2,-1.59385,0xd3a2e7f2;
+	}
+}
+[t:emt_sound_act,n:0x052007be]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x052007BF,0f,"default","every",0), delay(8);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.45949,0,1.06521,0x12f2657c;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "rune_call_02";
+	  b is_global = true;
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound_act,n:0x052007bd]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x052007BE,0f,"default","every",0), delay(10);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -2.35614,0,-0.547859,0x4291bad7;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "rune_call_01";
+	  b is_global = true;
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound_act,n:0x052007bf]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -2.01675,0,0.666092,0x7ed00fa1;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "nis_call_boss_rune_guardian";
+	  b is_global = true;
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_lightning,n:0x052006ce]
+{
+	[lightning_emitter]
+	{
+	  f fixeddelay = 28;
+	}
+	[placement]
+	{
+	  p position = -0.300915,6,1.47888,0xc0ee301d;
+	}
+}
+[t:emt_lightning,n:0x052006c9]
+{
+	[lightning_emitter]
+	{
+	  f fixeddelay = 28;
+	}
+	[placement]
+	{
+	  p position = -2.06355,7.95895,0.430542,0x6f2e2e07;
+	}
+}
+[t:emt_sound,n:0x05200a7c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07253;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.453991,0,0.891006;
+	  p position = -0.0182343,-15.5,-3.05969,0xa37d98f0;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_waterfall";
+	}
+}
+[t:emt_lightning,n:0x05200708]
+{
+	[lightning_emitter]
+	{
+	  f fixeddelay = 63;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.0198,12,1.61029,0x0a2c10ab;
+	}
+}
+[t:emt_sound_act,n:0x05200853]
+{
+	[placement]
+	{
+	  p position = -1.68049,0,-0.164972,0x9ee1edb0;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "env_thunder_crack";
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_lightning,n:0x05200706]
+{
+	[lightning_emitter]
+	{
+	  f bottomdriftmax = 9;
+	  f maxdelayrand = 200;
+	  f mindelayrand = 45;
+	}
+	[placement]
+	{
+	  p position = 1.56336,-1.95634,0.326248,0xe512198a;
+	}
+}
+[t:emt_generic,n:0x0520055f]
+{
+	[generic_emitter]
+	{
+	  b geyser_white = true;
+	  f rep_freq_max = 40;
+	  f rep_freq_min = 10;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.0596695,-4.76837e-007,0.299316,0x2acf2bd6;
+	}
+}
+[t:emt_lightning,n:0x052006ca]
+{
+	[lightning_emitter]
+	{
+	  f fixeddelay = 28;
+	}
+	[placement]
+	{
+	  p position = 3.59304,0,0.312714,0xa6039d12;
+	}
+}
+[t:emt_sound,n:0x05200a7b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 1.07253;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.891006,0,-0.453991;
+	  p position = 0.105799,12.898,28.6159,0x0005a7c3;
+	}
+	[sound_emitter]
+	{
+		event_sound = "env_waterfall";
+	}
+}

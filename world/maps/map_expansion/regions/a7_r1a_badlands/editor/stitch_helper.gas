@@ -1,0 +1,70 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000071A;
+	source_region_name = a7_r1a_badlands;
+	[t:stitch_editor,n:a7_r1_xotpass]
+	{
+		dest_region = a7_r1_xotpass;
+		[node_ids]
+		{
+			0x77011a01 = 0x66B24FA9,3;
+			0x77011a02 = 0x9E694A60,6;
+			0x77011a03 = 0x9E694A60,5;
+			0x77011a04 = 0x9A3BA269,6;
+			0x77011a05 = 0xAF7AC345,6;
+			0x77011a06 = 0xD27520E0,6;
+			0x77011a07 = 0xC43573B3,6;
+		}
+	}
+	[t:stitch_editor,n:a7_r1b_cave1]
+	{
+		dest_region = a7_r1b_cave1;
+		[node_ids]
+		{
+			0x771a1b01 = 0x6CBFD690,3;
+			0x771a1b02 = 0xF5690CA3,7;
+			0x771a1b03 = 0xE1BDEF54,5;
+			0x771a1b04 = 0xE1BDEF54,6;
+			0x771a1b05 = 0x0E28D2EA,3;
+			0x771a1b06 = 0x803B4982,7;
+			0x771a1b07 = 0x333289DD,4;
+		}
+	}
+	[t:stitch_editor,n:a7_r1c_cave2]
+	{
+		dest_region = a7_r1c_cave2;
+		[node_ids]
+		{
+			0x771a1c01 = 0xC8FCFD8F,3;
+			0x771a1c02 = 0x1FCFEB07,7;
+			0x771a1c03 = 0x4089005D,4;
+			0x771a1c04 = 0xABA1475C,3;
+			0x771a1c05 = 0x3708DECD,7;
+			0x771a1c06 = 0x5738F3B6,2;
+			0x771a1c07 = 0x6479EBEC,4;
+			0x771a1c08 = 0x495EA988,7;
+			0x771a1c09 = 0x768B8B18,5;
+		}
+	}
+	[t:stitch_editor,n:a7_r1d_cave3]
+	{
+		dest_region = a7_r1d_cave3;
+		[node_ids]
+		{
+			0x771a1d01 = 0xDF70C8CE,4;
+			0x771a1d02 = 0x063CE1AB,7;
+			0x771a1d03 = 0xEB5110BE,6;
+		}
+	}
+	[t:stitch_editor,n:a7_r2_cliffcity]
+	{
+		dest_region = a7_r2_cliffcity;
+		[node_ids]
+		{
+			0x771a0201 = 0x1C1EF894,6;
+			0x771a0202 = 0x79D49AEA,3;
+			0x771a0203 = 0x9D9E5D90,4;
+			0x771a0204 = 0x8CBFAF86,3;
+		}
+	}
+}

@@ -1,0 +1,70 @@
+//DIG WORKER CONVERSATIONS
+[worker_hello]
+{
+	[text*]
+	{
+	  i order = 0;
+		screen_text = "Ooof! All day breaking my back...And for what? We aren't goin' ta find nothin' down there.  Therg?  I think I saw him in the excavation a while ago.  Check there.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		screen_text = "Therg just pays me to dig, not to keep track of his whereabouts.  But it HAS been a while since I've heard him yelling for me... he's probably down in the dig somewhere.  But watch those Hassat bowmen!  They're dead-eyes...";
+	  f scroll_rate = 20.000000;
+	}
+}
+[kale_hello]
+{
+	[text*]
+	{
+	  i order = 0;
+		choice = shop;
+		screen_text = "You lookin' for Therg?  He's down below somewhere... In the meantime, if you need anything, I've picked up a whole bunch of supplies in our travels.  It's almost as if people just drop the stuff they don't want when they got too much, regardless of where they are!  Armor, weapons, potions... It's ridiculous! So, I pick it up when I find it, and try to make myself a little profit. Need anything?";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Like I said, Therg's down below somewhere. Haven't seen him in a while, though...  You sure you don't need anything?  A sword, or a potion, or somethin'?";
+	  f scroll_rate = 20.000000;
+	}
+}
+/////////////////////////////////////////////
+//THERG'S CONVERSATIONS (OLD, NO LONGER USED)
+
+[therg_before_a3_stone]
+{
+	[text*]
+	{
+		choice = more;
+		complete_quest* = a2_madman;
+	  	i order = 0;
+		screen_text = "A visitor? How unusual. But you are here on a greater purpose... you seek the Staff of Stars. Our ancestors had trapped the Shadowjumper long ago and bound him with the power of the Staff of Stars. Now it seems he has returned to use the Staff against us. It would appear that you are our best hope to stop him and recover the Staff.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a3_stone,0;
+	  	i order = 1;
+	  	b quest_dialog = true;
+		screen_text = "To aid you in your task, seek my scribe, Algher Mhankur. He went looking for the Stone of Lhaoc, a relic of a mighty warrior. I had hoped to find it here in this ancient site, but the numerous Hassat that have invaded the lower levels may have spirited it away to some other location. Algher may know where the stone is.";
+	 	f scroll_rate = 20.000000;
+	}
+}
+[therg_during_a3_stone]
+{
+	[text*]
+	{
+		screen_text = "Have you found the Algher? I sent some of my workmen after the him but they haven't returned yet.";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[therg_after_a3_stone]
+{
+	[text*]
+	{
+		screen_text = "Wonderful!  You have found the Stone of Lhaoc! Its power will help in your fight against Arhok and his minions.";
+	  	f scroll_rate = 20.000000;
+	  	b quest_dialog = true;
+	}
+}

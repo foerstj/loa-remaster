@@ -1,0 +1,63 @@
+[decals]
+{
+	[t:decal,n:*]
+	{
+		decal_orientation = -1.000000,-0.000001,0.000000,0.000000,0.000000,-1.000000,0.000001,-1.000000,0.000000;
+		decal_origin = -0.303215,1.000003,0.268135,0xCD715A24;
+	  f far_plane = 1.100000;
+	  x guid = 0x4288CE54;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 0.564159,1.000000,0.106480,0x4B2078B0;
+	  f far_plane = 1.100000;
+	  x guid = 0xD38E89AD;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.707107,0.707107,0.000000,0.000000,0.000000,-1.000000,-0.707107,0.707107,0.000000;
+		decal_origin = 0.570705,-1.000001,-0.890284,0xDD54F60F;
+	  f far_plane = 1.100000;
+	  x guid = 0xA7CB9343;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_blood.%img%;
+	  f vertical_meters = 2.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = -0.707107,-0.707107,0.000000,0.000000,0.000000,-1.000000,0.707107,-0.707107,0.000000;
+		decal_origin = -0.083427,-0.450000,-1.669785,0x77B37EFB;
+	  f far_plane = 1.100000;
+	  x guid = 0xFD0A894E;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_lc01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,1.000000,0.000000,0.000000,0.000000,-1.000000,-1.000000,0.000000,0.000000;
+		decal_origin = -1.532186,-0.650002,-1.339466,0xCBD3184F;
+	  f far_plane = 1.100000;
+	  x guid = 0xB80214F0;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_lc01-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+}

@@ -1,0 +1,30 @@
+[t:cmd_auto_save,n:0x06300042]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.3105,-11.3746,-6.32014,0xec83a71b;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x0630042b]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x0630042A;
+	}
+	[placement]
+	{
+	  p position = -2.39594,-0.118121,1.4547,0xb8433657;
+	}
+}
+[t:cmd_ai_c_patrol,n:0x0630042a]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x0630042B;
+	}
+	[placement]
+	{
+	  p position = -3.09412,0,0.237984,0x900508b8;
+	}
+}

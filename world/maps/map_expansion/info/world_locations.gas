@@ -1,0 +1,401 @@
+//These are the world locations.  The string after the 'n:' is what gets put into 
+//  the 'set_player_world_location' trigger.
+//The string in quotes is what gets printed to the screen in the phrase "Player has just entered ___".  
+//Therefore, town names don't need a 'the' (Player has just entered London), but generic region descriptors
+//  do (Player has just entered the Forest).  The string in quotes is also what gets displayed when you hit / in game to 
+//  call up the scores and locations of all players (Player  12 kills  London).
+
+[world_locations]
+{
+	[t:location,n:arhok]
+	{
+		id = 0901;
+		screen_name = "Arhok";
+	}
+	[t:location,n:lake]
+	{
+		id = 0902;
+		screen_name = "the Frozen Lake";
+	}
+	[t:location,n:canyon]
+	{
+		id = 0903;
+		screen_name = "the Snowy Canyon";
+	}
+	[t:location,n:giantcave]
+	{
+		id = 0904;
+		screen_name = "the Storage Cave";
+	}
+	[t:location,n:queen]
+	{
+		id = 0905;
+		screen_name = "the Halls of the Lost";
+	}
+	[t:location,n:beach]
+	{
+		id = 0906;
+		screen_name = "the Island Beach";
+	}
+	[t:location,n:bluffs]
+	{
+		id = 0907;
+		screen_name = "the Coastal Bluffs";
+	}
+	[t:location,n:illicor]
+	{
+		id = 0908;
+		screen_name = "Illicor";
+	}
+	[t:location,n:jungle]
+	{
+		id = 0909;
+		screen_name = "the Dark Jungle";
+	}
+	[t:location,n:digsite]
+	{
+		id = 0910;
+		screen_name = "the Dig Site";
+	}
+	[t:location,n:undergroundcity]
+	{
+		id = 0911;
+		screen_name = "the Underground City";
+	}
+	[t:location,n:fen]
+	{
+		id = 0912;
+		screen_name = "the Fen of the Frozen";
+	}
+	[t:location,n:deathmountain]
+	{
+		id = 0913;
+		screen_name = "the Mountain of the Dead";
+	}
+	[t:location,n:ziggurats]
+	{
+		id = 0914;
+		screen_name = "the Ziggurats";
+	}
+	[t:location,n:maze]
+	{
+		id = 0915;
+		screen_name = "the Ruined City";
+	}
+	[t:location,n:cut]
+	{
+		id = 0916;
+		screen_name = "Demlock's Cut";
+	}
+	[t:location,n:ravine]
+	{
+		id = 0917;
+		screen_name = "Demlock's Ravine";
+	}
+	[t:location,n:tower]
+	{
+		id = 0918;
+		screen_name = "Kmethket Tower";
+	}
+	[t:location,n:pass]
+	{
+		id = 0919;
+		screen_name = "Xot's Pass";
+	}
+	[t:location,n:cliff]
+	{
+		id = 0920;
+		screen_name = "Xot's Badlands";
+	}
+	[t:location,n:interior]
+	{
+		id = 0921;
+		screen_name = "the Cliff City";
+	}
+	[t:location,n:ramparts]
+	{
+		id = 0922;
+		screen_name = "the Ramparts";
+	}
+	[t:location,n:stronghold]
+	{
+		id = 0923;
+		screen_name = "the Zaurask Stronghold";
+	}
+	[t:location,n:clock]
+	{
+		id = 0924;
+		screen_name = "the Lands of the Great Clock";
+	}
+//Old world locations: no longer used
+	[t:location,n:a1_r1_town]
+	{
+		id = 0101;
+		screen_name = "Arhok";
+	}
+	[t:location,n:a1_r1a_basement]
+	{
+		id = 0102;
+		screen_name = "a Basement in Arhok";
+	}
+	[t:location,n:a1_r2_frozenlake]
+	{
+		id = 0103;
+		screen_name = "the Frozen Lake";
+	}
+	[t:location,n:a1_r3_canyon]
+	{
+		id = 0104;
+		screen_name = "the Snowy Canyon";
+	}
+	[t:location,n:a1_r4_giantcave]
+	{
+		id = 0105;
+		screen_name = "the Storage Cave";
+	}
+	[t:location,n:a1_r5_queencave]
+	{
+		id = 0106;
+		screen_name = "the Caves of the Lost";
+	}
+	[t:location,n:a1_r6_lostqueen]
+	{
+		id = 0107;
+		screen_name = "the Halls of the Lost";
+	}
+	[t:location,n:a1_r6a_lostqueen]
+	{
+		id = 0108;
+		screen_name = "the Halls of the Lost";
+	}
+	[t:location,n:a2_r0_storage]
+	{
+		id = 0201;
+		screen_name = "the Way Station";
+	}
+	[t:location,n:a2_r0a_beach]
+	{
+		id = 0202;
+		screen_name = "the Island Beach";
+	}
+	[t:location,n:a2_r1_jungle]
+	{
+		id = 0203;
+		screen_name = "the Island Coast";
+	}
+	[t:location,n:a2_r2_seacave]
+	{
+		id = 0204;
+		screen_name = "the Tidal Caves";
+	}
+	[t:location,n:a2_r3_bluffs]
+	{
+		id = 0205;
+		screen_name = "the Island Beach";
+	}
+	[t:location,n:a2_r4_cave]
+	{
+		id = 0206;
+		screen_name = "the Tidal Caves";
+	}
+	[t:location,n:a2_r5_hills]
+	{
+		id = 0207;
+		screen_name = "the Island Beach";
+	}
+	[t:location,n:a2_r6_wizardcity]
+	{
+		id = 0208;
+		screen_name = "Illicor";
+	}
+	[t:location,n:a3_r1_darkjungle]
+	{
+		id = 0301;
+		screen_name = "the Dark Jungle";
+	}
+	[t:location,n:a3_r2_digsite]
+	{
+		id = 0302;
+		screen_name = "the Dig Site";
+	}
+	[t:location,n:a3_r3_tunnels]
+	{
+		id = 0303;
+		screen_name = "the Dig";
+	}
+	[t:location,n:a3_r3a_aglet]
+	{
+		id = 0304;
+		screen_name = "the Inner Dig";
+	}
+	[t:location,n:a4_r1_tradercamp]
+	{
+		id = 0401;
+		screen_name = "the Trader Camp";
+	}
+	[t:location,n:a4_r2_deathmountain]
+	{
+		id = 0402;
+		screen_name = "the Mountain of the Dead";
+	}
+	[t:location,n:a4_r3_mountaininterior]
+	{
+		id = 0403;
+		screen_name = "the Interior of the Mountain of the Dead";
+	}
+	[t:location,n:a4_r3a_dungeon]
+	{
+		id = 0404;
+		screen_name = "the Dungeons of the Dead";
+	}
+	[t:location,n:a4_r4_lair]
+	{
+		id = 0405;
+		screen_name = "the Lair of the Death Knight";
+	}
+	[t:location,n:a5_r1_entrance]
+	{
+		id = 0501;
+		screen_name = "Jherkal's Crown";
+	}
+	[t:location,n:a5_r2_ziggurats]
+	{
+		id = 0502;
+		screen_name = "the Ruins of Jherkal's Crown";
+	}
+	[t:location,n:a5_r3_maze]
+	{
+		id = 0503;
+		screen_name = "the Walls of Jherkal's Crown";
+	}
+	[t:location,n:a5_r4_cityhub]
+	{
+		id = 0504;
+		screen_name = "Jherkal's Crown";
+	}
+	[t:location,n:a5_r4b_cityjail]
+	{
+		id = 0505;
+		screen_name = "Jherkal's Crown Prison";
+	}
+	[t:location,n:a6_r1_highlands]
+	{
+		id = 0601;
+		screen_name = "the Highlands";
+	}
+	[t:location,n:a6_r2_ravine]
+	{
+		id = 0602;
+		screen_name = "Demlock's Cut";
+	}
+	[t:location,n:a6_r3_towertop]
+	{
+		id = 0603;
+		screen_name = "Kmethket Tower";
+	}
+	[t:location,n:a6_r4_towerbottom]
+	{
+		id = 0604;
+		screen_name = "Lower Kmethket Tower";
+	}
+	[t:location,n:a6_r5_towercaves]
+	{
+		id = 0605;
+		screen_name = "Kmethket Caves";
+	}
+	[t:location,n:a6_r6_towerexit]
+	{
+		id = 0606;
+		screen_name = "Kmethket Tower";
+	}
+	[t:location,n:a7_r1_xotpass]
+	{
+		id = 0701;
+		screen_name = "Xot's Pass";
+	}
+	[t:location,n:a7_r1a_badlands]
+	{
+		id = 0702;
+		screen_name = "the Xot's Pass Badlands";
+	}
+	[t:location,n:a7_r1b_cave1]
+	{
+		id = 0703;
+		screen_name = "a Small Cave near Xot's Pass";
+	}
+	[t:location,n:a7_r1c_cave2]
+	{
+		id = 0704;
+		screen_name = "a Small Cave near Xot's Pass";
+	}
+	[t:location,n:a7_r1d_cave3]
+	{
+		id = 0705;
+		screen_name = "a Small Cave near Xot's Pass";
+	}
+	[t:location,n:a7_r2_cliffcity]
+	{
+		id = 0706;
+		screen_name = "the Cliff City Gate";
+	}
+	[t:location,n:a7_r3_cityinterior]
+	{
+		id = 0707;
+		screen_name = "the Cliff City";
+	}
+	[t:location,n:a8_r1_ramparts]
+	{
+		id = 0801;
+		screen_name = "the Stronghold Gate";
+	}
+	[t:location,n:a8_r1b_secretcave]
+	{
+		id = 0802;
+		screen_name = "the Stronghold Tunnel";
+	}
+	[t:location,n:a8_r2_fortress]
+	{
+		id = 0803;
+		screen_name = "the Stronghold";
+	}
+	[t:location,n:a8_r2b_fortress]
+	{
+		id = 0804;
+		screen_name = "the Inner Stronghold";
+	}
+	[t:location,n:a8_r3_tunnels]
+	{
+		id = 0805;
+		screen_name = "the Stronghold Caverns";
+	}
+	[t:location,n:a9_r1_mesa]
+	{
+		id = 0806;
+		screen_name = "the Great Clock Wastelands";
+	}
+	[t:location,n:a9_r2_cave]
+	{
+		id = 0807;
+		screen_name = "the Tunnels of the Great Clock";
+	}
+	[t:location,n:a9_r2a_clockdungeon]
+	{
+		id = 0807;
+		screen_name = "the Halls of the Great Clock";
+	}
+	[t:location,n:a9_r3_clockroom]
+	{
+		id = 0807;
+		screen_name = "the Great Clock";
+	}
+	[t:location,n:hugecave]
+	{
+		id = 0808;
+		screen_name = "hugecave";
+	}
+	[t:location,n:jungle_1]
+	{
+		id = 0809;
+		screen_name = "jungle_1";
+	}
+}

@@ -1,0 +1,176 @@
+[ashley_wicket]
+{
+	[text*]
+	{
+		sample = s_v_a1_ashley_01;
+		screen_text = "I knew your parents well. When they left twenty years ago, I was a guard at the town gates, and I saw them ride off for the last time.  Every night, I watched for them to come back, and each dawn came without their return, until I grew too old to guard and my vision too weak to see. When they left, your mother had 'Arhok's Lot,' a set of weaponry passed down for generations through your family. Perhaps in your travels you will find it. But I hope you do not, as your parents would never part with it were they alive.";
+	}
+}
+[ashley_game_complete]
+{
+	[text*]
+	{
+		sample = s_v_a1_ashley_02;
+		screen_text = "You've returned!  Your parents' spirits can now rest easy.  Welcome home, friend.";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[lyssa_disband]
+{
+	[text*]
+	{
+		sample = s_v_a1_lyssa_03;
+		screen_text = "Fine. Leave me here. You won't get a mile without realizing what a mistake you're making. I'll be right here, waiting for you to come crawling back.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[lyssa_hire]
+{
+	[text*]
+	{
+		sample = s_v_a1_lyssa_02;
+		screen_text = "You've made the right choice, friend! Let's get to it!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[lyssa_late_hire]
+{
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a1_lyssa_05;
+		screen_text = "So, you need a hand after all, eh? Not a problem! I've been itchin' for a fight! Let's go!";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[lyssa_meet]
+{
+	[text*]
+	{
+		choice = more;
+	  	i order = 0;
+		sample = s_v_a1_lyssa_01_a;
+		screen_text = "Stand back! If you be with the evil of this place, you will soon lie dead at my feet! Oh, I'm sorry! I mistook you for one of those foul creatures. I am Lyssa, an adventurer, and I was on my way to Arhok to visit my brother and his family. While making my way through the woods I saw a dark, skeletal figure scrambling through the brush, clutching something in its claw-like hands. I followed it to the mouth of this cave only to be set upon by spiders and undead creatures.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		i order = 1;
+		activate_quest* = a1_staff,1;
+		choice = potential_member;
+	  	b quest_dialog = true;
+		sample = s_v_a1_lyssa_01_b;
+		screen_text = "The walking corpses slavered about serving the Lost Queen, whom I can only assume is the monster behind their twisted resurrection. Apparently the Lost Queen has nested and is spawning vile offspring.  She may be easier to destroy if the dark spawning can be stopped...  If you need help in clearing this cave of the creatures and the monster which spawned them, or following the dark creature that preceded them, I offer you my bow.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a1_lyssa_05;
+		screen_text = "So, you need a hand after all, eh? Not a problem! I've been itchin' for a fight! Let's go!";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[lyssa_hire_bow]
+{
+	[text*]
+	{
+		sample = s_v_a1_lyssa_06;
+		screen_text = "My bow...  What say you?  Have you found my brother? Is he safe? Most wonderous! I cannot express my gratitude, stranger! Let’s gear up and head out!";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[lyssa_not_hire]
+{
+	[text*]
+	{
+		sample = s_v_a1_lyssa_04_a;
+		screen_text = "Suit yourself, though if you need me later on, this is where I will be.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[lyssa_qc]
+{
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a1_lyssa_07;
+		screen_text = "Congratulations, I suppose. I still say you should've taken me along. Are you still looking for help?";
+	  f scroll_rate = 20.000000;
+	}
+}
+[lyssa_qc_hire]
+{
+	[text*]
+	{
+		sample = s_v_a1_lyssa_02;
+		screen_text = "You've made the right choice, friend! Let's get to it!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[lyssa_rejoin]
+{
+	[text*]
+	{
+		sample = s_v_a1_lyssa_02;
+		screen_text = "You've made the right choice, friend! Let's get to it!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[lyssa_mp]
+{
+	[text*]
+	{
+		choice = more;
+	  	i order = 0;
+		sample = s_v_a1_lyssa_01_a;
+		screen_text = "Stand back! If you be with the evil of this place, you will soon lie dead at my feet! Oh, I'm sorry! I mistook you for one of those foul creatures. I am Lyssa, an adventurer, and I was on my way to Arhok to visit my brother and his family. While making my way through the woods I saw a dark, skeletal figure scrambling through the brush, clutching something in its claw-like hands. I followed it to the mouth of this cave only to be set upon by spiders and undead creatures.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a1_staff,1;
+	  	b quest_dialog = true;
+		sample = s_v_a1_lyssa_mp_b;
+		screen_text = "The walking corpses slavered about serving the Lost Queen, whom I can only assume is the monster behind their twisted resurrection. Apparently the Lost Queen has nested and is spawning vile offspring.  She may be easier to destroy if the dark spawning can be stopped...   You must clear this cave of the creatures and the monster which spawned them!";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[lyssa_mp_with_bow]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		sample = s_v_a1_lyssa_01_bow;
+		//JAY - Add completes Reynard's bow quest here
+		screen_text = "Stand back! If you be with the evil of this place, you will soon lie dead at my feet! Oh, I'm sorry! I mistook you for one of those foul creatures. I am Lyssa, an adventurer, and I was on my way to Arhok to visit my brother and his family. My bow...  What say you?  Have you found my brother? Is he safe? Most wonderous! I cannot express my gratitude, stranger!\n\nWhile making my way through the woods I saw a dark, skeletal figure scrambling through the brush, clutching something in its claw-like hands. I followed it to the mouth of this cave only to be set upon by spiders and undead creatures.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a1_staff,1;
+	  b quest_dialog = true;
+		sample = s_v_a1_lyssa_mp_b;
+		screen_text = "The walking corpses slavered about serving the Lost Queen, whom I can only assume is the monster behind their twisted resurrection. Apparently the Lost Queen has nested and is spawning vile offspring.  She may be easier to destroy if the dark spawning can be stopped...   You must clear this cave of the creatures and the monster which spawned them!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[lyssa_mp_after_a1_queen]
+{
+	[text*]
+	{
+		sample = s_v_a1_lyssa_09;
+		screen_text = "Nice work!  Though I'm sure I could have done it just as well...";
+	  f scroll_rate = 20.000000;
+	}
+}
+[lyssa_mp_during_a1_queen]
+{
+	[text*]
+	{
+		sample = s_v_a1_lyssa_08;
+		screen_text = "You haven't taken care of the queen yet?  If I weren't so weak from fighting all these spiders, I'd do it!  Get going!";
+	  f scroll_rate = 20.000000;
+	}
+}

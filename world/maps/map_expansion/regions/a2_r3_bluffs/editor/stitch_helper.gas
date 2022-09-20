@@ -1,0 +1,41 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000014;
+	source_region_name = a2_r3_bluffs;
+	[t:stitch_editor,n:a2_r2a_cavelet]
+	{
+		dest_region = a2_r2a_cavelet;
+		[node_ids]
+		{
+			0x222a0301 = 0xBB4FA9A1,10;
+		}
+	}
+	[t:stitch_editor,n:a2_r4_cave]
+	{
+		dest_region = a2_r4_cave;
+		[node_ids]
+		{
+			0x02301000 = 0x67A1CF03,3;
+			0x02302000 = 0x5DCB7276,2;
+			0x02303000 = 0xD9A60447,10;
+			0x02304000 = 0x1FDDE1ED,6;
+			0x02305000 = 0x1FDDE1ED,5;
+			0x02306000 = 0xC5F0DC98,2;
+			0x02307000 = 0xC5F0DC98,1;
+			0x02308000 = 0xBAE9C9F0,6;
+			0x02309000 = 0xBAE9C9F0,5;
+			0x02310000 = 0x3AB9442C,1;
+			0x02311000 = 0x47416EE7,6;
+			0x02312000 = 0x47416EE7,5;
+			0x02313000 = 0xEC1F0172,10;
+			0x02314000 = 0xBD17A856,7;
+			0x02315000 = 0xBD17A856,6;
+			0x02316000 = 0xBD17A856,5;
+			0x02317000 = 0x8CDCD893,3;
+			0x02318000 = 0xB5907C1E,3;
+			0x02319000 = 0xA3AB7287,3;
+			0x02320000 = 0x4320A2D5,5;
+			0x02321000 = 0x4320A2D5,4;
+		}
+	}
+}

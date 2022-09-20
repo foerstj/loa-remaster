@@ -1,0 +1,20 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000083;
+	source_region_name = a9_r3_clockroom;
+	[t:stitch_editor,n:a9_r2a_clockdungeon]
+	{
+		dest_region = a9_r2a_clockdungeon;
+		[node_ids]
+		{
+			0x992a0301 = 0xF525F9FA,4;
+			0x992a0302 = 0xF417FDB6,1;
+			0x992a0303 = 0xA7846740,3;
+			0x992a0304 = 0xC6F50E13,1;
+			0x992a0305 = 0x0D487583,1;
+			0x992a0306 = 0x7A0A35DD,2;
+			0x992a0307 = 0x27170278,3;
+			0x992a0308 = 0x947D73BD,1;
+		}
+	}
+}

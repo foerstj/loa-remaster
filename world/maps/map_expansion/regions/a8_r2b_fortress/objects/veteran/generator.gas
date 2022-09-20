@@ -1,0 +1,231 @@
+[t:generator_generic,n:0x72b00058]
+{
+	[common]
+	{
+		dev_instance_text = "MAKES 2 SJ MINIONS";
+	}
+	[generator_basic]
+	{
+		child_template_name = 2W_dsx_shadow_jumper_minion_two;
+	  b get_child_cc = true;
+	  x msg_scid = 0x72B0007A;
+	  i num_children_incubating = 2;
+	  f spawn_period = 6;
+		trigger_msg = we_constructed;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.891006,0,-0.453991;
+	  p position = 0.701378,-1.40896,5.80475,0xd40c4800;
+	}
+}
+[t:generator_generic,n:0x72b00061]
+{
+	[common]
+	{
+		dev_instance_text = "MAKES 3 ZEPHERYL";
+	}
+	[generator_basic]
+	{
+		child_template_name = 2W_dsx_zepheryl;
+	  b get_child_cc = true;
+	  i max_alive_children = 3;
+	  x msg_scid = 0x72B0007A;
+	  i num_children_incubating = 3;
+	  f spawn_period = 5;
+		trigger_msg = we_constructed;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.649448,0,0.760406;
+	  p position = 0.572032,-1.48691,5.76044,0xd40c4800;
+	}
+}
+[t:generator_generic,n:0x72b00059]
+{
+	[common]
+	{
+		dev_instance_text = "MAKES 2 SJ MINIONS";
+	}
+	[generator_basic]
+	{
+		child_template_name = 2W_dsx_shadow_jumper_minion_two;
+	  b get_child_cc = true;
+	  x msg_scid = 0x72B00078;
+	  i num_children_incubating = 2;
+	  f spawn_period = 5;
+		trigger_msg = we_constructed;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.760406,0,0.649448;
+	  p position = 0.579704,-1.02125,2.09081,0x9dc45d77;
+	}
+}
+[t:generator_generic,n:0x72b00060]
+{
+	[common]
+	{
+		dev_instance_text = "MAKES 3 ZEPHERYL";
+	}
+	[generator_basic]
+	{
+		child_template_name = 2W_dsx_zepheryl;
+	  b get_child_cc = true;
+	  i max_alive_children = 2;
+	  x msg_scid = 0x72B00078;
+	  i num_children_incubating = 3;
+	  f spawn_period = 5;
+		trigger_msg = we_constructed;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.760406,0,-0.649448;
+	  p position = 0.512068,-1.46107,2.03073,0x9dc45d77;
+	}
+}
+[t:generator_generic,n:0x72b0005a]
+{
+	[common]
+	{
+		dev_instance_text = "MAKES 2 SJ MINIONS";
+		[instance_triggers]
+		{
+			[*]
+			{
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[generator_basic]
+	{
+		child_template_name = 2W_dsx_shadow_jumper_minion_two;
+	  b get_child_cc = true;
+	  x msg_scid = 0x72B00070;
+	  i num_children_incubating = 2;
+		trigger_msg = we_constructed;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.0784595,0,0.996917;
+	  p position = 1.2964,1.07406,-1.54483,0xbe45886d;
+	}
+}
+[t:generator_generic,n:0x72b0005f]
+{
+	[common]
+	{
+		dev_instance_text = "MAKES 3 ZEPHERYL";
+	}
+	[generator_basic]
+	{
+		child_template_name = 2W_dsx_zepheryl;
+	  b get_child_cc = true;
+	  i max_alive_children = 3;
+	  x msg_scid = 0x72B00070;
+	  i num_children_incubating = 2;
+	  f spawn_period = 5;
+		trigger_msg = we_constructed;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.649448,0,0.760406;
+	  p position = 1.42493,0.939488,-1.5272,0xbe45886d;
+	}
+}
+[t:generator_generic,n:0x72b0005b]
+{
+	[common]
+	{
+		dev_instance_text = "MAKES 2 SJ MINIONS";
+	}
+	[generator_basic]
+	{
+		child_template_name = 2W_dsx_shadow_jumper_minion_two;
+	  b get_child_cc = true;
+	  x msg_scid = 0x72B0006D;
+	  i num_children_incubating = 2;
+	  f spawn_period = 7;
+		trigger_msg = we_constructed;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.760406,0,0.649448;
+	  p position = 2.23043,-1.73025,4.75275,0x45e92fd5;
+	}
+}
+[t:generator_generic,n:0x72b0005e]
+{
+	[common]
+	{
+		dev_instance_text = "MAKES 3 ZEPHERYL";
+	}
+	[generator_basic]
+	{
+		child_template_name = 2W_dsx_zepheryl;
+	  b get_child_cc = true;
+	  i max_alive_children = 3;
+	  x msg_scid = 0x72B0006D;
+	  i num_children_incubating = 3;
+	  f spawn_period = 5;
+		trigger_msg = we_constructed;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.760406,0,0.649448;
+	  p position = 2.10957,-1.49765,4.59661,0x45e92fd5;
+	}
+}
+[t:generator_generic,n:0x72b0005c]
+{
+	[common]
+	{
+		dev_instance_text = "MAKES 2 SJ MINIONS";
+	}
+	[generator_basic]
+	{
+		child_template_name = 2W_dsx_shadow_jumper_minion_two;
+	  b get_child_cc = true;
+	  x msg_scid = 0x72B0006F;
+	  i num_children_incubating = 2;
+	  f spawn_period = 10;
+		trigger_msg = we_constructed;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.649448,0,0.760406;
+	  p position = 0.0898424,-0.908524,4.91653,0x1df79ab3;
+	}
+}
+[t:generator_generic,n:0x72b0005d]
+{
+	[common]
+	{
+		dev_instance_text = "MAKES 3 ZEPHERYL";
+	}
+	[generator_basic]
+	{
+		child_template_name = 2W_dsx_zepheryl;
+	  b get_child_cc = true;
+	  i max_alive_children = 3;
+	  x msg_scid = 0x72B0006F;
+	  i num_children_incubating = 3;
+	  f spawn_period = 5;
+		trigger_msg = we_constructed;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.649448,0,0.760406;
+	  p position = 0.125716,-1.70228,4.93159,0x1df79ab3;
+	}
+}

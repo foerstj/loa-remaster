@@ -1,0 +1,25 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000033;
+	source_region_name = a4_r3_mountaininterior;
+	[t:stitch_editor,n:a4_r2_deathmountain]
+	{
+		dest_region = a4_r2_deathmountain;
+		[node_ids]
+		{
+			0x44020301 = 0xE4F46B96,2;
+			0x44020302 = 0xE2F823E1,3;
+			0x44020303 = 0xAD9DF522,4;
+		}
+	}
+	[t:stitch_editor,n:a4_r3a_dungeon]
+	{
+		dest_region = a4_r3a_dungeon;
+		[node_ids]
+		{
+			0x44033a01 = 0xCFDBF59A,2;
+			0x44033a02 = 0x3594CEA2,3;
+			0x44033a03 = 0x8C0C773B,1;
+		}
+	}
+}

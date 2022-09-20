@@ -1,0 +1,248 @@
+[t:dev_path_point,n:0x05500090]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x05500093;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.00182343,0,3.66613,0xcda351b7;
+	}
+}
+[t:dev_path_point,n:0x05500093]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x05500094;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.15618,-0.65,-2.95944,0x1c97e827;
+	}
+}
+[t:dev_path_point,n:0x05500094]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x05500095;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 1.3017,0,1.69511,0x7c08b0bd;
+	}
+}
+[t:dev_path_point,n:0x05500099]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0550009B;
+		path_name = "a6_r6_towercaves_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 0.587477,0,1.23401,0x7c08b0bd;
+	}
+}
+[t:dev_path_point,n:0x05500095]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x05500096;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 3.94665,3.8147e-006,-0.204831,0xb90a7158;
+	}
+}
+[t:dev_path_point,n:0x05500096]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x05500097;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.319547,-0.0154648,-0.732185,0x98864cfb;
+	}
+}
+[t:dev_path_point,n:0x05500098]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x05500099;
+		path_name = "a6_r6_towercaves_path";
+		point_name = "dup";
+	  f radius = 15;
+	}
+	[gizmo]
+	{
+	  v diffuse_color = 0,1,0;
+	}
+	[placement]
+	{
+	  p position = 1.9398,0.00601959,-0.495686,0x98864cfb;
+	}
+}
+[t:dev_path_point,n:0x05500097]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x05500098;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.210773,3.8147e-006,0.566444,0xfd98d030;
+	}
+}
+[t:dev_path_point,n:0x05500019]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0550001A;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.79959,5.72205e-006,-0.2831,0xa010a37e;
+	}
+}
+[t:dev_path_point,n:0x0550001e]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0550001F;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -7.69162,-3.91776,-0.910678,0x4abd4eee;
+	}
+}
+[t:dev_path_point,n:0x0550001b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0550001C;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 1.33146,12,1.95514,0x6de6910d;
+	}
+}
+[t:dev_path_point,n:0x0550001c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0550001D;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -3.11429,0,-0.468658,0xe8f831b3;
+	}
+}
+[t:dev_path_point,n:0x0550001d]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0550001E;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.640484,0,-0.160645,0xd60ee78c;
+	}
+}
+[t:dev_path_point,n:0x0550001a]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0550001B;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.40942,0,1.20693,0xc76f9467;
+	}
+}
+[t:dev_path_point,n:0x05500018]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x05500019;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = -2.18823,0,0.745889,0x496c6fa2;
+	}
+}
+[t:dev_path_point,n:0x0550009b]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x0550009C;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 2.76294,0,0.10413,0x8cf942e4;
+	}
+}
+[t:dev_path_point,n:0x0550009c]
+{
+	[dev_path_point]
+	{
+	  x next_scid = 0x05500018;
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  p position = 0.0577724,-0.299999,3.74687,0x65cf046b;
+	}
+}
+[t:dev_path_point,n:0x0550001f]
+{
+	[dev_path_point]
+	{
+		path_name = "a6_r6_towercaves_path";
+	  f radius = 15;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.552044,0.00635259,-0.394468,0xee64ec20;
+	}
+}

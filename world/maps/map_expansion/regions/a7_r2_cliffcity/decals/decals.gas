@@ -1,0 +1,39 @@
+[decals]
+{
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,1.000000,0.000000,0.000000,0.000000,-1.000000,-1.000000,0.000000,0.000000;
+		decal_origin = -2.570557,-12.200001,-32.068459,0xC75CD270;
+	  f far_plane = 1.100000;
+	  x guid = 0x1AEA56CF;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_drygrass-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.000000,-1.000000,0.000000,0.000000,0.000000,-1.000000,1.000000,0.000000,0.000000;
+		decal_origin = 3.855064,1.000000,-0.340500,0xE8EFC81F;
+	  f far_plane = 1.100000;
+	  x guid = 0xC6B0CF8B;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_drygrass-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+	[t:decal,n:*]
+	{
+		decal_orientation = 0.903277,-0.428889,-0.012013,0.000000,0.027999,-0.999608,0.429057,0.902923,0.025291;
+		decal_origin = -5.346367,-2.963455,-5.780670,0xA58D17D5;
+	  f far_plane = 1.100000;
+	  x guid = 0xE7519C1C;
+	  f horizontal_meters = 4.000000;
+	  f lod = 1.000000;
+	  f near_plane = 0.100000;
+		texture = Art\Bitmaps\Decals\b_d_drygrass-a.%img%;
+	  f vertical_meters = 4.000000;
+	}
+}

@@ -1,0 +1,53 @@
+[t:map,n:map]
+{
+	description = "- The Lost Island of the Utraeans -\nAn epic adventure among the ruins of one of Aranna's dying civilizations";
+  b dev_only = false;
+	name = map_expansion;
+	screen_name = "Legends of Aranna";
+	timeofday = 12h0m;
+  b use_node_mesh_index = true;
+  b use_player_journal = true;
+  f world_frustum_radius = 45.000000;
+  f world_interest_radius = 10.000000;
+
+	show_maddoc_intro = true;
+
+	[camera]
+	{
+	  f azimuth = 70.000000;
+	  f distance = 13.000000;
+	  f farclip = 70.000000;
+	  f fov = 60.000000;
+	  f max_azimuth = 85.000000;
+	  f max_distance = 18.000000;
+	  f min_azimuth = 32.000000;
+	  f min_distance = 3.000000;
+	  f nearclip = 0.100000;
+	  f orbit = 0.000000;
+		position = 0.000000,0.000000,0.000000,0x00000000;
+	}
+	
+	[worlds]
+	{
+		[regular]
+		{
+			screen_name = "Regular";
+			description = "Players of all levels can play here.";
+			required_level = 0;
+		}
+
+		[veteran]
+		{
+			screen_name = "Veteran";
+			description = "Must be level 54 or higher to consider such a task.";
+			required_level = 54;
+		}
+
+		[elite]
+		{
+			screen_name = "Elite";
+			description = "You must be level 83 or higher to even think about such insanity.";
+			required_level = 83;
+		}
+	}
+}

@@ -1,0 +1,744 @@
+[chapters]
+{
+	[dsx_chapter_1]
+	{
+		chapter_image = b_gui_ig_mnu_jnl_chapter_01;
+		screen_name = "chapter 1: Shadows of the Past";
+		[*]
+		{
+			description = "As the lands of Aranna slowly recover from the great wars, a new threat rises. An ancient darkness is awoken, and seeks revenge. In the town of Arhok, a would-be hero faces these new challenges.";
+		  i order = 0;
+		}
+		[*]
+		{
+			description = "As the lands of Aranna slowly recover from the great wars, a new threat rises. An ancient darkness is awoken, and seeks revenge. In the town of Arhok, a would-be hero faces these new challenges.";
+		  i order = 1;
+		}
+	}
+	[dsx_chapter_2]
+	{
+		chapter_image = b_gui_ig_mnu_jnl_chapter_02;
+		screen_name = "chapter 2: The Island of Legends";
+		[*]
+		{
+			description = "Powerful and ancient forces from the time of the ancients are stirring. The hero journeys to the fabled island of the Utraeans to hunt down the Shadowjumper.";
+		  i order = 0;
+		}
+		[*]
+		{
+			description = "Powerful and ancient forces from the time of the ancients are stirring. The hero journeys to the fabled island of the Utraeans to hunt down the Shadowjumper.";
+		  i order = 1;
+		}
+	}
+	[dsx_chapter_3]
+	{
+		chapter_image = b_gui_ig_mnu_jnl_chapter_03;
+		screen_name = "chapter 3: The Crown and The Cut";
+		[*]
+		{
+			description = "The Shadowjumper's trail leads the hero through the ancient sources of the Utraean power. The strongholds of legendary mages Jerkhal and Demlock expose new threats, old clues, and everpresent danger.;
+		  i order = 0;
+		}
+		[*]
+		{
+			description = "The Shadowjumper's trail leads the hero through the ancient sources of the Utraean power. The strongholds of legendary mages Jerkhal and Demlock expose new threats, old clues, and everpresent danger.;
+		  i order = 1;
+		}
+	}
+	[dsx_chapter_4]
+	{
+		chapter_image = b_gui_ig_mnu_jnl_chapter_04;
+		screen_name = "chapter 4: Pilgrimage of Redemption";
+		[*]
+		{
+			description = "The hero learns that the Utraean legacy is one of arrogrance and stolen power. The surviving Utraeans - humbled by centuries of defeat - are on a mission of redemption. However, the powerful forces they harnessed in the past have broken free and threaten the world with destruction.";
+		  i order = 0;
+		}
+		[*]
+		{
+			description = "The hero learns that the Utraean legacy is one of arrogrance and stolen power. The surviving Utraeans - humbled by centuries of defeat - are on a mission of redemption. However, the powerful forces they harnessed in the past have broken free and threaten the world with destruction.";
+		  i order = 1;
+		}
+	}
+	[dsx_chapter_5]
+	{
+		chapter_image = b_gui_ig_mnu_jnl_chapter_05;
+		screen_name = "chapter 5: The Countdown";
+		[*]
+		{
+			description = "The Great Clock controls the seasons and cycles of Aranna, and the Shadowjumper would destroy it with the power of the Staff of Stars, plunging the world into darkness and chaos.  Three ancient powers, the Shadowjumper, the Staff, and the Clock, are converging explosively, and our hero must defeat the first to save the last...and all of Aranna";
+		  i order = 0;
+		}
+	}
+}
+[quests]
+{
+	[a1_bandits]
+	{
+		chapter = dsx_chapter_1;
+		quest_image = b_gui_ig_mnu_jnl_quest_bandits;
+		screen_name = "The First Trial";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			
+			description = "Speak to Mayor Hardison Dhon";
+		  	i order = 0;
+		  	b required = false;
+			speaker = ;
+		}
+		[*]
+		{
+			address = a1_r1_town:conversations:hardison_dhon_before_a1_monsters;
+			description = "Find and slay the monsters who ambushed the caravans and threaten the town";
+		  	i order = 1;
+		  	b required = false;
+			speaker = mayor hardison dhon;
+		}
+		[*]
+		{
+			address = a1_r3_canyon:conversations:jondar_mp_hello;
+			description = "Kill the giant who destroyed the caravans and threatens Arhok";
+		  	i order = 2;
+		  	b required = false;
+		  	b is_consumable = true;
+			speaker = Jondar;
+		}
+		[*]
+		{
+			description = "Teleport back to town and tell Mayor Hardison Dhon of your victory";
+		  	i order = 3;
+		  	b required = false;
+			speaker = ;
+		}
+		[*]
+		{
+			description = "You have eliminated the threat from the Giant";
+		  	i order = 4;
+		  	b required = false;
+			speaker = ;
+		}		
+	}
+	// this quest is not available in MP since lyssa can't join your team.
+	[a1_bow]
+	{
+		chapter = dsx_chapter_1;
+		quest_image = b_gui_ig_mnu_jnl_quest_bow;
+		screen_name = "Family Bow";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a1_r1_town:conversations:reynard_before_a1_sister;
+			description = "Find Lyssa and deliver her bow";
+			i order = 0;
+			b required = false;
+			speaker = reynard;
+		}
+		[*]
+		{
+			description = "You have delivered Lyssa's bow";
+			i order = 1;
+			b required = false;
+			speaker = ;
+		}
+	}
+	[a1_bear]
+	{
+		chapter = dsx_chapter_1;
+		quest_image = b_gui_ig_mnu_jnl_quest_bear;
+		screen_name = "The Trapper";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a1_r1_town:conversations:kron_before_a1_bear;
+			description = "Kill the Bear Outside Arhok";
+			i order = 0;
+			b required = true;
+			speaker = kron;
+			b is_consumable = true;
+		}
+		[*]
+		{
+			description = "The Bear is dead. Return to Kron for your reward";
+			i order = 1;
+			b required = false;
+			speaker = ;
+		}
+		[*]
+		{
+			description = "Kron has rewarded you";
+			i order = 2;
+			b required = false;
+			speaker = ;
+		}
+	}
+	[a1_staff]
+	{
+		chapter = dsx_chapter_1;
+		quest_image = b_gui_ig_mnu_jnl_quest_staff;
+		screen_name = "The Staff of Stars";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a1_r1_town:conversations:hardison_dhon_between_quests;
+			description = "Seek the Staff of Stars";
+		  	i order = 0;
+		  	b required = true;
+			speaker = mayor hardison dhon;
+		}
+		[*]
+		{
+			address = a1_r2_frozenlake:conversations:lyssa_mp;
+			description = "See if the Lost Queen has the Staff of Stars";
+			i order = 1;
+			b required = false;
+			b is_consumable = true;
+			speaker = Lyssa;
+		}
+		[*]
+		{
+			description = "Continue through doors to displace back to Mayor Hardison Dhon";
+			i order = 2;
+			b required = false;
+			speaker = ;
+		}
+		
+		[*]
+		{
+			address = a1_r1_town:conversations:hardison_dhon_after_queen;
+			description = "Take the island waystation displacer to follow the Shadowjumper";
+			i order = 3;
+			b required = false;
+			speaker = mayor hardison dhon;
+		}
+		
+		[*]
+		{
+			address = a2_r0a_beach:conversations:najj_mp;
+			description = "Speak to Quaydhar, Utraean Elder in Illicor";
+			i order = 4;
+		  	b required = false;
+			speaker = Najj;
+		}		
+		[*]
+		{
+			address = a2_r6_wizardcity:conversations:quayhdar_after_a2_citysafety;
+			description = "Find the Utraean historian Therg";
+		  	i order = 5;
+		  	b required = false;
+			speaker = Quayhdar;
+		}
+		[*]
+		{
+			address = a3_r3_tunnels:conversations:therg_hello;
+			description = "Seek the Staff of Stars";
+		  	i order = 6;
+		  	b required = false;
+			speaker = Therg;
+		}
+		[*]
+		{
+			address = a3_r3a_aglet:conversations:algher_hello;
+			description = "Seek Jharmaya";
+			i order = 7;
+			b required = false;
+			speaker = Algher Mhankur;
+		}
+		[*]
+		{
+			address = a5_r3_maze:conversations:jharmaya_hello;
+			description = "Follow the Shadowjumper";
+			i order = 8;
+			b required = false;
+			speaker = Jharmaya;
+		}
+		[*]
+		{
+			address = a6_r2_ravine:conversations:therg_staff_dialogue_a6;
+			description = "Continue after the Shadowjumper";
+			i order = 9;
+			b required = false;
+			speaker = therg;
+		}
+		[*]
+		{
+			address = a9_r1_mesa:conversations:therg_hello;
+			description = "Destroy the Shadowjumper and Recover the Staff of Stars";
+		  	i order = 10;
+		  	b required = false;
+			speaker = Therg;
+			b is_consumable = true;
+		}		
+		[*]
+		{
+			description = "You have destroyed the Shadowjumper";
+		  	i order = 11;
+		  	b required = false;
+			speaker = ;
+		}
+	}
+
+	[a2_amulet]
+	{
+		chapter = dsx_chapter_2;
+		screen_name = "Recover Ilorn's Amulet";
+		victory_sample = s_e_level_up_quest;
+		quest_image = b_gui_ig_mnu_jnl_quest_amulet;
+		[*]
+		{
+			address = a2_r3_bluffs:conversations:ilorn_before_a2_amulet;
+			description = "Recover Ilorn's Amulet";
+			i order = 0;
+			b required = true;
+			b is_consumable = true;
+			speaker = ilorn;
+		}
+		[*]
+		{
+			description = "Return the Amulet to Ilorn";
+			i order = 1;
+			b required = false;
+			b is_consumable = true;
+			speaker = ;
+		}
+		[*]
+		{
+			address = a2_r3_bluffs:conversations:ilorn_after_a2_amulet;
+			description = "You have returned Ilorn's Amulet";
+			i order = 2;
+			b required = false;
+			speaker = ilorn;
+		}
+	}
+	[a2_najj]
+	{
+		chapter = dsx_chapter_2;
+		quest_image = b_gui_ig_mnu_jnl_quest_najj;
+		screen_name = "A Giant Task";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a2_r0a_beach:conversations:najj_hello;
+			description = "Find Najj's kinsmen";
+		  i order = 0;
+		  b required = true;
+			speaker = "Najj the Half-Giant";
+		}
+		[*]
+		{
+			description = "You have located the kinsmen of Najj the half-giant";
+		  i order = 1;
+		  b required = false;
+			speaker = ;
+		}
+	}
+	[a2_citysafety]
+	{
+		chapter = dsx_chapter_2;
+		quest_image = b_gui_ig_mnu_jnl_quest_citysafety;
+		screen_name = "The Wizard City";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a2_r6_wizardcity:conversations:quayhdar_hello;
+			description = "Clear Illicor of the Zaurask";
+		  	b is_consumable = true;
+		  	i order = 0;
+		  	b required = false;
+			speaker = Quayhdar;
+		}
+		[*]
+		{
+			description = "Illicor is Safe";
+		  	i order = 1;
+		  	b required = false;
+			speaker = ;
+		}			
+	}
+	
+	[a2_scribe]
+	{
+		chapter = dsx_chapter_2;
+		quest_image = b_gui_ig_mnu_jnl_quest_scribe;
+		screen_name = "Therg's Apprentice";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a2_r6_wizardcity:conversations:ezmera_before_a2_scribe;
+			description = "rescue algher mhankur, the missing scribe";
+		  	i order = 0;
+		  	b required = false;
+			speaker = Ezmera;
+		}
+		[*]
+		{
+			description = "You have discovered Algher";
+			i order = 1;
+			b required = false;
+			speaker = ;
+		}
+	}
+
+	[a3_stone]
+	{
+		chapter = dsx_chapter_2;
+		quest_image = b_gui_ig_mnu_jnl_quest_stone;
+		screen_name = "The Stone of Lhaoc";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a3_r3_tunnels:conversations:therg_lhaoc_for_journal_only;
+			description = "reclaim an ancient artifact - the stone of lhaoc";
+		  	i order = 0;
+		  	b required = true;
+			speaker = "Therg the Historian";
+		}
+		[*]
+		{
+			address = a3_r3a_aglet:conversations:algher_hello;
+			description = "Destroy the Hassat who hold the Stone";
+			i order = 1;
+			speaker = "Algher Mhankur";
+			b required = false;
+			b is_consumable = true;
+		}
+		[*]
+		{
+			description = "You have found the stone of Lhaoc!";
+		  	i order = 2;
+		  	b required = false;
+			speaker = ;
+		}
+	}
+	[a4_death]
+	{
+		chapter = dsx_chapter_2;
+		quest_image = b_gui_ig_mnu_jnl_quest_death;
+		screen_name = "The Dark Acolytes";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a4_r1_tradercamp:conversations:kirr_before_a4_death;
+			description = "eliminate the dark acolytes";
+		  	i order = 0;
+		  	b required = true;
+			speaker = "Kirr, Leader of the Half-Giants";
+			b is_consumable = true;
+		}
+		[*]
+		{
+			description = "you have eliminated the dark acolytes";
+		  	i order = 1;
+		  	b required = false;
+			speaker = ;
+		}
+	}
+	[a4_scourge]
+	{
+		chapter = dsx_chapter_2;
+		quest_image = b_gui_ig_mnu_jnl_quest_scourge;
+		screen_name = "The Scourge of Cicatrix";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a4_r3_mountaininterior:conversations:konus_mp;
+			description = "destroy the undead centaur cicatrix";
+		  	i order = 0;
+		  	b required = true;
+			speaker = konus;
+			b is_consumable = true;
+		}
+		[*]
+		{
+			description = "cicatrix is dead";
+			i order = 1;
+			b required = false;
+			speaker = ;
+		}
+	}
+	/*
+	[a5_dark]
+	{
+		chapter = dsx_chapter_3;
+		quest_image = b_gui_ig_mnu_jnl_quest_dark;
+		screen_name = "dark triumph";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = "prevent the zaurask from destroying the displacer power source";
+		  	i order = 0;
+		  	b required = false;
+			speaker = ;
+		}
+	}
+	*/
+	[a5_guardian]
+	{
+		chapter = dsx_chapter_3;
+	 	quest_image = b_gui_ig_mnu_jnl_quest_guardian;
+		screen_name = "The Sacred Guardian";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a5_r2_ziggurats:conversations:guardian_hello_death;
+			description = "Rescue the displacer";
+			b is_consumable = true;
+			i order = 0;
+			b required = true;
+			speaker = "The Guardian";
+		}
+		[*]
+		{
+			i order = 1;
+			b required = false;
+			description = "The Shadowjumper's plan to disrupt the displacers has failed";
+			speaker = ;
+		}
+	
+	}
+	[a5_letter]
+	{
+		chapter = dsx_chapter_2;
+		quest_image = b_gui_ig_mnu_jnl_quest_letter;
+		screen_name = "Special Delivery";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a5_r1_entrance:conversations:nirr_before_a5_letter;
+			description = "travel to xulphae's cove and deliver a letter to jaff";
+			i order = 0;
+			b required = false;
+			speaker = nirr;
+		}
+		[*]
+		{
+			address = a7_r2_cliffcity:conversations:ohna_during_a5_letter;
+			description = "discover what happened to jaff and the rest of the negotiators";
+			i order = 1;
+			b required = false;
+			speaker = ohna;
+		}
+		[*]
+		{
+			description = "you have found jaff and the remains of the negotiators";
+			i order = 2;
+			b required = false;
+			speaker = ;
+		}
+	}
+	[a6_rune]
+	{
+		chapter = dsx_chapter_3;
+		quest_image = b_gui_ig_mnu_jnl_quest_reaper;
+		screen_name = "The Horror of the Rune Master";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a6_r2_ravine:conversations:bran_torath_before_a6_rune;
+			description = "defeat the rune master and his guardian";
+		  	i order = 0;
+		  	b required = true;
+			speaker = "Bran Torath";
+		  	b is_consumable = true;
+		}
+		[*]
+		{
+			description = "Talk to Lhuk Torath for a reward";
+			i order = 1;
+			b required = false;
+			speaker = ;
+		}
+		[*]
+		{
+			description = "Lhuk Torath will now trade with you";
+			i order = 2;
+			b required = false;
+			speaker = ;
+		}
+	}
+	[a6_tower]
+	{
+		chapter = dsx_chapter_3;
+		quest_image = b_gui_ig_mnu_jnl_quest_stower;
+		screen_name = "The Sunken Tower";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a6_r2_ravine:conversations:therg_before_a6_tower;
+			description = "find and secure any other entrances to the tower";
+		  	i order = 0;
+		  	b required = true;
+			speaker = "Therg the Historian";
+		}
+		[*]
+		{
+			description = "you have found another way out of the tower";
+		  	i order = 1;
+		  	b required = false;
+			speaker = ;
+		}
+	}
+	[a7_city]
+	{
+		chapter = dsx_chapter_4;
+		quest_image = b_gui_ig_mnu_jnl_quest_city;
+		screen_name = "The Healing Well";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a7_r2_cliffcity:conversations:eradi_before_a7_city;
+			description = "destroy the zaurask guarding and tainting the healing well";
+		  	b is_consumable = true;
+		  	i order = 0;
+		  	b required = true;
+			speaker = eradi;
+		}
+		[*]
+		{
+			description = "the sacred power of the healing well has been unleashed";
+		  	i order = 1;
+		  	b required = false;
+			speaker = ;
+		}
+	}
+	[a7_umberteen]
+	{
+		chapter = dsx_chapter_4;
+		quest_image = b_gui_ig_mnu_jnl_quest_umberteen;
+		screen_name = "Redemption";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a7_r1_xotpass:conversations:uelda_before_a7_umberteen;
+			description = "The pilgrim Umberteen is being held by the Droc.  Free him!";
+		  	i order = 0;
+		  	b required = false;
+			speaker = uelda;
+		}
+		[*]
+		{
+			address = a7_r1d_cave3:conversations:umberteen_during_a7_umberteen;
+			description = "kill the droc in the cave and the giant krakbone so Umberteen may leave safely";
+		  	b is_consumable = true;
+		  	i order = 1;
+		  	b required = false;
+			speaker = umberteen;
+		}
+		[*]
+		{
+			description = "free Umberteen from his cage and tell him it is safe to leave";
+		  	b is_consumable = true;
+		  	i order = 2;
+		  	b required = false;
+			speaker = ;
+		}
+		[*]
+		{
+			description = "Umberteen has been freed";
+		  	i order = 3;
+		  	b required = false;
+			speaker = ;
+		}
+
+	}
+	// JCD 8/28/03
+	// had to rename quest so that it would appear after a7_umberteen in the journal
+	[a7_vfind]
+	{
+		chapter = dsx_chapter_4;
+		quest_image = b_gui_ig_mnu_jnl_quest_find;
+		screen_name = "Reunion";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a7_r1d_cave3:conversations:Umberteen_after_a7_umberteen;
+			description = "Umberteen has asked you to locate his brother ghage in the cliff city of xulphae's cove";
+		  	i order = 0;
+		  	b required = false;
+			speaker = umberteen;
+		}
+		[*]
+		{
+			description = "you have found Umberteen's brother ghage";
+		  	i order = 1;
+		  	b required = false;
+			speaker = ;
+		}
+	}
+	[a7_zking]
+	{
+		chapter = dsx_chapter_4;
+		quest_image = b_gui_ig_mnu_jnl_quest_zking;
+		screen_name = "Nosirrom's Fall";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a7_r2_cliffcity:conversations:ghage_before_a7_zking;
+			description = "destroy the zaurask king";
+		  	b is_consumable = true;
+		  	i order = 0;
+		  	b required = true;
+			speaker = ghage;
+		}
+		[*]
+		{
+			description = "nosirrom, the zaurask king is dead";
+		  	i order = 1;
+		  	b required = false;
+			speaker = ;
+		}
+	}
+	[a8_pad]
+	{
+		chapter = dsx_chapter_4;
+		quest_image = b_gui_ig_mnu_jnl_quest_pad;
+		screen_name = "The Crystal Guardians";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = a8_r2_fortress:conversations:neener_before_a8_pad;
+			description = "Destroy the four Crystal Guardians";
+		  	i order = 0;
+		  	b required = true;
+		  	b is_consumable = true;
+			speaker = neener, the goblin trader;
+		}
+		[*]
+		{
+			description = "The Displacer can now be used to reach the top of Mount Kreth";
+		  	i order = 1;
+		  	b required = false;
+			speaker = ;
+		}
+	}
+	/*
+	[a9_arhok]
+	{
+		chapter = dsx_chapter_5;
+		quest_image = b_gui_ig_mnu_jnl_quest_arhok;
+		screen_name = "Just In Time";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = "destroy the shadowjumper and the goblin threat";
+		  	i order = 0;
+		  	b required = false;
+			speaker = "Therg the Historian";
+		}
+	}
+	[a9_machine]
+	{
+		chapter = dsx_chapter_5;
+		quest_image = b_gui_ig_mnu_jnl_quest_machine;
+		screen_name = "Countdown";
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			description = "destroy the goblin machines attached to the great clock";
+		  	i order = 0;
+		  	b required = false;
+			speaker = "Therg the Historian";
+		}
+	}
+	*/
+}

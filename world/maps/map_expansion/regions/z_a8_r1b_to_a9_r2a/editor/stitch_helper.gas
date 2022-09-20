@@ -1,0 +1,21 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000099D;
+	source_region_name = z_a8_r1b_to_a9_r2a;
+	[t:stitch_editor,n:a8_r1b_secretcave]
+	{
+		dest_region = a8_r1b_secretcave;
+		[node_ids]
+		{
+			0x099d0001 = 0xDE21071E,6;
+		}
+	}
+	[t:stitch_editor,n:a9_r2a_clockdungeon]
+	{
+		dest_region = a9_r2a_clockdungeon;
+		[node_ids]
+		{
+			0x099d0002 = 0x03764BCF,3;
+		}
+	}
+}

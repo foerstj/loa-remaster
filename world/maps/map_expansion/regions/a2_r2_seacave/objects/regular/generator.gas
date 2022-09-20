@@ -1,0 +1,30 @@
+[t:dsx_gen_beach_shrub-chomper,n:0x01300045]
+{
+	[generator_advanced_a2]
+	{
+		child_template_name = "dsx_bubber";
+	  i max_alive_children = 3;
+	  i num_children_incubating = 3;
+	  f spawn_period = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 1.48014,-1,-1.66139,0xe10c06bc;
+	}
+}
+[t:dsx_gen_beach_shrub-chomper,n:0x013001a3]
+{
+	[generator_advanced_a2]
+	{
+		child_template_name = "dsx_bubber";
+	  i max_alive_children = 3;
+	  i num_children_incubating = 3;
+	  f spawn_period = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 2.65613,0,0.101095,0xecb49a99;
+	}
+}

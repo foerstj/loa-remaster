@@ -1,0 +1,1101 @@
+[t:emt_sound_act,n:0x0070067a]
+{
+	[placement]
+	{
+	  p position = 2.16492,-2,-0.280777,0x244d974a;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "a1_queen_02";
+	  b is_global = true;
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound,n:0x007002b1]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.485489,0,0.750656,0x22674bd7;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_haunting";
+	}
+}
+[t:emt_sound,n:0x00700693]
+{
+	[placement]
+	{
+	  q orientation = 0,0.0174543,0,0.999848;
+	  p position = -0.63797,-4,-1.45453,0x6abe1ac8;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	  f max_dist = 20;
+	}
+}
+[t:emt_sound,n:0x0070084e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999848,0,-0.0174525;
+	  p position = 0.0875626,-0.5,-0.0126829,0x6abe1ac8;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	}
+}
+[t:emt_sound,n:0x007006b4]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999848,0,-0.0174525;
+	  p position = 0.0865612,0,0.23751,0x3ed257c8;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_gas_flame";
+	  f max_dist = 10;
+	  f min_dist = 2;
+	  b repeat = false;
+	}
+}
+[t:emt_sound,n:0x00700853]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999848,0,-0.0174525;
+	  p position = -0.105277,-0.499998,0.110498,0x050889b9;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	}
+}
+[t:emt_sound,n:0x007006ae]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.6482,-2.5,-0.463211,0xde9b532f;
+	}
+	[sound_emitter]
+	{
+		event_sound = "amb_water_drip";
+	  f max_repeat_rate = 25;
+	  f repeat_rate = 5;
+	}
+}
+[t:emt_sound_act,n:0x00700677]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.27488,-1.90735e-005,-0.354015,0x40914852;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "a1_queen_04";
+	  b is_global = true;
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound,n:0x007006b7]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999848,0,-0.0174525;
+	  p position = -2.83978,0,0.415643,0x1677e9cd;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_gas_flame";
+	  f max_dist = 10;
+	  f min_dist = 2;
+	  b repeat = false;
+	}
+}
+[t:emt_generic_act,n:0x0070021e]
+{
+	[generic_emitter_act]
+	{
+	  f rep_freq_max = 50;
+	  f rep_freq_min = 6;
+	  b start_on_creation = true;
+	  b water_splash = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.6362,0.5,-0.43486,0xee910d3c;
+	}
+}
+[t:emt_generic_act,n:0x0070021f]
+{
+	[generic_emitter_act]
+	{
+	  f rep_freq_max = 50;
+	  b start_on_creation = true;
+	  b water_splash = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -3.00249,-0.15,-1.52698,0xc5cf32a0;
+	}
+}
+[t:emt_generic_act,n:0x00700226]
+{
+	[generic_emitter_act]
+	{
+	  f rep_freq_max = 50;
+	  b start_on_creation = true;
+	  b water_splash = true;
+	}
+	[placement]
+	{
+	  p position = 0.193129,0.15,0.743927,0x5d477a80;
+	}
+}
+[t:emt_sound_act,n:0x0070085a]
+{
+	[placement]
+	{
+	  p position = 1.37573,1.25,-1.39514,0xd4bfec95;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "queen_die";
+	  b is_global = true;
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound_act,n:0x0070085d]
+{
+	[placement]
+	{
+	  p position = -1.04531,1.25,-1.2032,0xd4bfec95;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "queen_tail_die";
+	  b is_global = true;
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound,n:0x007006bb]
+{
+	[placement]
+	{
+	  q orientation = 0,0.999848,0,-0.0174525;
+	  p position = 3.94274,0,1.71858,0xf42a12fc;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_gas_flame";
+	  f max_dist = 10;
+	  f min_dist = 2;
+	  b repeat = false;
+	}
+}
+[t:emt_sound,n:0x007006d4]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.70592,-1.5,-0.97076,0x5431e087;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_burning_small";
+	  f max_dist = 4;
+	  f min_dist = 1;
+	  b repeat = false;
+	}
+}
+[t:emt_sound,n:0x007006c2]
+{
+	[placement]
+	{
+	  q orientation = 0,0.615662,0,0.788011;
+	  p position = -0.108169,-0.0479839,-0.422165,0x9263f5bf;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	  f max_dist = 20;
+	}
+}
+[t:emt_sound,n:0x007006c3]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.788011,0,0.615662;
+	  p position = 0.220887,0,-0.517005,0x61cd5a7f;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	  f max_dist = 20;
+	}
+}
+[t:emt_sound,n:0x007006c4]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.788011,0,0.615662;
+	  p position = -1.26505,-2,3.87954,0x8bf56585;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	  f max_dist = 20;
+	}
+}
+[t:emt_sound,n:0x00700582]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.788011,0,0.615662;
+	  p position = -0.42427,0.613192,-0.488458,0x2445ea32;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	  f max_dist = 20;
+	}
+}
+[t:emt_particle_act,n:0x00700164]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 1;
+	  i count = 30;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f fade = 0.5;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f xacc = 90;
+	  f yacc = 0;
+	  f zacc = 0;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.999962,0,0.00872676;
+	  p position = 2.50589,2.6876,2.29766,0x09ad4f56;
+	}
+}
+[t:emt_glow_act,n:0x00700167]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00700156,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_deactivate",0x00700156,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 1;
+	  f green = 0.5;
+	  f red = 0.5;
+	  f scale = 1.1;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.39875,2.92572,-2.36019,0x09ad4f56;
+	}
+}
+[t:emt_glow_act,n:0x00700168]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00700158,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_deactivate",0x00700158,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 1;
+	  f green = 0.5;
+	  f red = 0.5;
+	  f scale = 1.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.2874,2.87224,2.33997,0x09ad4f56;
+	}
+}
+[t:emt_glow_act,n:0x00700169]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00700157,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_deactivate",0x00700157,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 1;
+	  f green = 0.5;
+	  f red = 0.5;
+	  f scale = 1.1;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -2.31364,2.88702,-2.37841,0x09ad4f56;
+	}
+}
+[t:emt_glow_act,n:0x0070016a]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00700154,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_deactivate",0x00700154,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 1;
+	  f green = 0.5;
+	  f red = 0.5;
+	  f scale = 1.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 2.44382,2.89297,2.36929,0x09ad4f56;
+	}
+}
+[t:emt_particle_act,n:0x0070016b]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 1;
+	  i count = 15;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f fade = 0.5;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f yacc = 0;
+	  f zacc = 90;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,-0.707107;
+	  p position = -2.44004,2.71047,2.49944,0x09ad4f56;
+	}
+}
+[t:emt_particle_act,n:0x0070016c]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 1;
+	  i count = 15;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f fade = 0.5;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f yacc = 0;
+	  f zacc = 90;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.00872681,0,0.999962;
+	  p position = -2.39126,2.82689,-2.51874,0x09ad4f56;
+	}
+}
+[t:emt_particle_act,n:0x0070016d]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 1;
+	  i count = 15;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f yacc = 0;
+	  f zacc = 90;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707106,0,0.707107;
+	  p position = 2.52295,2.79408,-2.52833,0x09ad4f56;
+	}
+}
+[t:emt_particle_act,n:0x00700148]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 0.5;
+	  i count = 30;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f fade = 0.5;
+	  f green = 1;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f xacc = 90;
+	  f yacc = 0;
+	  f zacc = 0;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.999962,0,0.00872676;
+	  p position = 2.50589,2.6876,2.29766,0x930d94ab;
+	}
+}
+[t:emt_glow_act,n:0x0070014b]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0070013A,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_deactivate",0x0070013A,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 0.5;
+	  f green = 1;
+	  f red = 0.5;
+	  f scale = 1.1;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 2.39875,2.92572,-2.36019,0x930d94ab;
+	}
+}
+[t:emt_glow_act,n:0x0070014c]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0070013C,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_deactivate",0x0070013C,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 0.5;
+	  f green = 1;
+	  f red = 0.5;
+	  f scale = 1.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -2.2874,2.87224,2.33997,0x930d94ab;
+	}
+}
+[t:emt_glow_act,n:0x0070014d]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0070013B,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_deactivate",0x0070013B,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 0.5;
+	  f green = 1;
+	  f red = 0.5;
+	  f scale = 1.1;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,-0.92388;
+	  p position = -2.31364,2.88702,-2.37841,0x930d94ab;
+	}
+}
+[t:emt_glow_act,n:0x0070014e]
+{
+	[common]
+	{
+		dev_instance_text = "GLOW BALL DP ACTIVE INDICATOR";
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x00700138,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_deactivate",0x00700138,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_deactivate",0,"on_every_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[glow_emitter_act]
+	{
+	  f blue = 0.5;
+	  f green = 1;
+	  f red = 0.5;
+	  f scale = 1.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 2.44382,2.89297,2.36929,0x930d94ab;
+	}
+}
+[t:emt_particle_act,n:0x0070014f]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 0.5;
+	  i count = 15;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f fade = 0.5;
+	  f green = 1;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f yacc = 0;
+	  f zacc = 90;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,-0.707107;
+	  p position = -2.44004,2.71047,2.49944,0x930d94ab;
+	}
+}
+[t:emt_particle_act,n:0x00700150]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 0.5;
+	  i count = 15;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f fade = 0.5;
+	  f green = 1;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f yacc = 0;
+	  f zacc = 90;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.00872681,0,0.999962;
+	  p position = -2.39126,2.82689,-2.51874,0x930d94ab;
+	}
+}
+[t:emt_particle_act,n:0x00700151]
+{
+	[common]
+	{
+		dev_instance_text = "PARTICLE SHOOTER FOR DP USE";
+	}
+	[particle_emitter_act]
+	{
+	  f blue = 0.5;
+	  i count = 15;
+	  f end_radius_max = 2;
+	  f end_radius_min = 2;
+	  f green = 1;
+	  f particle_size = 0.7;
+	  f red = 0.5;
+	  f start_radius_max = 1;
+	  f start_radius_min = 1;
+	  f yacc = 0;
+	  f zacc = 90;
+	  f zvel = 0;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707106,0,0.707107;
+	  p position = 2.52295,2.79408,-2.52833,0x930d94ab;
+	}
+}
+[t:emt_sound,n:0x0070084c]
+{
+	[placement]
+	{
+	  q orientation = 0,0.71934,0,0.694658;
+	  p position = -0.233405,0,-0.460305,0x61a8d269;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	  f max_dist = 10;
+	}
+}
+[t:emt_sound,n:0x00700696]
+{
+	[placement]
+	{
+	  q orientation = 0,0.71934,0,0.694658;
+	  p position = -0.0117877,0,-0.574318,0x4a6470a8;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	  f max_dist = 10;
+	}
+}
+[t:emt_sound,n:0x0070067b]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.694658,0,0.71934;
+	  p position = -0.0467893,0,-0.614548,0xde667853;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	  f max_dist = 10;
+	}
+}
+[t:emt_sound,n:0x00700676]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.694658,0,0.71934;
+	  p position = -2.57501,3.8147e-006,1.83961,0x0f65402d;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	  f max_dist = 10;
+	}
+}
+[t:emt_sound_act,n:0x0070067d]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -3.53103,0,-0.85034,0x20a2d07b;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "a1_queen_03";
+	  b is_global = true;
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_fire,n:0x00700621]
+{
+	[fire_emitter]
+	{
+	  f fade = 0.75;
+	  f start_radius_max = 5;
+	  f start_radius_min = 1;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.995396,0,0.0958456;
+	  p position = -0.0288582,-1.60042,-0.091053,0x9ec96418;
+	}
+}
+[t:emt_sound,n:0x007006a7]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.0914192,-2.25,0.406307,0x9ec96418;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_burning_small";
+	  f max_dist = 4;
+	  f min_dist = 1;
+	  b repeat = false;
+	}
+}
+[t:emt_sound,n:0x007006cb]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.108585,-2.25,0.037178,0x9ec96418;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_burning_small";
+	  f max_dist = 8;
+	  f min_dist = 2;
+	  b repeat = false;
+	}
+}
+[t:emt_sound,n:0x007006cc]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.78814e-007;
+	  p position = 0.392845,-2.25,0.982719,0xddb336a4;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_burning_small";
+	  f max_dist = 8;
+	  f min_dist = 2;
+	  b repeat = false;
+	}
+}
+[t:emt_sound_act,n:0x007003bb]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 0.133882,-1.5,-0.425018,0x1e5122d4;
+	}
+	[sound_emitter_act]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	  f max_dist = 15;
+	  f min_dist = 2;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound_act,n:0x007003bc]
+{
+	[placement]
+	{
+	  p position = -4.11758,0.55,2.39286,0x2d98eab6;
+	}
+	[sound_emitter_act]
+	{
+	  b continual_loop = true;
+		event_sound = "env_pipe_liquid";
+	  f max_dist = 15;
+	  f min_dist = 2;
+	  b start_on_creation = false;
+	}
+}
+[t:emt_sound_act,n:0x00700679]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -0.174607,2,1.34094,0x0b6777ad;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "a1_queen_01";
+	  b is_global = true;
+	  b repeat = false;
+	  b start_on_creation = false;
+	}
+}

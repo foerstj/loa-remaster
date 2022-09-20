@@ -1,0 +1,107 @@
+[t:2W_dsx_gen_beach_shrub-phrak_jungle,n:0x014002af]
+{
+	[generator_advanced_a2]
+	{
+	  b accelerate = true;
+	  i max_alive_children = 5;
+	  i num_children_incubating = 5;
+	  f spawn_period = 0.3;
+	}
+	[placement]
+	{
+	  p position = -0.771095,0,-0.277336,0xfc3d8e40;
+	}
+}
+[t:2W_dsx_gen_beach_shrub-chomper,n:0x014002eb]
+{
+	[generator_advanced_a2]
+	{
+		child_template_name = 2W_dsx_bubber;
+	  i max_alive_children = 4;
+	  i num_children_incubating = 4;
+	  f spawn_period = 0.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -2.47772,0,1.16837,0x88f0160c;
+	}
+}
+[t:2W_dsx_gen_beach_shrub-chomper,n:0x014002ed]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,-0.382683;
+	  p position = -1.14297,0,2.12157,0x399bdf74;
+	}
+}
+[t:2W_dsx_gen_beach_shrub-phrak_jungle,n:0x014002fb]
+{
+	[generator_advanced_a2]
+	{
+	  b accelerate = true;
+	  i max_alive_children = 5;
+	  i num_children_incubating = 5;
+	  f spawn_period = 0.3;
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.68221e-007,0,-1;
+	  p position = -3.36985,2,0.184598,0x120e2aac;
+	}
+}
+[t:2W_dsx_gen_beach_shrub-chomper,n:0x014002f0]
+{
+	[placement]
+	{
+	  q orientation = 0,5.96046e-008,0,1;
+	  p position = 1.28024,0,-0.102028,0xbf907cb5;
+	}
+}
+[t:2W_dsx_gen_beach_shrub-chomper,n:0x014002ef]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -6.03629,-3.89715,-5.48205,0xc1891d12;
+	}
+}
+[t:2W_dsx_gen_beach_shrub-phrak_jungle,n:0x014002e1]
+{
+	[generator_advanced_a2]
+	{
+	  b accelerate = true;
+	  i max_alive_children = 5;
+	  i num_children_incubating = 5;
+	  f spawn_period = 0.3;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 1.04488,1,3.98324,0x1ff82cec;
+	}
+}
+[t:2W_dsx_gen_beach_shrub-mhulliq,n:0x0140011d]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = 1.06466,-0.0356144,-0.0743504,0xa9ebd407;
+	}
+}
+[t:2W_dsx_gen_beach_shrub-mhulliq,n:0x014001b5]
+{
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = -0.601493,3.95,-2.12745,0x8d05588f;
+	}
+}
+[t:2W_dsx_gen_beach_shrub-chomper,n:0x014002ee]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382684,0,-0.923879;
+	  p position = -1.85494,0,0.946785,0xbcbe2e18;
+	}
+}

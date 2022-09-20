@@ -1,0 +1,91 @@
+[kraal_accept]
+{
+	[text*]
+	{
+		sample = s_v_a3_kraal_03;
+		screen_text = "I must admit 'tis good to be among people again... even ones such as you. Well, what are we waiting for?";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[kraal_disband]
+{
+	[text*]
+	{
+		sample = s_v_a3_kraal_05;
+		screen_text = "Good riddance to ya then, ya loon. Hope ya fall into a lime pit or the Zaurask tears ya leg off fer lunch. Don't come crawlin' back neither...";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[kraal_hello]
+{
+	[text*]
+	{
+		choice = more;
+		i order = 0;
+		sample = s_v_a3_kraal_01;
+		screen_text = "I thank ye fer yer aid, though I was sure to finish them off. Don't take me rough look fer one who be a simpleton, friend. I choose this look. It has saved me on more than one occasion from the vicious creatures that roam these woods. My name be Kraal. I have lived here among these beasts for nigh on ten year now, since me ship was lost on the rocks on the south coast of the island.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a3_kraal_02;
+		screen_text = "You seek the Dark One who leads the Zaurask, eh? Aye, 'tis sure he was the one that passed by here no more than a half day ago, he and that big brute Nosirrom, the Zaurask King. I ain't much fer company, but if what you say is true, then I must ask ta join ye.";
+	 	f scroll_rate = 20.000000;
+	}
+}
+[kraal_mp]
+{
+	[text*]
+	{
+		choice = more;
+		i order = 0;
+		sample = s_v_a3_kraal_01;
+		screen_text = "I thank ye fer yer aid, though I was sure to finish them off. Don't take me rough look fer one who be a simpleton, friend. I choose this look. It has saved me on more than one occasion from the vicious creatures that roam these woods. My name be Kraal. I have lived here among these beasts for nigh on ten year now, since me ship was lost on the rocks on the south coast of the island.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		sample = s_v_a3_kraal_mp_02;
+		screen_text = "You seek the Dark One who leads the Zaurask, eh? Aye, 'tis sure he was the one that passed by here no more than a half day ago, he and that big brute Nosirrom, the Zaurask King.";
+	 	f scroll_rate = 20.000000;
+	}
+}
+
+[kraal_hire]
+{
+	[text*]
+	{
+		choice = more;
+		i order = 0;
+		sample = s_v_a3_kraal_01;
+		screen_text = "I thank ye fer yer aid, though I was sure to finish them off. Don't take me rough look fer one who be a simpleton, friend. I choose this look. It has saved me on more than one occasion from the vicious creatures that roam these woods. My name be Kraal. I have lived here among these beasts for nigh on ten year now, since me ship was lost on the rocks on the south coast of the island.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a3_kraal_02;
+		screen_text = "You seek the Dark One who leads the Zaurask, eh? Aye, 'tis sure he was the one that passed by here no more than a half day ago, he and that big brute Nosirrom, the Zaurask King. I ain't much fer company, but if what you say is true, then I must ask ta join ye.";
+	 	f scroll_rate = 20.000000;
+	}
+}
+[kraal_rehire]
+{
+	[text*]
+	{
+		sample = s_v_a3_kraal_06;
+		choice = potential_member;
+		screen_text = "What? You get yer little knickers in a twist tryin' to navigate the jungle trails? You want old Kraal to show you about, eh? Fine.";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[kraal_reject]
+{
+	[text*]
+	{
+		sample = s_v_a3_kraal_07;
+		screen_text = "Fine by me, stranger. Just a word of advice before we part ways. Stay away from them Utraean folk. Their equipment and goods are tainted with evil and wickedness. They made the Hassat and Zaurask, did they tell ya that? Created them in their torture chambers they did.  Then they lost control... the beasts took over and turned this island into a living hell!";
+	  	f scroll_rate = 20.000000;
+	}
+}

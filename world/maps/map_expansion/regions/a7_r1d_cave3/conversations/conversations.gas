@@ -1,0 +1,61 @@
+[umberteen_before_a7_umberteen]
+{
+	[text*]
+	{
+		activate_quest* = a7_umberteen,1;
+	  b quest_dialog = true;
+		sample = s_v_a7_Umberteen_01;
+		screen_text = "Please, kill the Droc in this cave and that monstrous Krakbone outside!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[umberteen_during_a7_umberteen]
+{
+	[text*]
+	{
+		activate_quest* = a7_umberteen,1;
+		sample = s_v_a7_Umberteen_02;
+		screen_text = "I beg you, kill the Droc in this cave and that monstrous Krakbone outside!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[umberteen_after_a7_umberteen]
+{
+	[text*]
+	{
+		choice = more;
+	  	i order = 0;
+		sample = s_v_a7_Umberteen_03;
+		screen_text = "Thank you for freeing me... My wife Uelda and I were among the pilgrims heading to the Healing Well. But we found ourselves trapped in Xulphae's Cove, pinned between the Zaurask and the Droc. I took my family and left a few days ago to try to find help. My brother Ghage saw the Droc attack us as we were crossing the beach. I can still hear his voice, booming down from the cliffs. He must think we're dead.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		give_reward* = book_glb_magic_umberteen;
+		activate_quest* = a7_vfind,0;
+	  	i order = 1;
+	  	b quest_dialog = true;
+		sample = s_v_a7_Umberteen_04;
+		screen_text = "Go East to Xulphae's Cove. Find my brother, Ghage. Offer him what assistance you can. Tell him we're alive. Take my book as proof you met me. And perhaps you'll find these bits of magic useful on your path.  Quickly, now!  Go!  Find Ghage.  I only hope it's not too late...";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[umberteen_during_a7_find]
+{
+	[text*]
+	{
+		sample = s_v_a7_Umberteen_05;
+		screen_text = "I will rest here a moment before I return to Uelda...You must go Xulphae's Cove and find Ghage  Follow the pass to the East of this cave.  Xulphae's Cove is the ancient name for the city built into the cliffs there.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[umberteen_after_a7_find]
+{
+	[text*]
+	{
+		sample = s_v_a7_Umberteen_06;
+		screen_text = "I knew yours was the path of success!  Uelda and I will rejoin our people shortly!";
+	  f scroll_rate = 20.000000;
+	}
+}
+

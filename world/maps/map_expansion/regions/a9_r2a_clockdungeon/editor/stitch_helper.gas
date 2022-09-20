@@ -1,0 +1,44 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000082A;
+	source_region_name = a9_r2a_clockdungeon;
+	[t:stitch_editor,n:a9_r2_cave]
+	{
+		dest_region = a9_r2_cave;
+		[node_ids]
+		{
+			0x99022a01 = 0xB5A034F1,2;
+			0x99022a02 = 0x00FEB122,3;
+			0x99022a03 = 0x00FEB122,2;
+			0x99022a04 = 0xCC18264C,1;
+			0x99022a05 = 0xFBE27C56,5;
+			0x99022a06 = 0xFBE27C56,4;
+			0x99022a07 = 0x23018957,1;
+			0x99022a08 = 0x23018957,6;
+			0x99022a09 = 0xE818F62E,4;
+		}
+	}
+	[t:stitch_editor,n:a9_r3_clockroom]
+	{
+		dest_region = a9_r3_clockroom;
+		[node_ids]
+		{
+			0x992a0301 = 0x4E6019B5,2;
+			0x992a0302 = 0x4E6019B5,1;
+			0x992a0303 = 0x4E6019B5,8;
+			0x992a0304 = 0x4E6019B5,7;
+			0x992a0305 = 0x4E6019B5,6;
+			0x992a0306 = 0x4E6019B5,5;
+			0x992a0307 = 0x4E6019B5,4;
+			0x992a0308 = 0x4E6019B5,3;
+		}
+	}
+	[t:stitch_editor,n:z_a8_r1b_to_a9_r2a]
+	{
+		dest_region = z_a8_r1b_to_a9_r2a;
+		[node_ids]
+		{
+			0x099d0002 = 0x53698887,6;
+		}
+	}
+}

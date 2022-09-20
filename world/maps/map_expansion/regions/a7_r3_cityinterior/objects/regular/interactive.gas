@@ -1,0 +1,47 @@
+[t:respawn_statue,n:0x0630021d]
+{
+	[placement]
+	{
+	  q orientation = 0,0.866026,0,0.5;
+	  p position = -0.251081,-1.51237,1.97285,0x4fc8dfaa;
+		use_point_scids = 0x0630021e;
+	}
+}
+[t:barrier_breakable_01,n:0x063000ac]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.382683,0,0.92388;
+	  p position = -2.12348,1.2517e-006,0.70285,0xa399e4e2;
+	}
+}
+[t:barrier_breakable_01,n:0x063000a0]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  p position = 3.62146,-2.563e-006,-3.07192,0xbe6a9404;
+	}
+}
+[t:barrier_breakable_01,n:0x063000a1]
+{
+	[aspect]
+	{
+	  b is_collidable = false;
+	  b is_selectable = false;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = 1.57275,-2.25,1.87024,0x0be8f659;
+	}
+}

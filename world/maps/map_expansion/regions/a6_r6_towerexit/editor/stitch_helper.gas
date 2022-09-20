@@ -1,0 +1,25 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000056;
+	source_region_name = a6_r6_towerexit;
+	[t:stitch_editor,n:a6_r4_towerbottom]
+	{
+		dest_region = a6_r4_towerbottom;
+		[node_ids]
+		{
+			0x66030401 = 0x1CFAF955,1;
+			0x66030402 = 0x8D22E4DD,3;
+			0x66030403 = 0x0E87CC46,2;
+		}
+	}
+	[t:stitch_editor,n:a7_r1_xotpass]
+	{
+		dest_region = a7_r1_xotpass;
+		[node_ids]
+		{
+			0x67040101 = 0x50C11689,3;
+			0x67040102 = 0xF9124ECA,6;
+			0x67040103 = 0xAB68788E,2;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000045A;
+	source_region_name = a5_r4b_cityjail;
+	[t:stitch_editor,n:a5_r4_cityhub]
+	{
+		dest_region = a5_r4_cityhub;
+		[node_ids]
+		{
+			0x55044a01 = 0xEFB00AD9,8;
+			0x55044a02 = 0xEFB00AD9,7;
+			0x55044a03 = 0xEFB00AD9,6;
+			0x55044a04 = 0xEFB00AD9,5;
+			0x55044a05 = 0xEFB00AD9,4;
+			0x55044a06 = 0xEFB00AD9,3;
+			0x55044a07 = 0xEFB00AD9,2;
+			0x55044a08 = 0xEFB00AD9,1;
+		}
+	}
+}

@@ -1,0 +1,81 @@
+[algher_accept]
+{
+	[text*]
+	{
+		sample = s_v_a3_algher_03;
+		screen_text = "Excellent choice, friend! May the powers grant us victory!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[algher_disband]
+{
+	[text*]
+	{
+		sample = s_v_a3_algher_06;
+		screen_text = "Fair enough... I guess I'll just wait here for a while.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[algher_hello]
+{
+	[text*]
+	{
+		activate_quest* = a1_staff,7;
+		activate_quest* = a3_stone,1;
+		activate_quest* = a2_scribe,1;
+		choice = more;
+		complete_quest* = a2_scribe;
+	  i order = 0;
+	  b quest_dialog = true;
+		sample = s_v_a3_algher_01;
+		screen_text = "Did that crazy old ditch-digger send you down after me? Figures - I knew he wouldn't come down here himself. I had the Stone of Lhaoc in my hands! My partner Jharmaya and I were jumped by these relentless Hassat. They must have taken the stone. After we discovered the Shadowjumper and his minions down here, Jharmaya quit!  She said she was going on ahead to The Ruined City.  She was going to find the Staff of Stars, and 'set things right.' You should find her; she's very wise and may know more about how to stop the Shadowjumper.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a3_algher_02;
+		screen_text = "As long as you are going after her, do you need a hand? I've had it with all this digging and excavating!  Besides, it's about time that my people try to repair some of the damage that has been done!";
+	  f scroll_rate = 20.0;
+	}
+}
+[algher_mp]
+{
+	[text*]
+	{
+		activate_quest* = a2_scribe,1;
+		activate_quest* = a1_staff,7;
+		complete_quest* = a2_scribe;
+		sample = s_v_a3_algher_01;
+		screen_text = "Did that crazy old ditch-digger send you down after me? Figures - I knew he wouldn't come down here himself. I had the Stone of Lhaoc in my hands! My partner Jharmaya and I were jumped by these relentless Hassat. They must have taken the stone. After we discovered the Shadowjumper and his minions down here, Jharmaya quit!  She said she was going on ahead to The Ruined City.  She was going to find the Staff of Stars, and set things right. You should find her; she's very wise and may know more about how to stop the Shadowjumper.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[algher_nis]
+{
+	[text*]
+	{
+		sample = s_v_a3_algher_nis;
+		screen_text = "Hello? Is anyone there... You'll have to take the long way around - it's blocked off here! Watch out for the Hassat, they're everywhere!";
+	  f scroll_rate = 2.000000;
+	}
+}
+[algher_rehire]
+{
+	[text*]
+	{
+		choice = potential_member;
+		sample = s_v_a3_algher_05;
+		screen_text = "So, changed your mind, eh? No worries! Let's go!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[algher_reject]
+{
+	[text*]
+	{
+		sample = s_v_a3_algher_04;
+		screen_text = "All right. The area cleared of creatures back there? Don't want to get myself killed...";
+	  f scroll_rate = 20.000000;
+	}
+}

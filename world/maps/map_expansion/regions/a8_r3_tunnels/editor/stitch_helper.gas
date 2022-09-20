@@ -1,0 +1,18 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000073;
+	source_region_name = a8_r3_tunnels;
+	[t:stitch_editor,n:a8_r2b_fortress]
+	{
+		dest_region = a8_r2b_fortress;
+		[node_ids]
+		{
+			0x88020301 = 0x6FD1F4F9,2;
+			0x88020302 = 0x6FD1F4F9,1;
+			0x88020303 = 0x0FFF13D7,5;
+			0x88020304 = 0x0FFF13D7,4;
+			0x88020305 = 0xAB6966BE,4;
+			0x88020306 = 0xAB6966BE,3;
+		}
+	}
+}

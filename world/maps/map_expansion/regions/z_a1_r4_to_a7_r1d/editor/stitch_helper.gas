@@ -1,0 +1,21 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x0000099B;
+	source_region_name = z_a1_r4_to_a7_r1d;
+	[t:stitch_editor,n:a1_r4_giantcave]
+	{
+		dest_region = a1_r4_giantcave;
+		[node_ids]
+		{
+			0x099b0001 = 0x8081CA76,6;
+		}
+	}
+	[t:stitch_editor,n:a7_r1d_cave3]
+	{
+		dest_region = a7_r1d_cave3;
+		[node_ids]
+		{
+			0x099b0002 = 0x89F84680,6;
+		}
+	}
+}

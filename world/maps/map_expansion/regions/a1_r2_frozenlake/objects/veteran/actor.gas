@@ -1,0 +1,417 @@
+[t:2W_dsx_gremal,n:0x002001a3]
+{
+	[placement]
+	{
+	  p position = -0.472627,0,2.9502,0x34bb6647;
+	}
+}
+[t:2W_dsx_gremal,n:0x002001a4]
+{
+	[placement]
+	{
+	  p position = 0.681418,0,2.78654,0x34bb6647;
+	}
+}
+[t:2W_dsx_gremal,n:0x002001a5]
+{
+	[placement]
+	{
+	  p position = 1.80851,0,0.0669145,0x34bb6647;
+	}
+}
+[t:2W_dsx_ice_fly,n:0x00200199]
+{
+	[placement]
+	{
+	  p position = 1.5889,-6,-1.82468,0x06e2e43f;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001a8]
+{
+	[placement]
+	{
+	  p position = -8.55408,-1.92163,-3.75858,0xdae25ef4;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001a9]
+{
+	[placement]
+	{
+	  p position = 7.02762,-1.62732,-7.13614,0xdae25ef4;
+	}
+}
+[t:2W_dsx_ashley_wicket,n:0x002002b2]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = ashley_wicket;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = 0.921758,-1.5,0.362972,0xdae25ef4;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001b5]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.61214,0,3.0253,0x6b2b3f6c;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001c5]
+{
+	[placement]
+	{
+	  p position = -2.77458,0,3.21486,0x6b2b3f6c;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001aa]
+{
+	[placement]
+	{
+	  p position = 2.31547,0,0.572988,0xa39fe232;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001a7]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.11144,9.53674e-007,0.162248,0xeea372e1;
+	}
+}
+[t:2W_dsx_ice_fly,n:0x0020019a]
+{
+	[placement]
+	{
+	  p position = 0.883486,3.99999,0.73079,0x75ecd86d;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001b4]
+{
+	[placement]
+	{
+	  p position = 1.92402,0,-0.177794,0x131d3de9;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001c4]
+{
+	[placement]
+	{
+	  p position = -1.09117,0,1.02999,0xc55c4e6f;
+	}
+}
+[t:2W_dsx_ice_fly,n:0x0020019f]
+{
+	[placement]
+	{
+	  p position = -2.51464,0,-0.793944,0xcb149f42;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001c3]
+{
+	[placement]
+	{
+	  p position = 1.10369,0,0.162979,0xcb149f42;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001c6]
+{
+	[placement]
+	{
+	  p position = -0.631248,0,-0.718365,0xd761a239;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001b3]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.80693,0,-0.0577249,0x58beea64;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001af]
+{
+	[placement]
+	{
+	  p position = -2.02248,0,1.07417,0xe429fe77;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001ae]
+{
+	[placement]
+	{
+	  p position = 1.41337,3.8147e-006,3.91606,0xbf2bd1c7;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001ab]
+{
+	[placement]
+	{
+	  p position = 1.9259,7.62939e-006,-0.103011,0xbce8fdbc;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001ac]
+{
+	[placement]
+	{
+	  p position = 2.78502,7.62939e-006,1.78694,0xbce8fdbc;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001ad]
+{
+	[placement]
+	{
+	  p position = -0.891241,0,-2.96758,0xbce8fdbc;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001ed]
+{
+	[placement]
+	{
+	  p position = -2.65136,0,1.63214,0xbce8fdbc;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001bf]
+{
+	[placement]
+	{
+	  p position = -1.56296,0,-0.953526,0x1e31f1ee;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001b2]
+{
+	[placement]
+	{
+	  p position = -2.01623,0,-1.33516,0x0d7e07a4;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001c2]
+{
+	[placement]
+	{
+	  p position = 0.757647,0,-1.73115,0x0d7e07a4;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001b1]
+{
+	[placement]
+	{
+	  p position = -3.60704,0,-0.334452,0xee9f97eb;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001c0]
+{
+	[placement]
+	{
+	  p position = -1.50902,0,-0.808099,0xee9f97eb;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001b0]
+{
+	[placement]
+	{
+	  p position = -0.448393,0,-2.72406,0x4003e42d;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001c1]
+{
+	[placement]
+	{
+	  p position = -3.98861,0,-3.42072,0x4003e42d;
+	}
+}
+[t:2W_dsx_ice_fly,n:0x0020019e]
+{
+	[placement]
+	{
+	  p position = -3.55194,7.62939e-006,-0.652216,0xe51e3311;
+	}
+}
+[t:2W_dsx_gremal,n:0x002001a6]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 2.81206,0,-1.53905,0xe51e3311;
+	}
+}
+[t:2W_dsx_gremal,n:0x002001a0]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 5.85684,-3.31866,-1.27753,0x3a0cf3f9;
+	}
+}
+[t:2W_dsx_ice_fly,n:0x0020019c]
+{
+	[placement]
+	{
+	  p position = -2.4381,0,-0.356956,0xc808bcca;
+	}
+}
+[t:2W_dsx_gremal,n:0x002001a1]
+{
+	[placement]
+	{
+	  p position = -1.55001,0,-0.117247,0xc808bcca;
+	}
+}
+[t:2W_dsx_gremal,n:0x002001a2]
+{
+	[placement]
+	{
+	  p position = -1.55001,0,-0.117247,0xc808bcca;
+	}
+}
+[t:2W_dsx_ice_fly,n:0x0020019b]
+{
+	[placement]
+	{
+	  p position = -0.0351114,0,1.95661,0xcb042b69;
+	}
+}
+[t:2W_lyssa,n:0x00200191]
+{
+	[aspect]
+	{
+	  b is_invincible = true;
+	  f life = 58;
+	  f mana = 34;
+	  f max_life = 58.8;
+	  f max_mana = 34;
+	}
+	[common]
+	{
+		dev_instance_text = "LYSSA SP";
+	  b is_multi_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = lyssa_disband;
+			* = lyssa_hire;
+			* = lyssa_late_hire;
+			* = lyssa_meet;
+			* = lyssa_not_hire;
+			* = lyssa_qc;
+			* = lyssa_qc_hire;
+			* = lyssa_rejoin;
+			* = lyssa_hire_bow;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_lyssa.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -1.98764,0,-1.58249,0x259ba4b3;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001be]
+{
+	[placement]
+	{
+	  p position = 2.98059,-3.81665,0.00431442,0x0bdb0c35;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001b6]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -3.64731,9.53674e-007,-0.485203,0xb6f4b7b9;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001b7]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 3.3253,0,2.80422,0xb6f4b7b9;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001cc]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.58609,0,0.0151443,0xb6f4b7b9;
+	}
+}
+[t:2W_dsx_spider_frost_range,n:0x002001ec]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.22542,9.53674e-007,-3.92457,0xb6f4b7b9;
+	}
+}
+[t:2W_dsx_spider_frost,n:0x002001bd]
+{
+	[placement]
+	{
+	  p position = -2.3793,0,-0.449338,0x4ef3f6da;
+	}
+}
+[t:2W_lyssa,n:0x00200197]
+{
+	[aspect]
+	{
+	  b is_invincible = true;
+	  f life = 49;
+	  f mana = 30;
+	  f max_life = 58.8;
+	  f max_mana = 34;
+	}
+	[common]
+	{
+		dev_instance_text = "LYSSA MP";
+	  b is_single_player = false;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = lyssa_mp;
+			* = lyssa_mp_after_a1_queen;
+			* = lyssa_mp_during_a1_queen;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_lyssa_mp.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.410719,0,0.911762;
+	  p position = 0.633451,6,3.85744,0x7ef8faa9;
+	}
+}
+[t:2W_dsx_ice_fly,n:0x0020019d]
+{
+	[placement]
+	{
+	  p position = 1.17552,0,-1.64853,0x54618b3c;
+	}
+}
+[t:2W_dsx_ice_fly,n:0x00200198]
+{
+	[placement]
+	{
+	  p position = -0.994761,0,0.9541,0x44b36b9d;
+	}
+}

@@ -1,0 +1,15 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000007;
+	source_region_name = a1_r6a_lostqueen;
+	[t:stitch_editor,n:a1_r5_queencave]
+	{
+		dest_region = a1_r5_queencave;
+		[node_ids]
+		{
+			0x11030401 = 0x16BCA64A,1;
+			0x11030402 = 0x29818839,4;
+			0x11030403 = 0x7A0D0CD0,2;
+		}
+	}
+}

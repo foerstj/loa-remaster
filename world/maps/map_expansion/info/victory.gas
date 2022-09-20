@@ -1,0 +1,11 @@
+[victory]
+{
+	victory_delay = 1.0;
+	[condition*]
+	{
+		name = dsx_end_game;
+		screen_name = "get staff of stars"
+		description = "picking up the staff of stars completes the game";
+		exclusive = true;
+	}
+}

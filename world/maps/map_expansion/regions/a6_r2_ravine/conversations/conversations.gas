@@ -1,0 +1,164 @@
+//BRAN TORATH CONVERSATIONS
+[bran_torath_before_a6_rune]
+{
+	[text*]
+	{
+		choice = more;
+		i order = 0;
+		sample = s_v_a6_bran_01_;
+		screen_text = "I am Bran Torath, a tradesman, and I give you fair warning: You enter the vale known as Demlock's Cut, a once lush and beautiful valley. But 'tis now overrun by a dark presence, one even worse than the Zaurask abominations that infest the island. This evil is known as 'The Rune Master.'  My son, Lhuk and I were separated when we were attacked by this foul creature! Lhuk is trapped on the other side of the bridge...";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a6_rune,0;
+		i order = 1;
+		b quest_dialog = true;
+		sample = s_v_a6_bran_02;
+		screen_text = "Be wary. The dark creatures the Rune Casters summon are not to be trifled with, and the Rune Guardian wields the Scythe of Angk, the first blade forged by Utraean smiths, imbued with the power to call down lightning. Destroy him and it shall be yours!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[bran_torath_during_a6_rune]
+{
+	[text*]
+	{
+		sample = s_v_a6_bran_03;
+		screen_text = "My son is still trapped by the Rune Casters... Please seek him out, and vanquish the evil ones!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[bran_torath_after_a6_rune]
+{
+	[text*]
+	{
+		sample = s_v_a6_bran_04;
+		screen_text = "Thank you for ridding this beautiful valley of the Rune Master's ugliness.  We are now free to trade. Seek out my son if you need to purchase goods.";
+	  f scroll_rate = 20.000000;
+	}
+}
+//LHUK TORATH CONVERSATIONS
+[lhuk_torath_before_a6_rune]
+{
+	[text*]
+	{
+		activate_quest* = a6_rune,0;
+		sample = s_v_a6_lhuk_01;
+		screen_text = "Please, you must help me!  The Rune Master and his minions attacked me and my father.  I am but a humble merchant, and no match for them.  If you could defeat them for us, I would then trade with you.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[lhuk_torath_during_a6_rune]
+{
+	[text*]
+	{
+		sample = s_v_a6_lhuk_02;
+		screen_text = "The Rune Master still lives... You must slay him!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[lhuk_torath_after_a6_rune]
+{
+	[text*]
+	{
+		activate_quest* = a6_rune,2;
+		complete_quest* = a6_rune;
+		give_reward* = spellbook_dsx_set_demlock;
+		choice = shop;
+		i order = 0;
+		sample = s_v_a6_lhuk_03;
+		screen_text = "I am saved! Thank you, stranger, for defeating the Rune Casters and their terrible creatures. Please feel free to trade from my stock of goods, and thank you for making it possible for me to reunite with my father.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = shop;
+		sample = s_v_a6_lhuk_04;
+		screen_text = "Thank you for ridding this beautiful valley of the Rune Master's ugliness... Look upon my wares and rejoice! Special low prices, just for you!";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[lhuk_torath_after_a6_rune_mp]
+{
+	[text*]
+	{
+		activate_quest* = a6_rune,2;
+		complete_quest* = a6_rune;
+		choice = shop;
+		i order = 0;
+		sample = s_v_a6_lhuk_03;
+		screen_text = "I am saved! Thank you, stranger, for defeating the Rune Casters and their terrible creatures. Please feel free to trade from my stock of goods, and thank you for making it possible for me to reunite with my father.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = shop;
+		sample = s_v_a6_lhuk_04;
+		screen_text = "Thank you for ridding this beautiful valley of the Rune Master's ugliness... Look upon my wares and rejoice! Special low prices, just for you!";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[lhuk_torath_after_displacer]
+{
+	[text*]
+	{
+		choice = shop;
+		sample = s_v_a6_lhuk_05;
+		screen_text = "Are you in need of goods? Then I may have what you need!  Arms and equipment, spells and healing... all at affordable rates!";
+	  f scroll_rate = 20.000000;
+	}
+}
+
+//THERG A6 CONVERSATIONS
+[therg_before_a6_tower]
+{
+	[text*]
+	{
+		activate_quest* = a6_tower,0;
+		b quest_dialog = true;
+		choice = more;
+	  	i order = 0;
+		sample = s_v_a6_therg_01;
+		screen_text = "So! We meet once again, fair traveler.  Behold, the remains of what was once the greatest storehouse of Utraean knowledge: the Tower of Kmethekt ... though I am afraid it has lost some of its former glory. I would like to conduct an exploration of the tower, yet it has become overrun with groups of foul doppelgangers.";
+	  	f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = a1_staff,9;
+		i order = 1;
+		sample = s_v_a6_therg_02;
+		screen_text = "I suspect there is an exit from this forsaken tower far below. Find it for me and secure the tower. Perhaps it will lead you closer to the Great Clock. Certainly you are on the right path to finding our nemesis...' the one who walks in shadow.'";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[therg_during_a6_tower]
+{
+	[text*]
+	{
+		sample = s_v_a6_therg_03;
+		screen_text = "Please make sure that it is safe for me to enter! An old scholar like me doesn't stand a chance against those monstrous doppelgangers. And hurry! My faithful assistants will no doubt be here soon.";
+	  	f scroll_rate = 20.000000;
+	}
+}
+[therg_after_a6_tower]
+{
+	[text*]
+	{
+		sample = s_v_a6_therg_04;
+		screen_text = "Thank you for your help!  As soon as my equipment and faithful assistants arrive, I shall begin my studies!";
+	  	f scroll_rate = 20.000000;
+	}
+}
+
+// JCD 7/14
+// we have to do this since therg_before_a6_tower has quest dialogue for another quest
+[therg_staff_dialogue_a6]
+{
+	[text*]
+	{
+		screen_text = "I suspect there is an exit to this forsaken tower far below. Find it for me and secure the tower. Perhaps it will lead you closer to the great Clock. Certainly you are on the right path to finding our nemesis... the One who Walks in Shadow.";
+		sample = s_v_therg_more;
+		b quest_dialog = true;
+		f scroll_rate = 20.0;
+	}
+}
