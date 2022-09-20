@@ -143,15 +143,14 @@
 }
 [t:packanimal,n:0x014002c0]
 {
-	[placement]
-	{
-	  p position = 0.172781,0.188321,5.02112,0xd7bd1f16;
-	}
 	[common]
 	{
 		screen_name = "Calabry";
 	}
-
+	[placement]
+	{
+	  p position = 0.172781,0.188321,5.02112,0xd7bd1f16;
+	}
 }
 [t:dsx_zaurask_spitter,n:0x014001b0]
 {

@@ -50,6 +50,19 @@
 	  b start_on_creation = false;
 	}
 }
+[t:emt_sound_act,n:0x012003cb]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.848048,0,0.529919;
+	  p position = -3.43877,0,1.70461,0x52714a55;
+	}
+	[sound_emitter_act]
+	{
+		event_sound = "env_shrine_mana";
+	  b start_on_creation = false;
+	}
+}
 [t:emt_sound_act,n:0x01200252]
 {
 	[placement]
@@ -219,18 +232,5 @@
 		event_sound = "s_e_env_bird_chatting";
 	  f max_repeat_rate = 20;
 	  f repeat_rate = 5;
-	}
-}
-[t:emt_sound_act,n:0x012003cb]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.848048,0,0.529919;
-	  p position = -3.43877,0,1.70461,0x52714a55;
-	}
-	[sound_emitter_act]
-	{
-		event_sound = "env_shrine_mana";
-	  b start_on_creation = false;
 	}
 }
