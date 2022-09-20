@@ -61,6 +61,18 @@
 	  p position = -0.0381832,-1.4606,-0.0515137,0x4ad7397e;
 	}
 }
+[t:emt_sound,n:0x05100764]
+{
+	[placement]
+	{
+	  p position = 2.71532,0,-1.50828,0xb21bf627;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_brook";
+	}
+}
 [t:emt_generic,n:0x0510036d]
 {
 	[generic_emitter]
@@ -110,6 +122,19 @@
 	[sound_emitter]
 	{
 		event_sound = "env_wind_gust";
+	}
+}
+[t:emt_sound,n:0x05100763]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -2.61002,0,0.489008,0xec1eca96;
+	}
+	[sound_emitter]
+	{
+	  b continual_loop = true;
+		event_sound = "env_brook";
 	}
 }
 [t:emt_sound,n:0x051001d2]
@@ -341,30 +366,5 @@
 	[sound_emitter_act]
 	{
 		event_sound = "env_wind_monotonic";
-	}
-}
-[t:emt_sound,n:0x05100763]
-{
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -2.61002,0,0.489008,0xec1eca96;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "env_brook";
-	}
-}
-[t:emt_sound,n:0x05100764]
-{
-	[placement]
-	{
-	  p position = 2.71532,0,-1.50828,0xb21bf627;
-	}
-	[sound_emitter]
-	{
-	  b continual_loop = true;
-		event_sound = "env_brook";
 	}
 }

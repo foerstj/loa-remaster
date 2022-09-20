@@ -152,6 +152,18 @@
 	  p position = 1.24757,0,-1.99988,0xdb1ead47;
 	}
 }
+[t:dsx_fen_statue_02,n:0x05400332]
+{
+	[common]
+	{
+		screen_name = "Library Reference #302";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.874619,0,-0.48481;
+	  p position = 1.24642,0,-1.99658,0xdb1ead47;
+	}
+}
 [t:fire_glb_pit_gom_03,n:0x054000d0]
 {
 	[light_flicker_lightweight]
@@ -322,6 +334,18 @@
 	{
 	  q orientation = 0,-0.71934,0,0.694658;
 	  p position = 1.47563,0,0.852497,0x0e5394d2;
+	}
+}
+[t:dsx_fen_statue_01,n:0x05400331]
+{
+	[common]
+	{
+		screen_name = "Library Reference #303";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.71325,0,0.700909;
+	  p position = 1.46944,0,0.843018,0x0e5394d2;
 	}
 }
 [t:bench_csl_broken_02,n:0x0540001e]
@@ -714,6 +738,18 @@
 	  p position = -0.460686,-1.5,-0.676782,0xec51422b;
 	}
 }
+[t:dsx_fen_statue_03,n:0x05400333]
+{
+	[common]
+	{
+		screen_name = "Library Reference #305";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.104528,0,0.994522;
+	  p position = -0.457055,-1.5,-0.666406,0xec51422b;
+	}
+}
 [t:debris_cav_01,n:0x05400169]
 {
 	[placement]
@@ -1007,6 +1043,18 @@
 	  p position = 3.42879,0,0.592489,0x15f3fbea;
 	}
 }
+[t:dsx_fen_statue_06,n:0x05400334]
+{
+	[common]
+	{
+		screen_name = "Library Reference #304";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.913545,0,0.406737;
+	  p position = 3.43301,0,0.591287,0x15f3fbea;
+	}
+}
 [t:bench_csl_webbed_01,n:0x0540017a]
 {
 	[placement]
@@ -1123,6 +1171,18 @@
 	{
 	  q orientation = 0,0.965926,0,-0.258819;
 	  p position = -1.63591,-1.5,-0.891299,0x251404de;
+	}
+}
+[t:dsx_fen_statue_05,n:0x05400335]
+{
+	[common]
+	{
+		screen_name = "Library Reference #306";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.968148,0,-0.25038;
+	  p position = -1.63318,-1.5,-0.887645,0x251404de;
 	}
 }
 [t:bench_csl_broken_02,n:0x0540000a]
@@ -2063,6 +2123,13 @@
 	  p position = 1.96425,-1.5,-0.677126,0x894a1e32;
 	}
 }
+[t:dsx_fen_statue_03,n:0x0540032d]
+{
+	[placement]
+	{
+	  p position = 1.95537,-1.5,-0.687145,0x894a1e32;
+	}
+}
 [t:vase_glb_broken_02,n:0x054000cd]
 {
 	[aspect]
@@ -2336,72 +2403,5 @@
 	{
 	  q orientation = 0,0.0327188,0,0.999465;
 	  p position = -0.884985,1,1.25764,0x6ddf8720;
-	}
-}
-[t:dsx_fen_statue_03,n:0x0540032d]
-{
-	[placement]
-	{
-	  p position = 1.95537,-1.5,-0.687145,0x894a1e32;
-	}
-}
-[t:dsx_fen_statue_01,n:0x05400331]
-{
-	[common]
-	{
-		screen_name = "Library Reference #303";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.71325,0,0.700909;
-	  p position = 1.46944,0,0.843018,0x0e5394d2;
-	}
-}
-[t:dsx_fen_statue_02,n:0x05400332]
-{
-	[common]
-	{
-		screen_name = "Library Reference #302";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.874619,0,-0.48481;
-	  p position = 1.24642,0,-1.99658,0xdb1ead47;
-	}
-}
-[t:dsx_fen_statue_03,n:0x05400333]
-{
-	[common]
-	{
-		screen_name = "Library Reference #305";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.104528,0,0.994522;
-	  p position = -0.457055,-1.5,-0.666406,0xec51422b;
-	}
-}
-[t:dsx_fen_statue_06,n:0x05400334]
-{
-	[common]
-	{
-		screen_name = "Library Reference #304";
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.913545,0,0.406737;
-	  p position = 3.43301,0,0.591287,0x15f3fbea;
-	}
-}
-[t:dsx_fen_statue_05,n:0x05400335]
-{
-	[common]
-	{
-		screen_name = "Library Reference #306";
-	}
-	[placement]
-	{
-	  q orientation = 0,0.968148,0,-0.25038;
-	  p position = -1.63318,-1.5,-0.887645,0x251404de;
 	}
 }

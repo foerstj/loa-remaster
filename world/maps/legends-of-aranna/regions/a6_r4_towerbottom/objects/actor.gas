@@ -618,6 +618,25 @@
 	  p position = 4.61311,-1.25,-3.4922,0xfe24405e;
 	}
 }
+[t:dsx_librarian_base,n:0x0540030e]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = librarian_01;
+		}
+	}
+	[placement]
+	{
+	  p position = -1.84382,-1.5,-0.794241,0xf7c58036;
+	}
+}
 [t:dsx_angler_shadow,n:0x0540018b]
 {
 	[aspect]
@@ -652,25 +671,6 @@
 	{
 	  q orientation = 0,0.793353,0,-0.608762;
 	  p position = -2.60933,-0.45,-0.756653,0x0109dd22;
-	}
-}
-[t:dsx_librarian_base,n:0x0540030e]
-{
-	[aspect]
-	{
-	  f max_life = 49;
-	  f max_mana = 30;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = librarian_01;
-		}
-	}
-	[placement]
-	{
-	  p position = -1.84382,-1.5,-0.794241,0xf7c58036;
 	}
 }
 [t:dsx_angler_shadow,n:0x05400107]
