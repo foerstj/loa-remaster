@@ -307,7 +307,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 6;
+	  f duration = 6.000000;
 	  x next_scid = 0x0710026E;
 	}
 	[placement]
@@ -320,7 +320,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  x next_scid = 0x0710027A;
 	}
 	[placement]
@@ -333,7 +333,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 0.5;
+	  f duration = 0.500000;
 	  x next_scid = 0x0710031B;
 		order = cor_snap;
 	}
@@ -347,7 +347,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 7.5;
+	  f duration = 7.500000;
 	  x next_scid = 0x07100211;
 	}
 	[placement]
@@ -712,7 +712,7 @@
 {
 	[cmd_leave_nis]
 	{
-	  f duration = 0;
+	  f duration = 0.000000;
 	}
 	[placement]
 	{
@@ -767,7 +767,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -1150,7 +1150,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:screen_fade,n:0x07100295]
@@ -1166,7 +1166,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -1182,7 +1182,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:cmd_ai_c_patrol,n:0x071002ab]
@@ -1201,7 +1201,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 2;
+	  f duration = 2.000000;
 	  x next_scid = 0x07100212;
 		order = cor_snap;
 	}

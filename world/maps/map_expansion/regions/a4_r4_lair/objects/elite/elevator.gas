@@ -12,10 +12,10 @@
 	  i connect_door_location2_level2 = 10;
 	  x connect_node_location1 = 0x5B4A883C;
 	  x connect_node_location2 = 0x91E8DCB0;
-	  f duration_location1_moving_to_lv1 = 22;
-	  f duration_location1_moving_to_lv2 = 3;
-	  f duration_location2_moving_to_lv1 = 22;
-	  f duration_location2_moving_to_lv2 = 3;
+	  f duration_location1_moving_to_lv1 = 22.000000;
+	  f duration_location1_moving_to_lv2 = 3.000000;
+	  f duration_location2_moving_to_lv1 = 22.000000;
+	  f duration_location2_moving_to_lv2 = 3.000000;
 	  i e2_connect_door_location1_level1 = 12;
 	  i e2_connect_door_location1_level2 = 11;
 	  i e2_connect_door_location2_level1 = 12;
@@ -26,11 +26,11 @@
 	  i e2_elevator_door_location2_level2 = 2;
 	  x e2_elevator_node = 0x4812F23B;
 	  x elevator_node = 0xC571060F;
-	  f location1_arrived_at_lv2_delay = 1;
+	  f location1_arrived_at_lv2_delay = 1.000000;
 	  x location1_arrived_at_lv2_scid = 0x034000AD;
 		location1_moving_to_lv1_actioninfo = "map_expansion_a4_r4_dp_down;0x00000041,1,-1,-1,out:black";
 		location1_moving_to_lv2_actioninfo = "map_expansion_teleport_up";
-	  f location1_moving_to_lv2_delay = 0;
+	  f location1_moving_to_lv2_delay = 0.000000;
 	  x location1_moving_to_lv2_scid = 0x034000B5;
 		location2_moving_to_lv1_actioninfo = "map_expansion_a4_r1_dp_down;0x00000041,1,-1,-1,in";
 		location2_moving_to_lv2_actioninfo = "map_expansion_teleport_up";
@@ -51,7 +51,7 @@
 	  i connect_door_level2 = 3;
 	  x connect_node_level1 = 0x48770AC5;
 	  x connect_node_level2 = 0x029C015E;
-	  f duration = 5;
+	  f duration = 5.000000;
 	  i elevator_door_level1 = 1;
 	  i elevator_door_level2 = 1;
 	  x elevator_node = 0x05091B61;

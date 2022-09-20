@@ -9,7 +9,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_thunder";
-	  f max_repeat_rate = 12;
+	  f max_repeat_rate = 12.000000;
 	}
 }
 [t:emt_sound_act,n:0x06200299]
@@ -47,7 +47,7 @@
 	[sound_emitter]
 	{
 		event_sound = "ambient_swamp";
-	  f max_repeat_rate = 12;
+	  f max_repeat_rate = 12.000000;
 	}
 }
 [t:emt_sound,n:0x062004d4]
@@ -60,7 +60,7 @@
 	[sound_emitter]
 	{
 		event_sound = "env_seagulls";
-	  f max_repeat_rate = 12;
+	  f max_repeat_rate = 12.000000;
 	}
 }
 [t:emt_sound,n:0x062002fd]
@@ -74,7 +74,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_tavern";
-	  f max_repeat_rate = 12;
+	  f max_repeat_rate = 12.000000;
 	  b stop_instantly = true;
 	}
 }
@@ -88,6 +88,6 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder";
-	  f max_repeat_rate = 12;
+	  f max_repeat_rate = 12.000000;
 	}
 }

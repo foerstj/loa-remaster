@@ -2,7 +2,7 @@
 {
 	[fire_emitter_act]
 	{
-	  f green0 = 3;
+	  f green0 = 3.000000;
 	}
 	[placement]
 	{
@@ -13,7 +13,7 @@
 {
 	[fire_emitter_act]
 	{
-	  f green0 = 3;
+	  f green0 = 3.000000;
 	}
 	[placement]
 	{
@@ -51,8 +51,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_moaning";
-	  f max_dist = 18;
-	  f max_repeat_rate = 25;
+	  f max_dist = 18.000000;
+	  f max_repeat_rate = 25.000000;
 	}
 }
 [t:emt_sound,n:0x04100049]
@@ -65,8 +65,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_dungeon";
-	  f max_dist = 18;
-	  f max_repeat_rate = 25;
+	  f max_dist = 18.000000;
+	  f max_repeat_rate = 25.000000;
 	}
 }
 [t:emt_sound,n:0x0410004d]
@@ -79,8 +79,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_dungeon";
-	  f max_dist = 18;
-	  f max_repeat_rate = 25;
+	  f max_dist = 18.000000;
+	  f max_repeat_rate = 25.000000;
 	}
 }
 [t:emt_sound,n:0x0410004a]
@@ -92,8 +92,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_moaning";
-	  f max_dist = 18;
-	  f max_repeat_rate = 25;
+	  f max_dist = 18.000000;
+	  f max_repeat_rate = 25.000000;
 	}
 }
 [t:emt_sound,n:0x0410004b]
@@ -106,7 +106,7 @@
 	[sound_emitter]
 	{
 		event_sound = "env_moaning";
-	  f max_dist = 18;
-	  f max_repeat_rate = 25;
+	  f max_dist = 18.000000;
+	  f max_repeat_rate = 25.000000;
 	}
 }

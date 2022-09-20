@@ -7,8 +7,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x02300c1e]
@@ -20,9 +20,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_rumble_distant";
-	  f max_repeat_rate = 60;
-	  f min_dist = 15;
-	  f repeat_rate = 15;
+	  f max_repeat_rate = 60.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 15.000000;
 	}
 }
 [t:emt_sound,n:0x02300ab7]
@@ -34,8 +34,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x02300c16]
@@ -47,8 +47,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound_act,n:0x0230009f]
@@ -73,9 +73,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_spider_scurry";
-	  f max_dist = 15;
-	  f max_repeat_rate = 25;
-	  f min_dist = 2;
+	  f max_dist = 15.000000;
+	  f max_repeat_rate = 25.000000;
+	  f min_dist = 2.000000;
 	}
 }
 [t:emt_sound,n:0x02300c1d]
@@ -87,9 +87,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_rumble_distant";
-	  f max_repeat_rate = 60;
-	  f min_dist = 15;
-	  f repeat_rate = 15;
+	  f max_repeat_rate = 60.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 15.000000;
 	}
 }
 [t:emt_sound,n:0x02300b2e]
@@ -101,8 +101,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 120;
-	  f repeat_rate = 20;
+	  f max_repeat_rate = 120.000000;
+	  f repeat_rate = 20.000000;
 	}
 }
 [t:emt_sound,n:0x02300c15]
@@ -114,8 +114,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x02300191]
@@ -128,7 +128,7 @@
 	[sound_emitter]
 	{
 		event_sound = "ambient_thunder";
-	  f max_repeat_rate = 25;
+	  f max_repeat_rate = 25.000000;
 	}
 }
 [t:emt_sound,n:0x02300b49]
@@ -140,8 +140,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 60;
-	  f repeat_rate = 20;
+	  f max_repeat_rate = 60.000000;
+	  f repeat_rate = 20.000000;
 	}
 }
 [t:emt_sound,n:0x02300c14]
@@ -153,8 +153,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x02300c1c]
@@ -166,16 +166,16 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_rumble_distant";
-	  f max_repeat_rate = 60;
-	  f min_dist = 15;
-	  f repeat_rate = 15;
+	  f max_repeat_rate = 60.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 15.000000;
 	}
 }
 [t:emt_lightning,n:0x0230063f]
 {
 	[lightning_emitter]
 	{
-	  f maxdelayrand = 35;
+	  f maxdelayrand = 35.000000;
 	}
 	[placement]
 	{
@@ -191,8 +191,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 60;
-	  f repeat_rate = 20;
+	  f max_repeat_rate = 60.000000;
+	  f repeat_rate = 20.000000;
 	}
 }
 [t:emt_sound,n:0x02300c13]
@@ -204,8 +204,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x02300c1b]
@@ -217,9 +217,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_rumble_distant";
-	  f max_repeat_rate = 60;
-	  f min_dist = 15;
-	  f repeat_rate = 15;
+	  f max_repeat_rate = 60.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 15.000000;
 	}
 }
 [t:emt_sound,n:0x02300b65]
@@ -231,8 +231,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x02300c1a]
@@ -244,9 +244,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_rumble_distant";
-	  f max_repeat_rate = 60;
-	  f min_dist = 15;
-	  f repeat_rate = 15;
+	  f max_repeat_rate = 60.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 15.000000;
 	}
 }
 [t:emt_sound,n:0x02300bb1]
@@ -259,7 +259,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crickets";
-	  f min_dist = 15;
+	  f min_dist = 15.000000;
 	}
 }
 [t:emitter_glb_smoke_01,n:0x02300465]
@@ -274,8 +274,8 @@
 	[generic_emitter]
 	{
 	  b geyser_white = true;
-	  f rep_freq_max = 65;
-	  f rep_freq_min = 15;
+	  f rep_freq_max = 65.000000;
+	  f rep_freq_min = 15.000000;
 	}
 	[placement]
 	{
@@ -292,8 +292,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_bird_calling";
-	  f max_repeat_rate = 30;
-	  f repeat_rate = 20;
+	  f max_repeat_rate = 30.000000;
+	  f repeat_rate = 20.000000;
 	}
 }
 [t:emt_generic,n:0x02300463]
@@ -316,9 +316,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_crack";
-	  f max_repeat_rate = 60;
-	  f min_dist = 15;
-	  f repeat_rate = 15;
+	  f max_repeat_rate = 60.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 15.000000;
 	}
 }
 [t:emt_fire,n:0x02300432]
@@ -329,12 +329,12 @@
 	}
 	[fire_emitter]
 	{
-	  f blue0 = 0.75;
+	  f blue0 = 0.750000;
 	  i count = 15;
-	  f displace_max = 0.25;
-	  f green0 = 0.95;
-	  f particle_size = 0.55;
-	  f red0 = 0.3;
+	  f displace_max = 0.250000;
+	  f green0 = 0.950000;
+	  f particle_size = 0.550000;
+	  f red0 = 0.300000;
 	}
 	[placement]
 	{
@@ -349,11 +349,11 @@
 	}
 	[fire_emitter]
 	{
-	  f blue0 = 0.95;
-	  f displace_max = 0.25;
-	  f particle_size = 0.55;
-	  f red0 = 0.3;
-	  f red1 = 0.75;
+	  f blue0 = 0.950000;
+	  f displace_max = 0.250000;
+	  f particle_size = 0.550000;
+	  f red0 = 0.300000;
+	  f red1 = 0.750000;
 	}
 	[placement]
 	{
@@ -368,11 +368,11 @@
 	}
 	[fire_emitter]
 	{
-	  f blue0 = 0.95;
-	  f displace_max = 0.25;
-	  f particle_size = 0.55;
-	  f red0 = 0.3;
-	  f red1 = 0.75;
+	  f blue0 = 0.950000;
+	  f displace_max = 0.250000;
+	  f particle_size = 0.550000;
+	  f red0 = 0.300000;
+	  f red1 = 0.750000;
 	}
 	[placement]
 	{
@@ -387,11 +387,11 @@
 	}
 	[fire_emitter]
 	{
-	  f blue0 = 0.95;
-	  f displace_max = 0.25;
-	  f particle_size = 0.55;
-	  f red0 = 0.3;
-	  f red1 = 0.75;
+	  f blue0 = 0.950000;
+	  f displace_max = 0.250000;
+	  f particle_size = 0.550000;
+	  f red0 = 0.300000;
+	  f red1 = 0.750000;
 	}
 	[placement]
 	{
@@ -406,12 +406,12 @@
 	}
 	[fire_emitter]
 	{
-	  f blue0 = 0.75;
+	  f blue0 = 0.750000;
 	  i count = 15;
-	  f displace_max = 0.25;
-	  f green0 = 0.95;
-	  f particle_size = 0.55;
-	  f red0 = 0.3;
+	  f displace_max = 0.250000;
+	  f green0 = 0.950000;
+	  f particle_size = 0.550000;
+	  f red0 = 0.300000;
 	}
 	[placement]
 	{
@@ -426,12 +426,12 @@
 	}
 	[fire_emitter]
 	{
-	  f blue0 = 0.75;
+	  f blue0 = 0.750000;
 	  i count = 15;
-	  f displace_max = 0.25;
-	  f green0 = 0.95;
-	  f particle_size = 0.55;
-	  f red0 = 0.3;
+	  f displace_max = 0.250000;
+	  f green0 = 0.950000;
+	  f particle_size = 0.550000;
+	  f red0 = 0.300000;
 	}
 	[placement]
 	{
@@ -446,12 +446,12 @@
 	}
 	[fire_emitter]
 	{
-	  f blue0 = 0.75;
+	  f blue0 = 0.750000;
 	  i count = 15;
-	  f displace_max = 0.25;
-	  f green0 = 0.95;
-	  f particle_size = 0.55;
-	  f red0 = 0.3;
+	  f displace_max = 0.250000;
+	  f green0 = 0.950000;
+	  f particle_size = 0.550000;
+	  f red0 = 0.300000;
 	}
 	[placement]
 	{
@@ -463,8 +463,8 @@
 	[generic_emitter]
 	{
 	  b geyser_purple = true;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 4;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 4.000000;
 	}
 	[placement]
 	{
@@ -477,8 +477,8 @@
 	[generic_emitter]
 	{
 	  b geyser_purple = true;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 4;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 4.000000;
 	}
 	[placement]
 	{
@@ -491,8 +491,8 @@
 	[generic_emitter]
 	{
 	  b geyser_purple = true;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 4;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 4.000000;
 	}
 	[placement]
 	{
@@ -505,8 +505,8 @@
 	[generic_emitter]
 	{
 	  b geyser_purple = true;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 4;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 4.000000;
 	}
 	[placement]
 	{
@@ -522,11 +522,11 @@
 	}
 	[fire_emitter]
 	{
-	  f blue0 = 0.95;
-	  f displace_max = 0.25;
-	  f particle_size = 0.55;
-	  f red0 = 0.3;
-	  f red1 = 0.75;
+	  f blue0 = 0.950000;
+	  f displace_max = 0.250000;
+	  f particle_size = 0.550000;
+	  f red0 = 0.300000;
+	  f red1 = 0.750000;
 	}
 	[placement]
 	{
@@ -556,8 +556,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 60;
-	  f repeat_rate = 25;
+	  f max_repeat_rate = 60.000000;
+	  f repeat_rate = 25.000000;
 	}
 }
 [t:emt_sound,n:0x02300c20]
@@ -569,9 +569,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_hassat_growl_long";
-	  f max_repeat_rate = 70;
-	  f min_dist = 10;
-	  f repeat_rate = 20;
+	  f max_repeat_rate = 70.000000;
+	  f min_dist = 10.000000;
+	  f repeat_rate = 20.000000;
 	}
 }
 [t:emt_sound,n:0x02300b64]
@@ -583,7 +583,7 @@
 	[sound_emitter]
 	{
 		event_sound = "env_haunting";
-	  f max_repeat_rate = 45;
+	  f max_repeat_rate = 45.000000;
 	}
 }
 [t:emt_sound,n:0x02300c27]
@@ -596,8 +596,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_small";
-	  f max_dist = 25;
-	  f min_dist = 4;
+	  f max_dist = 25.000000;
+	  f min_dist = 4.000000;
 	}
 }
 [t:emt_sound,n:0x02300c1f]
@@ -609,9 +609,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_rumble_distant";
-	  f max_repeat_rate = 60;
-	  f min_dist = 15;
-	  f repeat_rate = 15;
+	  f max_repeat_rate = 60.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 15.000000;
 	}
 }
 [t:emt_sound,n:0x02300c21]
@@ -624,9 +624,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_hassat_chuff";
-	  f max_repeat_rate = 70;
-	  f min_dist = 10;
-	  f repeat_rate = 20;
+	  f max_repeat_rate = 70.000000;
+	  f min_dist = 10.000000;
+	  f repeat_rate = 20.000000;
 	}
 }
 [t:emt_sound_act,n:0x02300c26]
@@ -677,8 +677,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_loon_call";
-	  f max_repeat_rate = 60;
-	  f repeat_rate = 20;
+	  f max_repeat_rate = 60.000000;
+	  f repeat_rate = 20.000000;
 	}
 }
 [t:emt_sound_act,n:0x02301008]

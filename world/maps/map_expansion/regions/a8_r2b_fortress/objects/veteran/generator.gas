@@ -10,7 +10,7 @@
 	  b get_child_cc = true;
 	  x msg_scid = 0x72B0007A;
 	  i num_children_incubating = 2;
-	  f spawn_period = 6;
+	  f spawn_period = 6.000000;
 		trigger_msg = we_constructed;
 	}
 	[placement]
@@ -32,7 +32,7 @@
 	  i max_alive_children = 3;
 	  x msg_scid = 0x72B0007A;
 	  i num_children_incubating = 3;
-	  f spawn_period = 5;
+	  f spawn_period = 5.000000;
 		trigger_msg = we_constructed;
 	}
 	[placement]
@@ -53,7 +53,7 @@
 	  b get_child_cc = true;
 	  x msg_scid = 0x72B00078;
 	  i num_children_incubating = 2;
-	  f spawn_period = 5;
+	  f spawn_period = 5.000000;
 		trigger_msg = we_constructed;
 	}
 	[placement]
@@ -75,7 +75,7 @@
 	  i max_alive_children = 2;
 	  x msg_scid = 0x72B00078;
 	  i num_children_incubating = 3;
-	  f spawn_period = 5;
+	  f spawn_period = 5.000000;
 		trigger_msg = we_constructed;
 	}
 	[placement]
@@ -134,7 +134,7 @@
 	  i max_alive_children = 3;
 	  x msg_scid = 0x72B00070;
 	  i num_children_incubating = 2;
-	  f spawn_period = 5;
+	  f spawn_period = 5.000000;
 		trigger_msg = we_constructed;
 	}
 	[placement]
@@ -155,7 +155,7 @@
 	  b get_child_cc = true;
 	  x msg_scid = 0x72B0006D;
 	  i num_children_incubating = 2;
-	  f spawn_period = 7;
+	  f spawn_period = 7.000000;
 		trigger_msg = we_constructed;
 	}
 	[placement]
@@ -177,7 +177,7 @@
 	  i max_alive_children = 3;
 	  x msg_scid = 0x72B0006D;
 	  i num_children_incubating = 3;
-	  f spawn_period = 5;
+	  f spawn_period = 5.000000;
 		trigger_msg = we_constructed;
 	}
 	[placement]
@@ -198,7 +198,7 @@
 	  b get_child_cc = true;
 	  x msg_scid = 0x72B0006F;
 	  i num_children_incubating = 2;
-	  f spawn_period = 10;
+	  f spawn_period = 10.000000;
 		trigger_msg = we_constructed;
 	}
 	[placement]
@@ -220,7 +220,7 @@
 	  i max_alive_children = 3;
 	  x msg_scid = 0x72B0006F;
 	  i num_children_incubating = 3;
-	  f spawn_period = 5;
+	  f spawn_period = 5.000000;
 		trigger_msg = we_constructed;
 	}
 	[placement]

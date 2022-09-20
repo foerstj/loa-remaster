@@ -108,7 +108,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 3;
+	  f duration = 3.000000;
 	  x next_scid = 0x06200683;
 	}
 	[placement]
@@ -121,7 +121,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 3;
+	  f duration = 3.000000;
 	  x next_scid = 0x0620067F;
 	}
 	[placement]
@@ -134,7 +134,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 4.25;
+	  f duration = 4.250000;
 	  x next_scid = 0x06200483;
 	}
 	[placement]
@@ -158,7 +158,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  x next_scid = 0x06200684;
 		order = cor_snap;
 	}
@@ -172,7 +172,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 2;
+	  f duration = 2.000000;
 	  x next_scid = 0x06200477;
 	}
 	[placement]
@@ -185,7 +185,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 9.5;
+	  f duration = 9.500000;
 	  x next_scid = 0x06200482;
 	}
 	[placement]
@@ -215,7 +215,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -227,7 +227,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:screen_fade,n:0x06200680]
@@ -239,7 +239,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 3;
+	  f duration = 3.000000;
 	  b fade = false;
 	}
 }
@@ -247,7 +247,7 @@
 {
 	[cmd_leave_nis]
 	{
-	  f duration = 0;
+	  f duration = 0.000000;
 	}
 	[common]
 	{
@@ -266,7 +266,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 3;
+	  f duration = 3.000000;
 	}
 }
 [t:cmd_enter_nis,n:0x0620026e]
@@ -293,7 +293,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -305,7 +305,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:dsx_cmd_party_wrangler,n:0x062004d6]
@@ -324,7 +324,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  x next_scid = 0x0620067E;
 		order = cor_begin_spline;
 	}
@@ -338,7 +338,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 12;
+	  f duration = 12.000000;
 	  x next_scid = 0x06200483;
 		order = cor_end_spline;
 	}

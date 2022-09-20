@@ -4,30 +4,30 @@
 	{
 		choice = shop;
 		sample = s_e_vending_machine;
-		screen_text = "Welcome to the Great Clock Facility's Magical Automated Store (MAS).\n\n+++REPROGRAMMING DETECTED+++\n\nGoblin Kin!\n\nWe have taken this infantile machine and usurped it for the purposes of overthrowing the world of daylight. Buy your tools of destruction here!  Sell your worthless tall-folk items!\n\nWe will destroy all of those who walk in the sun!\n\n+++ORIGINAL PROGRAM RESUMPTION+++\n\nHave a nice day!"
-		  f scroll_rate = 20.0;
+		screen_text = "Welcome to the Great Clock Facility's Magical Automated Store (MAS).\n\n+++REPROGRAMMING DETECTED+++\n\nGoblin Kin!\n\nWe have taken this infantile machine and usurped it for the purposes of overthrowing the world of daylight. Buy your tools of destruction here!  Sell your worthless tall-folk items!\n\nWe will destroy all of those who walk in the sun!\n\n+++ORIGINAL PROGRAM RESUMPTION+++\n\nHave a nice day!";
+	  f scroll_rate = 20.000000;
 	}
 }
 [disco_hello]
 {
 	[text*]
 	{
-		i order = 0;
+	  i order = 0;
 		choice = more;
 		screen_text = "Why, if it ain't the child of Arhok! I knew your parents ... fine folks, fine folks! Helped extract me from a rather unfortunate set of circumstances involving a dispute I had with another local 'provider of goods and services.' We sent that clown packing, if you get my drift!";
-		f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		give_reward* = he_ra_ca_le_avg_pimp,spell_orb_poultry;
 		choice = more;
-		i order = 1;
+	  i order = 1;
 		screen_text = "So - speaking of the big man hiding out in the Clockroom upstairs... That ugly fool's been keeping me awake with all that racket! Storms, lightning, thunder - man, that stuff belongs OUT-side.  Here, why don't you take these things with you - I got my own hat,  this one's a spare. Pretty funky, ain't it? As for the poultry - well what can I say?";
-		f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		screen_text = "'Mr. Shadow Jumper.'  What a clown... That Shadowed fool is like school in the summertime...  no class";
-		f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }

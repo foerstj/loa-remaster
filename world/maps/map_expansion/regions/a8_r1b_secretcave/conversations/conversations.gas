@@ -1,40 +1,39 @@
-//JAFF'S CONVERSATIONS
 [jaff_during_a5_letter_no_letter]
 {
 	[text*]
 	{
 		choice = more;
-		i order = 0;
+	  i order = 0;
 		sample = s_v_a8_jaff_01;
 		screen_text = "...We were so stupid-thinking we could actually REASON with Nosirrom. The deceiving fiend led us all the way to the gates of the castle with promises of peace before he turned his dark beasts and foul goblins loose on us.  After the slaughter, they dumped the bodies here for the animals to eat... if I hadn't played dead, I'd BE dead.  I just can't figure out what the goblins are doing here... Oh, sorry-my name is Jaff.";
-		f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		sample = s_v_a8_jaff_02;
 		screen_text = "I don't really know what I'm going to do... I don't think I can go back and face the others after all this.  I need to think for a while... I'll let you deal with Nosirrom and the goblins...";
-		f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [jaff_during_a5_letter]
 {
 	[text*]
 	{
-		i order = 0;
+	  i order = 0;
 		choice = more;
 		sample = s_v_a8_jaff_01;
 		screen_text = "...We were so stupid-thinking we could actually REASON with Nosirrom. The deceiving fiend led us all the way to the gates of the castle with promises of peace before he turned his dark beasts and foul goblins loose on us.  After the slaughter, they dumped the bodies here for the animals to eat... if I hadn't played dead, I'd BE dead.  I just can't figure out what the goblins are doing here... Oh, sorry-my name is Jaff.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
-		i order = 1;
+	  i order = 1;
 		activate_quest* = a5_letter,2;
 		complete_quest* = a5_letter;
 		remove_item* = book_glb_lore_nirr;
 		sample = s_v_a8_jaff_04;
 		screen_text = "This is a letter from my father?  Hmm.  Perhaps the old man has softened his heart... and maybe I have, too; the horrors I have witnessed here have made me value the life I once had.  My father deserves another chance.  I'm going to rest up and then I will seek him.";
-		f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [jaff_after_a5_letter]
@@ -42,7 +41,7 @@
 	[text*]
 	{
 		screen_text = "I'm going to rest up here a bit before I head back to Xulphae's Cove.";
-		f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 		sample = s_v_a8_jaff_05;
 	}
 }

@@ -15,25 +15,24 @@
 	  b quest_dialog = true;
 		sample = s_v_a5_guardian_01;
 		screen_text = "Please! You must stop... stop it from... perverting the power of the displacers! It was my sacred task... but, I have failed. Help reverse the damage that it has caused...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [guardian_hello_death_qc]
 {
 	[text*]
 	{
-	  	sample = s_v_a5_guardian_01;
+		sample = s_v_a5_guardian_01;
 		screen_text = "Please! You must stop... stop it from... perverting the power of the displacers! It was my sacred task... but, I have failed. Help reverse the damage that it has caused...";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
-
 [placeholder]
 {
 	[text*]
 	{
 		sample = ;
 		screen_text = "A";
-	  f scroll_rate = 20.0000;
+	  f scroll_rate = 20.000000;
 	}
 }

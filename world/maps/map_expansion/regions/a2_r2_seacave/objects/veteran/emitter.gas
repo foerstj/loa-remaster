@@ -20,16 +20,16 @@
 	[sound_emitter]
 	{
 		event_sound = "amb_water_drip";
-	  f max_repeat_rate = 20;
-	  f min_dist = 20;
-	  f repeat_rate = 10;
+	  f max_repeat_rate = 20.000000;
+	  f min_dist = 20.000000;
+	  f repeat_rate = 10.000000;
 	}
 }
 [t:emt_light_ray,n:0x01300030]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.052;
+	  f scale_multiplier = 1.052000;
 	}
 	[placement]
 	{
@@ -41,7 +41,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.052;
+	  f scale_multiplier = 1.052000;
 	}
 	[placement]
 	{
@@ -67,7 +67,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.02171;
+	  f scale_multiplier = 1.021710;
 	}
 	[placement]
 	{
@@ -85,15 +85,15 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_jungle_thing";
-	  f max_repeat_rate = 7;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 7.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_light_ray,n:0x01300057]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.02171;
+	  f scale_multiplier = 1.021710;
 	}
 	[placement]
 	{
@@ -132,7 +132,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.24937;
+	  f scale_multiplier = 1.249370;
 	}
 	[placement]
 	{
@@ -144,7 +144,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.052;
+	  f scale_multiplier = 1.052000;
 	}
 	[placement]
 	{
@@ -156,7 +156,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.02171;
+	  f scale_multiplier = 1.021710;
 	}
 	[placement]
 	{
@@ -173,8 +173,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_wind_gust";
-	  f max_repeat_rate = 60;
-	  f repeat_rate = 10;
+	  f max_repeat_rate = 60.000000;
+	  f repeat_rate = 10.000000;
 	}
 }
 [t:emt_sound,n:0x01300189]

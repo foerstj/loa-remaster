@@ -151,7 +151,6 @@
 	{
 		screen_name = "Calabry";
 	}
-
 }
 [t:2W_dsx_zaurask_spitter,n:0x014001b0]
 {
@@ -403,8 +402,8 @@
 	{
 	  b draw_selection_indicator = false;
 	  b is_selectable = false;
-	  f max_life = 66.5;
-	  f max_mana = 109;
+	  f max_life = 66.500000;
+	  f max_mana = 109.000000;
 		model = m_c_na_pa_02;
 	}
 	[common]

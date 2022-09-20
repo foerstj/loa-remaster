@@ -7,8 +7,8 @@
 	[sound_emitter_act]
 	{
 		event_sound = "a3_hassat_taunt_05";
-	  f max_dist = 50;
-	  f min_dist = 45;
+	  f max_dist = 50.000000;
+	  f min_dist = 45.000000;
 	  b repeat = false;
 	  b start_on_creation = false;
 	}
@@ -23,8 +23,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_large";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	}
 }
 [t:emt_mist,n:0x24a0011d]
@@ -43,8 +43,8 @@
 	[sound_emitter]
 	{
 		event_sound = "amb_water_drip";
-	  f max_repeat_rate = 30;
-	  f repeat_rate = 20;
+	  f max_repeat_rate = 30.000000;
+	  f repeat_rate = 20.000000;
 	}
 }
 [t:emt_sound,n:0x24a0016e]
@@ -56,16 +56,16 @@
 	[sound_emitter]
 	{
 		event_sound = "env_drip_single";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_generic,n:0x24a002cf]
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.7;
-	  f rep_freq_min = 0.2;
+	  f rep_freq_max = 0.700000;
+	  f rep_freq_min = 0.200000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -78,8 +78,8 @@
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.8;
-	  f rep_freq_min = 0.3;
+	  f rep_freq_max = 0.800000;
+	  f rep_freq_min = 0.300000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -92,8 +92,8 @@
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.8;
-	  f rep_freq_min = 0.3;
+	  f rep_freq_max = 0.800000;
+	  f rep_freq_min = 0.300000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -106,8 +106,8 @@
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.8;
-	  f rep_freq_min = 0.3;
+	  f rep_freq_max = 0.800000;
+	  f rep_freq_min = 0.300000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -120,8 +120,8 @@
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.9;
-	  f rep_freq_min = 0.2;
+	  f rep_freq_max = 0.900000;
+	  f rep_freq_min = 0.200000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -172,8 +172,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_large";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	}
 }
 [t:emt_sound,n:0x24a0014e]
@@ -250,8 +250,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_large";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	}
 }
 [t:emt_mist,n:0x24a00100]
@@ -272,8 +272,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_large";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	}
 }
 [t:emt_sound,n:0x24a00150]
@@ -311,8 +311,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_drip_single";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_mist,n:0x24a00104]
@@ -332,16 +332,16 @@
 	[sound_emitter]
 	{
 		event_sound = "env_drip_water";
-	  f max_repeat_rate = 30;
-	  f repeat_rate = 20;
+	  f max_repeat_rate = 30.000000;
+	  f repeat_rate = 20.000000;
 	}
 }
 [t:emt_generic,n:0x24a002db]
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.8;
-	  f rep_freq_min = 0.3;
+	  f rep_freq_max = 0.800000;
+	  f rep_freq_min = 0.300000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -354,8 +354,8 @@
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.8;
-	  f rep_freq_min = 0.3;
+	  f rep_freq_max = 0.800000;
+	  f rep_freq_min = 0.300000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -368,8 +368,8 @@
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.8;
-	  f rep_freq_min = 0.3;
+	  f rep_freq_max = 0.800000;
+	  f rep_freq_min = 0.300000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -394,8 +394,8 @@
 	[sound_emitter_act]
 	{
 		event_sound = "a3_shadow_taunt_01";
-	  f max_dist = 50;
-	  f min_dist = 45;
+	  f max_dist = 50.000000;
+	  f min_dist = 45.000000;
 	  b repeat = false;
 	  b start_on_creation = false;
 	}
@@ -430,8 +430,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_drip_single";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 8;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 8.000000;
 	}
 }
 [t:emt_mist,n:0x24a00106]
@@ -459,8 +459,8 @@
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.8;
-	  f rep_freq_min = 0.3;
+	  f rep_freq_max = 0.800000;
+	  f rep_freq_min = 0.300000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -473,8 +473,8 @@
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.7;
-	  f rep_freq_min = 0.2;
+	  f rep_freq_max = 0.700000;
+	  f rep_freq_min = 0.200000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -549,8 +549,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_drip_single";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 10;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 10.000000;
 	}
 }
 [t:emt_sound,n:0x24a00155]
@@ -564,8 +564,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_large";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	}
 }
 [t:emt_sound,n:0x24a0014f]

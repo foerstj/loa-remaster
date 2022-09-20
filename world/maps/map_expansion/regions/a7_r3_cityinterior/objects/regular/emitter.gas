@@ -3,8 +3,8 @@
 	[generic_emitter]
 	{
 	  b geyser_white = true;
-	  f rep_freq_max = 30;
-	  f rep_freq_min = 5;
+	  f rep_freq_max = 30.000000;
+	  f rep_freq_min = 5.000000;
 	}
 	[placement]
 	{
@@ -16,8 +16,8 @@
 	[generic_emitter]
 	{
 	  b geyser_white = true;
-	  f rep_freq_max = 30;
-	  f rep_freq_min = 5;
+	  f rep_freq_max = 30.000000;
+	  f rep_freq_min = 5.000000;
 	}
 	[placement]
 	{
@@ -29,7 +29,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.23593;
+	  f scale_multiplier = 1.235930;
 	}
 	[placement]
 	{
@@ -83,7 +83,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.23593;
+	  f scale_multiplier = 1.235930;
 	}
 	[placement]
 	{

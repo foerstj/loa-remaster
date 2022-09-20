@@ -31,7 +31,7 @@
 	[sound_emitter]
 	{
 		event_sound = "env_seagulls";
-	  f repeat_rate = 10;
+	  f repeat_rate = 10.000000;
 	}
 }
 [t:emt_sound,n:0x0610000e]
@@ -79,14 +79,14 @@
 	[sound_emitter]
 	{
 		event_sound = "wind_monotonic";
-	  f max_repeat_rate = 12;
+	  f max_repeat_rate = 12.000000;
 	}
 }
 [t:emt_lightning,n:0x06100185]
 {
 	[lightning_emitter]
 	{
-	  f fixeddelay = 45;
+	  f fixeddelay = 45.000000;
 	}
 	[placement]
 	{
@@ -98,7 +98,7 @@
 {
 	[lightning_emitter]
 	{
-	  f fixeddelay = 45;
+	  f fixeddelay = 45.000000;
 	}
 	[placement]
 	{

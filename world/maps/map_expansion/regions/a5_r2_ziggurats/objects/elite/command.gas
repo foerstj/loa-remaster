@@ -201,7 +201,7 @@
 	[cmd_enter_nis]
 	{
 	  x next_scid = 0x0430060C;
-	  f widescreen_delay = 0;
+	  f widescreen_delay = 0.000000;
 	}
 	[common]
 	{
@@ -218,7 +218,7 @@
 {
 	[cmd_leave_nis]
 	{
-	  f duration = 0;
+	  f duration = 0.000000;
 	}
 	[common]
 	{
@@ -268,7 +268,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  x next_scid = 0x043006AB;
 		order = cor_snap;
 	}
@@ -349,7 +349,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 7;
+	  f duration = 7.000000;
 	  x next_scid = 0x0430070F;
 		order = cor_snap;
 	}
@@ -375,7 +375,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 3;
+	  f duration = 3.000000;
 	  x next_scid = 0x04300631;
 	}
 	[placement]
@@ -388,7 +388,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 8.5;
+	  f duration = 8.500000;
 	  x next_scid = 0x04300704;
 		order = cor_snap;
 	}
@@ -607,7 +607,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 9.5;
+	  f duration = 9.500000;
 	  x next_scid = 0x0430060A;
 		order = cor_snap;
 	}

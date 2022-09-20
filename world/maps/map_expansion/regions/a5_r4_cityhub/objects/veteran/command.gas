@@ -41,7 +41,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 3;
+	  f fizzle_duration = 3.000000;
 	  x siege_light = 0xA433C7AA;
 	  b use_fizzle = true;
 	}
@@ -58,7 +58,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0xD1311DD6;
 	  b use_fizzle = true;
@@ -77,7 +77,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0xE8C662C0;
 	  b use_fizzle = true;
@@ -96,7 +96,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0x4642311F;
 	  b use_fizzle = true;
@@ -115,7 +115,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0xA281B3D6;
 	  b use_fizzle = true;

@@ -8,9 +8,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_crow_caw_solo";
-	  f max_dist = 15;
-	  f min_dist = 4;
-	  f repeat_rate = 27;
+	  f max_dist = 15.000000;
+	  f min_dist = 4.000000;
+	  f repeat_rate = 27.000000;
 	}
 }
 [t:emt_sound,n:0x0310057a]
@@ -22,9 +22,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_crack";
-	  f max_dist = 15;
-	  f min_dist = 4;
-	  f repeat_rate = 59;
+	  f max_dist = 15.000000;
+	  f min_dist = 4.000000;
+	  f repeat_rate = 59.000000;
 	}
 }
 [t:emt_sound_act,n:0x03100d0c]
@@ -36,7 +36,7 @@
 	[sound_emitter_act]
 	{
 		event_sound = "env_thunder_crack";
-	  f min_dist = 15;
+	  f min_dist = 15.000000;
 	  b repeat = false;
 	  b start_on_creation = false;
 	}
@@ -51,7 +51,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crickets";
-	  f min_dist = 15;
+	  f min_dist = 15.000000;
 	}
 }
 [t:emt_generic,n:0x03100252]
@@ -99,10 +99,10 @@
 	[sound_emitter]
 	{
 		event_sound = "env_hassat_growl_long";
-	  f max_dist = 12;
-	  f max_repeat_rate = 0;
-	  f min_dist = 3;
-	  f repeat_rate = 35;
+	  f max_dist = 12.000000;
+	  f max_repeat_rate = 0.000000;
+	  f min_dist = 3.000000;
+	  f repeat_rate = 35.000000;
 	}
 }
 [t:emt_sound,n:0x03100d1b]
@@ -115,7 +115,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crickets";
-	  f min_dist = 15;
+	  f min_dist = 15.000000;
 	}
 }
 [t:emt_sound,n:0x03100d1f]
@@ -127,8 +127,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_moaning";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x03100d19]
@@ -140,8 +140,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_frog";
-	  f max_repeat_rate = 6;
-	  f repeat_rate = 3;
+	  f max_repeat_rate = 6.000000;
+	  f repeat_rate = 3.000000;
 	}
 }
 [t:emt_generic,n:0x03100256]
@@ -188,8 +188,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_moaning";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x03100d28]
@@ -201,9 +201,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_crack";
-	  f max_repeat_rate = 20;
-	  f min_dist = 15;
-	  f repeat_rate = 7;
+	  f max_repeat_rate = 20.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 7.000000;
 	}
 }
 [t:emt_sound,n:0x03100d1a]
@@ -215,8 +215,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_frog_2";
-	  f max_repeat_rate = 10;
-	  f repeat_rate = 3;
+	  f max_repeat_rate = 10.000000;
+	  f repeat_rate = 3.000000;
 	}
 }
 [t:emt_generic,n:0x0310024c]
@@ -252,7 +252,7 @@
 	[sound_emitter]
 	{
 		event_sound = "env_frog";
-	  f max_repeat_rate = 9;
+	  f max_repeat_rate = 9.000000;
 	}
 }
 [t:emt_generic,n:0x0310024e]
@@ -287,8 +287,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_moaning";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x03100d1c]
@@ -301,7 +301,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crickets";
-	  f min_dist = 15;
+	  f min_dist = 15.000000;
 	}
 }
 [t:emt_sound,n:0x03100d26]
@@ -313,7 +313,7 @@
 	[sound_emitter]
 	{
 		event_sound = "env_frog_2";
-	  f max_repeat_rate = 9;
+	  f max_repeat_rate = 9.000000;
 	}
 }
 [t:emt_generic,n:0x0310023e]
@@ -337,9 +337,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_rumble_distant";
-	  f max_repeat_rate = 20;
-	  f min_dist = 15;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 20.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_generic,n:0x03100780]
@@ -362,9 +362,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_crack";
-	  f max_repeat_rate = 20;
-	  f min_dist = 15;
-	  f repeat_rate = 7;
+	  f max_repeat_rate = 20.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 7.000000;
 	}
 }
 [t:emt_generic,n:0x03100225]
@@ -436,7 +436,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crickets";
-	  f min_dist = 15;
+	  f min_dist = 15.000000;
 	}
 }
 [t:emt_generic,n:0x031008cb]
@@ -455,9 +455,9 @@
 {
 	[fireball_emitter]
 	{
-	  f blue = 0.4;
-	  f green = 0.86;
-	  f red = 0.1;
+	  f blue = 0.400000;
+	  f green = 0.860000;
+	  f red = 0.100000;
 	}
 	[placement]
 	{
@@ -493,8 +493,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_maniacal_laughter";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 10;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 10.000000;
 	}
 }
 [t:emt_generic,n:0x031008c9]
@@ -546,9 +546,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_voices_whispering";
-	  f max_dist = 12;
-	  f min_dist = 2;
-	  f repeat_rate = 26;
+	  f max_dist = 12.000000;
+	  f min_dist = 2.000000;
+	  f repeat_rate = 26.000000;
 	}
 }
 [t:emt_generic,n:0x031008c8]
@@ -583,8 +583,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_moaning";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x03100d25]
@@ -596,7 +596,7 @@
 	[sound_emitter]
 	{
 		event_sound = "env_frog";
-	  f max_repeat_rate = 9;
+	  f max_repeat_rate = 9.000000;
 	}
 }
 [t:emt_sound,n:0x03100d2b]
@@ -608,8 +608,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_moaning";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x03100d24]
@@ -621,9 +621,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_rumble_distant";
-	  f max_repeat_rate = 20;
-	  f min_dist = 15;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 20.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x03100d2e]
@@ -635,9 +635,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_rumble_distant";
-	  f max_repeat_rate = 15;
-	  f min_dist = 20;
-	  f repeat_rate = 10;
+	  f max_repeat_rate = 15.000000;
+	  f min_dist = 20.000000;
+	  f repeat_rate = 10.000000;
 	}
 }
 [t:emt_generic,n:0x03100260]
@@ -696,7 +696,7 @@
 	[sound_emitter]
 	{
 		event_sound = "env_haunting";
-	  f repeat_rate = 52;
+	  f repeat_rate = 52.000000;
 	}
 }
 [t:emt_generic,n:0x0310024a]
@@ -739,9 +739,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_thunder_rumble_distant";
-	  f max_repeat_rate = 20;
-	  f min_dist = 15;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 20.000000;
+	  f min_dist = 15.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_generic,n:0x03100822]
@@ -813,8 +813,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_frog";
-	  f max_repeat_rate = 10;
-	  f repeat_rate = 3;
+	  f max_repeat_rate = 10.000000;
+	  f repeat_rate = 3.000000;
 	}
 }
 [t:emt_generic,n:0x0310077c]
@@ -862,7 +862,7 @@
 	[sound_emitter_act]
 	{
 		event_sound = "env_thunder_crack";
-	  f min_dist = 15;
+	  f min_dist = 15.000000;
 	  b repeat = false;
 	  b start_on_creation = false;
 	}
@@ -877,8 +877,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_small";
-	  f max_dist = 4;
-	  f min_dist = 2;
+	  f max_dist = 4.000000;
+	  f min_dist = 2.000000;
 	}
 }
 [t:emt_generic,n:0x03100253]
@@ -900,19 +900,19 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.2;
+	  f blue = 0.200000;
 	  i count = 30;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f particle_size = 0.7;
-	  f red = 0.7;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f xacc = 90;
-	  f yacc = 0;
-	  f zacc = 0;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f particle_size = 0.700000;
+	  f red = 0.700000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f xacc = 90.000000;
+	  f yacc = 0.000000;
+	  f zacc = 0.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -928,10 +928,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.2;
-	  f green = 0.5;
-	  f red = 0.7;
-	  f scale = 1.1;
+	  f blue = 0.200000;
+	  f green = 0.500000;
+	  f red = 0.700000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -947,10 +947,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.2;
-	  f green = 0.5;
-	  f red = 0.7;
-	  f scale = 1.5;
+	  f blue = 0.200000;
+	  f green = 0.500000;
+	  f red = 0.700000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -966,10 +966,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.2;
-	  f green = 0.5;
-	  f red = 0.7;
-	  f scale = 1.1;
+	  f blue = 0.200000;
+	  f green = 0.500000;
+	  f red = 0.700000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -985,10 +985,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.2;
-	  f green = 0.5;
-	  f red = 0.7;
-	  f scale = 1.5;
+	  f blue = 0.200000;
+	  f green = 0.500000;
+	  f red = 0.700000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1004,18 +1004,18 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.2;
+	  f blue = 0.200000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f particle_size = 0.7;
-	  f red = 0.7;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f particle_size = 0.700000;
+	  f red = 0.700000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -1031,18 +1031,18 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.2;
+	  f blue = 0.200000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f particle_size = 0.7;
-	  f red = 0.7;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f particle_size = 0.700000;
+	  f red = 0.700000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -1058,17 +1058,17 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.2;
+	  f blue = 0.200000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f particle_size = 0.7;
-	  f red = 0.7;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f particle_size = 0.700000;
+	  f red = 0.700000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -1085,7 +1085,7 @@
 	[sound_emitter_act]
 	{
 		event_sound = "env_thunder_rumble_distant";
-	  f min_dist = 15;
+	  f min_dist = 15.000000;
 	  b repeat = false;
 	  b start_on_creation = false;
 	}

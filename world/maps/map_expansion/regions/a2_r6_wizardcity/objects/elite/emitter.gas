@@ -8,8 +8,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_utraean_floating_statue";
-	  f max_dist = 15;
-	  f min_dist = 1;
+	  f max_dist = 15.000000;
+	  f min_dist = 1.000000;
 	}
 }
 [t:emt_glow_act,n:0x019003d7]
@@ -20,10 +20,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 1;
-	  f green = 0.1;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 1.000000;
+	  f green = 0.100000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -39,10 +39,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 1;
-	  f green = 0.1;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 1.000000;
+	  f green = 0.100000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -72,10 +72,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.2;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.900000;
+	  f green = 0.200000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -91,10 +91,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.2;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.900000;
+	  f green = 0.200000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -110,10 +110,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.2;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.900000;
+	  f green = 0.200000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -129,10 +129,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.2;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.900000;
+	  f green = 0.200000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -162,10 +162,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 1;
-	  f green = 0.1;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 1.000000;
+	  f green = 0.100000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -181,10 +181,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 1;
-	  f green = 0.1;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 1.000000;
+	  f green = 0.100000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -226,9 +226,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -244,9 +244,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -302,10 +302,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.7;
-	  f green = 0.4;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.700000;
+	  f green = 0.400000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -321,10 +321,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.7;
-	  f green = 0.4;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.700000;
+	  f green = 0.400000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -340,9 +340,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -358,9 +358,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -376,10 +376,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.7;
-	  f green = 0.4;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.700000;
+	  f green = 0.400000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -395,10 +395,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.7;
-	  f green = 0.4;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.700000;
+	  f green = 0.400000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -430,8 +430,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_utraean_floating_statue";
-	  f max_dist = 6;
-	  f min_dist = 1;
+	  f max_dist = 6.000000;
+	  f min_dist = 1.000000;
 	}
 }
 [t:emt_sound,n:0x019004df]
@@ -444,8 +444,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_utraean_floating_statue";
-	  f max_dist = 6;
-	  f min_dist = 1;
+	  f max_dist = 6.000000;
+	  f min_dist = 1.000000;
 	}
 }
 [t:emt_sound,n:0x019004e0]
@@ -458,8 +458,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_utraean_floating_statue";
-	  f max_dist = 6;
-	  f min_dist = 1;
+	  f max_dist = 6.000000;
+	  f min_dist = 1.000000;
 	}
 }
 [t:emt_sound,n:0x019004e1]
@@ -472,8 +472,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_utraean_floating_statue";
-	  f max_dist = 6;
-	  f min_dist = 1;
+	  f max_dist = 6.000000;
+	  f min_dist = 1.000000;
 	}
 }
 [t:emt_sound_act,n:0x01900467]
@@ -510,10 +510,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -529,10 +529,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -548,10 +548,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -567,10 +567,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -586,10 +586,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -605,10 +605,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -638,10 +638,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -657,10 +657,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -716,10 +716,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -735,10 +735,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -754,10 +754,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -773,10 +773,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -792,10 +792,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -811,10 +811,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -844,10 +844,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -863,10 +863,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -922,10 +922,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -941,10 +941,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -960,10 +960,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -979,10 +979,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -998,10 +998,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1017,10 +1017,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1050,10 +1050,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1069,10 +1069,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.6;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.600000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1128,10 +1128,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1147,10 +1147,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1166,10 +1166,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1185,10 +1185,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1204,10 +1204,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1223,10 +1223,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1256,10 +1256,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1275,10 +1275,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1321,10 +1321,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.25;
-	  f green = 0.85;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.250000;
+	  f green = 0.850000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1340,10 +1340,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.25;
-	  f green = 0.85;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.250000;
+	  f green = 0.850000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1359,9 +1359,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f green = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f green = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1377,9 +1377,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f green = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f green = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1395,10 +1395,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.25;
-	  f green = 0.85;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.250000;
+	  f green = 0.850000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1414,10 +1414,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.25;
-	  f green = 0.85;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.250000;
+	  f green = 0.850000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1447,9 +1447,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f green = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f green = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1465,9 +1465,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f green = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f green = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1614,10 +1614,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.2;
-	  f green = 0.9;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.200000;
+	  f green = 0.900000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1632,10 +1632,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.2;
-	  f green = 0.9;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.200000;
+	  f green = 0.900000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1650,10 +1650,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.1;
-	  f green = 1;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.100000;
+	  f green = 1.000000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1668,10 +1668,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.1;
-	  f green = 1;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.100000;
+	  f green = 1.000000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1686,10 +1686,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.1;
-	  f green = 1;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.100000;
+	  f green = 1.000000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1705,10 +1705,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.1;
-	  f green = 1;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.100000;
+	  f green = 1.000000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1738,10 +1738,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.2;
-	  f green = 0.9;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.200000;
+	  f green = 0.900000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1757,10 +1757,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.2;
-	  f green = 0.9;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.200000;
+	  f green = 0.900000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1800,8 +1800,8 @@
 {
 	[lightning_emitter]
 	{
-	  f maxdelayrand = 45;
-	  f mindelayrand = 14;
+	  f maxdelayrand = 45.000000;
+	  f mindelayrand = 14.000000;
 	}
 	[placement]
 	{
@@ -1843,10 +1843,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1862,10 +1862,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1881,10 +1881,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1900,10 +1900,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1919,10 +1919,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1938,10 +1938,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1971,10 +1971,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -1990,10 +1990,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.35;
-	  f green = 0.75;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.350000;
+	  f green = 0.750000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2049,10 +2049,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2068,10 +2068,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2087,10 +2087,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2106,10 +2106,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2125,10 +2125,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2144,10 +2144,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2177,10 +2177,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2196,10 +2196,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2255,10 +2255,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2274,10 +2274,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2293,10 +2293,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2312,10 +2312,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2331,10 +2331,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2350,10 +2350,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 0.6;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 0.600000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2383,10 +2383,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2402,10 +2402,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.45;
-	  f green = 0.65;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.450000;
+	  f green = 0.650000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2435,10 +2435,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.7;
-	  f green = 0.4;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.700000;
+	  f green = 0.400000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2454,10 +2454,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.7;
-	  f green = 0.4;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.700000;
+	  f green = 0.400000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2473,9 +2473,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2491,9 +2491,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2535,9 +2535,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2553,9 +2553,9 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.8;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.800000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2585,10 +2585,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.7;
-	  f green = 0.4;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.700000;
+	  f green = 0.400000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2604,10 +2604,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.7;
-	  f green = 0.4;
-	  f red = 0.1;
-	  f scale = 1.5;
+	  f blue = 0.700000;
+	  f green = 0.400000;
+	  f red = 0.100000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -2639,7 +2639,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_utraean_floating_statue";
-	  f max_dist = 15;
-	  f min_dist = 1;
+	  f max_dist = 15.000000;
+	  f min_dist = 1.000000;
 	}
 }

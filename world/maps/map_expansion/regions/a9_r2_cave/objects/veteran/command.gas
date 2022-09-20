@@ -355,8 +355,8 @@
 {
 	[light_flicker]
 	{
-	  f flicker_frequency_max = 6;
-	  f flicker_frequency_min = 6;
+	  f flicker_frequency_max = 6.000000;
+	  f flicker_frequency_min = 6.000000;
 	  b random_flicker = false;
 	  x siege_light = 0x88C0FB20;
 	}
@@ -370,8 +370,8 @@
 {
 	[light_flicker]
 	{
-	  f flicker_frequency_max = 3;
-	  f flicker_frequency_min = 3;
+	  f flicker_frequency_max = 3.000000;
+	  f flicker_frequency_min = 3.000000;
 	  b random_flicker = false;
 	  x siege_light = 0x8A777B47;
 	}
@@ -385,8 +385,8 @@
 {
 	[light_flicker]
 	{
-	  f flicker_frequency_max = 6;
-	  f flicker_frequency_min = 6;
+	  f flicker_frequency_max = 6.000000;
+	  f flicker_frequency_min = 6.000000;
 	  b random_flicker = false;
 	  x siege_light = 0x968D2D4D;
 	}
@@ -413,8 +413,8 @@
 {
 	[light_flicker]
 	{
-	  f flicker_frequency_max = 3;
-	  f flicker_frequency_min = 3;
+	  f flicker_frequency_max = 3.000000;
+	  f flicker_frequency_min = 3.000000;
 	  b random_flicker = false;
 	  x siege_light = 0x70F557BF;
 	}

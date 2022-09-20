@@ -1,10 +1,9 @@
-//NEENER'S CONVERSATIONS
 [neener_before_a8_pad]
 {
 	[text*]
 	{
 		choice = more;
-		i order = 0;
+	  i order = 0;
 		sample = s_v_a8_neener_01;
 		screen_text = "Salutations! Welcome, one and all, to Neener's All-in-One Bazaar and Emporium! Any and all manner of arms and equipment for the most daring and dashing adventurer or sellsword in all of Aranna!  Ah, you have the look of one with a purpose, no? You seek the Shadowjumper, do you not?  I have no problem telling you where the beast is—his creatures pay me in shells and trinkets...";
 	  f scroll_rate = 20.000000;
@@ -13,7 +12,7 @@
 	{
 		activate_quest* = a8_pad,0;
 		choice = shop;
-		b quest_dialog = true;
+	  b quest_dialog = true;
 		sample = s_v_a8_neener_02;
 		screen_text = "The Shadowjumper left through a displacer in the fire caves under the fortress. Following him may sound easy, but he left guards behind: giant beasts of crystal...horrid things, really.  Care to do some trading before you leave? Considering where you're going, though, I'm going to have to insist on payment in cash.";
 	  f scroll_rate = 20.000000;
@@ -33,7 +32,7 @@
 {
 	[text*]
 	{
-		i order = 0;
+	  i order = 0;
 		choice = more;
 		sample = s_v_a8_neener_04;
 		screen_text = "With the guardians dead the displacer is now functional. It can be used to travel to the top of the mountain where the Shadowjumper awaits. Tick tock. Time's running short!";

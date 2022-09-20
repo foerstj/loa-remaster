@@ -13,7 +13,7 @@
 	{
 		sample = s_v_a1_alysha_02;
 		screen_text = "These are strange times indeed...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [alysha_hello]
@@ -22,7 +22,7 @@
 	{
 		sample = s_v_a1_alysha_01_a;
 		screen_text = "This village needs the supplies from the caravans to survive.  The mayor SAYS he has a plan, but I just don't know...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [bheele_after_giant]
@@ -40,7 +40,7 @@
 	{
 		sample = s_v_a1_bheele_02_b;
 		screen_text = "I'd give you a drink on the house, but, um, well-that ain't no way to run a business.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [bheele_game_complete]
@@ -75,7 +75,7 @@
 	{
 		sample = s_v_a1_fran_04;
 		screen_text = "The ale here is REALLY strong.  Hmm...  I think I'll have another.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [francesca_game_complete]
@@ -92,7 +92,7 @@
 	{
 		sample = s_v_a1_fran_04;
 		screen_text = "The ale here is REALLY strong.  Hmm...  I think I'll have another.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [francesca_hello]
@@ -109,13 +109,13 @@
 	  i order = 1;
 		sample = s_v_a1_fran_02;
 		screen_text = "I just don't know what this world is coming to when one creature would senselessly attack another creature.  So tell me-what is it that you do for a living?";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		sample = s_v_a1_fran_04;
 		screen_text = "The ale here is REALLY strong.  Hmm...  I think I'll have another.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [guard_1_after_a1_monsters]
@@ -167,7 +167,7 @@
 	{
 		sample = s_v_a1_guard2_02;
 		screen_text = "Sorry, but I cannot allow you to pass through this gate!  No one is allowed out into the valley until the danger is passed. We've lost a number of trade caravans to the monsters. The mayor was hoping you could help out. Look for him near the Mages' Guild.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [guard_2_during_a1_monsters]
@@ -194,7 +194,7 @@
 	{
 		sample = s_v_a1_mayor_07;
 		screen_text = "Brave soul! We are in your debt... thank you for your bravery and heroics. Aranna is safe once again!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [hardison_dhon_after_a1_monsters]
@@ -209,7 +209,7 @@
 	  b quest_dialog = false;
 		sample = s_v_a1_mayor_04;
 		screen_text = "I'm happy to hear that the giant has been slain. Lharnob and Kiira have fashioned these rewards for taking care of the monster menace; seek them out to purchase additional supplies. Now I have to ask you if you found something: The missing caravan was transporting a powerful artifact that was to be given to us for safekeeping: The Staff of Stars. This Staff of Stars can control the elements themselves.  You didn't find it, did you?";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
@@ -217,7 +217,7 @@
 	  b quest_dialog = true;
 		sample = s_v_a1_mayor_05;
 		screen_text = "You must find the Staff of Stars and return it here. If it fell into the wrong hands... chaos would ensue! The west gate is now open for you.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [hardison_dhon_after_queen]
@@ -228,7 +228,7 @@
 	  b quest_dialog = true;
 		sample = s_v_a1_mayor_06;
 		screen_text = "You must find the one who took the Staff of Stars-if the staff is not recovered, terrible things will befall all of Aranna. Use the displacers in the Lost Queen's lair to pursue the vile creature who took the staff!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [hardison_dhon_before_a1_monsters]
@@ -240,7 +240,7 @@
 	  b quest_dialog = false;
 		sample = s_v_a1_mayor_01;
 		screen_text = "As you may have heard, monsters have taken over the storage cave and are guarding the displacer there. Also, several trade caravans are long overdue and the road they were taking runs close to this cave. Without the goods from these caravans, our food stores will be stretched to their limits. And now the forces of evil are ranging right up to the gates of the town.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
@@ -249,7 +249,7 @@
 	  b quest_dialog = true;
 		sample = s_v_a1_mayor_02;
 		screen_text = "I've ordered the north gate to be unlocked for you.  Clear out the monsters who have been attacking the trade caravans and come back to me for a reward. Let me know if you find anything unusual out there...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [hardison_dhon_between_quests]
@@ -260,7 +260,7 @@
 	  b quest_dialog = true;
 		sample = s_v_a1_mayor_05;
 		screen_text = "You must find the Staff of Stars and return it here. If it fell into the wrong hands... chaos would ensue! The west gate is now open for you.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [hardison_dhon_during_a1_monsters]
@@ -269,7 +269,7 @@
 	{
 		sample = s_v_a1_mayor_03;
 		screen_text = "Have you taken care of those monsters yet? Please do, we can't wait much longer.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [hardison_during_a1_staff]
@@ -278,7 +278,7 @@
 	{
 		sample = s_v_a1_mayor_06;
 		screen_text = "You must find the one who took the Staff of Stars! If the staff is not recovered, terrible things will befall all of Aranna! Find the Shadowjumper, and retrieve the staff!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kiira_after_a1_monsters]
@@ -288,7 +288,7 @@
 		choice = shop;
 		sample = s_v_a1_kiira_03_a;
 		screen_text = "Ah, 'tis sure that Azunai smiles upon you, adventurer! However, you need to pursue the creature that stole the Staff of Stars.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kiira_after_a1_monsters_2]
@@ -298,7 +298,7 @@
 		choice = shop;
 		sample = s_v_a1_kiira_04;
 		screen_text = "Hail once again, traveler. You must take care to heal your wounds and replenish your energy during your quest. You should carry plenty of healing and mana draughts with you for just such emergencies.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kiira_after_game_complete]
@@ -309,14 +309,14 @@
 	  i order = 0;
 		sample = s_v_a1_kiira_05;
 		screen_text = "Aranna is safe once again!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		choice = shop;
 		sample = s_v_a1_kiira_02;
 		screen_text = "If it is the power of the healing arts you seek, I have potions aplenty, as well as a scroll or two...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kiira_before_a1_monsters]
@@ -326,7 +326,7 @@
 		choice = shop;
 		sample = s_v_a1_kiira_01_a;
 		screen_text = "May the blessings of Azunai the Defender be upon you! If it is the power of the healing arts you seek, I have potions aplenty, or draughts of mana if you wish to bolster your magic. I also have a spare spell scroll or two I could sell you.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kiira_during_a1_monsters]
@@ -336,7 +336,7 @@
 		choice = shop;
 		sample = s_v_a1_kiira_02;
 		screen_text = "If it is the power of the healing arts you seek, I have potions aplenty, as well as a scroll or two...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_after_a1_bear_a]
@@ -347,7 +347,7 @@
 		complete_quest* = a1_bear;
 		sample = s_v_a1_kron_04;
 		screen_text = "I'm obliged to you, yes sir. And here's the fee I promised ... ain't much, but it's what I've got. You should be able to get yourself a new set of armor with that, no doubt.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_after_a1_bear_b]
@@ -356,7 +356,7 @@
 	{
 		sample = s_v_a1_kron_05;
 		screen_text = "Sure am grateful for your help.  I should be able to secure my traps now, so folks will have fresh meat to eat!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_after_a1_bear_noquest]
@@ -365,7 +365,7 @@
 	{
 		sample = s_v_a1_kron_06;
 		screen_text = "That big old bear you killed we called Yellow Eye. He's been around many years, was troubling my trapping business. I'm much obliged!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_before_a1_bear]
@@ -377,7 +377,7 @@
 	  b quest_dialog = true;
 		sample = s_v_a1_kron_01;
 		screen_text = "Ah, there you are... I've been lookin' all around town for you. Listen, I've got a bit of a problem. I volunteered to do some extra trappin' since the trade caravans were waylaid by them monsters. Well, I got run off my traps by a bear, a big nasty one too. Yellow Eye, we call him. I'd be mighty grateful if you would take care of that brute for me so's I can get back to my traps.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
@@ -385,7 +385,7 @@
 	  i order = 1;
 		sample = s_v_a1_kron_02;
 		screen_text = "As I said I'd be mighty grateful if you'd take care of that bear... I don't have much, but what coin I got, I'll gladly give you if you'd help me out.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_during_a1_bear]
@@ -394,7 +394,7 @@
 	{
 		sample = s_v_a1_kron_03;
 		screen_text = "You haven't found the bear yet? Keep your eyes peeled... he's out in the canyon near the Cold Storage cave.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [kron_game_complete]
@@ -403,7 +403,7 @@
 	{
 		sample = s_v_a1_kron_07;
 		screen_text = "Much obliged for all your help!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [lharnob_after_a1_monsters]
@@ -414,14 +414,14 @@
 	  i order = 0;
 		sample = s_v_a1_lharnob_03;
 		screen_text = "By Azunai's blade! You showed that giant a thing or two! May the strength of the Great Bear be granted to you!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		choice = shop;
 		sample = s_v_a1_lharnob_04;
 		screen_text = "Please, take a look at my goods. Perhaps there is something that catches your fancy.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [lharnob_after_a1_monsters_2]
@@ -432,14 +432,14 @@
 	  i order = 0;
 		sample = s_v_a1_lharnob_05;
 		screen_text = "There's all type of adventure you know, some is closer to home than you'd think. Try raising kids or animals... now that's an adventure!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		choice = shop;
 		sample = s_v_a1_lharnob_04;
 		screen_text = "Please, take a look at my goods. Perhaps there is something that catches your fancy.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [lharnob_before_a1_monsters]
@@ -449,7 +449,7 @@
 		choice = shop;
 		sample = s_v_a1_lharnob_01;
 		screen_text = "Someone ought to take those creatures to task. Teach ‘em that Arhok is not a town that tolerates evil. I'd do it myself, if it weren't fer me bum leg. I already told the mayor I'd fashion a special helm as a reward to the one that would rid us of this threat. Need anything?";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [lharnob_during_a1_monsters]
@@ -459,7 +459,7 @@
 		choice = shop;
 		sample = s_v_a1_lharnob_02;
 		screen_text = "Those monsters ain't gonna slay themselves... why don't you go take care of them?";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [lharnob_game_complete]
@@ -470,14 +470,14 @@
 	  i order = 0;
 		sample = s_v_a1_lharnob_06;
 		screen_text = "Thank the heavens that the world has heroes such as you.  So tell me-what will your next adventure be?";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		choice = shop;
 		sample = s_v_a1_lharnob_04;
 		screen_text = "Please, take a look at my goods. Perhaps there is something that catches your fancy.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [moht_after_a1_monsters]
@@ -486,7 +486,7 @@
 	{
 		sample = s_v_a1_moht_04;
 		screen_text = "You sure did show those beasts a thing or two!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [moht_during_a1_monsters]
@@ -495,7 +495,7 @@
 	{
 		sample = s_v_a1_moht_03;
 		screen_text = "Give those monsters the what-for!!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [moht_hello]
@@ -505,13 +505,13 @@
 	  i order = 0;
 		sample = s_v_a1_moht_01;
 		screen_text = "Have you heard about the attacks? Several trade caravans have been ambushed, and now dark creatures are coming right up to the town walls. The mayor's locked the town gates for safety, and he's looking for someone to clear out the monsters. It's time to prove yourself!  Get all of your equipment from the basement and head over to the Mages' Guild in the center of town.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		sample = s_v_a1_moht_02;
 		screen_text = "Don't waste any time! Get all of your equipment from the basement and head over to the Mages' Guild to see the Mayor!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [phelan_after_giant]
@@ -520,7 +520,7 @@
 	{
 		sample = s_v_a1_phelan_04;
 		screen_text = "Aha! I have it! The secret of the Utraean runes! Oh, I see you got one of them working... Well, if you got one of them working... Did you kill the giant then? Good for you!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [phelan_during_giant]
@@ -529,7 +529,7 @@
 	{
 		sample = s_v_a1_phelan_03;
 		screen_text = "Almost!  I almost have the translation... just a few more... say aren't you supposed to be taking care of those monsters that attacked the caravan?";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [phelan_hello]
@@ -540,13 +540,13 @@
 	  i order = 0;
 		sample = s_v_a1_phelan_01;
 		screen_text = "Fascinating are they not? The Utraeans left behind many strange and wondrous devices, but chief among their creations were these transport pads... This town was once the center of great trade between the mainland and the island home of the Utraeans, but the island displacers have not worked in generations. Who knows what wonders exist on the island today—or even if the island is still there...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		sample = s_v_a1_phelan_02;
 		screen_text = "I have been working on a translation of these runes, and have almost worked out the pattern.  When I have it, it should tell us the exact location of each pad's destination...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [phelan_revisit_1]
@@ -555,14 +555,14 @@
 	{
 		sample = s_v_a1_phelan_06_b;
 		screen_text = "Fascinating devices... fascinating...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 	  i order = 0;
 		sample = s_v_a1_phelan_05_a;
 		screen_text = "According to these runes, this displacer is connected to the Lost Isle of the Utraeans, and was used to transport goods between Arhok and the Utraean Empire. What a time that must have been, eh!?";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [philo]
@@ -572,13 +572,13 @@
 	  i order = 0;
 		sample = s_v_a1_philo_01;
 		screen_text = "So, you're an adventurer! That sounds fun.  Except for the possibility of being eaten by a monster. That wouldn't be very enjoyable. Long hours, too... And what if you went out and risked life and limb, and then didn't find any treasure at all! That wouldn't be very fun, either... But, if you can avoid being eaten, AND find some gold... well, then being an adventurer would be most enjoyable, I would think.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		sample = s_v_a1_philo_02;
 		screen_text = "Oooh, it looks cold out there!  I think I'll have another ale before I go...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [placeholder]
@@ -594,7 +594,7 @@
 	{
 		sample = s_v_a1_raab_02;
 		screen_text = "The giant's dead? Good. Glad to hear it.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [raab_after_a1_monsters_2]
@@ -603,7 +603,7 @@
 	{
 		sample = s_v_a1_raab_03;
 		screen_text = "My pappy used to talk of the Seck and the evil they wrought ... but there's worse out there than that ...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [raab_before_a1_monsters]
@@ -612,7 +612,7 @@
 	{
 		sample = s_v_a1_raab_01;
 		screen_text = "Damn monsters! I was expecting a new mare with that caravan. Looks like I'll have to wait for spring and another caravan. I can't sell the one mule I've got left.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [raschel_after_giant]
@@ -648,7 +648,7 @@
 	{
 		sample = s_v_a1_reynard_08;
 		screen_text = "Hail, the conquering hero!";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [reynard_before_a1_monsters]
@@ -657,7 +657,7 @@
 	{
 		sample = s_v_a1_reynard_01;
 		screen_text = "The west gate is locked until after the threat of the monsters has been eliminated. Come talk to me once that chore has been dealt with.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [reynard_before_a1_sister]
@@ -669,7 +669,7 @@
 	  b quest_dialog = false;
 		sample = s_v_a1_reynard_02;
 		screen_text = "Greetings, I am Reynard, and if you have a moment I need to ask a favor of you. If you would be so kind, please be on the lookout for my sister, Lyssa. She is an archer who was journeying here to visit our family.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
@@ -679,7 +679,7 @@
 	  b quest_dialog = true;
 		sample = s_v_a1_reynard_03;
 		screen_text = "Lyssa entrusted me with this, her prized bow.  In these troubling times, I know she will need it. She is more than a week overdue... You proved yourself capable by taking care of the giant and its creatures, and it would mean a lot to our family to know that Lyssa is safe. Please-take her bow to her.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [reynard_during_a1_sister]
@@ -688,7 +688,7 @@
 	{
 		sample = s_v_a1_reynard_04;
 		screen_text = "Please try to find my sister-though I know she is a capable archer, these are indeed dangerous times...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [reynard_during_a1_staff]
@@ -697,7 +697,7 @@
 	{
 		sample = s_v_a1_reynard_07;
 		screen_text = "Your mission is a grave and dangerous one... my thoughts are with you.";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [reynard_mp]
@@ -706,7 +706,7 @@
 	{
 		sample = s_v_a1_reynard_09;
 		screen_text = "There's a storm moving in now-there's dark clouds to the west...";
-	  f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [syrd_after_a1_monsters]

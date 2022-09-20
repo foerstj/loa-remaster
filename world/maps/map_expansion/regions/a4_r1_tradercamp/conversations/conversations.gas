@@ -14,7 +14,6 @@
 	  f scroll_rate = 20.000000;
 	}
 }
-
 [kirr_before_a4_death]
 {
 	[text*]
@@ -53,7 +52,6 @@
 	  f scroll_rate = 20.000000;
 	}
 }
-
 [acha_hello]
 {
 	[text*]
@@ -63,7 +61,6 @@
 	  f scroll_rate = 20.000000;
 	}
 }
-
 [tass_najj]
 {
 	[text*]
@@ -138,8 +135,6 @@
 	  f scroll_rate = 20.000000;
 	}
 }
-
-
 [mheagan_hello]
 {
 	[text*]
@@ -147,7 +142,7 @@
 		choice = potential_member;
 		sample = s_v_a4_mheagan_01;
 		screen_text = "Well, what have we here? An adventurer... It's about time something interesting happened around here. While my sister Jaelyan is quite content with a trader's life - I am not!  My arm is strong, my mind clear.  Listen - I'm bored to tears living here. Take me along, will you? I'm handy with a bow, the best you've seen.  Maybe we'll even make it back to the mainland!";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [mheagan_mp]
@@ -203,14 +198,13 @@
 	  f scroll_rate = 20.000000;
 	}
 }
-
 [jaelyan_hello]
 {
 	[text*]
 	{
 		sample = s_v_a4_jaelyan_01;
 		screen_text = "My sister Mheagan and I are all that's left of a failed merchant expedition. Our entire caravan  - including our dear parents - were killed during an ambush when we were very young. We were rescued by the Half-Giants and raised as their children.  My sister has an adverturer's heart; I, however, do not, and will stay here with the tall folk.  Good luck to you.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [jaelyan_mp]
@@ -218,7 +212,7 @@
 	[text*]
 	{
 		sample = s_v_a4_jaelyan_mp;
-	 	screen_text = "Greetings, strangers. My sister Mheagan and I are all that's left of a failed merchant expedition. Our entire caravan  - including our dear parents - were killed during an ambush when we were very young. We were rescued by the Half-Giants and raised as their children. We have made this place our home, and these people are our family. Good luck to you.";
-	  	f scroll_rate = 20.000000;
+		screen_text = "Greetings, strangers. My sister Mheagan and I are all that's left of a failed merchant expedition. Our entire caravan  - including our dear parents - were killed during an ambush when we were very young. We were rescued by the Half-Giants and raised as their children. We have made this place our home, and these people are our family. Good luck to you.";
+	  f scroll_rate = 20.000000;
 	}
 }

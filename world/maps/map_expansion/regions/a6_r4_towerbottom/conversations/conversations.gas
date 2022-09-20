@@ -4,15 +4,15 @@
 	{
 		sample = s_v_a6_book06_01;
 		screen_text = "Often times, there is an - - - I have put these records in the protection of this sunken temple, and the evils that now lie within. If ye are pure of heart, do all, so that good shall triumph.";
-		  f scroll_rate = 20.000000;
-	  	choice = more;
-	  	i order = 0;
+	  f scroll_rate = 20.000000;
+		choice = more;
+	  i order = 0;
 	}
 	[text*]
 	{
 		sample = s_v_a6_book06_02;
 		screen_text = "There was an invasion by a small, vile folk. They had begun to bastardize the Great Clock for their own, dark purposes.  I believe they are trying to pervert its true purpose and to unlock the secrets of our magics. If they succeed it will result in our ruin, the Clock's destruction and the complete isolation of the island from the mainland... and if they succeed in unlocking the Clock's secrets to the mastery of the weather, then great storms and destruction will cover the land, and destroy us.";
-		f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [librarian_03]
@@ -21,7 +21,7 @@
 	{
 		sample = s_v_a6_book02_01;
 		screen_text = "The Clock is our crowning achievement. It tracks and records the patterns of the elements and the weather of this world. When we have gathered enough data, the Clock will be our way of manipulating the subtle changes in the seasons. In this way we can control the length of the agricultural cycles, extend rainstorms to ensure an endless supply of fresh water and to-";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [librarian_02]
@@ -31,7 +31,7 @@
 		sample = s_v_a6_book01_01;
 		screen_text = "At the peak of the Utraeans' war against the Zaurask, the saurians formed a plan to take Demlock by surprise. Far-reaching catacombs were excavated underneath the Temple of Kmethekt, and in the still and dark of night, the Zaurask broke through the temple's sub-floor and began to stream upwards through the temple, slaughtering the Utraean wizards.  In desperation, Demlock used all of his power and magic to summon massive thunderclouds, bringing with them a downpour the likes of which the world had never seen. Accompanied by bone-rattling thunder, lightning strikes shattered the landscape, and formed the ravine now known as 'Demlock's Cut.'";
 	  f scroll_rate = 20.000000;
-	  choice = more;
+		choice = more;
 	  i order = 0;
 	}
 	[text*]
@@ -48,8 +48,8 @@
 		sample = s_v_a6_book04_01;
 		screen_text = "The Orbs of Demlock are the subject of today's lesson. These magnificent extensions of magical energy derive their name from the sorcerer who discovered them and their purpose. Formed from the very fabric of the energy matrix that surrounds us all, the Orbs can be made to reflect any form of energy that we are currently aware of: lightning, acid, fire, etcetera...";
 	  f scroll_rate = 20.000000;
-	  choice = more;
-	  	 i order = 0;
+		choice = more;
+	  i order = 0;
 	}
 	[text*]
 	{

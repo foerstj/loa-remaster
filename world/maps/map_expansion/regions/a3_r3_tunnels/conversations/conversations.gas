@@ -4,7 +4,7 @@
 	{
 		sample = s_v_a3_therg_04;
 		screen_text = "Wonderful!  You have found the Stone of Lhaoc! Its power will help in your fight against the Shadowjumper and his minions.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [therg_hello]
@@ -14,21 +14,20 @@
 		give_reward* = book_glb_lore_dsx_shadowjumper;
 		choice = more;
 		activate_quest* = a1_staff,6;
-	  	i order = 0;
-	  	b quest_dialog = true;
+	  i order = 0;
+	  b quest_dialog = true;
 		sample = s_v_a3_therg_01;
 		screen_text = "A visitor? How unusual. But you are here for a greater purpose... you seek the Staff of Stars. Our ancestors trapped the Shadowjumper long ago and bound him with the power of the Staff of Stars. Now it seems he has returned to use the staff against us. You are our best hope to stop him and recover the staff. This book may help you understand more...";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		activate_quest* = a3_stone,0;
 		sample = s_v_a3_therg_02;
 		screen_text = "To aid you in your task, seek my scribe, Algher Mhankur. He went looking for the Stone of Lhaoc, a relic of a mighty warrior. I had hoped to find it here in this ancient site, but the numerous Hassat that have invaded the lower levels may have spirited it away to some other location. Algher may know where the stone is.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
-
 [therg_hello_with_stone]
 {
 	[text*]
@@ -36,11 +35,11 @@
 		give_reward* = book_glb_lore_dsx_shadowjumper;
 		choice = more;
 		activate_quest* = a1_staff,6;
-	  	i order = 0;
-	  	b quest_dialog = true;
+	  i order = 0;
+	  b quest_dialog = true;
 		sample = s_v_a3_therg_01;
 		screen_text = "A visitor? How unusual. But you are here for a greater purpose... you seek the Staff of Stars. Our ancestors trapped the Shadowjumper long ago and bound him with the power of the Staff of Stars. Now it seems he has returned to use the staff against us. You are our best hope to stop him and recover the staff. This book may help you understand more...";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
@@ -49,40 +48,25 @@
 		complete_quest* = a3_stone;
 		sample = s_v_a3_therg_02;
 		screen_text = "To aid you in your task, seek my scribe, Algher Mhankur. He went looking for the Stone of Lhaoc, a relic of a mighty warrior. I had hoped to find it here in this ancient site, but the numerous Hassat that have invaded the lower levels may have spirited it away to some other location. Algher may know where the stone is.";
-	  	f scroll_rate = 20.000000;
-	}
-}
-
-/*
-[therg_before_a3_stone]
-{
-	[text*]
-	{
-		activate_quest* = a3_stone,0;
-	  i order = 0;
-	  b quest_dialog = true;
-		screen_text = "To aid you in your task, seek my scribe, Algher Mhankur. He went looking for the Stone of Lhaoc, a relic of a mighty warrior. I had hoped to find it here in this ancient site, but the numerous Hassat that have invaded the lower levels may have spirited it away to some other location. Algher may know where the stone is.";
 	  f scroll_rate = 20.000000;
 	}
 }
-*/
 [therg_during_a3_stone]
 {
 	[text*]
 	{
 		sample = s_v_a3_therg_03;
 		screen_text = "Have you found Algher? I sent some of my workmen after him but they haven't returned yet.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
-
 [therg_lhaoc_for_journal_only]
 {
 	[text*]
 	{
-	  	b quest_dialog = true;
+	  b quest_dialog = true;
 		sample = s_v_a3_therg_02;
 		screen_text = "To aid you in your task, seek my scribe, Algher Mhankur. He went looking for the Stone of Lhaoc, a relic of a mighty warrior. I had hoped to find it here in this ancient site, but the numerous Hassat that have invaded the lower levels may have spirited it away to some other location. Algher may know where the stone is.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }

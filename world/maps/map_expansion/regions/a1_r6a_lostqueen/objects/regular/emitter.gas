@@ -36,7 +36,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 20;
+	  f max_dist = 20.000000;
 	}
 }
 [t:emt_sound,n:0x0070084e]
@@ -63,8 +63,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_gas_flame";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	  b repeat = false;
 	}
 }
@@ -91,8 +91,8 @@
 	[sound_emitter]
 	{
 		event_sound = "amb_water_drip";
-	  f max_repeat_rate = 25;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 25.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound_act,n:0x00700677]
@@ -121,8 +121,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_gas_flame";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	  b repeat = false;
 	}
 }
@@ -130,8 +130,8 @@
 {
 	[generic_emitter_act]
 	{
-	  f rep_freq_max = 50;
-	  f rep_freq_min = 6;
+	  f rep_freq_max = 50.000000;
+	  f rep_freq_min = 6.000000;
 	  b start_on_creation = true;
 	  b water_splash = true;
 	}
@@ -145,7 +145,7 @@
 {
 	[generic_emitter_act]
 	{
-	  f rep_freq_max = 50;
+	  f rep_freq_max = 50.000000;
 	  b start_on_creation = true;
 	  b water_splash = true;
 	}
@@ -159,7 +159,7 @@
 {
 	[generic_emitter_act]
 	{
-	  f rep_freq_max = 50;
+	  f rep_freq_max = 50.000000;
 	  b start_on_creation = true;
 	  b water_splash = true;
 	}
@@ -207,8 +207,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_gas_flame";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	  b repeat = false;
 	}
 }
@@ -223,8 +223,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_small";
-	  f max_dist = 4;
-	  f min_dist = 1;
+	  f max_dist = 4.000000;
+	  f min_dist = 1.000000;
 	  b repeat = false;
 	}
 }
@@ -239,7 +239,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 20;
+	  f max_dist = 20.000000;
 	}
 }
 [t:emt_sound,n:0x007006c3]
@@ -253,7 +253,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 20;
+	  f max_dist = 20.000000;
 	}
 }
 [t:emt_sound,n:0x007006c4]
@@ -267,7 +267,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 20;
+	  f max_dist = 20.000000;
 	}
 }
 [t:emt_sound,n:0x00700582]
@@ -281,7 +281,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 20;
+	  f max_dist = 20.000000;
 	}
 }
 [t:emt_particle_act,n:0x00700164]
@@ -292,19 +292,19 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 1;
+	  f blue = 1.000000;
 	  i count = 30;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f xacc = 90;
-	  f yacc = 0;
-	  f zacc = 0;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f xacc = 90.000000;
+	  f yacc = 0.000000;
+	  f zacc = 0.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -353,10 +353,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 1;
-	  f green = 0.5;
-	  f red = 0.5;
-	  f scale = 1.1;
+	  f blue = 1.000000;
+	  f green = 0.500000;
+	  f red = 0.500000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -405,10 +405,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 1;
-	  f green = 0.5;
-	  f red = 0.5;
-	  f scale = 1.5;
+	  f blue = 1.000000;
+	  f green = 0.500000;
+	  f red = 0.500000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -457,10 +457,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 1;
-	  f green = 0.5;
-	  f red = 0.5;
-	  f scale = 1.1;
+	  f blue = 1.000000;
+	  f green = 0.500000;
+	  f red = 0.500000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -509,10 +509,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 1;
-	  f green = 0.5;
-	  f red = 0.5;
-	  f scale = 1.5;
+	  f blue = 1.000000;
+	  f green = 0.500000;
+	  f red = 0.500000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -528,18 +528,18 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 1;
+	  f blue = 1.000000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -555,18 +555,18 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 1;
+	  f blue = 1.000000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -582,17 +582,17 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 1;
+	  f blue = 1.000000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -608,20 +608,20 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.5;
+	  f blue = 0.500000;
 	  i count = 30;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 1;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f xacc = 90;
-	  f yacc = 0;
-	  f zacc = 0;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 1.000000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f xacc = 90.000000;
+	  f yacc = 0.000000;
+	  f zacc = 0.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -670,10 +670,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 1;
-	  f red = 0.5;
-	  f scale = 1.1;
+	  f blue = 0.500000;
+	  f green = 1.000000;
+	  f red = 0.500000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -722,10 +722,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 1;
-	  f red = 0.5;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 1.000000;
+	  f red = 0.500000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -774,10 +774,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 1;
-	  f red = 0.5;
-	  f scale = 1.1;
+	  f blue = 0.500000;
+	  f green = 1.000000;
+	  f red = 0.500000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -826,10 +826,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 1;
-	  f red = 0.5;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 1.000000;
+	  f red = 0.500000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -845,19 +845,19 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.5;
+	  f blue = 0.500000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 1;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 1.000000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -873,19 +873,19 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.5;
+	  f blue = 0.500000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 1;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 1.000000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -901,18 +901,18 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.5;
+	  f blue = 0.500000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f green = 1;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f green = 1.000000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -931,7 +931,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 10;
+	  f max_dist = 10.000000;
 	}
 }
 [t:emt_sound,n:0x00700696]
@@ -945,7 +945,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 10;
+	  f max_dist = 10.000000;
 	}
 }
 [t:emt_sound,n:0x0070067b]
@@ -959,7 +959,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 10;
+	  f max_dist = 10.000000;
 	}
 }
 [t:emt_sound,n:0x00700676]
@@ -973,7 +973,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 10;
+	  f max_dist = 10.000000;
 	}
 }
 [t:emt_sound_act,n:0x0070067d]
@@ -995,9 +995,9 @@
 {
 	[fire_emitter]
 	{
-	  f fade = 0.75;
-	  f start_radius_max = 5;
-	  f start_radius_min = 1;
+	  f fade = 0.750000;
+	  f start_radius_max = 5.000000;
+	  f start_radius_min = 1.000000;
 	}
 	[placement]
 	{
@@ -1016,8 +1016,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_small";
-	  f max_dist = 4;
-	  f min_dist = 1;
+	  f max_dist = 4.000000;
+	  f min_dist = 1.000000;
 	  b repeat = false;
 	}
 }
@@ -1032,8 +1032,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_small";
-	  f max_dist = 8;
-	  f min_dist = 2;
+	  f max_dist = 8.000000;
+	  f min_dist = 2.000000;
 	  b repeat = false;
 	}
 }
@@ -1048,8 +1048,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_small";
-	  f max_dist = 8;
-	  f min_dist = 2;
+	  f max_dist = 8.000000;
+	  f min_dist = 2.000000;
 	  b repeat = false;
 	}
 }
@@ -1064,8 +1064,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 15;
-	  f min_dist = 2;
+	  f max_dist = 15.000000;
+	  f min_dist = 2.000000;
 	  b start_on_creation = false;
 	}
 }
@@ -1079,8 +1079,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 15;
-	  f min_dist = 2;
+	  f max_dist = 15.000000;
+	  f min_dist = 2.000000;
 	  b start_on_creation = false;
 	}
 }

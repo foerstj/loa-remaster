@@ -39,8 +39,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x08200314;
 	  x on_scid = 0x08200314;
-	  f reset_time = 5;
-	  f reset_time_2 = 5;
+	  f reset_time = 5.000000;
+	  f reset_time_2 = 5.000000;
 	}
 	[placement]
 	{
@@ -56,8 +56,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x0820008D;
 	  x on_scid = 0x0820008D;
-	  f reset_time = 1.5;
-	  f reset_time_2 = 1.5;
+	  f reset_time = 1.500000;
+	  f reset_time_2 = 1.500000;
 	}
 	[placement]
 	{
@@ -73,8 +73,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x0820008D;
 	  x on_scid = 0x0820008D;
-	  f reset_time = 1.5;
-	  f reset_time_2 = 1.5;
+	  f reset_time = 1.500000;
+	  f reset_time_2 = 1.500000;
 	}
 	[placement]
 	{
@@ -90,8 +90,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x0820008D;
 	  x on_scid = 0x0820008D;
-	  f reset_time = 1.5;
-	  f reset_time_2 = 1.5;
+	  f reset_time = 1.500000;
+	  f reset_time_2 = 1.500000;
 	}
 	[placement]
 	{
@@ -128,7 +128,7 @@
 	[aspect]
 	{
 	  b is_collidable = true;
-	  f use_range = 1.5;
+	  f use_range = 1.500000;
 	}
 	[placement]
 	{
@@ -143,8 +143,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x08200314;
 	  x on_scid = 0x08200314;
-	  f reset_time = 5;
-	  f reset_time_2 = 5;
+	  f reset_time = 5.000000;
+	  f reset_time_2 = 5.000000;
 	}
 	[placement]
 	{

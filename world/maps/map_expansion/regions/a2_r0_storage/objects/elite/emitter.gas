@@ -7,8 +7,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_waterwheel";
-	  f max_dist = 25;
-	  f min_dist = 1;
+	  f max_dist = 25.000000;
+	  f min_dist = 1.000000;
 	}
 }
 [t:emt_sound,n:0x016000ee]
@@ -20,8 +20,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_waterwheel";
-	  f max_dist = 25;
-	  f min_dist = 1;
+	  f max_dist = 25.000000;
+	  f min_dist = 1.000000;
 	}
 }
 [t:emt_sound_act,n:0x016000e9]
@@ -45,20 +45,20 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.5;
+	  f blue = 0.500000;
 	  i count = 30;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 1;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f xacc = 90;
-	  f yacc = 0;
-	  f zacc = 0;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 1.000000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f xacc = 90.000000;
+	  f yacc = 0.000000;
+	  f zacc = 0.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -107,10 +107,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 1;
-	  f red = 0.5;
-	  f scale = 1.1;
+	  f blue = 0.500000;
+	  f green = 1.000000;
+	  f red = 0.500000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -159,10 +159,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 1;
-	  f red = 0.5;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 1.000000;
+	  f red = 0.500000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -211,10 +211,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 1;
-	  f red = 0.5;
-	  f scale = 1.1;
+	  f blue = 0.500000;
+	  f green = 1.000000;
+	  f red = 0.500000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -263,10 +263,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.5;
-	  f green = 1;
-	  f red = 0.5;
-	  f scale = 1.5;
+	  f blue = 0.500000;
+	  f green = 1.000000;
+	  f red = 0.500000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -282,19 +282,19 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.5;
+	  f blue = 0.500000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 1;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 1.000000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -310,19 +310,19 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.5;
+	  f blue = 0.500000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 1;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 1.000000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -338,18 +338,18 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.5;
+	  f blue = 0.500000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f green = 1;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f green = 1.000000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -367,7 +367,7 @@
 	[sound_emitter]
 	{
 		event_sound = "amb_water_drip";
-	  f max_repeat_rate = 10;
+	  f max_repeat_rate = 10.000000;
 	}
 }
 [t:emt_sound,n:0x016000e5]
@@ -379,7 +379,7 @@
 	[sound_emitter]
 	{
 		event_sound = "env_waterwheel";
-	  f max_dist = 25;
-	  f min_dist = 1;
+	  f max_dist = 25.000000;
+	  f min_dist = 1.000000;
 	}
 }

@@ -44,8 +44,8 @@
 	[sound_emitter]
 	{
 		event_sound = "amb_water_drip";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 8;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 8.000000;
 	}
 }
 [t:emt_mist,n:0x02400238]
@@ -64,8 +64,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_hassat_chuff";
-	  f max_dist = 15;
-	  f repeat_rate = 30;
+	  f max_dist = 15.000000;
+	  f repeat_rate = 30.000000;
 	}
 }
 [t:emt_sound,n:0x02400195]
@@ -90,7 +90,7 @@
 	[sound_emitter_act]
 	{
 		event_sound = "env_hassat_growl_long";
-	  f min_dist = 2;
+	  f min_dist = 2.000000;
 	  b repeat = false;
 	  b start_on_creation = false;
 	}
@@ -99,7 +99,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.1865;
+	  f scale_multiplier = 1.186500;
 	}
 	[placement]
 	{
@@ -110,8 +110,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 30;
-	  f min_dist = 1;
+	  f max_dist = 30.000000;
+	  f min_dist = 1.000000;
 	}
 }
 [t:emitter_glb_smoke_01,n:0x02400072]
@@ -195,7 +195,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.1865;
+	  f scale_multiplier = 1.186500;
 	}
 	[placement]
 	{
@@ -212,7 +212,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.1865;
+	  f scale_multiplier = 1.186500;
 	}
 	[placement]
 	{
@@ -235,21 +235,21 @@
 	[sound_emitter]
 	{
 		event_sound = "env_haunting";
-	  f max_dist = 15;
-	  f max_repeat_rate = 30;
-	  f repeat_rate = 12;
+	  f max_dist = 15.000000;
+	  f max_repeat_rate = 30.000000;
+	  f repeat_rate = 12.000000;
 	}
 }
 [t:emt_generic,n:0x024001a0]
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.17128;
+	  f scale_multiplier = 1.171280;
 	}
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.8;
-	  f rep_freq_min = 0.3;
+	  f rep_freq_max = 0.800000;
+	  f rep_freq_min = 0.300000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -262,7 +262,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.1865;
+	  f scale_multiplier = 1.186500;
 	}
 	[placement]
 	{
@@ -279,12 +279,12 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.17128;
+	  f scale_multiplier = 1.171280;
 	}
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.8;
-	  f rep_freq_min = 0.3;
+	  f rep_freq_max = 0.800000;
+	  f rep_freq_min = 0.300000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -297,7 +297,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.1865;
+	  f scale_multiplier = 1.186500;
 	}
 	[placement]
 	{

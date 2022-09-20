@@ -61,7 +61,7 @@
 	{
 		sample = s_v_a7_Ghage_07;
 		screen_text = "I am relieved to hear Nosirrom has fallen. Without his leadership, the rest of the Zaurask can be easily defeated.";
-		f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [ghage_after_a7_king_before_vfind_complete]
@@ -72,8 +72,8 @@
 		complete_quest* = a7_vfind;
 		sample = s_v_a7_Ghage_05;
 		screen_text = "Umberteen sent you?  What?  Is this true?  You have his book-it MUST be so... Such a brave and selfless path he took.  With your help, my friend, my path may once again cross with Umberteen, Uelda, and the rest of my kin.";
-	  	f scroll_rate = 20.000000;
-	}	
+	  f scroll_rate = 20.000000;
+	}
 }
 [ghage_before_a7_zking]
 {
@@ -179,7 +179,7 @@
 		sample = s_v_a7_ohna_04;
 		choice = shop;
 		screen_text = "Please find Jaff and any of our people who may still be alive.  Before you set out on your path, you might wish to stock up on some supplies, yes?";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [ohna_shop]

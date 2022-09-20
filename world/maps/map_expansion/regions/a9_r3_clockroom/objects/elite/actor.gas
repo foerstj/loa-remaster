@@ -88,7 +88,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.7;
+	  f scale_multiplier = 0.700000;
 	}
 	[placement]
 	{
@@ -100,7 +100,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.7;
+	  f scale_multiplier = 0.700000;
 	}
 	[placement]
 	{
@@ -113,11 +113,11 @@
 	[aspect]
 	{
 	  b is_visible = false;
-	  f scale_multiplier = 1.5;
+	  f scale_multiplier = 1.500000;
 	}
 	[body]
 	{
-	  f max_move_velocity = 2.5;
+	  f max_move_velocity = 2.500000;
 	}
 	[common]
 	{
@@ -431,9 +431,9 @@
 {
 	[mind]
 	{
-	  f melee_engage_range = 10;
-	  f ranged_engage_range = 10;
-	  f sight_range = 10;
+	  f melee_engage_range = 10.000000;
+	  f ranged_engage_range = 10.000000;
+	  f sight_range = 10.000000;
 	}
 	[placement]
 	{

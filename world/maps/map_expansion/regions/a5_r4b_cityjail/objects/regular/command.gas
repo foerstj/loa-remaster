@@ -180,7 +180,7 @@
 	[cmd_t_change_lifestate]
 	{
 		lifestate = ls_dead_normal;
-	  f new_health = 0;
+	  f new_health = 0.000000;
 	  x target_scid = 0x45A002A8;
 	}
 	[placement]

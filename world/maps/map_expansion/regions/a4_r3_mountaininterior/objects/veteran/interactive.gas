@@ -16,8 +16,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x033000A7;
 	  x on_scid = 0x033000A7;
-	  f reset_time = 5;
-	  f reset_time_2 = 5;
+	  f reset_time = 5.000000;
+	  f reset_time_2 = 5.000000;
 	}
 	[placement]
 	{
@@ -32,8 +32,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x033000A7;
 	  x on_scid = 0x033000A7;
-	  f reset_time = 5;
-	  f reset_time_2 = 5;
+	  f reset_time = 5.000000;
+	  f reset_time_2 = 5.000000;
 	}
 	[placement]
 	{
@@ -48,8 +48,8 @@
 		off_message = we_req_activate;
 	  x off_scid = 0x033000A7;
 	  x on_scid = 0x033000A7;
-	  f reset_time = 5;
-	  f reset_time_2 = 5;
+	  f reset_time = 5.000000;
+	  f reset_time_2 = 5.000000;
 	}
 	[placement]
 	{

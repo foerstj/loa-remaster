@@ -38,7 +38,7 @@
 {
 	[cmd_leave_nis]
 	{
-	  f duration = 0;
+	  f duration = 0.000000;
 	}
 	[placement]
 	{
@@ -92,7 +92,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0xD1311DD6;
 	  b use_fizzle = true;
@@ -111,7 +111,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0xE8C662C0;
 	  b use_fizzle = true;
@@ -130,7 +130,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0x4642311F;
 	  b use_fizzle = true;
@@ -149,7 +149,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0xA281B3D6;
 	  b use_fizzle = true;
@@ -180,7 +180,7 @@
 {
 	[cmd_leave_nis]
 	{
-	  f duration = 0;
+	  f duration = 0.000000;
 	}
 	[common]
 	{
@@ -253,7 +253,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -269,7 +269,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -285,7 +285,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:screen_fade,n:0x083000b9]
@@ -300,7 +300,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:cmd_camera_command,n:0x083000bc]
@@ -328,7 +328,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:screen_fade,n:0x083000c7]
@@ -343,7 +343,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -375,7 +375,7 @@
 {
 	[light_enable]
 	{
-	  f fizzle_duration = 3;
+	  f fizzle_duration = 3.000000;
 	  x siege_light = 0x0038F072;
 	  b use_fizzle = true;
 	}
@@ -461,7 +461,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -477,7 +477,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:cmd_camera_command,n:0x083000cf]
@@ -505,7 +505,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -521,7 +521,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:screen_fade,n:0x083000dc]
@@ -547,7 +547,7 @@
 {
 	[light_enable]
 	{
-	  f fizzle_duration = 3;
+	  f fizzle_duration = 3.000000;
 	  x siege_light = 0xD4096A1D;
 	  b use_fizzle = true;
 	}
@@ -560,7 +560,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 9;
+	  f duration = 9.000000;
 	  x next_scid = 0x08300371;
 		order = cor_snap;
 	}
@@ -596,7 +596,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 2;
+	  f duration = 2.000000;
 	  x next_scid = 0x083001BC;
 	}
 	[placement]
@@ -624,7 +624,7 @@
 	{
 		effect_name = "dsx_shadow_jumper_nis_reveal";
 	  x target_scid = 0x083000BB;
-	  f visibility_delay = 1.25;
+	  f visibility_delay = 1.250000;
 	}
 	[common]
 	{
@@ -661,7 +661,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:screen_fade,n:0x083000c5]
@@ -676,7 +676,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -710,7 +710,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 15.25;
+	  f duration = 15.250000;
 	  x next_scid = 0x08300224;
 	}
 	[placement]
@@ -723,7 +723,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 14;
+	  f duration = 14.000000;
 	  x next_scid = 0x083000B6;
 	}
 	[placement]
@@ -1034,7 +1034,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 3;
+	  f duration = 3.000000;
 	  x next_scid = 0x0830022D;
 	}
 	[placement]

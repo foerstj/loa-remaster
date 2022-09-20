@@ -8,7 +8,7 @@
 	[sound_emitter]
 	{
 		event_sound = "env_wolf_howl";
-	  f max_repeat_rate = 45;
+	  f max_repeat_rate = 45.000000;
 	}
 }
 [t:emt_sound,n:0x071001c8]
@@ -29,10 +29,10 @@
 	[generic_emitter]
 	{
 	  b geyser_dorange = true;
-	  f max_dist = 15;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 12;
-	  f scale = 3;
+	  f max_dist = 15.000000;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 12.000000;
+	  f scale = 3.000000;
 	}
 	[placement]
 	{
@@ -45,9 +45,9 @@
 	[generic_emitter]
 	{
 	  b geyser_dorange = true;
-	  f max_dist = 15;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 12;
+	  f max_dist = 15.000000;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 12.000000;
 	}
 	[placement]
 	{
@@ -59,8 +59,8 @@
 {
 	[fire_emitter]
 	{
-	  f red0 = 1;
-	  f red1 = 1;
+	  f red0 = 1.000000;
+	  f red1 = 1.000000;
 	}
 	[placement]
 	{
@@ -73,10 +73,10 @@
 	[generic_emitter]
 	{
 	  b geyser_dorange = true;
-	  f max_dist = 15;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 12;
-	  f scale = 3;
+	  f max_dist = 15.000000;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 12.000000;
+	  f scale = 3.000000;
 	}
 	[placement]
 	{
@@ -89,9 +89,9 @@
 	[generic_emitter]
 	{
 	  b generic_explosion = true;
-	  f max_dist = 15;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 6;
+	  f max_dist = 15.000000;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 6.000000;
 	}
 	[placement]
 	{
@@ -103,8 +103,8 @@
 {
 	[fire_emitter]
 	{
-	  f red0 = 1;
-	  f red1 = 1;
+	  f red0 = 1.000000;
+	  f red1 = 1.000000;
 	}
 	[placement]
 	{
@@ -117,9 +117,9 @@
 	[generic_emitter]
 	{
 	  b generic_explosion = true;
-	  f max_dist = 15;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 6;
+	  f max_dist = 15.000000;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 6.000000;
 	}
 	[placement]
 	{
@@ -132,9 +132,9 @@
 	[generic_emitter]
 	{
 	  b generic_explosion = true;
-	  f max_dist = 15;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 6;
+	  f max_dist = 15.000000;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 6.000000;
 	}
 	[placement]
 	{
@@ -146,10 +146,10 @@
 {
 	[generic_emitter]
 	{
-	  f max_dist = 15;
+	  f max_dist = 15.000000;
 		other_effect = "dsx_swamp_gas_puff2";
-	  f rep_freq_max = 12;
-	  f rep_freq_min = 23;
+	  f rep_freq_max = 12.000000;
+	  f rep_freq_min = 23.000000;
 	}
 	[placement]
 	{
@@ -168,8 +168,8 @@
 {
 	[fire_emitter]
 	{
-	  f red0 = 1;
-	  f red1 = 1;
+	  f red0 = 1.000000;
+	  f red1 = 1.000000;
 	}
 	[placement]
 	{
@@ -200,10 +200,10 @@
 {
 	[generic_emitter]
 	{
-	  f max_dist = 15;
+	  f max_dist = 15.000000;
 		other_effect = "dsx_swamp_gas_puff2";
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 6;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 6.000000;
 	}
 	[placement]
 	{
@@ -215,10 +215,10 @@
 {
 	[generic_emitter]
 	{
-	  f max_dist = 15;
+	  f max_dist = 15.000000;
 		other_effect = "dsx_swamp_gas_puff2";
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 6;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 6.000000;
 	}
 	[placement]
 	{
@@ -231,10 +231,10 @@
 	[generic_emitter]
 	{
 	  b geyser_dorange = true;
-	  f max_dist = 15;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 12;
-	  f scale = 3;
+	  f max_dist = 15.000000;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 12.000000;
+	  f scale = 3.000000;
 	}
 	[placement]
 	{
@@ -247,9 +247,9 @@
 	[generic_emitter]
 	{
 	  b generic_explosion = true;
-	  f max_dist = 15;
-	  f rep_freq_max = 45;
-	  f rep_freq_min = 6;
+	  f max_dist = 15.000000;
+	  f rep_freq_max = 45.000000;
+	  f rep_freq_min = 6.000000;
 	}
 	[placement]
 	{
@@ -261,8 +261,8 @@
 {
 	[fire_emitter]
 	{
-	  f red0 = 1;
-	  f red1 = 1;
+	  f red0 = 1.000000;
+	  f red1 = 1.000000;
 	}
 	[placement]
 	{

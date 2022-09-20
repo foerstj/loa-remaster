@@ -6,11 +6,11 @@
 	}
 	[body]
 	{
-	  f angular_turning_velocity = 0;
-	  f avg_move_velocity = 0;
+	  f angular_turning_velocity = 0.000000;
+	  f avg_move_velocity = 0.000000;
 	  b can_turn_and_move = false;
-	  f max_move_velocity = 0;
-	  f min_move_velocity = 0;
+	  f max_move_velocity = 0.000000;
+	  f min_move_velocity = 0.000000;
 	}
 	[placement]
 	{
@@ -27,15 +27,15 @@
 	[aspect]
 	{
 	  b is_invincible = true;
-	  f max_life = 186.2;
-	  f max_mana = 264;
+	  f max_life = 186.200000;
+	  f max_mana = 264.000000;
 	}
 	[body]
 	{
-	  f angular_turning_velocity = 0;
+	  f angular_turning_velocity = 0.000000;
 	  b can_turn_and_move = false;
-	  f max_move_velocity = 0;
-	  f min_move_velocity = 0;
+	  f max_move_velocity = 0.000000;
+	  f min_move_velocity = 0.000000;
 	}
 	[common]
 	{
@@ -63,9 +63,9 @@
 {
 	[body]
 	{
-	  f avg_move_velocity = 2;
-	  f max_move_velocity = 2.2;
-	  f min_move_velocity = 1.7;
+	  f avg_move_velocity = 2.000000;
+	  f max_move_velocity = 2.200000;
+	  f min_move_velocity = 1.700000;
 	}
 	[placement]
 	{
@@ -77,9 +77,9 @@
 {
 	[body]
 	{
-	  f avg_move_velocity = 2;
-	  f max_move_velocity = 2.1;
-	  f min_move_velocity = 1.7;
+	  f avg_move_velocity = 2.000000;
+	  f max_move_velocity = 2.100000;
+	  f min_move_velocity = 1.700000;
 	}
 	[placement]
 	{
@@ -94,7 +94,7 @@
 	}
 	[aspect]
 	{
-	  f max_life = 100;
+	  f max_life = 100.000000;
 	}
 	[placement]
 	{
@@ -110,10 +110,10 @@
 	}
 	[body]
 	{
-	  f angular_turning_velocity = 0;
-	  f avg_move_velocity = 0;
-	  f max_move_velocity = 0;
-	  f min_move_velocity = 0;
+	  f angular_turning_velocity = 0.000000;
+	  f avg_move_velocity = 0.000000;
+	  f max_move_velocity = 0.000000;
+	  f min_move_velocity = 0.000000;
 	}
 	[placement]
 	{
@@ -125,7 +125,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.7;
+	  f scale_multiplier = 1.700000;
 	}
 	[placement]
 	{
@@ -136,7 +136,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.5;
+	  f scale_multiplier = 1.500000;
 	}
 	[mind]
 	{
@@ -151,7 +151,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.7;
+	  f scale_multiplier = 1.700000;
 	}
 	[mind]
 	{

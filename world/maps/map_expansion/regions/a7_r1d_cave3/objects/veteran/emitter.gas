@@ -2,8 +2,8 @@
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.8;
-	  f rep_freq_min = 0.3;
+	  f rep_freq_max = 0.800000;
+	  f rep_freq_min = 0.300000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -21,8 +21,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_drip_high";
-	  f max_repeat_rate = 1.2;
-	  f repeat_rate = 0.6;
+	  f max_repeat_rate = 1.200000;
+	  f repeat_rate = 0.600000;
 	  b stop_instantly = true;
 	}
 }
@@ -30,8 +30,8 @@
 {
 	[generic_emitter]
 	{
-	  f rep_freq_max = 0.8;
-	  f rep_freq_min = 0.3;
+	  f rep_freq_max = 0.800000;
+	  f rep_freq_min = 0.300000;
 	  b water_wave = true;
 	}
 	[placement]
@@ -50,8 +50,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_drip_single";
-	  f max_repeat_rate = 1.1;
-	  f repeat_rate = 0.4;
+	  f max_repeat_rate = 1.100000;
+	  f repeat_rate = 0.400000;
 	}
 }
 [t:emt_light_ray,n:0x71d00012]

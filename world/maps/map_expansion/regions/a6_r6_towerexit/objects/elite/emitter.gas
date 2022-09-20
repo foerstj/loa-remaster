@@ -6,20 +6,20 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.9;
+	  f blue = 0.900000;
 	  i count = 30;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 0.9;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f xacc = 90;
-	  f yacc = 0;
-	  f zacc = 0;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 0.900000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f xacc = 90.000000;
+	  f yacc = 0.000000;
+	  f zacc = 0.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -68,10 +68,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.9;
-	  f red = 0.5;
-	  f scale = 1.1;
+	  f blue = 0.900000;
+	  f green = 0.900000;
+	  f red = 0.500000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -120,10 +120,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.9;
-	  f red = 0.5;
-	  f scale = 1.5;
+	  f blue = 0.900000;
+	  f green = 0.900000;
+	  f red = 0.500000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -172,10 +172,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.9;
-	  f red = 0.5;
-	  f scale = 1.1;
+	  f blue = 0.900000;
+	  f green = 0.900000;
+	  f red = 0.500000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -224,10 +224,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.9;
-	  f red = 0.5;
-	  f scale = 1.5;
+	  f blue = 0.900000;
+	  f green = 0.900000;
+	  f red = 0.500000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -243,19 +243,19 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.9;
+	  f blue = 0.900000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 0.9;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 0.900000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -271,19 +271,19 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.9;
+	  f blue = 0.900000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 0.9;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 0.900000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -299,18 +299,18 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.9;
+	  f blue = 0.900000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f green = 0.9;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f green = 0.900000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -322,17 +322,17 @@
 {
 	[particle_emitter]
 	{
-	  f blue = 0.8;
+	  f blue = 0.800000;
 	  i count = 35;
-	  f damage_max = 0;
-	  f damage_min = 0;
-	  f green = 0;
-	  f growth = 0.5;
+	  f damage_max = 0.000000;
+	  f damage_min = 0.000000;
+	  f green = 0.000000;
+	  f growth = 0.500000;
 	  b ignite = false;
-	  f particle_size = 0.5;
-	  f red = 0;
-	  f yvel = -40;
-	  f zvel = 20;
+	  f particle_size = 0.500000;
+	  f red = 0.000000;
+	  f yvel = -40.000000;
+	  f zvel = 20.000000;
 	}
 	[placement]
 	{

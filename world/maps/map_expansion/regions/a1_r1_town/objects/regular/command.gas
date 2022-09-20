@@ -2,7 +2,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 5.75;
+	  f duration = 5.750000;
 	  x next_scid = 0x00100124;
 		order = cor_snap;
 	}
@@ -29,7 +29,7 @@
 	[cmd_enter_nis]
 	{
 	  x next_scid = 0x0A000111;
-	  f widescreen_delay = 0;
+	  f widescreen_delay = 0.000000;
 	}
 	[common]
 	{
@@ -46,7 +46,7 @@
 {
 	[cmd_leave_nis]
 	{
-	  f duration = 0;
+	  f duration = 0.000000;
 	}
 	[common]
 	{
@@ -92,7 +92,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:screen_fade,n:0x00100123]
@@ -108,7 +108,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 0.5;
+	  f duration = 0.500000;
 	  b fade = false;
 	}
 }
@@ -116,7 +116,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.25;
+	  f duration = 1.250000;
 	  x next_scid = 0x00100125;
 		order = cor_snap;
 	}
@@ -130,7 +130,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.25;
+	  f duration = 1.250000;
 	  x next_scid = 0x00100127;
 	}
 	[placement]
@@ -152,7 +152,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 0.5;
+	  f duration = 0.500000;
 	}
 }
 [t:screen_fade,n:0x0010012e]
@@ -167,7 +167,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -183,7 +183,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -199,7 +199,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  b fade = false;
 	}
 }
@@ -215,7 +215,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:screen_fade,n:0x0010013d]
@@ -230,7 +230,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	}
 }
 [t:screen_fade,n:0x00100122]
@@ -246,7 +246,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 3;
+	  f duration = 3.000000;
 	  b fade = false;
 	}
 }
@@ -263,14 +263,14 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 3;
+	  f duration = 3.000000;
 	}
 }
 [t:cmd_camera_command,n:0x00100127]
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.25;
+	  f duration = 1.250000;
 	  x next_scid = 0x001002AA;
 	}
 	[placement]
@@ -283,7 +283,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.25;
+	  f duration = 1.250000;
 	  x next_scid = 0x00100129;
 	}
 	[placement]
@@ -296,7 +296,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  x next_scid = 0x0010036D;
 	}
 	[placement]
@@ -321,7 +321,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.25;
+	  f duration = 1.250000;
 	  x next_scid = 0x001002AC;
 	}
 	[placement]
@@ -334,7 +334,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.25;
+	  f duration = 1.250000;
 	  x next_scid = 0x00100128;
 	}
 	[placement]

@@ -2,7 +2,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 14;
+	  f duration = 14.000000;
 	  x next_scid = 0x0A0000F0;
 	}
 	[placement]
@@ -15,7 +15,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 3.6;
+	  f duration = 3.600000;
 	  x next_scid = 0x0A00015F;
 		order = cor_snap;
 	}
@@ -53,7 +53,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 2.5;
+	  f duration = 2.500000;
 	  x next_scid = 0x0A000009;
 		order = cor_snap;
 	}
@@ -67,7 +67,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 2.5;
+	  f duration = 2.500000;
 	  x next_scid = 0x0A000244;
 		order = cor_snap;
 	}
@@ -125,7 +125,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  x next_scid = 0x0A0000F8;
 	}
 	[placement]
@@ -138,7 +138,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 4;
+	  f duration = 4.000000;
 	  x next_scid = 0x0A00024B;
 		order = cor_snap;
 	}
@@ -164,7 +164,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 0.2;
+	  f duration = 0.200000;
 	  x next_scid = 0x0A000246;
 		order = cor_snap;
 	}
@@ -178,7 +178,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  x next_scid = 0x0010013E;
 	}
 	[placement]
@@ -191,8 +191,8 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
-	  f game_speed = 0.5;
+	  f duration = 1.500000;
+	  f game_speed = 0.500000;
 	  x next_scid = 0x0A000245;
 	}
 	[placement]
@@ -205,7 +205,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  x next_scid = 0x0A000248;
 	}
 	[placement]
@@ -218,8 +218,8 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
-	  f game_speed = 0.6;
+	  f duration = 1.000000;
+	  f game_speed = 0.600000;
 	  x next_scid = 0x0A000249;
 	}
 	[placement]
@@ -232,7 +232,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  x next_scid = 0x0A00024A;
 	}
 	[placement]
@@ -245,7 +245,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  x next_scid = 0x0A0000DF;
 	}
 	[placement]
@@ -258,7 +258,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 0.5;
+	  f duration = 0.500000;
 	  x next_scid = 0x0A000248;
 		order = cor_snap;
 	}
@@ -296,7 +296,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 4;
+	  f duration = 4.000000;
 	  x next_scid = 0x0A0000F2;
 		order = cor_cont_spline;
 	}
@@ -310,7 +310,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 4.5;
+	  f duration = 4.500000;
 	  x next_scid = 0x0A000202;
 		order = cor_cont_spline;
 	}
@@ -324,7 +324,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 4.3;
+	  f duration = 4.300000;
 	  x next_scid = 0x0A000247;
 		order = cor_end_spline;
 	}
@@ -350,7 +350,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 0.2;
+	  f duration = 0.200000;
 	  x next_scid = 0x0A000243;
 		order = cor_snap;
 	}
@@ -364,7 +364,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  x next_scid = 0x0A0000F0;
 		order = cor_snap;
 	}
@@ -378,7 +378,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 0.5;
+	  f duration = 0.500000;
 	  x next_scid = 0x0A0000F1;
 		order = cor_begin_spline;
 	}

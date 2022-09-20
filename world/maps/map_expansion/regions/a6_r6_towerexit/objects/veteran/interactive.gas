@@ -18,7 +18,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.3908;
+	  f scale_multiplier = 1.390800;
 	}
 	[common]
 	{
@@ -38,7 +38,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.00366;
+	  f scale_multiplier = 1.003660;
 	}
 	[common]
 	{
@@ -57,7 +57,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.46465;
+	  f scale_multiplier = 1.464650;
 	}
 	[common]
 	{
@@ -91,7 +91,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.5;
+	  f scale_multiplier = 0.500000;
 	}
 	[common]
 	{
@@ -115,8 +115,8 @@
 		off_message_2 = we_req_activate;
 	  x off_scid = 0x056001E7;
 	  x on_scid = 0x056001E7;
-	  f reset_time = 30;
-	  f reset_time_2 = 30;
+	  f reset_time = 30.000000;
+	  f reset_time_2 = 30.000000;
 	}
 	[placement]
 	{

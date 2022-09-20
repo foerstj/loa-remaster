@@ -84,7 +84,7 @@
 	[skrev_a5_r2_nis_controller]
 	{
 	  x sj_scid = 0x0430062F;
-	  f stop_radius = 50;
+	  f stop_radius = 50.000000;
 	}
 }
 [t:trigger_generic,n:0x04300366]
@@ -185,7 +185,7 @@
 {
 	[interface_fade]
 	{
-	  f duration = 7;
+	  f duration = 7.000000;
 		interface = "dsx_chapter_3";
 	}
 	[placement]

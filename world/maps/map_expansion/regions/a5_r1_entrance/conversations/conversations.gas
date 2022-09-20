@@ -1,23 +1,22 @@
-//NIRR'S CONVERSATIONS
 [nirr_before_a5_letter]
 {
 	[text*]
 	{
 		choice = more;
-	  	i order = 0;
+	  i order = 0;
 		sample = s_v_a5_nirr_01_a;
 		screen_text = "Excuse me... might I trouble you for a moment?  I am an old man, and although I may not deserve such kindness, I have a small request. My grown son Jaff and I were among a group of pilgrims heading out to Xulphae's Cove.  We had one of our fights-the worst I can ever remember-and, well, he went one way, and I another, each of us vowing not to speak to the other again.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		give_reward* = book_glb_lore_nirr;
 		activate_quest* = a5_letter,0;
-	  	i order = 1;
-	  	b quest_dialog = true;
+	  i order = 1;
+	  b quest_dialog = true;
 		sample = s_v_a5_nirr_01_b;
 		screen_text = "I was not a very good father to Jaff.  Although I can no longer be part of the pilgrimage of redemption for the Utraean people, I still seek atonement for my sins as a man and as a father.  But the years weigh heavily on me, and I grow weaker each day; I fear I am now too feeble to travel.  I have written this letter to Jaff.  I am ashamed to ask you to play courier, but could you get it to him?";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [nirr_during_a5_letter]
@@ -26,7 +25,7 @@
 	{
 		sample = s_v_a5_nirr_02;
 		screen_text = "Have you managed to deliver my letter yet, stranger?";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
 [nirr_after_a5_letter]
@@ -35,7 +34,6 @@
 	{
 		sample = s_v_a5_nirr_03;
 		screen_text = "I am in your debt and happy beyond words, stranger.  I hope to see Jaff soon and tell him face-to-face how wrong I was.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 }
-

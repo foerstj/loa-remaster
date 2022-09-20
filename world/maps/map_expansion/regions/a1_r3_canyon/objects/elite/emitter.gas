@@ -8,8 +8,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_wolf_howl";
-	  f max_repeat_rate = 68;
-	  f repeat_rate = 15;
+	  f max_repeat_rate = 68.000000;
+	  f repeat_rate = 15.000000;
 	}
 }
 [t:emt_light_ray,n:0x003001ad]
@@ -31,7 +31,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "amb_crows";
-	  f max_dist = 30;
+	  f max_dist = 30.000000;
 	}
 }
 [t:emt_sound,n:0x00300236]
@@ -44,8 +44,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_hawk_cry_solo";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 10;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 10.000000;
 	}
 }
 [t:emt_sound,n:0x00300228]
@@ -58,7 +58,7 @@
 	[sound_emitter]
 	{
 		event_sound = "env_wind_gust";
-	  f max_repeat_rate = 65;
-	  f repeat_rate = 10;
+	  f max_repeat_rate = 65.000000;
+	  f repeat_rate = 10.000000;
 	}
 }

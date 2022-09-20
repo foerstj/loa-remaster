@@ -20,9 +20,9 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_jungle_thing";
-	  f max_dist = 35;
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 5;
+	  f max_dist = 35.000000;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x0150012d]
@@ -55,9 +55,9 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_jungle_thing_2";
-	  f max_dist = 35;
-	  f max_repeat_rate = 17;
-	  f repeat_rate = 3;
+	  f max_dist = 35.000000;
+	  f max_repeat_rate = 17.000000;
+	  f repeat_rate = 3.000000;
 	}
 }
 [t:emt_sound,n:0x01500133]
@@ -69,10 +69,10 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_jungle_thing_4";
-	  f max_dist = 35;
-	  f max_repeat_rate = 10;
-	  f min_dist = 8;
-	  f repeat_rate = 5;
+	  f max_dist = 35.000000;
+	  f max_repeat_rate = 10.000000;
+	  f min_dist = 8.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_light_ray,n:0x015000b9]
@@ -108,9 +108,9 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_jungle_thing_6";
-	  f max_dist = 25;
-	  f max_repeat_rate = 16;
-	  f repeat_rate = 4;
+	  f max_dist = 25.000000;
+	  f max_repeat_rate = 16.000000;
+	  f repeat_rate = 4.000000;
 	}
 }
 [t:emt_light_ray,n:0x01500054]
@@ -130,9 +130,9 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_jungle_thing_5";
-	  f max_dist = 35;
-	  f max_repeat_rate = 10;
-	  f repeat_rate = 5;
+	  f max_dist = 35.000000;
+	  f max_repeat_rate = 10.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_light_ray,n:0x015000b8]

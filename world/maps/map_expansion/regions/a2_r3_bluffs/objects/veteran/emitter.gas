@@ -8,8 +8,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_seagulls";
-	  f max_repeat_rate = 30;
-	  f repeat_rate = 20;
+	  f max_repeat_rate = 30.000000;
+	  f repeat_rate = 20.000000;
 	}
 }
 [t:emt_sound,n:0x014002bc]
@@ -34,8 +34,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_seagulls";
-	  f max_repeat_rate = 30;
-	  f repeat_rate = 15;
+	  f max_repeat_rate = 30.000000;
+	  f repeat_rate = 15.000000;
 	}
 }
 [t:emt_sound,n:0x014002be]

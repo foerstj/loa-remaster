@@ -3,7 +3,7 @@
 	[aspect]
 	{
 	  b is_selectable = false;
-	  f scale_multiplier = 2;
+	  f scale_multiplier = 2.000000;
 	}
 	[placement]
 	{
@@ -26,7 +26,7 @@
 	[aspect]
 	{
 	  b is_selectable = false;
-	  f scale_multiplier = 2;
+	  f scale_multiplier = 2.000000;
 	}
 	[placement]
 	{
@@ -37,7 +37,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 0.5;
+	  f scale_multiplier = 0.500000;
 	}
 	[common]
 	{
@@ -54,7 +54,7 @@
 	[aspect]
 	{
 	  b is_selectable = false;
-	  f scale_multiplier = 3;
+	  f scale_multiplier = 3.000000;
 	}
 	[placement]
 	{
@@ -82,8 +82,8 @@
 		off_message_2 = we_req_activate;
 	  x off_scid = 0x073000C3;
 	  x on_scid = 0x073000C3;
-	  f reset_time = 30;
-	  f reset_time_2 = 30;
+	  f reset_time = 30.000000;
+	  f reset_time_2 = 30.000000;
 	}
 	[placement]
 	{

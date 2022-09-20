@@ -102,7 +102,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -110,8 +110,8 @@
 {
 	[cmd_leave_nis]
 	{
-	  f duration = 0;
-	  f normalscreen_delay = 0;
+	  f duration = 0.000000;
+	  f normalscreen_delay = 0.000000;
 	}
 	[common]
 	{
@@ -153,7 +153,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  b fade = false;
 	}
 }
@@ -170,7 +170,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:cmd_enter_nis,n:0x05200714]
@@ -216,7 +216,7 @@
 	}
 	[screen_fade]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	}
 }
 [t:cmd_ai_c_patrol,n:0x0520073e]
@@ -296,7 +296,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 2;
+	  f duration = 2.000000;
 	  x next_scid = 0x05200367;
 		order = cor_snap;
 	}
@@ -310,7 +310,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 2;
+	  f duration = 2.000000;
 	  x next_scid = 0x05200367;
 		order = cor_snap;
 	}
@@ -324,7 +324,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 3;
+	  f duration = 3.000000;
 	  x next_scid = 0x052007B8;
 		order = cor_snap;
 	}
@@ -454,7 +454,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 0.5;
+	  f duration = 0.500000;
 	  x next_scid = 0x05200373;
 		order = cor_snap;
 	}
@@ -468,7 +468,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 3.5;
+	  f duration = 3.500000;
 	  x next_scid = 0x0520071C;
 		order = cor_snap;
 	}
@@ -482,7 +482,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 3;
+	  f duration = 3.000000;
 	  x next_scid = 0x05200367;
 		order = cor_snap;
 	}
@@ -496,7 +496,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  x next_scid = 0x05200385;
 	}
 	[placement]
@@ -509,7 +509,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  x next_scid = 0x0520037E;
 	}
 	[placement]
@@ -522,7 +522,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1;
+	  f duration = 1.000000;
 	  x next_scid = 0x0520037F;
 		order = cor_snap;
 	}
@@ -536,7 +536,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 4;
+	  f duration = 4.000000;
 	  x next_scid = 0x05200386;
 		order = cor_snap;
 	}
@@ -550,7 +550,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 4;
+	  f duration = 4.000000;
 	  x next_scid = 0x052007B8;
 	}
 	[placement]

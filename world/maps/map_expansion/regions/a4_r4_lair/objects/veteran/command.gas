@@ -35,7 +35,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  b even_durations = true;
 	  x next_scid = 0x0340030E;
 	}
@@ -53,7 +53,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0xD1311DD6;
 	  b use_fizzle = true;
@@ -72,7 +72,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0xE8C662C0;
 	  b use_fizzle = true;
@@ -91,7 +91,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0x4642311F;
 	  b use_fizzle = true;
@@ -110,7 +110,7 @@
 	}
 	[light_enable]
 	{
-	  f fizzle_duration = 2;
+	  f fizzle_duration = 2.000000;
 	  b initially_active = false;
 	  x siege_light = 0xA281B3D6;
 	  b use_fizzle = true;
@@ -137,7 +137,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  b even_durations = true;
 	  x next_scid = 0x0340004C;
 		order = cor_end_spline;
@@ -156,7 +156,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  b even_durations = true;
 	  x next_scid = 0x03400305;
 	}
@@ -170,7 +170,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 2;
+	  f duration = 2.000000;
 	  x next_scid = 0x0340030A;
 		order = cor_begin_spline;
 	}
@@ -188,7 +188,7 @@
 {
 	[cmd_leave_nis]
 	{
-	  f duration = 0;
+	  f duration = 0.000000;
 	}
 	[placement]
 	{
@@ -297,7 +297,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  b even_durations = true;
 	  x next_scid = 0x0340030B;
 	}
@@ -311,7 +311,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  b even_durations = true;
 	  x next_scid = 0x0340030C;
 	}
@@ -325,7 +325,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  b even_durations = true;
 	  x next_scid = 0x0340030D;
 	}
@@ -422,7 +422,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  b even_durations = true;
 	  x next_scid = 0x03400308;
 	}
@@ -436,7 +436,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  b even_durations = true;
 	  x next_scid = 0x03400309;
 	}
@@ -471,7 +471,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 1.5;
+	  f duration = 1.500000;
 	  b even_durations = true;
 	  x next_scid = 0x0340030F;
 	}
@@ -485,7 +485,7 @@
 {
 	[cmd_camera_command]
 	{
-	  f duration = 0.75;
+	  f duration = 0.750000;
 	  x next_scid = 0x03400306;
 		order = cor_snap;
 	}

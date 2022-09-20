@@ -9,7 +9,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "ambient_wind_mines";
-	  f min_dist = 20;
+	  f min_dist = 20.000000;
 	}
 }
 [t:emt_sound,n:0x0050010f]
@@ -21,9 +21,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_bats";
-	  f max_dist = 25;
-	  f min_dist = 3;
-	  f repeat_rate = 12;
+	  f max_dist = 25.000000;
+	  f min_dist = 3.000000;
+	  f repeat_rate = 12.000000;
 	}
 }
 [t:emt_sound,n:0x00500176]
@@ -35,9 +35,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_bats";
-	  f max_dist = 25;
-	  f min_dist = 3;
-	  f repeat_rate = 12;
+	  f max_dist = 25.000000;
+	  f min_dist = 3.000000;
+	  f repeat_rate = 12.000000;
 	}
 }
 [t:emt_sound_act,n:0x005003c2]
@@ -64,10 +64,10 @@
 	[sound_emitter]
 	{
 		event_sound = "env_horror";
-	  f max_dist = 25;
-	  f max_repeat_rate = 30;
-	  f min_dist = 3;
-	  f repeat_rate = 12;
+	  f max_dist = 25.000000;
+	  f max_repeat_rate = 30.000000;
+	  f min_dist = 3.000000;
+	  f repeat_rate = 12.000000;
 	}
 }
 [t:emt_sound,n:0x00500371]
@@ -80,7 +80,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "ambient_wind_mines";
-	  f min_dist = 20;
+	  f min_dist = 20.000000;
 	}
 }
 [t:emt_sound,n:0x00500120]
@@ -93,9 +93,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_voices_whispering";
-	  f max_dist = 25;
-	  f min_dist = 3;
-	  f repeat_rate = 12;
+	  f max_dist = 25.000000;
+	  f min_dist = 3.000000;
+	  f repeat_rate = 12.000000;
 	}
 }
 [t:emt_sound,n:0x00500124]
@@ -108,9 +108,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_bats";
-	  f max_dist = 25;
-	  f min_dist = 3;
-	  f repeat_rate = 12;
+	  f max_dist = 25.000000;
+	  f min_dist = 3.000000;
+	  f repeat_rate = 12.000000;
 	}
 }
 [t:emt_sound,n:0x0050044b]
@@ -123,10 +123,10 @@
 	[sound_emitter]
 	{
 		event_sound = "env_spider_scurry";
-	  f max_dist = 25;
-	  f max_repeat_rate = 60;
-	  f min_dist = 8;
-	  f repeat_rate = 20;
+	  f max_dist = 25.000000;
+	  f max_repeat_rate = 60.000000;
+	  f min_dist = 8.000000;
+	  f repeat_rate = 20.000000;
 	}
 }
 [t:emt_sound,n:0x0050017b]
@@ -138,9 +138,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_bats";
-	  f max_dist = 25;
-	  f min_dist = 3;
-	  f repeat_rate = 12;
+	  f max_dist = 25.000000;
+	  f min_dist = 3.000000;
+	  f repeat_rate = 12.000000;
 	}
 }
 [t:emt_sound,n:0x0050032a]
@@ -154,8 +154,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_large";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	  b repeat = false;
 	}
 }
@@ -169,8 +169,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_large";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	  b repeat = false;
 	}
 }
@@ -184,8 +184,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_burning_large";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	  b repeat = false;
 	}
 }
@@ -213,9 +213,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_bats";
-	  f max_dist = 25;
-	  f min_dist = 3;
-	  f repeat_rate = 12;
+	  f max_dist = 25.000000;
+	  f min_dist = 3.000000;
+	  f repeat_rate = 12.000000;
 	}
 }
 [t:emt_sound,n:0x00500177]
@@ -228,9 +228,9 @@
 	[sound_emitter]
 	{
 		event_sound = "env_voices_whispering";
-	  f max_dist = 25;
-	  f min_dist = 3;
-	  f repeat_rate = 12;
+	  f max_dist = 25.000000;
+	  f min_dist = 3.000000;
+	  f repeat_rate = 12.000000;
 	}
 }
 [t:emt_sound,n:0x0050036c]
@@ -243,7 +243,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "ambient_wind_mines";
-	  f min_dist = 20;
+	  f min_dist = 20.000000;
 	}
 }
 [t:emt_sound_act,n:0x0050032e]

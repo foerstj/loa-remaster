@@ -6,20 +6,20 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.9;
+	  f blue = 0.900000;
 	  i count = 30;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 0.9;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f xacc = 90;
-	  f yacc = 0;
-	  f zacc = 0;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 0.900000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f xacc = 90.000000;
+	  f yacc = 0.000000;
+	  f zacc = 0.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -35,10 +35,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.9;
-	  f red = 0.5;
-	  f scale = 1.1;
+	  f blue = 0.900000;
+	  f green = 0.900000;
+	  f red = 0.500000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -54,10 +54,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.9;
-	  f red = 0.5;
-	  f scale = 1.5;
+	  f blue = 0.900000;
+	  f green = 0.900000;
+	  f red = 0.500000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -73,10 +73,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.9;
-	  f red = 0.5;
-	  f scale = 1.1;
+	  f blue = 0.900000;
+	  f green = 0.900000;
+	  f red = 0.500000;
+	  f scale = 1.100000;
 	}
 	[placement]
 	{
@@ -92,10 +92,10 @@
 	}
 	[glow_emitter_act]
 	{
-	  f blue = 0.9;
-	  f green = 0.9;
-	  f red = 0.5;
-	  f scale = 1.5;
+	  f blue = 0.900000;
+	  f green = 0.900000;
+	  f red = 0.500000;
+	  f scale = 1.500000;
 	}
 	[placement]
 	{
@@ -111,19 +111,19 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.9;
+	  f blue = 0.900000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 0.9;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 0.900000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -139,19 +139,19 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.9;
+	  f blue = 0.900000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f fade = 0.5;
-	  f green = 0.9;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f fade = 0.500000;
+	  f green = 0.900000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -167,18 +167,18 @@
 	}
 	[particle_emitter_act]
 	{
-	  f blue = 0.9;
+	  f blue = 0.900000;
 	  i count = 15;
-	  f end_radius_max = 2;
-	  f end_radius_min = 2;
-	  f green = 0.9;
-	  f particle_size = 0.7;
-	  f red = 0.5;
-	  f start_radius_max = 1;
-	  f start_radius_min = 1;
-	  f yacc = 0;
-	  f zacc = 90;
-	  f zvel = 0;
+	  f end_radius_max = 2.000000;
+	  f end_radius_min = 2.000000;
+	  f green = 0.900000;
+	  f particle_size = 0.700000;
+	  f red = 0.500000;
+	  f start_radius_max = 1.000000;
+	  f start_radius_min = 1.000000;
+	  f yacc = 0.000000;
+	  f zacc = 90.000000;
+	  f zvel = 0.000000;
 	}
 	[placement]
 	{
@@ -191,8 +191,8 @@
 	[generic_emitter]
 	{
 	  b geyser_white = true;
-	  f rep_freq_max = 30;
-	  f rep_freq_min = 10;
+	  f rep_freq_max = 30.000000;
+	  f rep_freq_min = 10.000000;
 	}
 	[placement]
 	{
@@ -209,8 +209,8 @@
 	[sound_emitter]
 	{
 		event_sound = "env_secret_found2";
-	  f max_repeat_rate = 10;
-	  f repeat_rate = 6;
+	  f max_repeat_rate = 10.000000;
+	  f repeat_rate = 6.000000;
 	}
 }
 [t:emt_sound,n:0x052005b2]
@@ -222,15 +222,15 @@
 	[sound_emitter]
 	{
 		event_sound = "env_fury_shriek";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 10;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 10.000000;
 	}
 }
 [t:emt_lightning,n:0x05200709]
 {
 	[lightning_emitter]
 	{
-	  f fixeddelay = 63;
+	  f fixeddelay = 63.000000;
 	}
 	[placement]
 	{
@@ -341,7 +341,7 @@
 {
 	[lightning_emitter]
 	{
-	  f fixeddelay = 28;
+	  f fixeddelay = 28.000000;
 	}
 	[placement]
 	{
@@ -352,7 +352,7 @@
 {
 	[lightning_emitter]
 	{
-	  f fixeddelay = 28;
+	  f fixeddelay = 28.000000;
 	}
 	[placement]
 	{
@@ -363,7 +363,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.07253;
+	  f scale_multiplier = 1.072530;
 	}
 	[placement]
 	{
@@ -379,7 +379,7 @@
 {
 	[lightning_emitter]
 	{
-	  f fixeddelay = 63;
+	  f fixeddelay = 63.000000;
 	}
 	[placement]
 	{
@@ -404,9 +404,9 @@
 {
 	[lightning_emitter]
 	{
-	  f bottomdriftmax = 9;
-	  f maxdelayrand = 200;
-	  f mindelayrand = 45;
+	  f bottomdriftmax = 9.000000;
+	  f maxdelayrand = 200.000000;
+	  f mindelayrand = 45.000000;
 	}
 	[placement]
 	{
@@ -418,8 +418,8 @@
 	[generic_emitter]
 	{
 	  b geyser_white = true;
-	  f rep_freq_max = 40;
-	  f rep_freq_min = 10;
+	  f rep_freq_max = 40.000000;
+	  f rep_freq_min = 10.000000;
 	}
 	[placement]
 	{
@@ -431,7 +431,7 @@
 {
 	[lightning_emitter]
 	{
-	  f fixeddelay = 28;
+	  f fixeddelay = 28.000000;
 	}
 	[placement]
 	{
@@ -442,7 +442,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.07253;
+	  f scale_multiplier = 1.072530;
 	}
 	[placement]
 	{

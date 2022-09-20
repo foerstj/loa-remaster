@@ -20,8 +20,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_bird_chatting";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 10;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 10.000000;
 	}
 }
 [t:emt_sound,n:0x01800341]
@@ -34,7 +34,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_ocean";
-	  f max_dist = 65;
+	  f max_dist = 65.000000;
 	}
 }
 [t:emt_sound,n:0x01800346]
@@ -47,7 +47,7 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_ocean";
-	  f max_dist = 65;
+	  f max_dist = 65.000000;
 	}
 }
 [t:emt_sound,n:0x0180034f]
@@ -59,8 +59,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_bird_chatting_2";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 6;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 6.000000;
 	}
 }
 [t:emt_sound,n:0x01800364]
@@ -72,9 +72,9 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_monkey_call";
-	  f max_repeat_rate = 30;
-	  f min_dist = 10;
-	  f repeat_rate = 15;
+	  f max_repeat_rate = 30.000000;
+	  f min_dist = 10.000000;
+	  f repeat_rate = 15.000000;
 	}
 }
 [t:emt_sound,n:0x01800354]
@@ -86,8 +86,8 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_monkey_call";
-	  f max_repeat_rate = 20;
-	  f repeat_rate = 5;
+	  f max_repeat_rate = 20.000000;
+	  f repeat_rate = 5.000000;
 	}
 }
 [t:emt_sound,n:0x0180034b]
@@ -99,7 +99,7 @@
 	[sound_emitter]
 	{
 		event_sound = "s_e_env_bird_chatting";
-	  f max_repeat_rate = 15;
-	  f repeat_rate = 7;
+	  f max_repeat_rate = 15.000000;
+	  f repeat_rate = 7.000000;
 	}
 }

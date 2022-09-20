@@ -192,24 +192,24 @@
 {
 	[aspect]
 	{
-	  f experience_value = 0;
+	  f experience_value = 0.000000;
 	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
-	  f com_range = 1;
-	  f inner_comfort_zone_range = 3;
+	  f com_range = 1.000000;
+	  f inner_comfort_zone_range = 3.000000;
 		jat_brain = world\ai\jobs\common\brain_hero.skrit
 			?actor_joins_existing_party=false
 			&actor_creates_own_party=false;
 		jat_fidget = world\ai\jobs\common\job_fidget.skrit;
 		jat_startup = world\ai\jobs\common\job_startup_reveal.skrit
 			?auto_reveal=true;
-	  f melee_engage_range = 10;
+	  f melee_engage_range = 10.000000;
 	  b on_enemy_spotted_alert_friends = false;
-	  f outer_comfort_zone_range = 10;
-	  f ranged_engage_range = 10;
-	  f sight_range = 10;
+	  f outer_comfort_zone_range = 10.000000;
+	  f ranged_engage_range = 10.000000;
+	  f sight_range = 10.000000;
 	}
 	[placement]
 	{
@@ -220,23 +220,23 @@
 {
 	[aspect]
 	{
-	  f experience_value = 0;
+	  f experience_value = 0.000000;
 	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
-	  f com_range = 1;
-	  f inner_comfort_zone_range = 3;
+	  f com_range = 1.000000;
+	  f inner_comfort_zone_range = 3.000000;
 		jat_brain = world\ai\jobs\common\brain_hero.skrit
 		?actor_joins_existing_party		= false
 		&actor_creates_own_party		= false;
 		jat_fidget = world\ai\jobs\common\job_fidget.skrit;
-	  f melee_engage_range = 10;
+	  f melee_engage_range = 10.000000;
 	  b on_enemy_spotted_alert_friends = false;
-	  f outer_comfort_zone_range = 7;
-	  f personal_space_range = 0.7;
-	  f ranged_engage_range = 10;
-	  f sight_range = 10;
+	  f outer_comfort_zone_range = 7.000000;
+	  f personal_space_range = 0.700000;
+	  f ranged_engage_range = 10.000000;
+	  f sight_range = 10.000000;
 	}
 	[placement]
 	{
@@ -247,24 +247,24 @@
 {
 	[aspect]
 	{
-	  f experience_value = 0;
+	  f experience_value = 0.000000;
 	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
-	  f com_range = 1;
-	  f inner_comfort_zone_range = 3;
+	  f com_range = 1.000000;
+	  f inner_comfort_zone_range = 3.000000;
 		jat_brain = world\ai\jobs\common\brain_hero.skrit
 			?actor_joins_existing_party=false
 			&actor_creates_own_party=false;
 		jat_fidget = world\ai\jobs\common\job_fidget.skrit;
 		jat_startup = world\ai\jobs\common\job_startup_reveal.skrit
 			?auto_reveal=true;
-	  f melee_engage_range = 10;
+	  f melee_engage_range = 10.000000;
 	  b on_enemy_spotted_alert_friends = false;
-	  f outer_comfort_zone_range = 10;
-	  f ranged_engage_range = 10;
-	  f sight_range = 10;
+	  f outer_comfort_zone_range = 10.000000;
+	  f ranged_engage_range = 10.000000;
+	  f sight_range = 10.000000;
 	}
 	[placement]
 	{
@@ -276,23 +276,23 @@
 {
 	[aspect]
 	{
-	  f experience_value = 0;
+	  f experience_value = 0.000000;
 	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
-	  f com_range = 1;
-	  f inner_comfort_zone_range = 3;
+	  f com_range = 1.000000;
+	  f inner_comfort_zone_range = 3.000000;
 		jat_brain = world\ai\jobs\common\brain_hero.skrit
 		?actor_joins_existing_party		= false
 		&actor_creates_own_party		= false;
 		jat_fidget = world\ai\jobs\common\job_fidget.skrit;
-	  f melee_engage_range = 10;
+	  f melee_engage_range = 10.000000;
 	  b on_enemy_spotted_alert_friends = false;
-	  f outer_comfort_zone_range = 7;
-	  f personal_space_range = 0.7;
-	  f ranged_engage_range = 10;
-	  f sight_range = 10;
+	  f outer_comfort_zone_range = 7.000000;
+	  f personal_space_range = 0.700000;
+	  f ranged_engage_range = 10.000000;
+	  f sight_range = 10.000000;
 	}
 	[placement]
 	{
@@ -303,24 +303,24 @@
 {
 	[aspect]
 	{
-	  f experience_value = 0;
+	  f experience_value = 0.000000;
 	}
 	[mind]
 	{
 	  b actor_auto_fidgets = false;
-	  f com_range = 1;
-	  f inner_comfort_zone_range = 3;
+	  f com_range = 1.000000;
+	  f inner_comfort_zone_range = 3.000000;
 		jat_brain = world\ai\jobs\common\brain_hero.skrit
 			?actor_joins_existing_party=false
 			&actor_creates_own_party=false;
 		jat_fidget = world\ai\jobs\common\job_fidget.skrit;
 		jat_startup = world\ai\jobs\common\job_startup_reveal.skrit
 			?auto_reveal=true;
-	  f melee_engage_range = 10;
+	  f melee_engage_range = 10.000000;
 	  b on_enemy_spotted_alert_friends = false;
-	  f outer_comfort_zone_range = 10;
-	  f ranged_engage_range = 10;
-	  f sight_range = 10;
+	  f outer_comfort_zone_range = 10.000000;
+	  f ranged_engage_range = 10.000000;
+	  f sight_range = 10.000000;
 	}
 	[placement]
 	{
@@ -605,11 +605,11 @@
 	[aspect]
 	{
 	  b is_invincible = true;
-	  f life = 49;
-	  f mana = 30;
-	  f max_life = 49;
-	  f max_mana = 30;
-	  f scale_multiplier = 0.9;
+	  f life = 49.000000;
+	  f mana = 30.000000;
+	  f max_life = 49.000000;
+	  f max_mana = 30.000000;
+	  f scale_multiplier = 0.900000;
 	}
 	[common]
 	{
@@ -650,11 +650,11 @@
 	[aspect]
 	{
 	  b is_invincible = true;
-	  f life = 2009;
-	  f mana = 1230;
-	  f max_life = 49;
-	  f max_mana = 30;
-	  f scale_multiplier = 0.9;
+	  f life = 2009.000000;
+	  f mana = 1230.000000;
+	  f max_life = 49.000000;
+	  f max_mana = 30.000000;
+	  f scale_multiplier = 0.900000;
 	}
 	[common]
 	{

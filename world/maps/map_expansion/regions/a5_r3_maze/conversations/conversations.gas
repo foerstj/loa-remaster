@@ -4,7 +4,7 @@
 	{
 		sample = s_v_a5_Jharmaya_03;
 		screen_text = "Most wondrous! I cannot express my gratitude, stranger! My skill is yours.";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [jharmaya_disband]
@@ -13,7 +13,7 @@
 	{
 		sample = s_v_a5_Jharmaya_04;
 		screen_text = "I am disappointed. I thought we were of the same mind. I guess I was wrong. Fair travels, then.";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [jharmaya_hello]
@@ -21,27 +21,27 @@
 	[text*]
 	{
 		activate_quest* = a1_staff,8;
-		b quest_dialog = true;
+	  b quest_dialog = true;
 		choice = more;
-	  	i order = 0;
+	  i order = 0;
 		sample = s_v_a5_Jharmaya_01;
 		screen_text = "Greetings, my wayward friends. I am Jharmaya and I am more of a friend than you know! I followed the Hassat who carried the Stone of Lhaoc here, but I was thwarted by the Shadowed minions. I did spy the Shadowjumper himself; he fled toward the old Transportation Center, deep under the heart of the Ruined City.";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		choice = potential_member;
-	  	i order = 1;
+	  i order = 1;
 		sample = s_v_a5_Jharmaya_02;
 		screen_text = "Unlike most of my fellows I am not content to sit and wait for our end to arrive...  We must repair the damage that our ancestors have done.  We must stop the Shadowjumper! Take me with you, so I may lend my strength to this end.";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		sample = s_v_a5_Jharmaya_06;
 		choice = potential_member;
 		screen_text = "Perhaps I shall accept your offer. But know this, stranger, my trust will not be easily won!";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [jharmaya_mp]
@@ -49,16 +49,16 @@
 	[text*]
 	{
 		activate_quest* = a1_staff,8;
-		i order = 0;
+	  i order = 0;
 		sample = s_v_a5_Jharmaya_mp;
 		screen_text = "Greetings, my wayward friends. I am Jharmaya and I am more of a friend than you know! I followed the Hassat who carried the Stone of Lhaoc here, but I was thwarted by the Shadowed minions. I did spy the Shadowjumper himself; he fled toward the old Transportation Center, deep under the heart of The Ruined City. For sure the cause you seek is there.";
-	  	f scroll_rate = 20.000000;
+	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		sample = s_v_a5_Jharmaya_mp;
 		screen_text = "Greetings, my wayward friends. I am Jharmaya and I am more of a friend than you know! I followed the Hassat who carried the Stone of Lhaoc here, but I was thwarted by the Shadowed minions. I did spy the Shadowjumper himself; he fled toward the old Transportation Center, deep under the heart of The Ruined City. For sure the cause you seek is there.";
-		f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [jharmaya_rehire]
@@ -68,7 +68,7 @@
 		sample = s_v_a5_Jharmaya_06;
 		choice = potential_member;
 		screen_text = "Perhaps I shall accept your offer. But know this, stranger, my trust will not be easily won!";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }
 [jharmaya_reject]
@@ -77,6 +77,6 @@
 	{
 		sample = s_v_a5_Jharmaya_05;
 		screen_text = "Good luck on your travels. But know this, stranger-I am disappointed.";
-	  	f scroll_rate = 20.0;
+	  f scroll_rate = 20.000000;
 	}
 }

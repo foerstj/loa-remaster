@@ -85,8 +85,8 @@
 	[generic_emitter_act]
 	{
 	  b dust_explosion_small = true;
-	  f rep_freq_max = 23;
-	  f rep_freq_min = 10;
+	  f rep_freq_max = 23.000000;
+	  f rep_freq_min = 10.000000;
 	}
 	[placement]
 	{
@@ -141,7 +141,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.1267;
+	  f scale_multiplier = 1.126700;
 	}
 	[placement]
 	{
@@ -152,8 +152,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 15;
-	  f min_dist = 3;
+	  f max_dist = 15.000000;
+	  f min_dist = 3.000000;
 	}
 }
 [t:emt_sound,n:0x0540031e]
@@ -167,8 +167,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	}
 }
 [t:emt_generic_act,n:0x0540032b]
@@ -208,7 +208,7 @@
 {
 	[aspect]
 	{
-	  f scale_multiplier = 1.3731;
+	  f scale_multiplier = 1.373100;
 	}
 	[placement]
 	{
@@ -219,9 +219,9 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 15;
-	  f min_dist = 3;
-	  f repeat_rate = 0;
+	  f max_dist = 15.000000;
+	  f min_dist = 3.000000;
+	  f repeat_rate = 0.000000;
 	}
 }
 [t:emt_sound,n:0x05400323]
@@ -235,8 +235,8 @@
 	{
 	  b continual_loop = true;
 		event_sound = "env_pipe_liquid";
-	  f max_dist = 10;
-	  f min_dist = 2;
+	  f max_dist = 10.000000;
+	  f min_dist = 2.000000;
 	}
 }
 [t:emt_generic_act,n:0x0540032c]
