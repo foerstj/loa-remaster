@@ -12,6 +12,11 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
   The generated file name is *Dungeon Siege/DSLOA/Legends of Aranna.dsmap*.\
   The ingame name is *Legends of Aranna (remastered)*.
 
+## What I did (revisit)
+
+The "revisited" map variant is based on the remaster, with these changes applied:
+- Renamed map ingame to *Legends of Aranna (revisited)*.
+
 ## How to build
 
 GasPy repo: https://github.com/foerstj/gaspy
