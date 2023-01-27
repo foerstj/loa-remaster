@@ -4797,6 +4797,10 @@
 }
 [t:tree_glb_palm_sway_02,n:0x014001d2]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.89562;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.923879,0,0.382683;
@@ -4817,6 +4821,10 @@
 }
 [t:bush_jng_11,n:0x014001d5]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.90001;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
@@ -4868,6 +4876,10 @@
 }
 [t:tree_glb_palm_sway_02,n:0x014001d3]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.13467;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;

@@ -15,6 +15,7 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 ## What I did (revisit)
 
 The "revisited" map variant is based on the remaster, with these changes applied:
+- Brushed up plants that had default scaling / orientation
 - Renamed map ingame to *Legends of Aranna (revisited)*.
 
 ## How to build

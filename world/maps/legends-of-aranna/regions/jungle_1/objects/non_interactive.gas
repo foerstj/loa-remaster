@@ -1,5 +1,9 @@
 [t:stump_jng_04,n:0x01100042]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.94316;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -72,6 +76,10 @@
 }
 [t:stump_jng_04,n:0x01100044]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.19949;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-5.96046e-008;
@@ -80,6 +88,10 @@
 }
 [t:log_jng_mossy_02,n:0x01100043]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.09725;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
@@ -88,6 +100,10 @@
 }
 [t:log_jng_mossy_01,n:0x01100041]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.05774;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,-0.382683;

@@ -84,6 +84,10 @@
 }
 [t:grass_sea_01,n:0x01700068]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.19031;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
@@ -332,8 +336,13 @@
 }
 [t:grass_sea_03,n:0x01700069]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.82309;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.647737,0,-0.761864;
 	  p position = -1.92827,-3.8147e-006,1.82374,0xb92dd04b;
 	}
 }
@@ -1011,6 +1020,10 @@
 }
 [t:grass_sea_02,n:0x01700064]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.00368;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
@@ -1139,6 +1152,10 @@
 }
 [t:bush_sea_cliff_01,n:0x0170049e]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.80682;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.833886,0,0.551937;
@@ -1159,6 +1176,10 @@
 }
 [t:bush_sea_cliff_01,n:0x01700322]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.97336;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.446198,0,0.894934;
@@ -1843,6 +1864,10 @@
 }
 [t:grass_sea_01,n:0x01700097]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.16542;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.866026,0,-0.5;
@@ -2007,8 +2032,13 @@
 }
 [t:grass_sea_04,n:0x01700090]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.84748;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.616549,0,0.787317;
 	  p position = 1.98247,0,-0.50165,0xb97ffcfa;
 	}
 }
@@ -2122,6 +2152,10 @@
 }
 [t:grass_sea_03,n:0x01700095]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.86017;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
@@ -2142,6 +2176,10 @@
 }
 [t:grass_sea_02,n:0x01700059]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.96995;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.258819,0,0.965926;
@@ -2306,6 +2344,10 @@
 }
 [t:grass_sea_03,n:0x0170009a]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.00606;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -3611,6 +3653,10 @@
 }
 [t:bush_sea_cliff_01,n:0x0170005f]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.89103;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.898794,0,0.438371;
@@ -3697,6 +3743,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.538975,0,0.842322;
 	  p position = 0.842554,0,1.40529,0x7a9191e7;
 	}
 }
@@ -4242,6 +4289,10 @@
 }
 [t:grass_sea_04,n:0x0170006b]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.0594;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.382683,0,0.92388;
@@ -4310,8 +4361,13 @@
 }
 [t:grass_sea_03,n:0x0170006c]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.19727;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.334897,0,0.942255;
 	  p position = 0.945139,0,-0.839996,0x6c06c251;
 	}
 }
@@ -4413,6 +4469,10 @@
 }
 [t:grass_sea_04,n:0x0170006a]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.04164;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.866026,0,0.5;
@@ -4493,8 +4553,13 @@
 }
 [t:grass_sea_02,n:0x017000ad]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.03624;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.992142,0,-0.12512;
 	  p position = -3.4585,9.53674e-007,-0.0906181,0x97b04171;
 	}
 }
@@ -4512,22 +4577,37 @@
 }
 [t:grass_sea_02,n:0x017000ac]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.99855;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.972195,0,-0.234172;
 	  p position = -2.00001,0,3.3478,0xefbde63b;
 	}
 }
 [t:grass_sea_01,n:0x017000ae]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.03454;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.710704,0,0.703491;
 	  p position = -2.2159,2.86102e-006,-2.77328,0xefbde63b;
 	}
 }
 [t:grass_sea_03,n:0x017000aa]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.0114;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.509244,0,0.860622;
 	  p position = 0.193924,0,1.60572,0x6b53b092;
 	}
 }
@@ -5493,6 +5573,10 @@
 }
 [t:grass_sea_02,n:0x01700061]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.88043;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -5669,6 +5753,10 @@
 }
 [t:grass_sea_05,n:0x01700055]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.96018;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
@@ -5821,6 +5909,10 @@
 }
 [t:grass_sea_04,n:0x0170008b]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.99762;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -6171,6 +6263,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.732217,0,-0.681071;
 	  p position = 1.67852,0,0.848877,0x8d274213;
 	}
 }
@@ -6212,6 +6305,10 @@
 }
 [t:grass_sea_04,n:0x017000ab]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.90913;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.991445,0,-0.130526;
@@ -6268,6 +6365,10 @@
 }
 [t:bush_sea_cliff_01,n:0x01700321]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.86724;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.833886,0,0.551937;
@@ -7008,6 +7109,10 @@
 }
 [t:grass_sea_01,n:0x0170009e]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.16136;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -7088,6 +7193,10 @@
 }
 [t:grass_sea_01,n:0x017000a1]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.86195;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.382684,0,0.92388;
@@ -7168,6 +7277,10 @@
 }
 [t:grass_sea_04,n:0x017000a0]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.81073;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.608762,0,0.793353;
@@ -7176,6 +7289,10 @@
 }
 [t:bush_sea_cliff_01,n:0x01700329]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.09365;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.656059,0,0.75471;
@@ -7316,6 +7433,10 @@
 }
 [t:grass_sea_03,n:0x017000a3]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.81806;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,-0.382684;
@@ -7804,8 +7925,13 @@
 }
 [t:grass_sea_03,n:0x017000a8]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.19063;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.026325,0,-0.999653;
 	  p position = -0.883148,0,-0.239552,0x62040fb5;
 	}
 }
@@ -7883,6 +8009,10 @@
 }
 [t:bush_sea_cliff_01,n:0x01700323]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.89783;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.325568,0,0.945518;
@@ -7891,8 +8021,13 @@
 }
 [t:grass_sea_03,n:0x017000a4]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.14381;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.973739,0,0.227669;
 	  p position = -0.629581,0,0.319038,0x38244e17;
 	}
 }
@@ -7922,6 +8057,10 @@
 }
 [t:grass_sea_01,n:0x01700043]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.80829;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.258819,0,0.965926;
@@ -8758,6 +8897,10 @@
 }
 [t:grass_sea_04,n:0x017000a9]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.85679;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -8922,6 +9065,10 @@
 }
 [t:bush_sea_cliff_01,n:0x01700098]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.14554;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.446198,0,0.894934;
@@ -9002,6 +9149,10 @@
 }
 [t:bush_sea_cliff_01,n:0x01700094]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.95431;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.559193,0,0.829038;
@@ -9190,6 +9341,10 @@
 }
 [t:grass_sea_01,n:0x017000a7]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.07592;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.793354,0,0.608761;
@@ -9354,6 +9509,10 @@
 }
 [t:bush_sea_cliff_01,n:0x0170032c]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.13265;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.559193,0,0.829037;
@@ -9770,6 +9929,10 @@
 }
 [t:bush_sea_cliff_01,n:0x0170032a]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.17744;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.66262,0,0.748956;
@@ -9778,6 +9941,10 @@
 }
 [t:bush_sea_cliff_01,n:0x0170032b]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.94961;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.75471,0,0.656059;
@@ -10020,6 +10187,7 @@
 	}
 	[placement]
 	{
+	  q orientation = 0,0.979219,0,0.202805;
 	  p position = 2.49085,-1,-1.17119,0x8b359bcc;
 	}
 }
@@ -10757,6 +10925,10 @@
 }
 [t:grass_sea_01,n:0x017000a2]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.09747;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -11089,6 +11261,10 @@
 }
 [t:grass_sea_03,n:0x0170009d]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.83636;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.130526,0,0.991445;
@@ -11229,6 +11405,10 @@
 }
 [t:grass_sea_01,n:0x0170009c]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.92657;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,0;

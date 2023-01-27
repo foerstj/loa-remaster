@@ -12,15 +12,25 @@
 }
 [t:mushrooms_cav_03,n:0x06300044]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.17744;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.79626,0,-0.604955;
 	  p position = 3.57774,0,-2.26232,0x50082bdc;
 	}
 }
 [t:mushrooms_cav_03,n:0x06300029]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.06988;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.590556,0,-0.806997;
 	  p position = -2.08588,-1.90735e-006,0.27038,0xac8b5b7a;
 	}
 }
@@ -636,8 +646,13 @@
 }
 [t:mushrooms_cav_03,n:0x06300025]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.02892;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.45789,0,-0.889009;
 	  p position = -3.7168,0,2.18354,0x5172d73a;
 	}
 }
@@ -1052,8 +1067,13 @@
 }
 [t:mushrooms_cav_03,n:0x06300026]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.99085;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.410763,0,0.911742;
 	  p position = 0.201962,-4,-2.8955,0x12c0a99b;
 	}
 }
@@ -1090,8 +1110,13 @@
 }
 [t:mushrooms_cav_03,n:0x06300024]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.92378;
+	}
 	[placement]
 	{
+	  q orientation = 0,0.957429,0,0.28867;
 	  p position = -2.3491,0,0.0596066,0x50e23b57;
 	}
 }

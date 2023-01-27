@@ -1,5 +1,9 @@
 [t:roots_glb_02,n:0x005000d7]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.10113;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
@@ -8,6 +12,10 @@
 }
 [t:roots_glb_04,n:0x005000d9]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.18901;
+	}
 	[placement]
 	{
 	  q orientation = -2.98023e-007,0.92388,0.382683,1.01328e-006;
@@ -158,6 +166,10 @@
 }
 [t:roots_glb_01,n:0x005000d6]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 1.04561;
+	}
 	[placement]
 	{
 	  q orientation = 0,0.92388,0,-0.382683;
@@ -6395,6 +6407,10 @@
 }
 [t:roots_glb_04,n:0x00500109]
 {
+	[aspect]
+	{
+	  f scale_multiplier = 0.98682;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
