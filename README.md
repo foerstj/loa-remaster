@@ -15,8 +15,12 @@ This map is re-buildable and editable. I opened & saved every region in Siege Ed
 ## What I did (revisit)
 
 The "revisited" map variant is based on the remaster, with these changes applied:
+- Renamed map ingame to *Legends of Aranna (revisited)*
 - Brushed up plants that had default scaling / orientation
-- Renamed map ingame to *Legends of Aranna (revisited)*.
+- Removed cam-blocking on some terrain nodes like rope bridges for smoother camera movement
+- Fixed misaligned effect gizmos for teleporters and mana shrine
+- Fixed water waves going in the wrong direction (Xot Pass & Cliff City)
+- Added support for Thrillvilled's voices mod
 
 ## How to build
 
