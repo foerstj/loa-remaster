@@ -2453,7 +2453,7 @@
 		}
 		[door*]
 		{
-		  i fardoor = 3;
+		  i fardoor = 1;
 		  x farguid = 0xF5E451DA;
 		  i id = 1;
 		}
@@ -27802,7 +27802,7 @@
 		}
 		[door*]
 		{
-		  i fardoor = 2;
+		  i fardoor = 4;
 		  x farguid = 0xF5E451DA;
 		  i id = 4;
 		}
@@ -39031,7 +39031,7 @@
 		texsetabbr = grs02;
 		[door*]
 		{
-		  i fardoor = 4;
+		  i fardoor = 2;
 		  x farguid = 0xF5E451DA;
 		  i id = 4;
 		}
@@ -55249,20 +55249,20 @@
 		[door*]
 		{
 		  i fardoor = 4;
-		  x farguid = 0xAE37EC97;
+		  x farguid = 0x78936EE4;
 		  i id = 4;
 		}
 		[door*]
 		{
 		  i fardoor = 4;
-		  x farguid = 0x78936EE4;
+		  x farguid = 0xAE37EC97;
 		  i id = 2;
 		}
 		[door*]
 		{
 		  i fardoor = 1;
 		  x farguid = 0x0DCAAFC8;
-		  i id = 3;
+		  i id = 1;
 		}
 	}
 	[t:snode,n:0xf5f8ad5b]
