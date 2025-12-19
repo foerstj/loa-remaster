@@ -14,6 +14,7 @@
 	{
 		i order = 0;
 		choice = more;
+		sample = s_v_xp_disco_krug_1;
 		screen_text = "Why, if it ain't the child of Arhok! I knew your parents ... fine folks, fine folks! Helped extract me from a rather unfortunate set of circumstances involving a dispute I had with another local 'provider of goods and services.' We sent that clown packing, if you get my drift!";
 		f scroll_rate = 20.0;
 	}
@@ -22,11 +23,13 @@
 		give_reward* = he_ra_ca_le_avg_pimp,spell_orb_poultry;
 		choice = more;
 		i order = 1;
+		sample = s_v_xp_disco_krug_2;
 		screen_text = "So - speaking of the big man hiding out in the Clockroom upstairs... That ugly fool's been keeping me awake with all that racket! Storms, lightning, thunder - man, that stuff belongs OUT-side.  Here, why don't you take these things with you - I got my own hat,  this one's a spare. Pretty funky, ain't it? As for the poultry - well what can I say?";
 		f scroll_rate = 20.0;
 	}
 	[text*]
 	{
+		sample = s_v_xp_disco_krug_3;
 		screen_text = "'Mr. Shadow Jumper.'  What a clown... That Shadowed fool is like school in the summertime...  no class";
 		f scroll_rate = 20.0;
 	}

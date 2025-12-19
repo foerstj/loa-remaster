@@ -2,6 +2,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_guard1_hello_1;
 		screen_text = "Ware you, little one. The swamp is filled with all manner of frightful beasts... most of them dead and rotting.";
 	  f scroll_rate = 20.000000;
 	}
@@ -10,6 +11,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_guard2_hello_1;
 		screen_text = "I do not envy you, if you plan on making your way through the Fen. If the undead hosts of Lord Cicatrix do not kill you, then mayhap the very swamp itself will. Watch your step and be wary of the lightning pools and sinking sands.";
 	  f scroll_rate = 20.000000;
 	}
@@ -59,6 +61,7 @@
 	[text*]
 	{
 		choice = shop;
+		sample = s_v_xp_acha_1;
 		screen_text = "Hail! If you need arms or repairs, then look no further than Acha's forge! Here I can mend any blade or helm, reshape any armor and imbue them all with the most powerful of magics! Step up, step up my little friend . . . see what I have to trade!";
 	  f scroll_rate = 20.000000;
 	}
@@ -70,12 +73,14 @@
 	{
 		choice = shop;
 	  i order = 0;
+		sample = s_v_xp_tass_1;
 		screen_text = "The fates are kind! I see Najj among you, do I not? Fortune is indeed with us on this happy day. I am Tass, medicine-man for my people. If you are hurt or are in need of healing, I have many salves and healing aids to offer. Spells too, truth be told. Anything for the ones who reunited us with our lost Najj!";
 	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		choice = shop;
+		sample = s_v_xp_tass_2;
 		screen_text = "Hello, friends!  How may I help you?  Anything for the ones who reunited us with our lost Najj!";
 	  f scroll_rate = 20.000000;
 	}
@@ -85,6 +90,7 @@
 	[text*]
 	{
 		choice = shop;
+		sample = s_v_xp_tass_3;
 		screen_text = "Ah, you seek out Tass because you are in need of the healing arts, yes? Good, good. Step this way and I will show you my wares, healing draughts, spells, and charms, to be sure. Step up, don't be shy...";
 	  f scroll_rate = 20.000000;
 	}
@@ -94,6 +100,7 @@
 	[text*]
 	{
 		choice = buy_packmule;
+		sample = s_v_xp_wym_1;
 		screen_text = "I see you have acquired much in your travels, many items of wealth and magic, yes? Are you perhaps in need of a pack animal, a creature to help share your burden? Then look here at my Traggs! Fabulous beasts, are they not? True they do smell a bit, but that only helps to keep the biting flies and stinging insects at bay . . . Hah! Take your pick, I'm sure you will find my prices reasonable...";
 	  f scroll_rate = 20.000000;
 	}
@@ -103,11 +110,13 @@
 	[text*]
 	{
 	  i order = 0;
+		sample = s_v_xp_wym_2;
 		screen_text = "Look here at my Traggs! Fabulous beasts, are they not? True they do smell a bit, but that only helps to keep the biting flies and stinging insects at bay...Hah! I would love to sell you one, but I have promised both of these to a friend who is coming to collect them in a few days.";
 	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
+		sample = s_v_xp_wym_3;
 		screen_text = "I'm sorry but I still have no Traggs I can sell.";
 	  f scroll_rate = 20.000000;
 	}
@@ -116,6 +125,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_wym_4;
 		screen_text = "I have no more Traggs to sell.  I hope you're taking good care of them.  Fine beasts, if a bit pungent...";
 	  f scroll_rate = 20.000000;
 	}
@@ -125,6 +135,7 @@
 	[text*]
 	{
 		choice = buy_packmule;
+		sample = s_v_xp_wym_5;
 		screen_text = "Well, now... I have one Tragg left.  Yours, for the right price.";
 	  f scroll_rate = 20.000000;
 	}
@@ -134,6 +145,7 @@
 	[text*]
 	{
 		choice = buy_packmule;
+		sample = s_v_xp_wym_6;
 		screen_text = "Ah, need a pack animal to help share your burden? I could stand to part with one of these beasts  You'll find my prices reasonable.";
 	  f scroll_rate = 20.000000;
 	}

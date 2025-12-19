@@ -2,6 +2,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_atala_1;
 		screen_text = "The storms are coming... can you hear the thunder rumble? Our end will arrive soon!";
 	  f scroll_rate = 20.0;
 	}
@@ -10,6 +11,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_cerya_1;
 		screen_text = "The Seer has potions that do more than heal, stranger. Some can harm as well. Be careful what you buy from her.";
 	  f scroll_rate = 20.0;
 	}
@@ -19,6 +21,7 @@
 	[text*]
 	{
 		choice = shop;
+		sample = s_v_xp_daon_1;
 		screen_text = "Greetings! I have many fine items you might find of use... care to look them over?";
 	  f scroll_rate = 20.0;
 	}
@@ -27,6 +30,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_daon_2;
 		screen_text = "Once those scaly lizards are wiped out, I'll break out my goods for sale.";
 	  f scroll_rate = 20.0;
 	}
@@ -82,6 +86,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_guardsman_2;
 		screen_text = "You went through those lizards like a Butchering Scimitar of Refreshment goes through sun-soft mungo butter... Good work!";
 	  f scroll_rate = 20.0;
 	}
@@ -90,6 +95,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_guardsman_1;
 		screen_text = "You'd best find another route, my friend. The lizard-folk are vicious. They've taken the buildings over the bridge here - I've got my hands full just keeping them at bay.";
 	  f scroll_rate = 20.0;
 	}
@@ -98,6 +104,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_inver_1;
 		screen_text = "I am not surprised to see that strangers have finally arrived here. Tis a sure sign of the end of things. Our days are numbered, of that there is no doubt...";
 	  f scroll_rate = 20.0;
 	}
@@ -107,6 +114,7 @@
 	[text*]
 	{
 		choice = buy_packmule;
+		sample = s_v_xp_ranwor_1;
 		screen_text = "While others may sell 'beasts' - I offer beautiful, healthy, and pestilence-free creatures!  Are you in need of a good pack animal, friend?";
 	  f scroll_rate = 20.000000;
 	}
@@ -115,6 +123,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_ranwor_2;
 		screen_text = "Unfortunately, I am unable to sell you my remaining tragg.  You see, she is 'with child.' If you return in a day or two, however, I will have several more creatures to sell!";
 	  f scroll_rate = 20.000000;
 	}
@@ -123,6 +132,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_ranwor_3;
 		screen_text = "Ah!  Greetings, greetings, greetings!  I would be delighted to sell an animal to you...  however, with the Zaurask running about, I am wary.  Should your pack animal get killed, there are no refunds.  Come back once the threat of the Zaurask has been taken care of.";
 	  f scroll_rate = 20.000000;
 	}
@@ -131,6 +141,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_kamik_1;
 		screen_text = "Not much to offer to slake your thirst, stranger... care to try a little a Phrak Juice Cocktail?";
 	  f scroll_rate = 20.0;
 	}
@@ -139,6 +150,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_kamik_2;
 		screen_text = "Best be on your guard, my friend. The Zaurask have overrun much of the town. I'm sorry I don't have much to offer you in the way of drink... care to try a little Phrak Juice Cocktail?";
 	  f scroll_rate = 20.0;
 	}
@@ -148,6 +160,7 @@
 	[text*]
 	{
 		choice = shop;
+		sample = s_v_xp_laeta_1;
 		screen_text = "In my dreams I saw you, traveler. A great storm heralded your arrival and the wind spoke of your name to me. An ill wind it was, full of dread and destruction. But when the storm had passed, the land was washed clean and my people were finally redeemed. Please, peruse my wares. I am sure you will not be disappointed.";
 	  f scroll_rate = 20.0;
 	}
@@ -156,6 +169,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_laeta_2;
 		screen_text = "If you drive out the Zaurask, I will feel free to unlock my wares for sale, and I will tell you of a dream I had...";
 	  f scroll_rate = 20.0;
 	}
@@ -314,6 +328,7 @@
 	[text*]
 	{
 		choice = buy_packmule;
+		sample = s_v_xp_jhay_1;
 		screen_text = "These poor beasts are all I have. Are you in need of a good pack-mule, good sirs? Try the mare... she has a kick, but is loyal and true!";
 	  f scroll_rate = 20.000000;
 	}
@@ -322,6 +337,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_jhay_2;
 		screen_text = "Alas, I have no more animals.";
 	  f scroll_rate = 20.000000;
 	}
@@ -330,6 +346,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_jhay_3;
 		screen_text = "An outlander! Then the light of Azunai shines on us again! Though with these lizard-folk attacking, I would not feel safe letting you take one of my animals .. When the threat is over come talk to me again and I will gladly sell one of them to you.";
 	  f scroll_rate = 20.000000;
 	}
@@ -338,6 +355,7 @@
 {
 	[text*]
 	{
+		sample = s_v_xp_jhay_4;
 		screen_text = "Hail, stranger. I am amazed to see anyone step out of the jungle alive, what with all the Zaurask out there.";
 	  f scroll_rate = 20.0;
 	}

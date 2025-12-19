@@ -4,11 +4,13 @@
 	[text*]
 	{
 	  i order = 0;
+		sample = s_v_xp_worker_1;
 		screen_text = "Ooof! All day breaking my back...And for what? We aren't goin' ta find nothin' down there.  Therg?  I think I saw him in the excavation a while ago.  Check there.";
 	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
+		sample = s_v_xp_worker_2;
 		screen_text = "Therg just pays me to dig, not to keep track of his whereabouts.  But it HAS been a while since I've heard him yelling for me... he's probably down in the dig somewhere.  But watch those Hassat bowmen!  They're dead-eyes...";
 	  f scroll_rate = 20.000000;
 	}
@@ -19,12 +21,14 @@
 	{
 	  i order = 0;
 		choice = shop;
+		sample = s_v_xp_kale_1;
 		screen_text = "You lookin' for Therg?  He's down below somewhere... In the meantime, if you need anything, I've picked up a whole bunch of supplies in our travels.  It's almost as if people just drop the stuff they don't want when they got too much, regardless of where they are!  Armor, weapons, potions... It's ridiculous! So, I pick it up when I find it, and try to make myself a little profit. Need anything?";
 	  f scroll_rate = 20.000000;
 	}
 	[text*]
 	{
 		choice = shop;
+		sample = s_v_xp_kale_2;
 		screen_text = "Like I said, Therg's down below somewhere. Haven't seen him in a while, though...  You sure you don't need anything?  A sword, or a potion, or somethin'?";
 	  f scroll_rate = 20.000000;
 	}
