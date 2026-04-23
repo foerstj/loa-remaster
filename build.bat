@@ -30,5 +30,11 @@ popd
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsmap" -copyright "GPG 2003" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
 
+:: Compile resource file
+rmdir /S /Q "%tmp%\Bits"
+robocopy "%bits%\world\global" "%tmp%\Bits\world\global" /E
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsres" -copyright "CC-BY-SA 2026" -title "%map_cs%" -author "Johannes Förstner"
+if %errorlevel% neq 0 pause
+
 :: Cleanup
 rmdir /S /Q "%tmp%\Bits"
