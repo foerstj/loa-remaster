@@ -1,68 +1,3 @@
-[t:najj,n:0x017000d2]
-{
-	[aspect]
-	{
-	  f life = 49;
-	  f mana = 30;
-	}
-	[common]
-	{
-		dev_instance_text = "NAJJ SP";
-	  b is_multi_player = false;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = najj_accept;
-			* = najj_after_a2_najj_accept;
-			* = najj_after_a2_najj_hello;
-			* = najj_after_a2_najj_reject;
-			* = najj_after_a2_trip_accept;
-			* = najj_after_a2_trip_hello;
-			* = najj_after_a2_trip_reject;
-			* = najj_disband;
-			* = najj_hello;
-			* = najj_rehire;
-			* = najj_reject;
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,0.956305,0,0.292372;
-	  p position = -2.33075,0.0398788,7.5099,0x659ad99c;
-	}
-}
-[t:najj,n:0x017000e9]
-{
-	[aspect]
-	{
-	  b is_invincible = true;
-	  f life = 49;
-	  f mana = 30;
-	}
-	[common]
-	{
-		dev_instance_text = "NAJJ MP";
-	  b is_single_player = false;
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = najj_mp;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.956305,0,0.292372;
-	  p position = -2.79164,0.239879,8.21089,0x659ad99c;
-	}
-}
 [t:dsx_skrubb_jungle,n:0x017000db]
 {
 	[placement]
@@ -403,5 +338,18 @@
 	[placement]
 	{
 	  p position = 1.8434,0,-0.0668545,0xba38ab13;
+	}
+}
+[t:dsx_jharmaya,n:0x0170058c]
+{
+	[aspect]
+	{
+	  f max_life = 196;
+	  f max_mana = 289;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.520636,0,-3.27683,0xc1d87e1e;
 	}
 }

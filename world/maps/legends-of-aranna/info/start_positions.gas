@@ -430,9 +430,9 @@
 	}
 	[t:start_group,n:a2_r0a_dev]
 	{
-	  b default = false;
+	  b default = true;
 		description = "dev - a2_r0a";
-	  b dev_only = true;
+	  b dev_only = false;
 	  i id = 12;
 		screen_name = "dev - a2_r0a";
 		[start_position]
@@ -3961,7 +3961,7 @@
 	}
 	[t:start_group,n:default]
 	{
-	  b default = true;
+	  b default = false;
 		description = "Arhok";
 	  b dev_only = false;
 	  i id = 1;
