@@ -6,7 +6,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("map_expansion_a1_town_large_frustum");
+				action* = mood_change("map_expansion_a2_r0a_beach");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(16.000000,1.000000,16.000000,"on_every_enter");
 			  f delay = 0.000000;
