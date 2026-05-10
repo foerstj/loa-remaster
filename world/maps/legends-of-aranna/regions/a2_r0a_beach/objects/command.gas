@@ -1,3 +1,16 @@
+[t:cmd_animation_command,n:0x01700556]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1936290865;
+	  x client_scid = 0x0170058C;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = -0.896498,0,-3.92397,0xc1d87e1e;
+	}
+}
 [t:cmd_ai_c_patrol,n:0x0170032e]
 {
 	[cmd_ai_dojob]
