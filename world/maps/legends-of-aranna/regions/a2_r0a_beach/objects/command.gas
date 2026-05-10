@@ -1,3 +1,29 @@
+[t:cmd_ai_c_move_orient,n:0x01700555]
+{
+	[cmd_ai_dojob]
+	{
+	  x next_scid = 0x01700558;
+		placement = qp_clear;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = 2.19,0,1.91256,0x3536b91b;
+	}
+}
+[t:cmd_animation_command,n:0x01700558]
+{
+	[cmd_animation_command]
+	{
+	  b animate_catalyst = true;
+	  i animation = 1650811955;
+	  b start_fidget = true;
+	}
+	[placement]
+	{
+	  p position = 3.22325,0,0.785951,0x3536b91b;
+	}
+}
 [t:cmd_animation_command,n:0x01700556]
 {
 	[cmd_animation_command]

@@ -3540,17 +3540,19 @@
   f transition_time = 3.000000;
 	[fog]
 	{
+		// EDITED - values from SeeFar20_Plus6
+	  f fog_near_dist = 26.060000;
+	  f fog_far_dist = 66.000000;
+	  f fog_lowdetail_near_dist = 26.060000;
+	  f fog_lowdetail_far_dist = 60.000000;
 	  x fog_color = 0xFFA9C0BD;
 	  f fog_density = 1.000000;
-	  f fog_far_dist = 50.000000;
-	  f fog_lowdetail_far_dist = 45.000000;
-	  f fog_lowdetail_near_dist = 17.000000;
-	  f fog_near_dist = 17.000000;
 	}
 	[frustum]
 	{
-	  f frustum_height = 60.000000;
-	  f frustum_width = 45.000000;
+		// EDITED - values from SeeFar20_Plus6
+	  f frustum_width = 56.250000;
+	  f frustum_height = 75.000000;
 	}
 	[music]
 	{
